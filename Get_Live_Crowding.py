@@ -101,9 +101,6 @@ def get_Live_Crowding(tfl_url_pattern, df_stations):
         columns=[
             "footfall_baseline",
             "live_percentage_baseline",
-            "lat",
-            "lon",
-            "station",
         ]
     )
 
