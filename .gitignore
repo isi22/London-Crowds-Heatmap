@@ -1,5 +1,3 @@
-# .gitignore content
-
 # Exclude testing files in the "old" subfolder 
 old/
 

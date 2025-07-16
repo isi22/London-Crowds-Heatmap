@@ -149,8 +149,11 @@ def save_dataframe_to_google_sheet(
         rows_to_add = len(df)
 
         # Determine if headers need to be written
-        # Assumes if A1 is empty, then headers are needed
-        needs_headers = not worksheet.acell("A1").value
+        # Assumes if row_count is 0, or 1 and A1 is empty, then headers are needed
+        # Otherwise, assume headers already exist
+        needs_headers = (current_total_rows == 0) or (
+            current_total_rows == 1 and not worksheet.acell("A1").value
+        )
 
         # If headers are needed, write them first
         if needs_headers:
@@ -179,7 +182,7 @@ def save_dataframe_to_google_sheet(
             # current_total_rows will implicitly be reduced on Google's side
 
         # --- Convert Timestamp column to string before appending ---
-        # Format to ISO 8601 string, which Google Sheets understands
+        # Format to string, which Google Sheets understands
         df["timestamp"] = df["timestamp"].astype(str)
 
         # --- Append new data rows ---
