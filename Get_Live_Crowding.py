@@ -10,7 +10,7 @@ import gspread  # Import gspread for Google Sheets interaction
 
 # --- API Endpoints and File Paths ---
 TFL_STOPPOINT_URL = "https://api.tfl.gov.uk/crowding/{Naptan}/Live"
-FILE_PATH_STATION_FOOTFALL_BASELINE = "data/stations_baseline_footfall.xlsx"
+FILE_PATH_STATION_FOOTFALL_BASELINE = os.getenv("STATIONS_BASELINE_FOOTFALL_PATH")
 
 # --- Configuration from Environment Variables ---
 # TFL API Key for querying TfL data
@@ -77,7 +77,6 @@ def get_Live_Crowding(tfl_url_pattern, df_stations):
     print("Fetching live crowding data...")
     for idx, station_row in df_stations_crowding.iterrows():
         station_id = station_row["stop_id"]
-        station_name = station_row["station"]
 
         current_station_url = tfl_url_pattern.format(Naptan=station_id)
 
@@ -87,10 +86,10 @@ def get_Live_Crowding(tfl_url_pattern, df_stations):
             df_stations_crowding.loc[idx, "live_percentage_baseline"] = percentage_value
             time.sleep(0.1)  # Delay between API calls to avoid rate limits
         except RuntimeError as e:
-            print(f"API call failed for {station_name} ({station_id}): {e}")
+            print(f"API call failed for {station_id}: {e}")
             df_stations_crowding.loc[idx, "live_percentage_baseline"] = pd.NA
         except Exception as e:
-            print(f"Unexpected error for {station_name} ({station_id}): {e}")
+            print(f"Unexpected error for {station_id}: {e}")
             df_stations_crowding.loc[idx, "live_percentage_baseline"] = pd.NA
 
     df_stations_crowding["timestamp"] = datetime.now()
