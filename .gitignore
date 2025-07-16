@@ -1,8 +1,7 @@
 # Exclude testing files in the "old" subfolder 
 old/
-
+.DS_Store           # macOS specific metadata files
 .venv/              # Python virtual environment folder
 __pycache__/        # Python compiled bytecode
 *.pyc               # Python compiled bytecode files
-
-.DS_Store           # macOS specific metadata files
+.DS_Store
