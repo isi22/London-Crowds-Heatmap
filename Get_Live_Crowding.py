@@ -10,7 +10,7 @@ import gspread  # Import gspread for Google Sheets interaction
 
 # --- API Endpoints and File Paths ---
 TFL_STOPPOINT_URL = "https://api.tfl.gov.uk/crowding/{Naptan}/Live"
-FILE_PATH_STATION_FOOTFALL_BASELINE = os.getenv("STATIONS_BASELINE_FOOTFALL_PATH")
+FILE_PATH_STATION_FOOTFALL_BASELINE = "data/stations_baseline_footfall.xlsx"
 
 # --- Configuration from Environment Variables ---
 # TFL API Key for querying TfL data
