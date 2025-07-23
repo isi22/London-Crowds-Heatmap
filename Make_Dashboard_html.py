@@ -150,7 +150,7 @@ def generate_heatmap_dashboard():
         // Define the URL for your GeoJSON tube lines file
         // IMPORTANT: Place your 'TubeLines.geojson' file in a 'data/' folder
         // in your GitHub repository alongside your 'index.html' file.
-        const tubeLinesGeoJSONUrl = 'data/TubeLines.geojson';
+        const tubeLinesGeoJSONUrl = 'https://github.com/isi22/London-Crowds-Heatmap/blob/main/data/TubeLines.geojson';
 
         // Ensure all scripts and the DOM are loaded before initializing the map
         window.onload = function() {{
