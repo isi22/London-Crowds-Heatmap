@@ -5,8 +5,10 @@ import time
 import json
 import os
 import pandas as pd
+import numpy as np
 from datetime import datetime, timedelta
 import gspread  # Import gspread for Google Sheets interaction
+import pytz  # NEW: Import pytz for timezone awareness
 
 # --- API Endpoints and File Paths ---
 TFL_STOPPOINT_URL = "https://api.tfl.gov.uk/crowding/{Naptan}/Live"
@@ -23,10 +25,13 @@ TFL_API_KEY = os.getenv("TFL_API_KEY")
 # Google Sheets API credentials and sheet details
 GOOGLE_SERVICE_ACCOUNT_KEY_PATH = os.getenv("GOOGLE_SERVICE_ACCOUNT_KEY_PATH")
 GOOGLE_SHEET_ID = os.getenv("GOOGLE_SHEET_ID")
-GOOGLE_WORKSHEET_NAME = "Sheet1"  # Always save to Sheet1
+GOOGLE_WORKSHEET_NAME = "stations_live_crowding"  # Always save to Sheet1
 
 # --- Data Retention Configuration ---
 MAX_ROWS_GOOGLE_SHEET = 100000  # Maximum desired rows in Google Sheet
+
+# --- Timezone Configuration (NEW) ---
+LONDON_TIMEZONE = pytz.timezone("Europe/London")
 
 
 def query_TFL(
@@ -55,24 +60,6 @@ def query_TFL(
     return []
 
 
-def load_station_footfall_baseline(file_path):
-    """Loads TfL station ID mapping from an Excel file into a Pandas DataFrame."""
-    if not os.path.exists(file_path):
-        print(f"Error: Baseline file not found at '{file_path}'")
-        return pd.DataFrame()
-
-    print(f"Loading station ids from '{file_path}'...")
-    try:
-        df_loaded = pd.read_excel(file_path)
-        # Ensure stop_id is string, as NaPTAN codes are alphanumeric
-        df_loaded["stop_id"] = df_loaded["stop_id"].astype(str)
-        print(f"Successfully loaded {len(df_loaded)} stop points.")
-        return df_loaded
-    except Exception as e:
-        print(f"Error loading baseline data: {e}")
-        return pd.DataFrame()
-
-
 def load_excel_file(file_path):
     """Loads an Excel file into a Pandas DataFrame."""
     if not os.path.exists(file_path):
@@ -87,19 +74,25 @@ def load_excel_file(file_path):
         return pd.DataFrame()
 
 
-def get_Live_Crowding(tfl_url_pattern, df_stations_with_baseline_and_name):
+def get_Live_Crowding(tfl_url_pattern, df_stations_for_api):
     """
     Fetches live crowding data for stations and returns a DataFrame
-    containing only stop_id, live_footfall, and timestamp, in the specified order.
+    containing only stop_id, crowding_metric, and timestamp, in the specified order.
     """
     api_params = {"app_key": TFL_API_KEY}
-    current_timestamp = datetime.now()  # Capture current time once for all rows
+    current_timestamp = datetime.now(LONDON_TIMEZONE)  # Timezone-aware timestamp
 
     print("Fetching live crowding data...")
     all_live_data_for_sheet = []  # To collect data for the Google Sheet
 
+    # Calculate max_baseline_footfall here, as it's needed for crowding_metric calculation in get_Live_Crowding
+    max_baseline_footfall = df_stations_for_api["footfall_baseline"].max()
+
     with requests.Session() as session:  # Use a single session for all API calls
-        for idx, station_row in df_stations_with_baseline_and_name.iterrows():
+        for (
+            idx,
+            station_row,
+        ) in df_stations_for_api.iterrows():  # Renamed parameter for clarity
             station_id = str(
                 station_row["stop_id"]
             )  # Ensure stop_id is string for API call
@@ -112,15 +105,22 @@ def get_Live_Crowding(tfl_url_pattern, df_stations_with_baseline_and_name):
                 percentage_value = response.get("percentageOfBaseline")
 
                 if percentage_value is not None:
-                    # Calculate live_footfall based on baseline and percentage ratio
-                    live_footfall = baseline_footfall * percentage_value
+
+                    crowding_metric = (
+                        (baseline_footfall * percentage_value) / max_baseline_footfall
+                    ) * 100
+
+                    # Ensure crowding_metric is not infinite or NaN
+                    if pd.isna(crowding_metric) or np.isinf(crowding_metric):
+                        crowding_metric = 0.0  # Default to 0 for invalid calculations
+
                     all_live_data_for_sheet.append(
                         {
                             "stop_id": station_id,
-                            "timestamp": current_timestamp,  # Explicitly placing timestamp second
-                            "live_footfall": float(
-                                live_footfall
-                            ),  # Explicitly placing live_footfall third
+                            "timestamp": current_timestamp,
+                            "crowding_metric": float(
+                                crowding_metric
+                            ),  # Save crowding_metric
                         }
                     )
                 else:
@@ -136,7 +136,6 @@ def get_Live_Crowding(tfl_url_pattern, df_stations_with_baseline_and_name):
                 print(f"Unexpected error for {station_id}: {e}")
 
     # Create the DataFrame with only the desired columns for the Google Sheet
-    # The order is already set by appending dictionaries in the desired order
     df_live_crowding_for_sheet = pd.DataFrame(all_live_data_for_sheet)
 
     if not df_live_crowding_for_sheet.empty:
@@ -144,19 +143,25 @@ def get_Live_Crowding(tfl_url_pattern, df_stations_with_baseline_and_name):
         df_live_crowding_for_sheet["stop_id"] = df_live_crowding_for_sheet[
             "stop_id"
         ].astype(str)
-        df_live_crowding_for_sheet["live_footfall"] = df_live_crowding_for_sheet[
-            "live_footfall"
-        ].astype(float)
+        df_live_crowding_for_sheet["crowding_metric"] = (
+            df_live_crowding_for_sheet[  # MODIFIED: crowding_metric
+                "crowding_metric"
+            ].astype(float)
+        )
         df_live_crowding_for_sheet["timestamp"] = pd.to_datetime(
             df_live_crowding_for_sheet["timestamp"]
         )
     else:  # Ensure columns are correct even if no data fetched
         df_live_crowding_for_sheet = pd.DataFrame(
-            columns=["stop_id", "timestamp", "live_footfall"]
-        )  # Explicitly define order for empty df
-        df_live_crowding_for_sheet["timestamp"] = pd.to_datetime(
-            []
-        )  # Create empty datetime series for empty df
+            columns=[
+                "stop_id",
+                "timestamp",
+                "crowding_metric",
+            ]  # MODIFIED: crowding_metric
+        )
+        df_live_crowding_for_sheet["timestamp"] = pd.Series(
+            dtype="datetime64[ns, Europe/London]"
+        )
 
     print("\n--- Fetched Live Crowding Data for Sheet (head) ---")
     print(df_live_crowding_for_sheet.head(20))
@@ -194,16 +199,20 @@ def load_historical_data_from_google_sheet(
 
         # Ensure correct data types for processing, especially for timestamp and stop_id
         if "timestamp" in df.columns:
+            # Convert to datetime and then localize to London timezone
             df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce")
         if "stop_id" in df.columns:
             df["stop_id"] = df["stop_id"].astype(
                 str
             )  # stop_id should be string (NaPTAN code)
-        if "live_footfall" in df.columns:
-            df["live_footfall"] = pd.to_numeric(df["live_footfall"], errors="coerce")
+        # MODIFIED: Expect 'crowding_metric' instead of 'live_footfall'
+        if "crowding_metric" in df.columns:
+            df["crowding_metric"] = pd.to_numeric(
+                df["crowding_metric"], errors="coerce"
+            )
 
-        # Drop rows where essential data (timestamp, stop_id, live_footfall) is missing
-        df = df.dropna(subset=["timestamp", "stop_id", "live_footfall"])
+        # Drop rows where essential data (timestamp, stop_id, crowding_metric) is missing
+        df = df.dropna(subset=["timestamp", "stop_id", "crowding_metric"])
         print(
             f"Successfully loaded {len(df)} historical rows from Google Sheet '{worksheet_name}'."
         )
@@ -304,14 +313,16 @@ def save_dataframe_to_google_sheet(
         # --- Prepare DataFrame for Google Sheets appending ---
         df_to_append = df.copy()
 
-        # Fill NaN values in 'live_footfall' with 0 to make it JSON compliant for gspread
-        if "live_footfall" in df_to_append.columns:
-            df_to_append["live_footfall"] = df_to_append["live_footfall"].fillna(
-                0
-            )  # FIX: Handles NaN error
+        # Fill NaN values in 'crowding_metric' with 0 to make it JSON compliant for gspread
+        if "crowding_metric" in df_to_append.columns:  # MODIFIED: column name
+            df_to_append["crowding_metric"] = df_to_append["crowding_metric"].fillna(0)
 
         # Convert Timestamp column to string before appending (as in original code)
-        df_to_append["timestamp"] = df_to_append["timestamp"].astype(str)
+        df_to_append["timestamp"] = (
+            df_to_append["timestamp"]
+            .dt.tz_convert("UTC")
+            .dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+        )  # Convert to UTC string for Sheets
 
         # --- Append new data rows ---
         print(f"Appending {rows_to_add} new rows to Google Sheet '{worksheet_name}'...")
@@ -330,7 +341,6 @@ def save_dataframe_to_google_sheet(
 def generate_heatmap_json(
     df_live_crowding: pd.DataFrame,
     df_station_info: pd.DataFrame,
-    df_baseline_footfall: pd.DataFrame,
     output_json_path: str,
 ):
     """
@@ -339,7 +349,7 @@ def generate_heatmap_json(
     """
     print(f"Generating heatmap JSON for HTML to '{output_json_path}'...")
 
-    if df_live_crowding.empty or df_station_info.empty or df_baseline_footfall.empty:
+    if df_live_crowding.empty or df_station_info.empty:
         print("Warning: One or more input DataFrames are empty. Generating empty JSON.")
         os.makedirs(
             os.path.dirname(output_json_path), exist_ok=True
@@ -349,17 +359,8 @@ def generate_heatmap_json(
         return
 
     # Ensure 'timestamp' is datetime and sort for proper grouping
-    df_live_crowding["timestamp"] = pd.to_datetime(df_live_crowding["timestamp"])
+    # This df_live_crowding should already be timezone-aware from load_historical_data_from_google_sheet
     df_live_crowding = df_live_crowding.sort_values("timestamp").reset_index(drop=True)
-
-    # Ensure 'footfall_baseline' is numeric, as it comes from Excel
-    df_baseline_footfall["footfall_baseline"] = pd.to_numeric(
-        df_baseline_footfall["footfall_baseline"], errors="coerce"
-    ).fillna(0)
-    max_baseline_footfall = df_baseline_footfall["footfall_baseline"].max()
-
-    if max_baseline_footfall == 0:
-        print("Warning: Max baseline footfall is zero, crowding metrics will be zero.")
 
     # Merge station info and baseline into live crowding data for calculations
     # This creates a combined DataFrame for processing each time unit
@@ -378,12 +379,10 @@ def generate_heatmap_json(
     processed_all_data = {}
 
     # --- Helper to process data for a specific resolution ---
-    def _process_resolution_data(
-        df_data_to_group, current_max_baseline, resolution_type
-    ):
+    def _process_resolution_data(df_data_to_group, resolution_type):
         res_data = {}
 
-        # Determine the time grouping column
+        # Determine the time grouping column - .dt methods work correctly with timezone-aware datetimes
         if resolution_type == "hourly":
             df_data_to_group["time_unit"] = df_data_to_group["timestamp"].dt.round("h")
         elif resolution_type == "daily":
@@ -398,11 +397,14 @@ def generate_heatmap_json(
         else:
             raise ValueError("Invalid resolution type for JSON generation")
 
-        # Group data and calculate average live_footfall per station per time unit
+        # Group data and calculate average crowding_metric per station per time unit
         grouped_agg_data = (
             df_data_to_group.groupby(["time_unit", "stop_id"])
             .agg(
-                live_footfall=("live_footfall", "mean"),
+                crowding_metric=(
+                    "crowding_metric",
+                    "mean",
+                ),  # MODIFIED: Aggregate crowding_metric directly
                 station=("station", "first"),  # Keep first station name
                 lat=("lat", "first"),  # Keep first lat
                 lon=("lon", "first"),  # Keep first lon
@@ -417,15 +419,7 @@ def generate_heatmap_json(
                 grouped_agg_data["time_unit"] == time_unit
             ].copy()
 
-            # Calculate crowding metric (as percentage)
-            if current_max_baseline == 0:
-                current_time_unit_data.loc[:, "crowding_metric"] = 0
-            else:
-                # The percentage_value is treated as a ratio (e.g., 0.8), so multiply by 100 for metric
-                current_time_unit_data.loc[:, "crowding_metric"] = (
-                    current_time_unit_data["live_footfall"] / current_max_baseline
-                ) * 100
-
+            # The crowding_metric is already calculated, just ensure it's clean
             current_time_unit_data.loc[:, "crowding_metric"] = (
                 current_time_unit_data["crowding_metric"]
                 .replace([float("inf"), -float("inf")], pd.NA)
@@ -438,18 +432,20 @@ def generate_heatmap_json(
                 .dropna(subset=["lat", "lon", "station"])  # Ensure lat/lon are not NaN
                 .values.tolist()
             )
-            res_data[str(time_unit)] = heatmap_data_for_ts
+            res_data[str(time_unit)] = (
+                heatmap_data_for_ts  # Convert timezone-aware datetime to string for JSON
+            )
         return res_data
 
     # Generate data for each resolution, passing a copy
     processed_all_data["hourly"] = _process_resolution_data(
-        df_combined_data.copy(), max_baseline_footfall, "hourly"
+        df_combined_data.copy(), "hourly"
     )
     processed_all_data["daily"] = _process_resolution_data(
-        df_combined_data.copy(), max_baseline_footfall, "daily"
+        df_combined_data.copy(), "daily"
     )
     processed_all_data["weekly"] = _process_resolution_data(
-        df_combined_data.copy(), max_baseline_footfall, "weekly"
+        df_combined_data.copy(), "weekly"
     )
 
     # Ensure output directory exists
@@ -477,10 +473,8 @@ if __name__ == "__main__":
         exit(1)
 
     # --- Data Loading (Static and Baseline) ---
-    df_station_info = load_excel_file(FILE_PATH_STATION_INFO)  # NEW: load station info
-    df_baseline_footfall = load_station_footfall_baseline(
-        FILE_PATH_STATION_FOOTFALL_BASELINE
-    )  # Original function
+    df_station_info = load_excel_file(FILE_PATH_STATION_INFO)
+    df_baseline_footfall = load_excel_file(FILE_PATH_STATION_FOOTFALL_BASELINE)
 
     if df_station_info.empty:
         print("Exiting due to failure to load station info data.")
@@ -491,48 +485,52 @@ if __name__ == "__main__":
 
     # Ensure stop_id is string in info for merging later
     df_station_info["stop_id"] = df_station_info["stop_id"].astype(str)
+    df_baseline_footfall["stop_id"] = df_baseline_footfall["stop_id"].astype(str)
+    df_baseline_footfall["footfall_baseline"] = pd.to_numeric(
+        df_baseline_footfall["footfall_baseline"], errors="coerce"
+    ).fillna(0)
 
     # Prepare for get_Live_Crowding: Pass only stop_id and footfall_baseline
-    # The 'station' column is intentionally excluded here to prevent it from being passed
-    # to get_Live_Crowding and subsequently saved to Google Sheets.
     df_stations_for_api = df_baseline_footfall[["stop_id", "footfall_baseline"]].copy()
 
     # --- Fetch Current Live Crowding Data ---
-    df_current_live_crowding = get_Live_Crowding(TFL_STOPPOINT_URL, df_stations_for_api)
+    df_current_live_data = get_Live_Crowding(TFL_STOPPOINT_URL, df_stations_for_api)
 
-    if df_current_live_crowding.empty:
+    if df_current_live_data.empty:  # MODIFIED: variable name
         print(
             "No live crowding data fetched for current run. Skipping save operations."
         )
         exit(0)  # Exit gracefully if no data
 
-    # --- Save Current Data to Google Sheets ---
+    # --- Save Current Data (now containing crowding_metric) to Google Sheets ---
     save_dataframe_to_google_sheet(
-        df_current_live_crowding,
+        df_current_live_data,  # MODIFIED: variable name
         GOOGLE_SHEET_ID,
         GOOGLE_WORKSHEET_NAME,
         GOOGLE_SERVICE_ACCOUNT_KEY_PATH,
     )
 
     # --- Load ALL historical data from Google Sheets for JSON generation ---
-    df_historical_live_crowding = load_historical_data_from_google_sheet(
-        GOOGLE_SHEET_ID,
-        GOOGLE_WORKSHEET_NAME,
-        GOOGLE_SERVICE_ACCOUNT_KEY_PATH,
+    # MODIFIED: this will now load 'crowding_metric' column
+    df_historical_data = (
+        load_historical_data_from_google_sheet(  # MODIFIED: variable name
+            GOOGLE_SHEET_ID,
+            GOOGLE_WORKSHEET_NAME,
+            GOOGLE_SERVICE_ACCOUNT_KEY_PATH,
+        )
     )
 
-    if df_historical_live_crowding.empty:
+    if df_historical_data.empty:  # MODIFIED: variable name
         print(
-            "No historical live crowding data found in Google Sheet to generate JSON from. Exiting."
+            "No historical data found in Google Sheet to generate JSON from. Exiting."
         )
         exit(1)
 
     # --- Generate JSON for HTML heatmap ---
-    # Pass all necessary DataFrames for JSON generation
+    # MODIFIED: The JSON generation now works with 'crowding_metric' directly
     generate_heatmap_json(
-        df_historical_live_crowding,
-        df_station_info,  # Passed for lat/lon/station name
-        df_baseline_footfall,  # Passed for max_baseline_footfall
+        df_historical_data,  # MODIFIED: variable name
+        df_station_info,
         OUTPUT_HTML_JSON_FILE,
     )
 

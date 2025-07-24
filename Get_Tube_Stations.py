@@ -4,8 +4,8 @@ import json
 import pandas as pd  # Import pandas for DataFrame operations
 
 # --- Configuration ---
-TFL_STOPPOINT_URL = "https://api.tfl.gov.uk/StopPoint/Mode/tube"
-STATION_MAP_FILENAME = "data/station_info.xlsx"  # File path to save data files
+TFL_STOPPOINT_URL = "https://api.tfl.gov.uk/StopPoint/Mode/dlr"
+STATION_MAP_FILENAME = "data/station_info_dlr.xlsx"  # File path to save data files
 
 
 def query_TFL(
