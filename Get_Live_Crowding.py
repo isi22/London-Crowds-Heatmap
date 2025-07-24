@@ -23,7 +23,7 @@ TFL_API_KEY = os.getenv("TFL_API_KEY")
 # Google Sheets API credentials and sheet details
 GOOGLE_SERVICE_ACCOUNT_KEY_PATH = os.getenv("GOOGLE_SERVICE_ACCOUNT_KEY_PATH")
 GOOGLE_SHEET_ID = os.getenv("GOOGLE_SHEET_ID")
-GOOGLE_WORKSHEET_NAME = "stations_live_crowding"  # Always save to Sheet1
+GOOGLE_WORKSHEET_NAME = "Sheet1"  # Always save to Sheet1
 
 # --- Data Retention Configuration ---
 MAX_ROWS_GOOGLE_SHEET = 100000  # Maximum desired rows in Google Sheet
