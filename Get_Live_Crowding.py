@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 import gspread  # Import gspread for Google Sheets interaction
-import pytz  # NEW: Import pytz for timezone awareness
+import pytz
 
 # --- API Endpoints and File Paths ---
 TFL_STOPPOINT_URL = "https://api.tfl.gov.uk/crowding/{Naptan}/Live"
@@ -30,7 +30,7 @@ GOOGLE_WORKSHEET_NAME = "stations_live_crowding"  # Always save to Sheet1
 # --- Data Retention Configuration ---
 MAX_ROWS_GOOGLE_SHEET = 100000  # Maximum desired rows in Google Sheet
 
-# --- Timezone Configuration (NEW) ---
+# --- Timezone Configuration  ---
 LONDON_TIMEZONE = pytz.timezone("Europe/London")
 
 
@@ -143,11 +143,9 @@ def get_Live_Crowding(tfl_url_pattern, df_stations_for_api):
         df_live_crowding_for_sheet["stop_id"] = df_live_crowding_for_sheet[
             "stop_id"
         ].astype(str)
-        df_live_crowding_for_sheet["crowding_metric"] = (
-            df_live_crowding_for_sheet[  # MODIFIED: crowding_metric
-                "crowding_metric"
-            ].astype(float)
-        )
+        df_live_crowding_for_sheet["crowding_metric"] = df_live_crowding_for_sheet[
+            "crowding_metric"
+        ].astype(float)
         df_live_crowding_for_sheet["timestamp"] = pd.to_datetime(
             df_live_crowding_for_sheet["timestamp"]
         )
@@ -157,7 +155,7 @@ def get_Live_Crowding(tfl_url_pattern, df_stations_for_api):
                 "stop_id",
                 "timestamp",
                 "crowding_metric",
-            ]  # MODIFIED: crowding_metric
+            ]
         )
         df_live_crowding_for_sheet["timestamp"] = pd.Series(
             dtype="datetime64[ns, Europe/London]"
@@ -205,7 +203,7 @@ def load_historical_data_from_google_sheet(
             df["stop_id"] = df["stop_id"].astype(
                 str
             )  # stop_id should be string (NaPTAN code)
-        # MODIFIED: Expect 'crowding_metric' instead of 'live_footfall'
+
         if "crowding_metric" in df.columns:
             df["crowding_metric"] = pd.to_numeric(
                 df["crowding_metric"], errors="coerce"
@@ -314,7 +312,7 @@ def save_dataframe_to_google_sheet(
         df_to_append = df.copy()
 
         # Fill NaN values in 'crowding_metric' with 0 to make it JSON compliant for gspread
-        if "crowding_metric" in df_to_append.columns:  # MODIFIED: column name
+        if "crowding_metric" in df_to_append.columns:
             df_to_append["crowding_metric"] = df_to_append["crowding_metric"].fillna(0)
 
         # Convert Timestamp column to string before appending (as in original code)
@@ -405,7 +403,7 @@ def generate_heatmap_json(
                 crowding_metric=(
                     "crowding_metric",
                     "mean",
-                ),  # MODIFIED: Aggregate crowding_metric directly
+                ),
                 station=("station", "first"),  # Keep first station name
                 lat=("lat", "first"),  # Keep first lat
                 lon=("lon", "first"),  # Keep first lon
@@ -494,43 +492,39 @@ if __name__ == "__main__":
     # Prepare for get_Live_Crowding: Pass only stop_id and footfall_baseline
     df_stations_for_api = df_baseline_footfall[["stop_id", "footfall_baseline"]].copy()
 
-    # # --- Fetch Current Live Crowding Data ---
-    # df_current_live_data = get_Live_Crowding(TFL_STOPPOINT_URL, df_stations_for_api)
+    # --- Fetch Current Live Crowding Data ---
+    df_current_live_data = get_Live_Crowding(TFL_STOPPOINT_URL, df_stations_for_api)
 
-    # if df_current_live_data.empty:  # MODIFIED: variable name
-    #     print(
-    #         "No live crowding data fetched for current run. Skipping save operations."
-    #     )
-    #     exit(0)  # Exit gracefully if no data
-
-    # # --- Save Current Data (now containing crowding_metric) to Google Sheets ---
-    # save_dataframe_to_google_sheet(
-    #     df_current_live_data,  # MODIFIED: variable name
-    #     GOOGLE_SHEET_ID,
-    #     GOOGLE_WORKSHEET_NAME,
-    #     GOOGLE_SERVICE_ACCOUNT_KEY_PATH,
-    # )
-
-    # --- Load ALL historical data from Google Sheets for JSON generation ---
-    # MODIFIED: this will now load 'crowding_metric' column
-    df_historical_data = (
-        load_historical_data_from_google_sheet(  # MODIFIED: variable name
-            GOOGLE_SHEET_ID,
-            GOOGLE_WORKSHEET_NAME,
-            GOOGLE_SERVICE_ACCOUNT_KEY_PATH,
+    if df_current_live_data.empty:
+        print(
+            "No live crowding data fetched for current run. Skipping save operations."
         )
+        exit(0)  # Exit gracefully if no data
+
+    # --- Save Current Data (now containing crowding_metric) to Google Sheets ---
+    save_dataframe_to_google_sheet(
+        df_current_live_data,
+        GOOGLE_SHEET_ID,
+        GOOGLE_WORKSHEET_NAME,
+        GOOGLE_SERVICE_ACCOUNT_KEY_PATH,
     )
 
-    if df_historical_data.empty:  # MODIFIED: variable name
+    # --- Load ALL historical data from Google Sheets for JSON generation ---
+    df_historical_data = load_historical_data_from_google_sheet(
+        GOOGLE_SHEET_ID,
+        GOOGLE_WORKSHEET_NAME,
+        GOOGLE_SERVICE_ACCOUNT_KEY_PATH,
+    )
+
+    if df_historical_data.empty:
         print(
             "No historical data found in Google Sheet to generate JSON from. Exiting."
         )
         exit(1)
 
     # --- Generate JSON for HTML heatmap ---
-    # MODIFIED: The JSON generation now works with 'crowding_metric' directly
     generate_heatmap_json(
-        df_historical_data,  # MODIFIED: variable name
+        df_historical_data,
         df_station_info,
         OUTPUT_HTML_JSON_FILE,
     )
