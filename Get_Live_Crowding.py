@@ -385,6 +385,7 @@ def generate_heatmap_json(
         # Determine the time grouping column - .dt methods work correctly with timezone-aware datetimes
         if resolution_type == "hourly":
             df_data_to_group["time_unit"] = df_data_to_group["timestamp"].dt.round("h")
+
         elif resolution_type == "daily":
             df_data_to_group["time_unit"] = df_data_to_group["timestamp"].dt.normalize()
         elif resolution_type == "weekly":
@@ -493,22 +494,22 @@ if __name__ == "__main__":
     # Prepare for get_Live_Crowding: Pass only stop_id and footfall_baseline
     df_stations_for_api = df_baseline_footfall[["stop_id", "footfall_baseline"]].copy()
 
-    # --- Fetch Current Live Crowding Data ---
-    df_current_live_data = get_Live_Crowding(TFL_STOPPOINT_URL, df_stations_for_api)
+    # # --- Fetch Current Live Crowding Data ---
+    # df_current_live_data = get_Live_Crowding(TFL_STOPPOINT_URL, df_stations_for_api)
 
-    if df_current_live_data.empty:  # MODIFIED: variable name
-        print(
-            "No live crowding data fetched for current run. Skipping save operations."
-        )
-        exit(0)  # Exit gracefully if no data
+    # if df_current_live_data.empty:  # MODIFIED: variable name
+    #     print(
+    #         "No live crowding data fetched for current run. Skipping save operations."
+    #     )
+    #     exit(0)  # Exit gracefully if no data
 
-    # --- Save Current Data (now containing crowding_metric) to Google Sheets ---
-    save_dataframe_to_google_sheet(
-        df_current_live_data,  # MODIFIED: variable name
-        GOOGLE_SHEET_ID,
-        GOOGLE_WORKSHEET_NAME,
-        GOOGLE_SERVICE_ACCOUNT_KEY_PATH,
-    )
+    # # --- Save Current Data (now containing crowding_metric) to Google Sheets ---
+    # save_dataframe_to_google_sheet(
+    #     df_current_live_data,  # MODIFIED: variable name
+    #     GOOGLE_SHEET_ID,
+    #     GOOGLE_WORKSHEET_NAME,
+    #     GOOGLE_SERVICE_ACCOUNT_KEY_PATH,
+    # )
 
     # --- Load ALL historical data from Google Sheets for JSON generation ---
     # MODIFIED: this will now load 'crowding_metric' column
