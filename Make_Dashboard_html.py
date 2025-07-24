@@ -28,66 +28,128 @@ def generate_heatmap_dashboard():
             return
 
     try:
-        # Changed to pd.read_excel as per user's request
         station_info_df = pd.read_excel(STATION_INFO_FILE)
         baseline_footfall_df = pd.read_excel(BASELINE_FOOTFALL_FILE)
         live_crowding_df = pd.read_excel(LIVE_CROWDING_FILE)
         print("Excel files loaded successfully.")
 
-        # Convert timestamp to datetime objects and take the latest entry for each station
-        if "timestamp" in live_crowding_df.columns:
-            live_crowding_df["timestamp"] = pd.to_datetime(
-                live_crowding_df["timestamp"]
-            )
-            live_crowding_df = live_crowding_df.sort_values(
-                by="timestamp"
-            ).drop_duplicates(subset="stop_id", keep="last")
+        # Convert timestamp to datetime objects
+        live_crowding_df["timestamp"] = pd.to_datetime(live_crowding_df["timestamp"])
 
-        # Merge station_info and live_crowding first
-        final_df = pd.merge(station_info_df, live_crowding_df, on="stop_id", how="left")
-
-        # Explicitly convert lat and lon to numeric, coercing errors to NaN
-        final_df["lat"] = pd.to_numeric(final_df["lat"], errors="coerce")
-        final_df["lon"] = pd.to_numeric(final_df["lon"], errors="coerce")
-
-        # Calculate crowding metric: live_footfall / max(footfall_baseline)
-        # Using the maximum footfall baseline from the baseline_footfall_df
+        # Calculate max_baseline_footfall once for consistent normalization
         max_baseline_footfall = baseline_footfall_df["footfall_baseline"].max()
         print(f"Maximum baseline footfall: {max_baseline_footfall}")
 
-        # Handle case where max_baseline_footfall might be zero to avoid division by zero
-        if max_baseline_footfall == 0:
-            final_df["crowding_metric"] = 0
-        else:
-            final_df["crowding_metric"] = (
-                final_df["live_footfall"] / max_baseline_footfall
-            )
+        # Dictionary to store data for each resolution (hourly, daily, weekly)
+        processed_all_data = {}
 
-        # Replace infinite values (due to division by zero) and NaN with 0 for heatmap compatibility
-        final_df["crowding_metric"] = (
-            final_df["crowding_metric"]
-            .replace([float("inf"), -float("inf")], pd.NA)
-            .fillna(0)
+        # --- Helper function for data processing (refactored) ---
+        def _process_data_for_resolution(
+            live_df_segment, station_info, max_baseline, resolution_type
+        ):
+            """
+            Processes a segment of live footfall data for a given resolution.
+            Handles merging, crowding metric calculation, and data cleaning.
+            """
+            processed_data_for_resolution = {}
+
+            if resolution_type == "hourly":
+                # For hourly, we process each unique timestamp as is
+                unique_time_units = sorted(live_df_segment["timestamp"].unique())
+                group_by_cols = None
+            elif resolution_type == "daily":
+                # For daily, group by date and calculate average footfall
+                live_df_segment["date"] = live_df_segment["timestamp"].dt.date
+                daily_avg_footfall = (
+                    live_df_segment.groupby(["stop_id", "date"])["live_footfall"]
+                    .mean()
+                    .reset_index()
+                )
+                live_df_segment = (
+                    daily_avg_footfall  # Use this aggregated DataFrame for merging
+                )
+                unique_time_units = sorted(live_df_segment["date"].unique())
+                group_by_cols = "date"
+            elif resolution_type == "weekly":
+                # For weekly, group by week start and calculate average footfall
+                live_df_segment["week_start"] = (
+                    live_df_segment["timestamp"]
+                    .dt.to_period("W")
+                    .apply(lambda r: r.start_time)
+                )
+                weekly_avg_footfall = (
+                    live_df_segment.groupby(["stop_id", "week_start"])["live_footfall"]
+                    .mean()
+                    .reset_index()
+                )
+                live_df_segment = (
+                    weekly_avg_footfall  # Use this aggregated DataFrame for merging
+                )
+                unique_time_units = sorted(live_df_segment["week_start"].unique())
+                group_by_cols = "week_start"
+            else:
+                raise ValueError(f"Unknown resolution type: {resolution_type}")
+
+            for time_unit in unique_time_units:
+                if group_by_cols:
+                    current_df = live_df_segment[
+                        live_df_segment[group_by_cols] == time_unit
+                    ]
+                else:  # This applies to hourly where live_df_segment is already filtered by the loop
+                    current_df = live_df_segment[
+                        live_df_segment["timestamp"] == time_unit
+                    ]
+
+                merged_df = pd.merge(station_info, current_df, on="stop_id", how="left")
+                merged_df["lat"] = pd.to_numeric(merged_df["lat"], errors="coerce")
+                merged_df["lon"] = pd.to_numeric(merged_df["lon"], errors="coerce")
+
+                if max_baseline == 0:
+                    merged_df["crowding_metric"] = 0
+                else:
+                    merged_df["crowding_metric"] = (
+                        merged_df["live_footfall"] / max_baseline
+                    ) * 100
+
+                merged_df["crowding_metric"] = (
+                    merged_df["crowding_metric"]
+                    .replace([float("inf"), -float("inf")], pd.NA)
+                    .fillna(0)
+                )
+
+                heatmap_data_for_unit = (
+                    merged_df[["lat", "lon", "crowding_metric", "station"]]
+                    .dropna()
+                    .values.tolist()
+                )
+                processed_data_for_resolution[str(time_unit)] = heatmap_data_for_unit
+            return processed_data_for_resolution
+
+        # Process data for each resolution using the helper function
+        processed_all_data["hourly"] = _process_data_for_resolution(
+            live_crowding_df.copy(), station_info_df, max_baseline_footfall, "hourly"
         )
-
-        # Prepare data for the frontend: filter out rows with missing lat/lon, crowding_metric or station name
-        # .dropna() will now reliably remove rows where lat/lon became NaN due to coercion
-        heatmap_data_for_js = (
-            final_df[["lat", "lon", "crowding_metric", "station"]]
-            .dropna()
-            .values.tolist()
-        )
-
-        # Convert the processed data to a JSON string
-        processed_data_json = json.dumps(heatmap_data_for_js, indent=2)
         print(
-            f"Data processing complete. {len(heatmap_data_for_js)} station entries processed."
+            f"Hourly data processed for {len(processed_all_data['hourly'])} timestamps."
         )
+
+        processed_all_data["daily"] = _process_data_for_resolution(
+            live_crowding_df.copy(), station_info_df, max_baseline_footfall, "daily"
+        )
+        print(f"Daily data processed for {len(processed_all_data['daily'])} dates.")
+
+        processed_all_data["weekly"] = _process_data_for_resolution(
+            live_crowding_df.copy(), station_info_df, max_baseline_footfall, "weekly"
+        )
+        print(f"Weekly data processed for {len(processed_all_data['weekly'])} weeks.")
+
+        processed_data_json = json.dumps(processed_all_data, indent=2)
+        print(f"Total processed data size: {len(processed_data_json)} characters.")
 
     except Exception as e:
         print(f"An error occurred during data processing: {e}")
         print("Generating HTML with empty data array.")
-        processed_data_json = "[]"  # Fallback to empty array if data processing fails
+        processed_data_json = "{}"  # Fallback to empty object if data processing fails
 
     # --- 2. HTML Template ---
     html_template = f"""
@@ -97,13 +159,23 @@ def generate_heatmap_dashboard():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>London Tube Station Heatmap</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
         crossorigin=""/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+
     <style>
+        :root {{
+            --button-size: 22px;
+            --button-font-size: 0.7em;
+            --playback-icon-play-font-size: 0.9em; /* Adjusted for play icon */
+            --playback-icon-pause-font-size: 1.2em; /* Keep for pause icon */
+        }}
+
         /* Custom CSS for map container to ensure it takes full height */
         #map {{
             height: 80vh; /* Set a responsive height for the map */
@@ -114,6 +186,121 @@ def generate_heatmap_dashboard():
         body {{
             font-family: 'Inter', sans-serif; /* Use Inter font */
         }}
+        /* Styles for the custom legend */
+        .info.legend {{
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            line-height: 1.5em;
+            font-size: 0.9em; /* Smaller font for legend */
+        }}
+        .info.legend i {{
+            width: 18px;
+            height: 12px;
+            float: left;
+            margin-right: 8px;
+            opacity: 0.8;
+            border-radius: 2px;
+        }}
+        /* Styles for the combined controls box (Leaflet Control) */
+        .leaflet-control.combined-controls-container {{
+            background: white;
+            padding: 5px; /* Reduced padding for less height */
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 300px; /* Fixed width for slider */
+            /* Removed margin-bottom, margin-left, margin-right as it's now a Leaflet control */
+        }}
+        .combined-controls-container .resolution-group {{
+            margin-bottom: 5px; /* Reduced margin */
+            font-size: 1em; /* Increased font size for hourly/daily/weekly labels */
+        }}
+        .combined-controls-container .time-slider-group {{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 5px; /* Reduced margin */
+        }}
+        .combined-controls-container input[type="range"] {{
+            flex-grow: 1;
+            margin: 0 5px;
+        }}
+        /* Play/Pause button styling - Adjusted size to match scroll buttons using CSS variables */
+        .combined-controls-container .play-pause-button {{
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 0;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin-left: 8px;
+            cursor: pointer;
+            border-radius: 4px;
+            width: var(--button-size);
+            height: var(--button-size);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
+        }}
+        /* Specific font sizes for play and pause icons */
+        .combined-controls-container .play-pause-button::before {{ /* pseudo-element for icon font-size */
+            font-size: var(--playback-icon-play-font-size);
+        }}
+        .combined-controls-container .play-pause-button.playing::before {{ /* pseudo-element for icon font-size when playing */
+            font-size: var(--playback-icon-pause-font-size);
+        }}
+
+
+        .combined-controls-container .play-pause-button:hover {{
+            background-color: #45a049;
+        }}
+        /* Smaller scroll buttons using CSS variables */
+        .scroll-button {{
+            background-color: #007bff; /* Blue */
+            color: white;
+            border: none;
+            padding: 0;
+            margin: 0 2px;
+            cursor: pointer;
+            border-radius: 3px;
+            font-size: var(--button-font-size);
+            width: var(--button-size);
+            height: var(--button-size);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
+        }}
+        .scroll-button:hover {{
+            background-color: #0056b3;
+        }}
+        /* Style for the new bottom-left timestamp control - Increased size, transparent white background, new font */
+        .timestamp-display-control {{
+            font-size: 3.5em; /* Increased Larger font */
+            color: #AAAAAA; /* Even lighter Grey lettering */
+            font-family: 'PT Sans Narrow', sans-serif; /* New narrow font */
+            text-shadow: 2px 2px 4px rgba(255,255,255,0.9); /* More pronounced white shadow for readability */
+            background: transparent; /* Removed background color */
+            padding: 0; /* Remove padding as background is gone */
+            border-radius: 0; /* Remove border-radius as background is gone */
+            white-space: nowrap; /* Prevent text from wrapping */
+            bottom: 0px !important; /* Moved to very bottom */
+            left: 0px !important; /* Moved to very left */
+            line-height: 1; /* Adjust line height for closer packing */
+        }}
+        /* Radio button styling */
+        .resolution-group label {{
+            margin-right: 10px;
+            font-size: 1em; /* Ensures text size is consistent with the new font-size for resolution-group */
+        }}
+        .resolution-group input[type="radio"] {{
+            transform: scale(1.0); /* Smaller radio buttons */
+            margin-right: 3px; /* Reduced margin */
+        }}
     </style>
 </head>
 <body class="bg-gray-100 p-4 sm:p-6 lg:p-8">
@@ -122,11 +309,10 @@ def generate_heatmap_dashboard():
             London Tube Station Busyness Heatmap
         </h1>
         <p class="text-center text-gray-600 mb-6">
-            This heatmap visualizes the relative busyness of London tube stations based on live footfall data compared to baseline.
-            Higher intensity (redder areas) indicates more crowding.
+            This heatmap visualizes the relative busyness of London tube stations based on live footfall data compared to baseline, expressed as a percentage.
+            Higher intensity (redder areas) indicates more crowding. Use the slider or play button to explore crowding at different time points.
         </p>
 
-        <!-- Map container -->
         <div id="map" class="mb-6"></div>
 
         <div class="text-center text-gray-500 text-sm">
@@ -135,145 +321,311 @@ def generate_heatmap_dashboard():
         </div>
     </div>
 
-    <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
         crossorigin=""></script>
-    <!-- Leaflet.heat JS for heatmap -->
     <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
 
     <script>
         // Embed the processed station data directly into the HTML
-        // This data was generated by the Python script from your CSV files.
-        const stationData = JSON.parse(`{processed_data_json}`);
+        const allProcessedData = JSON.parse(`{processed_data_json}`);
+        console.log("All processed data by resolution:", allProcessedData);
 
+        // Global variables for current resolution and its timestamps
+        let currentResolution = 'hourly'; // Default resolution
+        let timestamps = Object.keys(allProcessedData[currentResolution]).sort();
+        
         // Define the URL for your GeoJSON tube lines file
-        // IMPORTANT: Place your 'TubeLines.geojson' file in a 'data/' folder
-        // in your GitHub repository alongside your 'index.html' file.
-        const tubeLinesGeoJSONUrl = 'https://github.com/isi22/London-Crowds-Heatmap/blob/main/data/TubeLines.geojson';
+        const tubeLinesGeoJSONUrl = 'https://raw.githubusercontent.com/isi22/London-Crowds-Heatmap/main/data/TubeLines.geojson';
 
-        // Ensure all scripts and the DOM are loaded before initializing the map
-        window.onload = function() {{
-            // Filter out any entries that are not arrays, or don't have enough elements,
-            // or have non-numeric/NaN lat/lon values at the very first step.
-            const cleanStationData = stationData.filter(entry =>
-                Array.isArray(entry) &&
-                entry.length >= 4 &&
-                typeof entry[0] === 'number' && !isNaN(entry[0]) && // Check lat
-                typeof entry[1] === 'number' && !isNaN(entry[1])    // Check lon
+        // Define tube line colors in a reusable object
+        const tubeLineColors = {{
+            'Central': '#E32017', 'Victoria': '#0098D4', 'Jubilee': '#A0A5A9',
+            'Northern': '#000000', 'Piccadilly': '#003688', 'Bakerloo': '#B36305',
+            'District': '#00782A', 'Hammersmith & City': '#F3A9BB', 'Metropolitan': '#9B0056',
+            'Circle': '#FFD300', 'Waterloo & City': '#95CDBA', 'DLR': '#00A4A7',
+            'Overground': '#EE7800', 'Elizabeth line': '#6950A1', 'Crossrail': '#7156A5'
+        }};
+
+        let map;
+        let heatmapLayer;
+        let currentStationMarkers = [];
+
+        let animationInterval;
+        let isPlaying = false;
+        let currentTimestampIndex = 0;
+        const resolutionAnimationSpeeds = {{ // Define speeds per resolution
+            hourly: 500,  // 0.5 seconds
+            daily: 1000,  // 1 second
+            weekly: 1000  // 1 second
+        }};
+        let animationSpeed = resolutionAnimationSpeeds[currentResolution]; // Initial speed
+
+
+        // Helper function to get ordinal suffix for a day number
+        function getOrdinalSuffix(day) {{
+            if (day > 3 && day < 21) return 'th';
+            switch (day % 10) {{
+                case 1: return 'st';
+                case 2: return 'nd';
+                case 3: return 'rd';
+                default: return 'th';
+            }}
+        }}
+
+        // Function to update heatmap and markers based on selected timestamp and resolution
+        function updateMapData(index) {{
+            // Ensure index is within bounds for the current resolution's timestamps
+            if (index < 0 || index >= timestamps.length) {{
+                console.warn("Timestamp index out of bounds for current resolution:", index);
+                return;
+            }}
+            currentTimestampIndex = parseInt(index);
+
+            const selectedTimestampStr = timestamps[currentTimestampIndex];
+            let formattedTimestamp = '';
+
+            if (currentResolution === 'hourly') {{
+                const dateObj = new Date(selectedTimestampStr);
+                dateObj.setMinutes(dateObj.getMinutes() >= 30 ? 60 : 0, 0, 0); // Round to nearest hour
+                const weekday = dateObj.toLocaleDateString('en-US', {{ weekday: 'long' }});
+                const month = dateObj.toLocaleDateString('en-US', {{ month: 'long' }});
+                const day = dateObj.getDate();
+                const year = dateObj.getFullYear();
+                const hour = dateObj.getHours().toString().padStart(2, '0');
+                formattedTimestamp = `${{weekday}}, ${{month}} ${{day}}<sup>${{getOrdinalSuffix(day)}}</sup> ${{year}}, ${{hour}}:00`;
+            }} else if (currentResolution === 'daily') {{
+                const dateObj = new Date(selectedTimestampStr);
+                const month = dateObj.toLocaleDateString('en-US', {{ month: 'long' }});
+                const day = dateObj.getDate();
+                const year = dateObj.getFullYear();
+                formattedTimestamp = `${{day}}<sup>${{getOrdinalSuffix(day)}}</sup> ${{month}} ${{year}}`;
+            }} else if (currentResolution === 'weekly') {{
+                const weekStartDate = new Date(selectedTimestampStr);
+                const weekEndDate = new Date(weekStartDate);
+                weekEndDate.setDate(weekStartDate.getDate() + 6); // Add 6 days for end of week
+
+                const startDay = weekStartDate.getDate();
+                const startMonth = weekStartDate.toLocaleDateString('en-US', {{ month: 'long' }}); // Use long month name for start
+                const startYear = weekStartDate.getFullYear();
+                
+                const endDay = weekEndDate.getDate();
+                const endMonth = weekEndDate.toLocaleDateString('en-US', {{ month: 'long' }}); // Use long month name for end
+                const endYear = weekEndDate.getFullYear();
+
+                if (startMonth === endMonth && startYear === endYear) {{
+                    formattedTimestamp = `${{startDay}}<sup>${{getOrdinalSuffix(startDay)}}</sup> - ${{endDay}}<sup>${{getOrdinalSuffix(endDay)}}</sup> ${{startMonth}} ${{startYear}}`;
+                }} else if (startYear === endYear) {{
+                    formattedTimestamp = `${{startDay}}<sup>${{getOrdinalSuffix(startDay)}}</sup> ${{startMonth}} - ${{endDay}}<sup>${{getOrdinalSuffix(endDay)}}</sup> ${{endMonth}} ${{startYear}}`;
+                }} else {{
+                    formattedTimestamp = `${{startDay}}<sup>${{getOrdinalSuffix(day)}}</sup> ${{startMonth}} ${{startYear}} - ${{endDay}}<sup>${{getOrdinalSuffix(endDay)}}</sup> ${{endMonth}} ${{endYear}}`;
+                }}
+            }}
+
+            document.getElementById('current-timestamp-display').innerHTML = formattedTimestamp; // Use innerHTML for superscript
+            document.getElementById('time-slider').value = currentTimestampIndex;
+
+            const currentStationData = allProcessedData[currentResolution][selectedTimestampStr];
+
+            if (heatmapLayer) {{ map.removeLayer(heatmapLayer); }}
+            currentStationMarkers.forEach(marker => map.removeLayer(marker));
+            currentStationMarkers = [];
+
+            const cleanStationData = currentStationData.filter(entry =>
+                Array.isArray(entry) && entry.length >= 4 &&
+                typeof entry[0] === 'number' && !isNaN(entry[0]) &&
+                typeof entry[1] === 'number' && !isNaN(entry[1])
             );
 
-            console.log("Cleaned stationData for map:", cleanStationData); // For debugging
+            const heatData = cleanStationData.map(station => {{
+                const lat = station[0]; const lon = station[1];
+                let crowdingMetric = station[2];
+                if (typeof crowdingMetric !== 'number' || isNaN(crowdingMetric)) {{ crowdingMetric = 0; }}
+                return [lat, lon, crowdingMetric];
+            }});
 
-            // Initialize the map
-            // Centered on London (approximate), zoom level adjusted to show most stations
-            const map = L.map('map').setView([51.505, -0.09], 11);
+            const heatMax = 50; // Set heatMax to a fixed value of 50 (for 50%)
 
-            // Add CartoDB Positron tiles (light map)
+            heatmapLayer = L.heatLayer(heatData, {{
+                radius: 8, blur: 4, maxZoom: 0, max: heatMax,
+                gradient: {{
+                    0.0: '#FFFFCC', 0.2: '#FFEDA0', 0.4: '#FED976',
+                    0.6: '#FEB24C', 0.8: '#FD8D3C', 1.0: '#FC4E2A'
+                }}
+            }}).addTo(map);
+
+            cleanStationData.forEach(station => {{
+                const lat = station[0]; const lon = station[1];
+                const crowdingMetric = station[2]; const stationName = station[3];
+                const marker = L.circleMarker([lat, lon], {{
+                    radius: 8, fillOpacity: 0, stroke: false, interactive: true
+                }})
+                // Display crowding metric as an integer percentage in the popup
+                .bindPopup(`<b>Station:</b> ${{stationName}}<br><b>Crowding Metric:</b> ${{Math.round(crowdingMetric)}}%`);
+                marker.addTo(map);
+                marker.bringToFront();
+                currentStationMarkers.push(marker);
+            }});
+        }}
+
+        // Function to toggle play/pause animation
+        function toggleAnimation() {{
+            const playPauseButton = document.getElementById('play-pause-button');
+            if (isPlaying) {{
+                clearInterval(animationInterval);
+                playPauseButton.innerHTML = '&#9658;'; // Play icon (solid triangle)
+                playPauseButton.classList.remove('playing'); // Remove playing class
+            }} else {{
+                if (currentTimestampIndex >= timestamps.length - 1) {{ currentTimestampIndex = 0; }}
+                updateMapData(currentTimestampIndex);
+                // Clear any existing interval before setting a new one
+                clearInterval(animationInterval); 
+                animationInterval = setInterval(() => {{
+                    currentTimestampIndex = (currentTimestampIndex + 1) % timestamps.length;
+                    updateMapData(currentTimestampIndex);
+                }}, animationSpeed); // Use dynamic animationSpeed
+                playPauseButton.innerHTML = '&#9209;'; // Pause icon (double vertical bar)
+                playPauseButton.classList.add('playing'); // Add playing class
+            }}
+            isPlaying = !isPlaying;
+        }}
+
+        // Function to scroll time by a given direction (+1 for right, -1 for left)
+        function scrollTime(direction) {{
+            if (isPlaying) {{ toggleAnimation(); }} // Pause animation if scrolling manually
+            let newIndex = currentTimestampIndex + direction;
+            if (newIndex < 0) {{
+                newIndex = 0; // Don't go below min
+            }} else if (newIndex >= timestamps.length) {{
+                newIndex = timestamps.length - 1; // Don't go above max
+            }}
+            updateMapData(newIndex);
+        }}
+
+        // Function to handle resolution change
+        function changeResolution(newResolution) {{
+            if (isPlaying) {{ toggleAnimation(); }} // Pause if playing
+            currentResolution = newResolution;
+            timestamps = Object.keys(allProcessedData[currentResolution]).sort();
+            currentTimestampIndex = 0; // Reset slider to beginning
+            
+            // Update slider max value and animation speed
+            const timeSlider = document.getElementById('time-slider');
+            timeSlider.max = timestamps.length > 0 ? timestamps.length - 1 : 0;
+            timeSlider.value = 0; // Reset slider position
+            animationSpeed = resolutionAnimationSpeeds[currentResolution]; // Update animation speed
+
+            updateMapData(0); // Update map with new resolution data
+            console.log("Resolution changed to:", currentResolution);
+        }}
+
+
+        window.onload = function() {{
+            map = L.map('map').setView([51.505, -0.09], 11);
+
             L.tileLayer('https://{{s}}.basemaps.cartocdn.com/light_all/{{z}}/{{x}}/{{y}}.png', {{
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
             }}).addTo(map);
 
-            // Fetch and add Tube Lines GeoJSON
+            map.createPane('tubeLinesPane');
+            map.getPane('tubeLinesPane').style.zIndex = 350;
+
             fetch(tubeLinesGeoJSONUrl)
                 .then(response => {{
-                    if (!response.ok) {{
-                        throw new Error(`HTTP error! status: ${{response.status}}`);
-                    }}
+                    if (!response.ok) {{ throw new Error(`HTTP error! status: ${{response.status}}`); }}
                     return response.json();
                 }})
                 .then(geojsonData => {{
                     L.geoJson(geojsonData, {{
+                        pane: 'tubeLinesPane',
                         style: function(feature) {{
-                            // You can style lines based on properties in your GeoJSON
-                            // For example, if your GeoJSON has a 'line_name' property:
-                            switch (feature.properties.line_name) {{
-                                case 'Central': return {{color: '#DC241F', weight: 3}};
-                                case 'Victoria': return {{color: '#00A0E2', weight: 3}};
-                                case 'Jubilee': return {{color: '#868F98', weight: 3}};
-                                case 'Northern': return {{color: '#000000', weight: 3}};
-                                case 'Piccadilly': return {{color: '#0019A8', weight: 3}};
-                                case 'Bakerloo': return {{color: '#B36305', weight: 3}};
-                                case 'District': return {{color: '#007229', weight: 3}};
-                                case 'Hammersmith & City': return {{color: '#F4A9BE', weight: 3}};
-                                case 'Metropolitan': return {{color: '#751056', weight: 3}};
-                                case 'Circle': return {{color: '#FFD300', weight: 3}};
-                                case 'Waterloo & City': return {{color: '#76D0BD', weight: 3}};
-                                case 'DLR': return {{color: '#00BFB3', weight: 3}}; // DLR specific color
-                                case 'Overground': return {{color: '#EE7800', weight: 3}}; // Overground specific color
-                                case 'Elizabeth line': return {{color: '#6950A1', weight: 3}}; // Elizabeth line specific color
-                                default: return {{color: '#888888', weight: 2}}; // Default for other lines
-                            }}
+                            const lineColor = tubeLineColors[feature.properties.Name] || '#888888';
+                            return {{color: lineColor, weight: 2}};
                         }}
                     }}).addTo(map);
-                    console.log("Tube lines GeoJSON loaded.");
                 }})
                 .catch(error => console.error('Error loading tube lines GeoJSON:', error));
 
-
-            // Prepare data for heatmap: Leaflet.heat requires data in [lat, lon, intensity] format
-            // The 'intensity' here is our 'crowding_metric'.
-            const heatData = cleanStationData.map(station => {{
-                const lat = station[0];
-                const lon = station[1];
-                let crowdingMetric = station[2];
-
-                // Ensure crowdingMetric is a valid number, default to 0 if not
-                if (typeof crowdingMetric !== 'number' || isNaN(crowdingMetric)) {{
-                    crowdingMetric = 0;
+            const legend = L.control({{position: 'bottomright'}});
+            legend.onAdd = function (map) {{
+                const div = L.DomUtil.create('div', 'info legend');
+                let labels = '<div style="font-size: 1.1em; font-weight: bold; margin-bottom: 5px;">Tube Lines</div>'; // Increased font size and added margin
+                for (const lineName in tubeLineColors) {{
+                    labels += '<i style="background:' + tubeLineColors[lineName] + '"></i> ' + lineName + '<br>';
                 }}
+                div.innerHTML = labels;
+                return div;
+            }};
+            legend.addTo(map);
 
-                return [lat, lon, crowdingMetric]; // Leaflet.heat only needs [lat, lon, intensity]
+            // Combined Controls Box (Leaflet Control)
+            const combinedControls = L.control({{position: 'topright'}});
+            combinedControls.onAdd = function (map) {{
+                const div = L.DomUtil.create('div', 'combined-controls-container');
+                div.innerHTML = `
+                    <div class="resolution-group">
+                        <label class="inline-flex items-center">
+                            <input type="radio" name="resolution" value="hourly" checked class="form-radio text-blue-600">
+                            <span class="ml-1 text-gray-700">Hourly</span>
+                        </label>
+                        <label class="inline-flex items-center ml-4">
+                            <input type="radio" name="resolution" value="daily" class="form-radio text-blue-600">
+                            <span class="ml-1 text-gray-700">Daily</span>
+                        </label>
+                        <label class="inline-flex items-center ml-4">
+                            <input type="radio" name="resolution" value="weekly" class="form-radio text-blue-600">
+                            <span class="ml-1 text-gray-700">Weekly</span>
+                        </label>
+                    </div>
+                    <div class="time-slider-group">
+                        <button id="scroll-left-button" class="scroll-button"> &lt; </button>
+                        <input type="range" id="time-slider" min="0" max="${{timestamps.length > 0 ? timestamps.length - 1 : 0}}" value="0">
+                        <button id="scroll-right-button" class="scroll-button"> &gt; </button>
+                        <button id="play-pause-button" class="play-pause-button">&#9658;</button> </div>
+                `;
+                L.DomEvent.disableClickPropagation(div);
+                L.DomEvent.disableScrollPropagation(div);
+                return div;
+            }};
+            combinedControls.addTo(map);
+
+
+            // Timestamp Display Control (bottom-left)
+            const timestampDisplayControl = L.control({{position: 'bottomleft'}});
+            timestampDisplayControl.onAdd = function (map) {{
+                const div = L.DomUtil.create('div', 'timestamp-display-control');
+                div.setAttribute('id', 'current-timestamp-display');
+                div.innerHTML = 'Loading data...';
+                L.DomEvent.disableClickPropagation(div);
+                return div;
+            }};
+            timestampDisplayControl.addTo(map);
+
+            // Initialize map with the first timestamp's data for the default resolution
+            if (timestamps.length > 0) {{
+                updateMapData(0);
+            }} else {{
+                console.warn("No timestamp data available for current resolution.");
+            }}
+
+            // Attach event listeners for the combined controls
+            document.getElementById('time-slider').addEventListener('input', function() {{
+                if (isPlaying) {{ toggleAnimation(); }}
+                updateMapData(this.value);
+            }});
+            document.getElementById('play-pause-button').addEventListener('click', toggleAnimation);
+            document.getElementById('scroll-left-button').addEventListener('click', () => scrollTime(-1));
+            document.getElementById('scroll-right-button').addEventListener('click', () => scrollTime(1));
+            
+            // Attach event listeners for resolution radio buttons
+            document.querySelectorAll('input[name="resolution"]').forEach(radio => {{
+                radio.addEventListener('change', function() {{
+                    changeResolution(this.value);
+                }});
             }});
 
-
-            // Add heatmap layer
-            // Adjust radius, blur, and gradient for better visualization.
-            // Max intensity is set to the maximum crowding metric found in the data,
-            // or a default if all are 0, to scale the heatmap colors effectively.
-            const maxCrowding = Math.max(...heatData.map(d => d[2]));
-            // To increase intensity, we make the 'max' value smaller,
-            // so lower crowding metrics reach the 'red' part of the gradient sooner.
-            // Adjust the factor (e.g., 0.75, 0.5) to control how much more intense it appears.
-            const heatMax = maxCrowding > 0 ? maxCrowding * 0.75 : 1; // Adjusted factor for intensity
-
-            L.heatLayer(heatData, {{
-                radius: 25,   // Radius of the individual heat points
-                blur: 15,     // Amount of blur to apply
-                // maxZoom: 13,  // REMOVED: To allow intensity to scale with zoom
-                max: heatMax, // Max intensity value for color scaling
-                gradient: {{
-                    0.0: '#FFFFCC', // Very light yellow/off-white
-                    0.2: '#FFEDA0', // Light yellow
-                    0.4: '#FED976', // Muted yellow-orange
-                    0.6: '#FEB24C', // Orange
-                    0.8: '#FD8D3C', // Darker orange
-                    1.0: '#FC4E2A'  // Red-orange
-                }}
-            }}).addTo(map);
-
-            // Add invisible circle markers for individual stations with popups for detailed info on click
-            cleanStationData.forEach(station => {{
-                const lat = station[0];
-                const lon = station[1];
-                const crowdingMetric = station[2];
-                const stationName = station[3];
-
-                L.circleMarker([lat, lon], {{
-                    radius: 8,          // Increased radius to make them more clickable
-                    fillOpacity: 0,     // Completely transparent fill
-                    stroke: false,      // No border
-                    interactive: true   // Crucial for popups to work on click
-                }})
-                .bindPopup(`<b>Station:</b> ${{stationName}}<br><b>Crowding Metric:</b> ${{crowdingMetric.toFixed(2)}}`)
-                .addTo(map);
-            }});
-
-            // Adjust map view on window resize to ensure responsiveness
-            window.addEventListener('resize', () => {{
-                map.invalidateSize();
-            }});
-        }}; // End of window.onload
+            map.on('resize', () => {{ map.invalidateSize(); }});
+        }};
     </script>
 </body>
 </html>
