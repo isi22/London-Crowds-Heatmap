@@ -23,7 +23,7 @@ TFL_API_KEY = os.getenv("TFL_API_KEY")
 # Google Sheets API credentials and sheet details
 GOOGLE_SERVICE_ACCOUNT_KEY_PATH = os.getenv("GOOGLE_SERVICE_ACCOUNT_KEY_PATH")
 GOOGLE_SHEET_ID = os.getenv("GOOGLE_SHEET_ID")
-GOOGLE_WORKSHEET_NAME = "Sheet1"  # Always save to Sheet1
+GOOGLE_WORKSHEET_NAME = "stations_live_crowding"  # Always save to Sheet1
 
 # --- Data Retention Configuration ---
 MAX_ROWS_GOOGLE_SHEET = 100000  # Maximum desired rows in Google Sheet
@@ -73,7 +73,6 @@ def load_station_footfall_baseline(file_path):
         return pd.DataFrame()
 
 
-# NEW: General utility to load excel files
 def load_excel_file(file_path):
     """Loads an Excel file into a Pandas DataFrame."""
     if not os.path.exists(file_path):
@@ -165,7 +164,6 @@ def get_Live_Crowding(tfl_url_pattern, df_stations_with_baseline_and_name):
     return df_live_crowding_for_sheet
 
 
-# NEW: Function to load historical data from Google Sheets
 def load_historical_data_from_google_sheet(
     sheet_id: str, worksheet_name: str, credentials_path: str
 ) -> pd.DataFrame:
@@ -329,7 +327,6 @@ def save_dataframe_to_google_sheet(
         print(f"Error saving to Google Sheet: {e}")
 
 
-# NEW: Function to generate JSON for heatmap
 def generate_heatmap_json(
     df_live_crowding: pd.DataFrame,
     df_station_info: pd.DataFrame,
@@ -500,22 +497,22 @@ if __name__ == "__main__":
     # to get_Live_Crowding and subsequently saved to Google Sheets.
     df_stations_for_api = df_baseline_footfall[["stop_id", "footfall_baseline"]].copy()
 
-    # # --- Fetch Current Live Crowding Data ---
-    # df_current_live_crowding = get_Live_Crowding(TFL_STOPPOINT_URL, df_stations_for_api)
+    # --- Fetch Current Live Crowding Data ---
+    df_current_live_crowding = get_Live_Crowding(TFL_STOPPOINT_URL, df_stations_for_api)
 
-    # if df_current_live_crowding.empty:
-    #     print(
-    #         "No live crowding data fetched for current run. Skipping save operations."
-    #     )
-    #     exit(0)  # Exit gracefully if no data
+    if df_current_live_crowding.empty:
+        print(
+            "No live crowding data fetched for current run. Skipping save operations."
+        )
+        exit(0)  # Exit gracefully if no data
 
-    # # --- Save Current Data to Google Sheets ---
-    # save_dataframe_to_google_sheet(
-    #     df_current_live_crowding,
-    #     GOOGLE_SHEET_ID,
-    #     GOOGLE_WORKSHEET_NAME,
-    #     GOOGLE_SERVICE_ACCOUNT_KEY_PATH,
-    # )
+    # --- Save Current Data to Google Sheets ---
+    save_dataframe_to_google_sheet(
+        df_current_live_crowding,
+        GOOGLE_SHEET_ID,
+        GOOGLE_WORKSHEET_NAME,
+        GOOGLE_SERVICE_ACCOUNT_KEY_PATH,
+    )
 
     # --- Load ALL historical data from Google Sheets for JSON generation ---
     df_historical_live_crowding = load_historical_data_from_google_sheet(
