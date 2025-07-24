@@ -23,7 +23,7 @@ TFL_API_KEY = os.getenv("TFL_API_KEY")
 # Google Sheets API credentials and sheet details
 GOOGLE_SERVICE_ACCOUNT_KEY_PATH = os.getenv("GOOGLE_SERVICE_ACCOUNT_KEY_PATH")
 GOOGLE_SHEET_ID = os.getenv("GOOGLE_SHEET_ID")
-GOOGLE_WORKSHEET_NAME = "stations_live_crowding"  # Always save to Sheet1
+GOOGLE_WORKSHEET_NAME = "Sheet1"  # Always save to Sheet1
 
 # --- Data Retention Configuration ---
 MAX_ROWS_GOOGLE_SHEET = 100000  # Maximum desired rows in Google Sheet
@@ -500,22 +500,22 @@ if __name__ == "__main__":
     # to get_Live_Crowding and subsequently saved to Google Sheets.
     df_stations_for_api = df_baseline_footfall[["stop_id", "footfall_baseline"]].copy()
 
-    # --- Fetch Current Live Crowding Data ---
-    df_current_live_crowding = get_Live_Crowding(TFL_STOPPOINT_URL, df_stations_for_api)
+    # # --- Fetch Current Live Crowding Data ---
+    # df_current_live_crowding = get_Live_Crowding(TFL_STOPPOINT_URL, df_stations_for_api)
 
-    if df_current_live_crowding.empty:
-        print(
-            "No live crowding data fetched for current run. Skipping save operations."
-        )
-        exit(0)  # Exit gracefully if no data
+    # if df_current_live_crowding.empty:
+    #     print(
+    #         "No live crowding data fetched for current run. Skipping save operations."
+    #     )
+    #     exit(0)  # Exit gracefully if no data
 
-    # --- Save Current Data to Google Sheets ---
-    save_dataframe_to_google_sheet(
-        df_current_live_crowding,
-        GOOGLE_SHEET_ID,
-        GOOGLE_WORKSHEET_NAME,
-        GOOGLE_SERVICE_ACCOUNT_KEY_PATH,
-    )
+    # # --- Save Current Data to Google Sheets ---
+    # save_dataframe_to_google_sheet(
+    #     df_current_live_crowding,
+    #     GOOGLE_SHEET_ID,
+    #     GOOGLE_WORKSHEET_NAME,
+    #     GOOGLE_SERVICE_ACCOUNT_KEY_PATH,
+    # )
 
     # --- Load ALL historical data from Google Sheets for JSON generation ---
     df_historical_live_crowding = load_historical_data_from_google_sheet(
