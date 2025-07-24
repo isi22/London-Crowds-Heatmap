@@ -4,8 +4,9 @@ import json
 import pandas as pd  # Import pandas for DataFrame operations
 
 # --- Configuration ---
-TFL_STOPPOINT_URL = "https://api.tfl.gov.uk/StopPoint/Mode/dlr"
-STATION_MAP_FILENAME = "data/station_info_dlr.xlsx"  # File path to save data files
+TFL_STOPPOINT_URL = "https://api.tfl.gov.uk/StopPoint/Mode/tube"
+# TFL_STOPPOINT_URL_EL = "https://api.tfl.gov.uk/StopPoint/Mode/elizabeth-line"
+STATION_MAP_FILENAME = "data/station_info.xlsx"  # File path to save data files
 
 
 def query_TFL(
@@ -36,13 +37,14 @@ def query_TFL(
 
 # --- APPLICATION ENTRY POINT ---
 if __name__ == "__main__":
+
     print("Fetching TfL StopPoint data for Tube stations...")
     response = query_TFL(TFL_STOPPOINT_URL)
-
     stop_points_data = []
 
     # Extract relevant data for NaptanMetroStation entries
     for entry in response.get("stopPoints", []):  # Use .get() for safety
+        print(entry.get("stopType"))
         if entry.get("stopType") == "NaptanMetroStation":
             original_common_name = entry.get("commonName", "")
 
@@ -62,6 +64,33 @@ if __name__ == "__main__":
 
     print(f"\nFound {len(stop_points_data)} NaptanMetroStation entries.")
     # print(json.dumps(stop_points_data, indent=2)) # Uncomment to print to console
+
+    # print("Fetching TfL StopPoint data for Elizabeth-Line stations...")
+    # response = query_TFL(TFL_STOPPOINT_URL_EL)
+    # stop_points_data = []
+
+    # # Extract relevant data for NaptanRailStation entries
+    # for entry in response.get("stopPoints", []):  # Use .get() for safety
+    #     print(entry.get("stopType"))
+    #     if entry.get("stopType") == "NaptanRailStation":
+    #         original_common_name = entry.get("commonName", "")
+
+    #         # Remove " Underground Station" suffix for cleaner station names
+    #         cleaned_common_name = original_common_name.removesuffix(
+    #             " Underground Station"
+    #         )
+
+    #         stop_points_data.append(
+    #             {
+    #                 "stop_id": entry.get("id"),
+    #                 "station": cleaned_common_name,
+    #                 "lat": entry.get("lat"),
+    #                 "lon": entry.get("lon"),
+    #             }
+    #         )
+
+    # print(f"\nFound {len(stop_points_data)} NaptanMetroStation entries.")
+    # # print(json.dumps(stop_points_data, indent=2)) # Uncomment to print to console
 
     # Create DataFrame from the collected data
     df_stop_points = pd.DataFrame(stop_points_data)
