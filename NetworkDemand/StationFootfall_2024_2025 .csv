@@ -255278,7 +255278,7 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250817,Sunday,Greenford,2681,2638
 20250817,Sunday,Greenwich,8516,7828
 20250817,Sunday,Gunnersbury,2896,2714
-20250817,Sunday,Hackney Central,5198,5218
+20250817,Sunday,Hackney Central,5198,5223
 20250817,Sunday,Hackney Downs,1871,2031
 20250817,Sunday,Hackney Wick,4626,4732
 20250817,Sunday,Haggerston,2983,3179
@@ -257732,10 +257732,10 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,Angel,13652,14395
 20250823,Saturday,Archway,8237,7519
 20250823,Saturday,Arnos Grove,4427,4130
-20250823,Saturday,Arsenal,11639,12081
-20250823,Saturday,Baker Street,32984,31911
+20250823,Saturday,Arsenal,11641,12081
+20250823,Saturday,Baker Street,32984,31913
 20250823,Saturday,Balham,11679,11049
-20250823,Saturday,Bank,13644,14626
+20250823,Saturday,Bank,13645,14627
 20250823,Saturday,Barbican,4392,4530
 20250823,Saturday,Barking,19952,19724
 20250823,Saturday,Barking Riverside,1220,1111
@@ -257746,22 +257746,22 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,Beckton,1364,1188
 20250823,Saturday,Beckton Park,354,267
 20250823,Saturday,Becontree,3270,3041
-20250823,Saturday,Belsize Park,4837,4660
-20250823,Saturday,Bermondsey,10771,10696
-20250823,Saturday,Bethnal Green,16996,16345
+20250823,Saturday,Belsize Park,4837,4661
+20250823,Saturday,Bermondsey,10771,10697
+20250823,Saturday,Bethnal Green,16996,16346
 20250823,Saturday,Bethnal Green NR,2344,2506
 20250823,Saturday,Blackfriars,10793,10021
-20250823,Saturday,Blackhorse Road,12141,11258
+20250823,Saturday,Blackhorse Road,12143,11258
 20250823,Saturday,Blackwall,1036,930
-20250823,Saturday,Bond Street,49167,50163
+20250823,Saturday,Bond Street,49167,50258
 20250823,Saturday,Borough,3874,3850
 20250823,Saturday,Boston Manor,1711,1608
 20250823,Saturday,Bounds Green,4909,4579
 20250823,Saturday,Bow Church,1925,1673
 20250823,Saturday,Bow Road,6193,4982
-20250823,Saturday,Brent Cross,1970,1901
+20250823,Saturday,Brent Cross,1970,1904
 20250823,Saturday,Brentwood,4237,4241
-20250823,Saturday,Brixton,27219,26588
+20250823,Saturday,Brixton,27230,26590
 20250823,Saturday,Brockley,4628,4210
 20250823,Saturday,Bromley-by-Bow,4383,4155
 20250823,Saturday,Brondesbury,3276,2804
@@ -257769,19 +257769,19 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,Bruce Grove,1705,1332
 20250823,Saturday,Buckhurst Hill,2053,1904
 20250823,Saturday,Burnham Bucks,850,728
-20250823,Saturday,Burnt Oak,3454,3501
+20250823,Saturday,Burnt Oak,3454,3502
 20250823,Saturday,Bush Hill Park,1479,1135
 20250823,Saturday,Bushey,1342,969
 20250823,Saturday,Caledonian Road,5637,4906
 20250823,Saturday,Caledonian Road & Barnsbury,1970,1929
 20250823,Saturday,Cambridge Heath,2092,2471
 20250823,Saturday,Camden Road,6692,6332
-20250823,Saturday,Camden Town,16923,36234
+20250823,Saturday,Camden Town,16925,36234
 20250823,Saturday,Canada Water,16097,16352
-20250823,Saturday,Canary Wharf,32738,32978
+20250823,Saturday,Canary Wharf,32740,32979
 20250823,Saturday,Canary Wharf DLR,6402,6724
 20250823,Saturday,Canary Wharf Elizabeth Line,19172,19065
-20250823,Saturday,Canning Town,18110,17451
+20250823,Saturday,Canning Town,18111,17451
 20250823,Saturday,Cannon Street,3314,2876
 20250823,Saturday,Canonbury,3894,3437
 20250823,Saturday,Canons Park,3099,2943
@@ -257790,23 +257790,23 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,Chalfont & Latimer,1222,1232
 20250823,Saturday,Chalk Farm,8472,4956
 20250823,Saturday,Chancery Lane,944,1497
-20250823,Saturday,Charing Cross,20298,19938
+20250823,Saturday,Charing Cross,20299,19938
 20250823,Saturday,Chesham,1186,1084
 20250823,Saturday,Cheshunt,2676,2568
 20250823,Saturday,Chigwell,239,237
 20250823,Saturday,Chingford,2811,2797
 20250823,Saturday,Chiswick Park,2067,2121
 20250823,Saturday,Chorleywood,848,860
-20250823,Saturday,Clapham Common,10185,10425
+20250823,Saturday,Clapham Common,10190,10426
 20250823,Saturday,Clapham High Street,1868,1858
 20250823,Saturday,Clapham Junction,22439,22364
-20250823,Saturday,Clapham North,6448,6351
-20250823,Saturday,Clapham South,6495,6273
+20250823,Saturday,Clapham North,6449,6351
+20250823,Saturday,Clapham South,6495,6274
 20250823,Saturday,Clapton,2551,2260
-20250823,Saturday,Cockfosters,2889,2822
+20250823,Saturday,Cockfosters,2890,2826
 20250823,Saturday,Colindale,6737,6295
 20250823,Saturday,Colliers Wood,6925,6366
-20250823,Saturday,Covent Garden,20331,25735
+20250823,Saturday,Covent Garden,20333,25737
 20250823,Saturday,Crossharbour,2565,2225
 20250823,Saturday,Crouch Hill,1137,1065
 20250823,Saturday,Croxley,872,841
@@ -257825,7 +257825,7 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,Dollis Hill,3814,3316
 20250823,Saturday,Ealing Broadway,19415,19979
 20250823,Saturday,Ealing Common,2087,2050
-20250823,Saturday,Earls Court,19734,20327
+20250823,Saturday,Earls Court,19734,20332
 20250823,Saturday,East Acton,3307,3306
 20250823,Saturday,East Finchley,5361,5068
 20250823,Saturday,East Ham,14618,13583
@@ -257836,14 +257836,14 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,Edgware Road B,4552,4622
 20250823,Saturday,Edgware Road C&H,7797,7679
 20250823,Saturday,Edmonton Green,3962,3663
-20250823,Saturday,Elephant & Castle,16016,14825
+20250823,Saturday,Elephant & Castle,16016,14830
 20250823,Saturday,Elm Park,3052,3087
 20250823,Saturday,Elverson Road,916,662
-20250823,Saturday,Embankment,24526,24455
+20250823,Saturday,Embankment,24528,24455
 20250823,Saturday,Emerson Park,237,160
 20250823,Saturday,Enfield Town,2766,2407
-20250823,Saturday,Epping,4115,4007
-20250823,Saturday,Euston,44453,44617
+20250823,Saturday,Epping,4115,4011
+20250823,Saturday,Euston,44454,44738
 20250823,Saturday,Euston NR,7837,10554
 20250823,Saturday,Euston Square,12542,12390
 20250823,Saturday,Fairlop,911,969
@@ -257851,14 +257851,14 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,Finchley Central,4928,4840
 20250823,Saturday,Finchley Road,8918,8311
 20250823,Saturday,Finchley Road & Frognal,2170,2170
-20250823,Saturday,Finsbury Park,30524,26853
+20250823,Saturday,Finsbury Park,30525,26854
 20250823,Saturday,Forest Gate,7484,7111
 20250823,Saturday,Forest Hill,4901,4376
 20250823,Saturday,Fulham Broadway,7709,7226
 20250823,Saturday,Gallions Reach,1471,1232
-20250823,Saturday,Gants Hill,5240,4937
+20250823,Saturday,Gants Hill,5240,4939
 20250823,Saturday,Gidea Park,3330,3201
-20250823,Saturday,Gloucester Road,13206,12105
+20250823,Saturday,Gloucester Road,13206,12107
 20250823,Saturday,Golders Green,6073,6148
 20250823,Saturday,Goldhawk Road,2456,2121
 20250823,Saturday,Goodge Street,3313,3583
@@ -257866,7 +257866,7 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,Gospel Oak,3508,3176
 20250823,Saturday,Grange Hill,344,286
 20250823,Saturday,Great Portland Street,4984,4490
-20250823,Saturday,Green Park,30112,35798
+20250823,Saturday,Green Park,30118,35799
 20250823,Saturday,Greenford,3482,3330
 20250823,Saturday,Greenwich,10230,9349
 20250823,Saturday,Gunnersbury,6198,5653
@@ -257874,9 +257874,9 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,Hackney Downs,2995,2891
 20250823,Saturday,Hackney Wick,9115,10384
 20250823,Saturday,Haggerston,3921,4158
-20250823,Saturday,Hainault,3073,3001
+20250823,Saturday,Hainault,3073,3002
 20250823,Saturday,Hammersmith C&H,11038,10992
-20250823,Saturday,Hammersmith D&P,24607,23647
+20250823,Saturday,Hammersmith D&P,24607,23648
 20250823,Saturday,Hampstead,4550,5446
 20250823,Saturday,Hampstead Heath,4755,4815
 20250823,Saturday,Hanger Lane,2884,2416
@@ -257887,40 +257887,40 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,Harrow & Wealdstone,5013,4254
 20250823,Saturday,Harrow-on-the-Hill,10277,10608
 20250823,Saturday,Hatch End,781,775
-20250823,Saturday,Hatton Cross,4292,4817
+20250823,Saturday,Hatton Cross,4292,4818
 20250823,Saturday,Hayes & Harlington,10432,9701
 20250823,Saturday,Headstone Lane,516,471
 20250823,Saturday,Heathrow T2&3 TfL Rail/HEx,10002,10357
 20250823,Saturday,Heathrow T4 TfL Rail/HEx,2347,2358
 20250823,Saturday,Heathrow T5 TfL Rail/HEx,5201,5785
 20250823,Saturday,Heathrow Terminal 4,2769,2683
-20250823,Saturday,Heathrow Terminal 5,7289,6354
-20250823,Saturday,Heathrow Terminals 2&3,10946,9295
+20250823,Saturday,Heathrow Terminal 5,7293,6360
+20250823,Saturday,Heathrow Terminals 2&3,10946,9304
 20250823,Saturday,Hendon Central,5123,4700
 20250823,Saturday,Heron Quays,3106,3434
-20250823,Saturday,High Barnet,3782,3763
+20250823,Saturday,High Barnet,3782,3766
 20250823,Saturday,High Street Kensington,12022,11043
 20250823,Saturday,Highams Park,3229,2992
 20250823,Saturday,Highbury & Islington,28569,30439
 20250823,Saturday,Highgate,4599,4459
 20250823,Saturday,Hillingdon,2107,1946
-20250823,Saturday,Holborn,17323,18673
-20250823,Saturday,Holland Park,3316,3173
-20250823,Saturday,Holloway Road,5972,8754
+20250823,Saturday,Holborn,17325,18673
+20250823,Saturday,Holland Park,3316,3174
+20250823,Saturday,Holloway Road,5972,8760
 20250823,Saturday,Homerton,6740,7570
 20250823,Saturday,Honor Oak Park,2860,2554
 20250823,Saturday,Hornchurch,1704,1787
-20250823,Saturday,Hounslow Central,4873,4639
+20250823,Saturday,Hounslow Central,4873,4642
 20250823,Saturday,Hounslow East,3884,4024
 20250823,Saturday,Hounslow West,4567,4758
 20250823,Saturday,Hoxton,4102,4366
-20250823,Saturday,Hyde Park Corner,5086,4938
+20250823,Saturday,Hyde Park Corner,5086,4939
 20250823,Saturday,Ickenham,1118,1066
 20250823,Saturday,Ilford,13432,12888
 20250823,Saturday,Imperial Wharf,2198,2070
 20250823,Saturday,Island Gardens,3408,2027
 20250823,Saturday,Iver,295,257
-20250823,Saturday,Kennington,6173,6027
+20250823,Saturday,Kennington,6174,6027
 20250823,Saturday,Kensal Green,2174,1981
 20250823,Saturday,Kensal Rise,3179,2998
 20250823,Saturday,Kensington Olympia,2115,1886
@@ -257932,7 +257932,7 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,Kilburn High Road,979,996
 20250823,Saturday,Kilburn Park,3175,2960
 20250823,Saturday,King George V,1300,1097
-20250823,Saturday,Kings Cross St Pancras,115570,113262
+20250823,Saturday,Kings Cross St Pancras,115575,113275
 20250823,Saturday,Kingsbury,4264,4171
 20250823,Saturday,Knightsbridge,22664,19357
 20250823,Saturday,Ladbroke Grove,10214,9090
@@ -257941,57 +257941,57 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,Langdon Park,2347,1969
 20250823,Saturday,Langley Berks,736,666
 20250823,Saturday,Latimer Road,1797,1699
-20250823,Saturday,Leicester Square,52525,47329
+20250823,Saturday,Leicester Square,52541,47578
 20250823,Saturday,Lewisham DLR,4964,4079
-20250823,Saturday,Leyton,9673,9334
+20250823,Saturday,Leyton,9674,9335
 20250823,Saturday,Leyton Midland Road,2006,1850
 20250823,Saturday,Leytonstone,8031,7888
 20250823,Saturday,Leytonstone High Road,1502,1458
 20250823,Saturday,Limehouse DLR,5425,4697
 20250823,Saturday,Liverpool St NR,21727,21593
-20250823,Saturday,Liverpool Street,68289,71002
-20250823,Saturday,London Bridge,81056,75441
+20250823,Saturday,Liverpool Street,68306,71004
+20250823,Saturday,London Bridge,81059,75442
 20250823,Saturday,London City Airport,1308,1164
 20250823,Saturday,London Fields,2346,2950
-20250823,Saturday,Loughton,3052,3199
+20250823,Saturday,Loughton,3052,3200
 20250823,Saturday,Maida Vale,2957,2683
 20250823,Saturday,Maidenhead,1870,1799
 20250823,Saturday,Manor House,6795,6275
 20250823,Saturday,Manor Park,4960,4555
 20250823,Saturday,Mansion House,2936,3398
-20250823,Saturday,Marble Arch,12323,11480
+20250823,Saturday,Marble Arch,12326,11480
 20250823,Saturday,Maryland,5272,4582
 20250823,Saturday,Marylebone,11846,11951
-20250823,Saturday,Mile End,23192,24461
+20250823,Saturday,Mile End,23193,24463
 20250823,Saturday,Mill Hill East,1254,1302
 20250823,Saturday,Monument,10326,9747
 20250823,Saturday,Moor Park,660,687
 20250823,Saturday,Moorgate,13795,16645
-20250823,Saturday,Morden,10807,11067
-20250823,Saturday,Mornington Crescent,12955,3075
+20250823,Saturday,Morden,10808,11070
+20250823,Saturday,Mornington Crescent,12956,3075
 20250823,Saturday,Mudchute,1671,1345
-20250823,Saturday,Neasden,3351,2932
+20250823,Saturday,Neasden,3351,2933
 20250823,Saturday,New Cross,3003,2978
 20250823,Saturday,New Cross Gate,5224,5638
 20250823,Saturday,Newbury Park,3450,3307
 20250823,Saturday,Nine Elms,3830,3438
 20250823,Saturday,North Acton,4797,5025
 20250823,Saturday,North Ealing,635,554
-20250823,Saturday,North Greenwich,32726,34015
+20250823,Saturday,North Greenwich,32726,34018
 20250823,Saturday,North Harrow,1731,1615
 20250823,Saturday,North Wembley,1624,1432
 20250823,Saturday,Northfields,2619,2676
 20250823,Saturday,Northolt,4567,4238
-20250823,Saturday,Northwick Park,3275,2755
+20250823,Saturday,Northwick Park,3548,2781
 20250823,Saturday,Northwood,2267,2245
 20250823,Saturday,Northwood Hills,1577,1415
 20250823,Saturday,Norwood Junction,5143,4367
-20250823,Saturday,Notting Hill Gate,16153,20048
+20250823,Saturday,Notting Hill Gate,16154,20049
 20250823,Saturday,Oakwood,3091,3260
 20250823,Saturday,Old Street,14409,14787
 20250823,Saturday,Osterley,2273,2167
-20250823,Saturday,Oval,5843,5531
-20250823,Saturday,Oxford Circus,63652,73747
+20250823,Saturday,Oval,5843,5532
+20250823,Saturday,Oxford Circus,63654,73748
 20250823,Saturday,Paddington,45087,48454
 20250823,Saturday,Paddington EL,28456,28279
 20250823,Saturday,Park Royal,1774,1910
@@ -257999,8 +257999,8 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,Peckham Rye,8063,8175
 20250823,Saturday,Penge West,1155,1049
 20250823,Saturday,Perivale,1713,1713
-20250823,Saturday,Piccadilly Circus,42551,41515
-20250823,Saturday,Pimlico,6787,6495
+20250823,Saturday,Piccadilly Circus,42555,41516
+20250823,Saturday,Pimlico,6787,6496
 20250823,Saturday,Pinner,2778,2607
 20250823,Saturday,Plaistow,5647,5241
 20250823,Saturday,Pontoon Dock DLR,2853,2415
@@ -258012,7 +258012,7 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,Queens Park,5254,5176
 20250823,Saturday,Queens Rd Peckham,3672,3430
 20250823,Saturday,Queensbury,3313,3227
-20250823,Saturday,Queensway,8645,9053
+20250823,Saturday,Queensway,8646,9053
 20250823,Saturday,Ravenscourt Park,2440,2317
 20250823,Saturday,Rayners Lane,4367,4204
 20250823,Saturday,Reading,2250,2455
@@ -258030,9 +258030,9 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,Ruislip,2277,2221
 20250823,Saturday,Ruislip Gardens,883,752
 20250823,Saturday,Ruislip Manor,2031,1956
-20250823,Saturday,Russell Square,9197,8967
+20250823,Saturday,Russell Square,9198,8967
 20250823,Saturday,Seven Kings,5056,4383
-20250823,Saturday,Seven Sisters,15135,14706
+20250823,Saturday,Seven Sisters,15136,14707
 20250823,Saturday,Shadwell DLR,4140,4119
 20250823,Saturday,Shadwell LO,4921,4610
 20250823,Saturday,Shenfield,2580,2681
@@ -258047,23 +258047,23 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,South Acton,874,710
 20250823,Saturday,South Ealing,2562,2559
 20250823,Saturday,South Hampstead,467,389
-20250823,Saturday,South Harrow,2522,2402
-20250823,Saturday,South Kensington,34083,35455
+20250823,Saturday,South Harrow,2524,2402
+20250823,Saturday,South Kensington,34084,35455
 20250823,Saturday,South Kenton,666,611
 20250823,Saturday,South Quay,2714,2210
 20250823,Saturday,South Ruislip,1670,1627
 20250823,Saturday,South Tottenham,1599,1679
-20250823,Saturday,South Wimbledon,4152,4030
+20250823,Saturday,South Wimbledon,4152,4032
 20250823,Saturday,South Woodford,4728,4690
 20250823,Saturday,Southall,10019,9513
 20250823,Saturday,Southbury,1269,1315
 20250823,Saturday,Southfields,5440,4950
-20250823,Saturday,Southgate,4746,4955
-20250823,Saturday,Southwark,8315,8838
+20250823,Saturday,Southgate,4746,4956
+20250823,Saturday,Southwark,8315,8841
 20250823,Saturday,St James Street,2096,1943
 20250823,Saturday,St James's Park,8259,9131
 20250823,Saturday,St Johns Wood,11882,13974
-20250823,Saturday,St Pauls,8200,8081
+20250823,Saturday,St Pauls,8202,8081
 20250823,Saturday,Stamford Brook,2436,2204
 20250823,Saturday,Stamford Hill,742,584
 20250823,Saturday,Stanmore,5798,5822
@@ -258072,28 +258072,28 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,Stockwell,9687,8912
 20250823,Saturday,Stoke Newington,1849,1543
 20250823,Saturday,Stonebridge Park,2925,2588
-20250823,Saturday,Stratford,76736,78724
+20250823,Saturday,Stratford,76739,78726
 20250823,Saturday,Stratford High Street,429,549
 20250823,Saturday,Stratford International,3181,2715
 20250823,Saturday,Sudbury Hill,1756,1686
 20250823,Saturday,Sudbury Town,1963,1677
 20250823,Saturday,Surrey Quays,6380,7001
-20250823,Saturday,Swiss Cottage,5900,5532
+20250823,Saturday,Swiss Cottage,5900,5533
 20250823,Saturday,Sydenham SR,3802,3717
 20250823,Saturday,Taplow,245,226
 20250823,Saturday,Temple,4491,4495
 20250823,Saturday,Theobalds Grove,853,808
 20250823,Saturday,Theydon Bois,867,906
-20250823,Saturday,Tooting Bec,7322,7147
-20250823,Saturday,Tooting Broadway,14712,14243
-20250823,Saturday,Tottenham Court Road,83965,84181
-20250823,Saturday,Tottenham Hale,18377,18332
+20250823,Saturday,Tooting Bec,7323,7150
+20250823,Saturday,Tooting Broadway,14712,14246
+20250823,Saturday,Tottenham Court Road,83970,84181
+20250823,Saturday,Tottenham Hale,18377,18430
 20250823,Saturday,Totteridge & Whetstone,2494,2276
 20250823,Saturday,Tower Gateway,2390,2307
 20250823,Saturday,Tower Hill,24808,25858
 20250823,Saturday,Tufnell Park,3316,3257
 20250823,Saturday,Turkey Street,1093,959
-20250823,Saturday,Turnham Green,6010,6016
+20250823,Saturday,Turnham Green,6010,6018
 20250823,Saturday,Turnpike Lane,9860,9536
 20250823,Saturday,Twyford,476,337
 20250823,Saturday,Upminster,4059,4269
@@ -258101,9 +258101,9 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,Upney,2547,2295
 20250823,Saturday,Upper Holloway,1463,1472
 20250823,Saturday,Upton Park,12282,11849
-20250823,Saturday,Uxbridge,6092,5937
-20250823,Saturday,Vauxhall,26068,24015
-20250823,Saturday,Victoria,79920,81506
+20250823,Saturday,Uxbridge,6092,5940
+20250823,Saturday,Vauxhall,26071,24020
+20250823,Saturday,Victoria,79920,81522
 20250823,Saturday,W Silvertown,2533,2363
 20250823,Saturday,Walthamstow Central,16484,16458
 20250823,Saturday,Walthamstow Queens Road,1153,1257
@@ -258113,7 +258113,7 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,Wapping,2874,2731
 20250823,Saturday,Warren Street,9479,9498
 20250823,Saturday,Warwick Avenue,3837,3982
-20250823,Saturday,Waterloo,78714,79635
+20250823,Saturday,Waterloo,78718,79742
 20250823,Saturday,Watford High Street,1978,2018
 20250823,Saturday,Watford Junction,5216,4382
 20250823,Saturday,Watford Met,2064,2063
@@ -258134,10 +258134,10 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,West Ruislip,1512,1436
 20250823,Saturday,Westbourne Park,6026,5305
 20250823,Saturday,Westferry,3632,2972
-20250823,Saturday,Westminster,27081,29748
-20250823,Saturday,White City,7355,7576
+20250823,Saturday,Westminster,27081,29752
+20250823,Saturday,White City,7355,7577
 20250823,Saturday,White Hart Lane,2019,1865
-20250823,Saturday,Whitechapel,21090,21036
+20250823,Saturday,Whitechapel,21090,21037
 20250823,Saturday,Willesden Green,6603,6517
 20250823,Saturday,Willesden Junction,4947,4571
 20250823,Saturday,Wimbledon,17333,16769
@@ -258151,3 +258151,3006 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20250823,Saturday,Woolwich Arsenal DLR,5305,5822
 20250823,Saturday,Woolwich Arsenal NR,1867,1366
 20250823,Saturday,Woolwich Elizabeth Line,19055,17328
+20250824,Sunday,Abbey Road DLR,694,584
+20250824,Sunday,Abbey Wood,12207,10698
+20250824,Sunday,Acton Central,1520,1435
+20250824,Sunday,Acton Main Line,2740,2495
+20250824,Sunday,Acton Town,4207,4379
+20250824,Sunday,Aldgate,4810,5717
+20250824,Sunday,Aldgate East,13212,12642
+20250824,Sunday,All Saints,847,766
+20250824,Sunday,Alperton,2487,2701
+20250824,Sunday,Amersham,1721,1605
+20250824,Sunday,Anerley,865,781
+20250824,Sunday,Angel,9855,9875
+20250824,Sunday,Archway,6471,6197
+20250824,Sunday,Arnos Grove,3013,2972
+20250824,Sunday,Arsenal,2440,2207
+20250824,Sunday,Baker Street,23458,22494
+20250824,Sunday,Balham,8712,8594
+20250824,Sunday,Bank,10158,11439
+20250824,Sunday,Barbican,3138,3167
+20250824,Sunday,Barking,16852,16575
+20250824,Sunday,Barking Riverside,1051,953
+20250824,Sunday,Barkingside,788,783
+20250824,Sunday,Barons Court,3874,3666
+20250824,Sunday,Battersea Power Station,13073,12686
+20250824,Sunday,Bayswater,12655,8988
+20250824,Sunday,Beckton,982,889
+20250824,Sunday,Beckton Park,308,243
+20250824,Sunday,Becontree,2452,2358
+20250824,Sunday,Belsize Park,4084,3995
+20250824,Sunday,Bermondsey,9488,8763
+20250824,Sunday,Bethnal Green,13846,12952
+20250824,Sunday,Bethnal Green NR,1910,2276
+20250824,Sunday,Blackfriars,9518,8360
+20250824,Sunday,Blackhorse Road,9693,8879
+20250824,Sunday,Blackwall,866,734
+20250824,Sunday,Bond Street,34033,34670
+20250824,Sunday,Borough,2782,2784
+20250824,Sunday,Boston Manor,1338,1305
+20250824,Sunday,Bounds Green,3913,3852
+20250824,Sunday,Bow Church,1664,1465
+20250824,Sunday,Bow Road,5100,4166
+20250824,Sunday,Brent Cross,1994,1818
+20250824,Sunday,Brentwood,2795,2638
+20250824,Sunday,Brixton,21827,21401
+20250824,Sunday,Brockley,4077,3695
+20250824,Sunday,Bromley-by-Bow,3689,3618
+20250824,Sunday,Brondesbury,2368,2234
+20250824,Sunday,Brondesbury Park,1118,1123
+20250824,Sunday,Bruce Grove,1454,1122
+20250824,Sunday,Buckhurst Hill,1462,1343
+20250824,Sunday,Burnham Bucks,614,595
+20250824,Sunday,Burnt Oak,2800,2793
+20250824,Sunday,Bush Hill Park,1128,923
+20250824,Sunday,Bushey,872,714
+20250824,Sunday,Caledonian Road,3546,3486
+20250824,Sunday,Caledonian Road & Barnsbury,1365,1329
+20250824,Sunday,Cambridge Heath,1643,2052
+20250824,Sunday,Camden Road,4699,4736
+20250824,Sunday,Camden Town,18158,29340
+20250824,Sunday,Canada Water,13785,13907
+20250824,Sunday,Canary Wharf,28229,27634
+20250824,Sunday,Canary Wharf DLR,5639,5963
+20250824,Sunday,Canary Wharf Elizabeth Line,14708,15878
+20250824,Sunday,Canning Town,15049,14633
+20250824,Sunday,Cannon Street,2128,1745
+20250824,Sunday,Canonbury,3243,2931
+20250824,Sunday,Canons Park,2011,1900
+20250824,Sunday,Carpenders Park,913,926
+20250824,Sunday,Chadwell Heath,4351,4235
+20250824,Sunday,Chalfont & Latimer,782,847
+20250824,Sunday,Chalk Farm,6371,4243
+20250824,Sunday,Chancery Lane,1268,1304
+20250824,Sunday,Charing Cross,13535,13673
+20250824,Sunday,Chesham,783,696
+20250824,Sunday,Cheshunt,1703,1692
+20250824,Sunday,Chigwell,168,204
+20250824,Sunday,Chingford,2117,2085
+20250824,Sunday,Chiswick Park,1645,1781
+20250824,Sunday,Chorleywood,545,512
+20250824,Sunday,Clapham Common,7282,8071
+20250824,Sunday,Clapham High Street,1499,1501
+20250824,Sunday,Clapham Junction,18199,18514
+20250824,Sunday,Clapham North,4811,4712
+20250824,Sunday,Clapham South,5165,5151
+20250824,Sunday,Clapton,2347,1931
+20250824,Sunday,Cockfosters,2175,2278
+20250824,Sunday,Colindale,5786,5318
+20250824,Sunday,Colliers Wood,5731,5315
+20250824,Sunday,Covent Garden,12569,16364
+20250824,Sunday,Crossharbour,2095,1811
+20250824,Sunday,Crouch Hill,950,822
+20250824,Sunday,Croxley,504,501
+20250824,Sunday,Crystal Palace,4663,4687
+20250824,Sunday,Custom House DLR,2266,1559
+20250824,Sunday,Custom House Elizabeth Line,9081,9116
+20250824,Sunday,Cyprus,289,268
+20250824,Sunday,Dagenham East,2399,2224
+20250824,Sunday,Dagenham Heathway,4479,4433
+20250824,Sunday,Dalston Junction,6374,6782
+20250824,Sunday,Dalston Kingsland,6177,6037
+20250824,Sunday,Debden,1257,1197
+20250824,Sunday,Denmark Hill,3011,2866
+20250824,Sunday,Deptford Bridge,1713,1480
+20250824,Sunday,Devons Road,1587,1357
+20250824,Sunday,Dollis Hill,3070,2748
+20250824,Sunday,Ealing Broadway,16422,16922
+20250824,Sunday,Ealing Common,1740,1767
+20250824,Sunday,Earls Court,17539,17598
+20250824,Sunday,East Acton,2756,2510
+20250824,Sunday,East Finchley,4504,4307
+20250824,Sunday,East Ham,12774,12247
+20250824,Sunday,East India,1959,1547
+20250824,Sunday,East Putney,4739,4481
+20250824,Sunday,Eastcote,1797,1818
+20250824,Sunday,Edgware,4384,4412
+20250824,Sunday,Edgware Road B,4052,3675
+20250824,Sunday,Edgware Road C&H,7370,5915
+20250824,Sunday,Edmonton Green,3060,2951
+20250824,Sunday,Elephant & Castle,13539,12614
+20250824,Sunday,Elm Park,2089,2095
+20250824,Sunday,Elverson Road,982,781
+20250824,Sunday,Embankment,19809,18459
+20250824,Sunday,Emerson Park,130,88
+20250824,Sunday,Enfield Town,2007,1865
+20250824,Sunday,Epping,2983,2889
+20250824,Sunday,Euston,33411,34951
+20250824,Sunday,Euston NR,5916,7062
+20250824,Sunday,Euston Square,9492,9326
+20250824,Sunday,Fairlop,707,714
+20250824,Sunday,Farringdon,25321,24252
+20250824,Sunday,Finchley Central,4082,3964
+20250824,Sunday,Finchley Road,7060,6385
+20250824,Sunday,Finchley Road & Frognal,1663,1521
+20250824,Sunday,Finsbury Park,18396,17077
+20250824,Sunday,Forest Gate,5990,5779
+20250824,Sunday,Forest Hill,4044,3607
+20250824,Sunday,Fulham Broadway,5908,5547
+20250824,Sunday,Gallions Reach,1198,1121
+20250824,Sunday,Gants Hill,4514,4055
+20250824,Sunday,Gidea Park,2381,2307
+20250824,Sunday,Gloucester Road,10804,9630
+20250824,Sunday,Golders Green,5841,5744
+20250824,Sunday,Goldhawk Road,2083,1674
+20250824,Sunday,Goodge Street,2318,2467
+20250824,Sunday,Goodmayes,4111,3740
+20250824,Sunday,Gospel Oak,3254,2792
+20250824,Sunday,Grange Hill,189,189
+20250824,Sunday,Great Portland Street,3992,3649
+20250824,Sunday,Green Park,21806,27931
+20250824,Sunday,Greenford,2754,2599
+20250824,Sunday,Greenwich,9360,8961
+20250824,Sunday,Gunnersbury,3493,2988
+20250824,Sunday,Hackney Central,6207,6370
+20250824,Sunday,Hackney Downs,2542,2455
+20250824,Sunday,Hackney Wick,6031,7917
+20250824,Sunday,Haggerston,3372,3338
+20250824,Sunday,Hainault,2211,2220
+20250824,Sunday,Hammersmith C&H,11629,9607
+20250824,Sunday,Hammersmith D&P,21744,22610
+20250824,Sunday,Hampstead,4311,5165
+20250824,Sunday,Hampstead Heath,4539,4701
+20250824,Sunday,Hanger Lane,2348,1870
+20250824,Sunday,Hanwell,1709,1397
+20250824,Sunday,Harlesden,1890,1910
+20250824,Sunday,Harold Wood,2778,2475
+20250824,Sunday,Harringay Green Lanes,1502,1345
+20250824,Sunday,Harrow & Wealdstone,3502,3157
+20250824,Sunday,Harrow-on-the-Hill,7722,7986
+20250824,Sunday,Hatch End,538,566
+20250824,Sunday,Hatton Cross,3704,4178
+20250824,Sunday,Hayes & Harlington,8523,7876
+20250824,Sunday,Headstone Lane,392,349
+20250824,Sunday,Heathrow T2&3 TfL Rail/HEx,9778,9435
+20250824,Sunday,Heathrow T4 TfL Rail/HEx,2534,2243
+20250824,Sunday,Heathrow T5 TfL Rail/HEx,5327,5615
+20250824,Sunday,Heathrow Terminal 4,2736,2731
+20250824,Sunday,Heathrow Terminal 5,7174,6257
+20250824,Sunday,Heathrow Terminals 2&3,9704,9513
+20250824,Sunday,Hendon Central,4572,3998
+20250824,Sunday,Heron Quays,3199,3266
+20250824,Sunday,High Barnet,3262,3173
+20250824,Sunday,High Street Kensington,11472,12260
+20250824,Sunday,Highams Park,2536,2322
+20250824,Sunday,Highbury & Islington,14447,14843
+20250824,Sunday,Highgate,3912,3937
+20250824,Sunday,Hillingdon,1352,1348
+20250824,Sunday,Holborn,11618,12182
+20250824,Sunday,Holland Park,492,1447
+20250824,Sunday,Holloway Road,4302,4116
+20250824,Sunday,Homerton,4704,5532
+20250824,Sunday,Honor Oak Park,2459,2311
+20250824,Sunday,Hornchurch,1136,1210
+20250824,Sunday,Hounslow Central,4034,3739
+20250824,Sunday,Hounslow East,3178,3443
+20250824,Sunday,Hounslow West,3999,4034
+20250824,Sunday,Hoxton,4097,5068
+20250824,Sunday,Hyde Park Corner,4997,5055
+20250824,Sunday,Ickenham,674,793
+20250824,Sunday,Ilford,10790,11227
+20250824,Sunday,Imperial Wharf,1771,1570
+20250824,Sunday,Island Gardens,3259,1878
+20250824,Sunday,Iver,172,150
+20250824,Sunday,Kennington,4805,4838
+20250824,Sunday,Kensal Green,5975,4632
+20250824,Sunday,Kensal Rise,6007,8550
+20250824,Sunday,Kensington Olympia,1547,1524
+20250824,Sunday,Kentish Town,5352,5176
+20250824,Sunday,Kentish Town West,1706,1625
+20250824,Sunday,Kenton,1685,1675
+20250824,Sunday,Kew Gardens,5561,5559
+20250824,Sunday,Kilburn,4778,4671
+20250824,Sunday,Kilburn High Road,777,783
+20250824,Sunday,Kilburn Park,2656,2502
+20250824,Sunday,King George V,1034,879
+20250824,Sunday,Kings Cross St Pancras,75636,71860
+20250824,Sunday,Kingsbury,3371,3436
+20250824,Sunday,Knightsbridge,16226,14241
+20250824,Sunday,Lambeth North,3120,2512
+20250824,Sunday,Lancaster Gate,8382,4116
+20250824,Sunday,Langdon Park,1963,1654
+20250824,Sunday,Langley Berks,571,559
+20250824,Sunday,Latimer Road,12602,1654
+20250824,Sunday,Leicester Square,36439,34043
+20250824,Sunday,Lewisham DLR,5062,3679
+20250824,Sunday,Leyton,8341,7855
+20250824,Sunday,Leyton Midland Road,1389,1389
+20250824,Sunday,Leytonstone,6526,6425
+20250824,Sunday,Leytonstone High Road,1048,1050
+20250824,Sunday,Limehouse DLR,4306,3837
+20250824,Sunday,Liverpool St NR,19920,20472
+20250824,Sunday,Liverpool Street,57809,58352
+20250824,Sunday,London Bridge,60169,57164
+20250824,Sunday,London City Airport,2561,2315
+20250824,Sunday,London Fields,2039,2447
+20250824,Sunday,Loughton,2321,2283
+20250824,Sunday,Maida Vale,3027,2472
+20250824,Sunday,Maidenhead,1439,1315
+20250824,Sunday,Manor House,5722,5747
+20250824,Sunday,Manor Park,4084,3794
+20250824,Sunday,Mansion House,2594,2740
+20250824,Sunday,Marble Arch,10646,8777
+20250824,Sunday,Maryland,4082,3729
+20250824,Sunday,Marylebone,6967,7176
+20250824,Sunday,Mile End,18821,20372
+20250824,Sunday,Mill Hill East,983,957
+20250824,Sunday,Monument,8781,8091
+20250824,Sunday,Moor Park,420,455
+20250824,Sunday,Moorgate,9428,11114
+20250824,Sunday,Morden,8344,8164
+20250824,Sunday,Mornington Crescent,8419,2501
+20250824,Sunday,Mudchute,1572,1498
+20250824,Sunday,Neasden,2320,2204
+20250824,Sunday,New Cross,2130,2068
+20250824,Sunday,New Cross Gate,4573,4474
+20250824,Sunday,Newbury Park,2880,2629
+20250824,Sunday,Nine Elms,3837,3253
+20250824,Sunday,North Acton,3983,3973
+20250824,Sunday,North Ealing,451,409
+20250824,Sunday,North Greenwich,35685,38240
+20250824,Sunday,North Harrow,1215,1128
+20250824,Sunday,North Wembley,1354,1194
+20250824,Sunday,Northfields,2191,2202
+20250824,Sunday,Northolt,3946,3581
+20250824,Sunday,Northwick Park,2481,2286
+20250824,Sunday,Northwood,1654,1613
+20250824,Sunday,Northwood Hills,1089,1164
+20250824,Sunday,Norwood Junction,6341,6008
+20250824,Sunday,Notting Hill Gate,15270,27782
+20250824,Sunday,Oakwood,2062,2307
+20250824,Sunday,Old Street,10816,10458
+20250824,Sunday,Osterley,1663,1679
+20250824,Sunday,Oval,4612,4477
+20250824,Sunday,Oxford Circus,39695,45424
+20250824,Sunday,Paddington,49178,44787
+20250824,Sunday,Paddington EL,38165,31168
+20250824,Sunday,Park Royal,1400,1359
+20250824,Sunday,Parsons Green,3881,4070
+20250824,Sunday,Peckham Rye,5584,5687
+20250824,Sunday,Penge West,831,911
+20250824,Sunday,Perivale,1404,1333
+20250824,Sunday,Piccadilly Circus,27236,26411
+20250824,Sunday,Pimlico,5456,5339
+20250824,Sunday,Pinner,1931,1869
+20250824,Sunday,Plaistow,4720,4618
+20250824,Sunday,Pontoon Dock DLR,2328,1969
+20250824,Sunday,Poplar,665,636
+20250824,Sunday,Preston Road,2384,2272
+20250824,Sunday,Prince Regent,936,798
+20250824,Sunday,Pudding Mill Lane,3217,3056
+20250824,Sunday,Putney Bridge,8330,9056
+20250824,Sunday,Queens Park,6464,5190
+20250824,Sunday,Queens Rd Peckham,2846,2746
+20250824,Sunday,Queensbury,2582,2419
+20250824,Sunday,Queensway,6884,8993
+20250824,Sunday,Ravenscourt Park,1816,1923
+20250824,Sunday,Rayners Lane,3267,3230
+20250824,Sunday,Reading,1822,2559
+20250824,Sunday,Rectory Road,1324,1158
+20250824,Sunday,Redbridge,2060,1818
+20250824,Sunday,Regents Park,1768,2284
+20250824,Sunday,Richmond,15006,14711
+20250824,Sunday,Rickmansworth,1468,1505
+20250824,Sunday,Roding Valley,85,94
+20250824,Sunday,Romford,9079,9153
+20250824,Sunday,Rotherhithe,3773,3220
+20250824,Sunday,Royal Albert,1433,1261
+20250824,Sunday,Royal Oak,434,2489
+20250824,Sunday,Royal Victoria,2101,1904
+20250824,Sunday,Ruislip,1484,1534
+20250824,Sunday,Ruislip Gardens,598,547
+20250824,Sunday,Ruislip Manor,1103,1088
+20250824,Sunday,Russell Square,8031,6896
+20250824,Sunday,Seven Kings,4109,3881
+20250824,Sunday,Seven Sisters,13740,12761
+20250824,Sunday,Shadwell DLR,3708,3417
+20250824,Sunday,Shadwell LO,3878,3685
+20250824,Sunday,Shenfield,1696,1838
+20250824,Sunday,Shepherds Bush,19790,13203
+20250824,Sunday,Shepherds Bush LO,9761,9172
+20250824,Sunday,Shepherds Bush Market,4546,3742
+20250824,Sunday,Shoreditch High Street,6717,7571
+20250824,Sunday,Silver Street,1847,1577
+20250824,Sunday,Sloane Square,11203,11547
+20250824,Sunday,Slough,2366,2263
+20250824,Sunday,Snaresbrook,1483,1497
+20250824,Sunday,South Acton,753,677
+20250824,Sunday,South Ealing,1945,1891
+20250824,Sunday,South Hampstead,351,296
+20250824,Sunday,South Harrow,2049,1869
+20250824,Sunday,South Kensington,28100,29639
+20250824,Sunday,South Kenton,667,616
+20250824,Sunday,South Quay,2395,2028
+20250824,Sunday,South Ruislip,1319,1287
+20250824,Sunday,South Tottenham,1457,1405
+20250824,Sunday,South Wimbledon,3095,2985
+20250824,Sunday,South Woodford,3548,3560
+20250824,Sunday,Southall,8442,7650
+20250824,Sunday,Southbury,1006,1116
+20250824,Sunday,Southfields,4331,3767
+20250824,Sunday,Southgate,3384,3602
+20250824,Sunday,Southwark,6306,6330
+20250824,Sunday,St James Street,1850,1644
+20250824,Sunday,St James's Park,7369,8617
+20250824,Sunday,St Johns Wood,4926,5094
+20250824,Sunday,St Pauls,6152,5949
+20250824,Sunday,Stamford Brook,1914,1816
+20250824,Sunday,Stamford Hill,757,609
+20250824,Sunday,Stanmore,4102,4144
+20250824,Sunday,Star Lane DLR,624,876
+20250824,Sunday,Stepney Green,4482,4132
+20250824,Sunday,Stockwell,7655,7083
+20250824,Sunday,Stoke Newington,1641,1342
+20250824,Sunday,Stonebridge Park,2355,2224
+20250824,Sunday,Stratford,60448,59111
+20250824,Sunday,Stratford High Street,368,458
+20250824,Sunday,Stratford International,2815,2704
+20250824,Sunday,Sudbury Hill,1379,1373
+20250824,Sunday,Sudbury Town,1490,1327
+20250824,Sunday,Surrey Quays,4867,5128
+20250824,Sunday,Swiss Cottage,4321,4184
+20250824,Sunday,Sydenham SR,3352,3193
+20250824,Sunday,Taplow,280,236
+20250824,Sunday,Temple,2978,2679
+20250824,Sunday,Theobalds Grove,628,622
+20250824,Sunday,Theydon Bois,666,739
+20250824,Sunday,Tooting Bec,6053,5709
+20250824,Sunday,Tooting Broadway,10089,10068
+20250824,Sunday,Tottenham Court Road,58061,58960
+20250824,Sunday,Tottenham Hale,15599,15571
+20250824,Sunday,Totteridge & Whetstone,1855,1782
+20250824,Sunday,Tower Gateway,2296,1947
+20250824,Sunday,Tower Hill,21132,22110
+20250824,Sunday,Tufnell Park,2885,2697
+20250824,Sunday,Turkey Street,830,730
+20250824,Sunday,Turnham Green,4561,4785
+20250824,Sunday,Turnpike Lane,8170,7972
+20250824,Sunday,Twyford,327,245
+20250824,Sunday,Upminster,2856,2912
+20250824,Sunday,Upminster Bridge,395,379
+20250824,Sunday,Upney,1863,1767
+20250824,Sunday,Upper Holloway,1129,1073
+20250824,Sunday,Upton Park,9912,9602
+20250824,Sunday,Uxbridge,4118,4162
+20250824,Sunday,Vauxhall,20851,19623
+20250824,Sunday,Victoria,64684,66925
+20250824,Sunday,W Silvertown,2096,2554
+20250824,Sunday,Walthamstow Central,12894,12914
+20250824,Sunday,Walthamstow Queens Road,860,879
+20250824,Sunday,Wandsworth Road,675,547
+20250824,Sunday,Wanstead,1764,1816
+20250824,Sunday,Wanstead Park,1227,1308
+20250824,Sunday,Wapping,2302,2171
+20250824,Sunday,Warren Street,7514,7368
+20250824,Sunday,Warwick Avenue,3941,3554
+20250824,Sunday,Waterloo,53505,55353
+20250824,Sunday,Watford High Street,1392,1232
+20250824,Sunday,Watford Junction,3677,3321
+20250824,Sunday,Watford Met,1514,1430
+20250824,Sunday,Wembley Central,5381,5351
+20250824,Sunday,Wembley Park,21371,19226
+20250824,Sunday,West Acton,801,773
+20250824,Sunday,West Brompton,4650,4582
+20250824,Sunday,West Croydon,3143,2972
+20250824,Sunday,West Drayton,3613,3216
+20250824,Sunday,West Ealing,2530,2221
+20250824,Sunday,West Finchley,1094,976
+20250824,Sunday,West Ham,3973,4075
+20250824,Sunday,West Hampstead,6568,6307
+20250824,Sunday,West Hampstead LO,4972,4371
+20250824,Sunday,West Harrow,1023,942
+20250824,Sunday,West India Quay,1195,1055
+20250824,Sunday,West Kensington,3641,3267
+20250824,Sunday,West Ruislip,1155,1127
+20250824,Sunday,Westbourne Park,1003,4844
+20250824,Sunday,Westferry,3001,2444
+20250824,Sunday,Westminster,23487,24077
+20250824,Sunday,White City,7576,7329
+20250824,Sunday,White Hart Lane,1667,1596
+20250824,Sunday,Whitechapel,17326,17128
+20250824,Sunday,Willesden Green,5351,5184
+20250824,Sunday,Willesden Junction,4272,4278
+20250824,Sunday,Wimbledon,14387,13631
+20250824,Sunday,Wimbledon Park,2047,2045
+20250824,Sunday,Wood Green,8715,8295
+20250824,Sunday,Wood Lane,5432,5049
+20250824,Sunday,Wood Street,1988,1915
+20250824,Sunday,Woodford,3807,3629
+20250824,Sunday,Woodgrange Park,915,786
+20250824,Sunday,Woodside Park,2275,1878
+20250824,Sunday,Woolwich Arsenal DLR,4358,4859
+20250824,Sunday,Woolwich Arsenal NR,1187,972
+20250824,Sunday,Woolwich Elizabeth Line,14625,13313
+20250825,Monday,Abbey Road DLR,624,632
+20250825,Monday,Abbey Wood,12754,12037
+20250825,Monday,Acton Central,1673,1617
+20250825,Monday,Acton Main Line,2797,2913
+20250825,Monday,Acton Town,3928,4232
+20250825,Monday,Aldgate,4781,5439
+20250825,Monday,Aldgate East,11734,11031
+20250825,Monday,All Saints,954,840
+20250825,Monday,Alperton,2585,2793
+20250825,Monday,Amersham,1678,1480
+20250825,Monday,Anerley,815,629
+20250825,Monday,Angel,8261,8696
+20250825,Monday,Archway,6063,6203
+20250825,Monday,Arnos Grove,3202,2995
+20250825,Monday,Arsenal,2184,2217
+20250825,Monday,Baker Street,23056,21818
+20250825,Monday,Balham,8378,8568
+20250825,Monday,Bank,9531,10114
+20250825,Monday,Barbican,2749,2753
+20250825,Monday,Barking,17245,16232
+20250825,Monday,Barking Riverside,1053,1006
+20250825,Monday,Barkingside,907,938
+20250825,Monday,Barons Court,3589,3950
+20250825,Monday,Battersea Power Station,11957,11575
+20250825,Monday,Bayswater,12945,10138
+20250825,Monday,Beckton,1248,1130
+20250825,Monday,Beckton Park,284,251
+20250825,Monday,Becontree,2641,2412
+20250825,Monday,Belsize Park,4124,4191
+20250825,Monday,Bermondsey,6957,7207
+20250825,Monday,Bethnal Green,9803,8911
+20250825,Monday,Bethnal Green NR,1396,1606
+20250825,Monday,Blackfriars,8651,7739
+20250825,Monday,Blackhorse Road,9649,9253
+20250825,Monday,Blackwall,808,721
+20250825,Monday,Bond Street,35503,36756
+20250825,Monday,Borough,2576,2518
+20250825,Monday,Boston Manor,1325,1235
+20250825,Monday,Bounds Green,3893,3868
+20250825,Monday,Bow Church,1422,1451
+20250825,Monday,Bow Road,4241,4335
+20250825,Monday,Brent Cross,1924,1849
+20250825,Monday,Brentwood,1969,1904
+20250825,Monday,Brixton,19990,20607
+20250825,Monday,Brockley,3487,3493
+20250825,Monday,Bromley-by-Bow,3743,3702
+20250825,Monday,Brondesbury,2693,2432
+20250825,Monday,Brondesbury Park,1119,1038
+20250825,Monday,Bruce Grove,1268,1113
+20250825,Monday,Buckhurst Hill,1426,1334
+20250825,Monday,Burnham Bucks,699,652
+20250825,Monday,Burnt Oak,3064,3048
+20250825,Monday,Bush Hill Park,1114,951
+20250825,Monday,Bushey,876,711
+20250825,Monday,Caledonian Road,3368,3549
+20250825,Monday,Caledonian Road & Barnsbury,1378,1477
+20250825,Monday,Cambridge Heath,852,927
+20250825,Monday,Camden Road,4086,4268
+20250825,Monday,Camden Town,25028,25763
+20250825,Monday,Canada Water,11872,12372
+20250825,Monday,Canary Wharf,24519,24804
+20250825,Monday,Canary Wharf DLR,5759,5817
+20250825,Monday,Canary Wharf Elizabeth Line,14894,16117
+20250825,Monday,Canning Town,13487,13051
+20250825,Monday,Cannon Street,2497,2207
+20250825,Monday,Canonbury,2807,2958
+20250825,Monday,Canons Park,1969,1936
+20250825,Monday,Carpenders Park,994,1000
+20250825,Monday,Chadwell Heath,4864,4579
+20250825,Monday,Chalfont & Latimer,837,843
+20250825,Monday,Chalk Farm,5837,4638
+20250825,Monday,Chancery Lane,1939,1906
+20250825,Monday,Charing Cross,13479,13723
+20250825,Monday,Chesham,969,895
+20250825,Monday,Cheshunt,1783,1796
+20250825,Monday,Chigwell,214,217
+20250825,Monday,Chingford,2210,2210
+20250825,Monday,Chiswick Park,1443,1759
+20250825,Monday,Chorleywood,660,548
+20250825,Monday,Clapham Common,6620,7661
+20250825,Monday,Clapham High Street,1195,1345
+20250825,Monday,Clapham Junction,17517,18974
+20250825,Monday,Clapham North,4137,4766
+20250825,Monday,Clapham South,4709,5257
+20250825,Monday,Clapton,2148,1968
+20250825,Monday,Cockfosters,1676,1758
+20250825,Monday,Colindale,5551,5249
+20250825,Monday,Colliers Wood,5275,5357
+20250825,Monday,Covent Garden,11768,14740
+20250825,Monday,Crossharbour,2085,1851
+20250825,Monday,Crouch Hill,1074,1041
+20250825,Monday,Croxley,551,600
+20250825,Monday,Crystal Palace,2530,2751
+20250825,Monday,Custom House DLR,2379,1497
+20250825,Monday,Custom House Elizabeth Line,9481,9603
+20250825,Monday,Cyprus,368,347
+20250825,Monday,Dagenham East,2874,2588
+20250825,Monday,Dagenham Heathway,4701,4701
+20250825,Monday,Dalston Junction,4660,5051
+20250825,Monday,Dalston Kingsland,6050,5856
+20250825,Monday,Debden,1281,1219
+20250825,Monday,Denmark Hill,3000,3113
+20250825,Monday,Deptford Bridge,1666,1448
+20250825,Monday,Devons Road,1637,1529
+20250825,Monday,Dollis Hill,2976,2808
+20250825,Monday,Ealing Broadway,15602,16519
+20250825,Monday,Ealing Common,1666,1838
+20250825,Monday,Earls Court,15929,16058
+20250825,Monday,East Acton,2665,2617
+20250825,Monday,East Finchley,4429,4538
+20250825,Monday,East Ham,12273,11756
+20250825,Monday,East India,1802,1650
+20250825,Monday,East Putney,4598,4970
+20250825,Monday,Eastcote,1791,1837
+20250825,Monday,Edgware,4405,4345
+20250825,Monday,Edgware Road B,4152,3763
+20250825,Monday,Edgware Road C&H,6768,5612
+20250825,Monday,Edmonton Green,3421,3131
+20250825,Monday,Elephant & Castle,13687,13236
+20250825,Monday,Elm Park,2016,2085
+20250825,Monday,Elverson Road,929,807
+20250825,Monday,Embankment,18474,16837
+20250825,Monday,Emerson Park,179,111
+20250825,Monday,Enfield Town,2102,1947
+20250825,Monday,Epping,2746,2653
+20250825,Monday,Euston,37476,34341
+20250825,Monday,Euston NR,6820,7771
+20250825,Monday,Euston Square,11592,10385
+20250825,Monday,Fairlop,773,770
+20250825,Monday,Farringdon,27133,25803
+20250825,Monday,Finchley Central,3909,3986
+20250825,Monday,Finchley Road,7000,6616
+20250825,Monday,Finchley Road & Frognal,1799,1718
+20250825,Monday,Finsbury Park,18098,18257
+20250825,Monday,Forest Gate,6074,5983
+20250825,Monday,Forest Hill,3948,3766
+20250825,Monday,Fulham Broadway,5817,5829
+20250825,Monday,Gallions Reach,1240,1102
+20250825,Monday,Gants Hill,4441,4272
+20250825,Monday,Gidea Park,2260,2152
+20250825,Monday,Gloucester Road,10649,9668
+20250825,Monday,Golders Green,5834,5924
+20250825,Monday,Goldhawk Road,2025,1815
+20250825,Monday,Goodge Street,2272,2446
+20250825,Monday,Goodmayes,4327,4182
+20250825,Monday,Gospel Oak,4512,4234
+20250825,Monday,Grange Hill,279,266
+20250825,Monday,Great Portland Street,3842,3709
+20250825,Monday,Green Park,21479,26493
+20250825,Monday,Greenford,2875,2775
+20250825,Monday,Greenwich,8745,8688
+20250825,Monday,Gunnersbury,3304,3171
+20250825,Monday,Hackney Central,6042,5965
+20250825,Monday,Hackney Downs,2435,2349
+20250825,Monday,Hackney Wick,4567,4655
+20250825,Monday,Haggerston,2953,3181
+20250825,Monday,Hainault,2430,2342
+20250825,Monday,Hammersmith C&H,11597,9508
+20250825,Monday,Hammersmith D&P,18816,20443
+20250825,Monday,Hampstead,4792,5633
+20250825,Monday,Hampstead Heath,5645,5999
+20250825,Monday,Hanger Lane,2415,2112
+20250825,Monday,Hanwell,1709,1624
+20250825,Monday,Harlesden,2272,2382
+20250825,Monday,Harold Wood,3057,2890
+20250825,Monday,Harringay Green Lanes,1617,1562
+20250825,Monday,Harrow & Wealdstone,4638,4156
+20250825,Monday,Harrow-on-the-Hill,7596,8131
+20250825,Monday,Hatch End,564,608
+20250825,Monday,Hatton Cross,3515,3970
+20250825,Monday,Hayes & Harlington,8512,8335
+20250825,Monday,Headstone Lane,459,405
+20250825,Monday,Heathrow T2&3 TfL Rail/HEx,11573,9505
+20250825,Monday,Heathrow T4 TfL Rail/HEx,2403,1873
+20250825,Monday,Heathrow T5 TfL Rail/HEx,7801,5398
+20250825,Monday,Heathrow Terminal 4,2554,2503
+20250825,Monday,Heathrow Terminal 5,8503,5520
+20250825,Monday,Heathrow Terminals 2&3,10543,8030
+20250825,Monday,Hendon Central,4531,4334
+20250825,Monday,Heron Quays,2914,2965
+20250825,Monday,High Barnet,3083,3107
+20250825,Monday,High Street Kensington,11467,12458
+20250825,Monday,Highams Park,2397,2366
+20250825,Monday,Highbury & Islington,12912,14521
+20250825,Monday,Highgate,3712,4048
+20250825,Monday,Hillingdon,1233,1180
+20250825,Monday,Holborn,10396,11016
+20250825,Monday,Holland Park,344,4534
+20250825,Monday,Holloway Road,3924,3824
+20250825,Monday,Homerton,4375,4172
+20250825,Monday,Honor Oak Park,2102,2254
+20250825,Monday,Hornchurch,1134,1143
+20250825,Monday,Hounslow Central,4061,3877
+20250825,Monday,Hounslow East,3355,3595
+20250825,Monday,Hounslow West,3663,3732
+20250825,Monday,Hoxton,2804,3001
+20250825,Monday,Hyde Park Corner,4752,4866
+20250825,Monday,Ickenham,585,641
+20250825,Monday,Ilford,11501,11850
+20250825,Monday,Imperial Wharf,1842,1826
+20250825,Monday,Island Gardens,2751,1737
+20250825,Monday,Iver,210,203
+20250825,Monday,Kennington,7466,5913
+20250825,Monday,Kensal Green,7212,6417
+20250825,Monday,Kensal Rise,6948,9335
+20250825,Monday,Kensington Olympia,1627,1656
+20250825,Monday,Kentish Town,6293,6524
+20250825,Monday,Kentish Town West,1696,1646
+20250825,Monday,Kenton,1902,1928
+20250825,Monday,Kew Gardens,6183,6350
+20250825,Monday,Kilburn,4259,4633
+20250825,Monday,Kilburn High Road,785,811
+20250825,Monday,Kilburn Park,2718,2739
+20250825,Monday,King George V,1192,1048
+20250825,Monday,Kings Cross St Pancras,90117,82014
+20250825,Monday,Kingsbury,3287,3641
+20250825,Monday,Knightsbridge,18000,15729
+20250825,Monday,Lambeth North,2935,2720
+20250825,Monday,Lancaster Gate,8267,3762
+20250825,Monday,Langdon Park,1949,1765
+20250825,Monday,Langley Berks,579,582
+20250825,Monday,Latimer Road,14138,6295
+20250825,Monday,Leicester Square,33088,30364
+20250825,Monday,Lewisham DLR,4912,3890
+20250825,Monday,Leyton,8047,7818
+20250825,Monday,Leyton Midland Road,1663,1576
+20250825,Monday,Leytonstone,6504,6782
+20250825,Monday,Leytonstone High Road,1190,1163
+20250825,Monday,Limehouse DLR,4341,4006
+20250825,Monday,Liverpool St NR,16898,16277
+20250825,Monday,Liverpool Street,47442,47828
+20250825,Monday,London Bridge,57619,51199
+20250825,Monday,London City Airport,3992,2815
+20250825,Monday,London Fields,1920,2105
+20250825,Monday,Loughton,2179,2302
+20250825,Monday,Maida Vale,3239,2832
+20250825,Monday,Maidenhead,1227,1175
+20250825,Monday,Manor House,5445,5671
+20250825,Monday,Manor Park,4276,4112
+20250825,Monday,Mansion House,1780,1661
+20250825,Monday,Marble Arch,10123,8300
+20250825,Monday,Maryland,4317,4209
+20250825,Monday,Marylebone,7376,7563
+20250825,Monday,Mile End,9273,9220
+20250825,Monday,Mill Hill East,1044,1030
+20250825,Monday,Monument,7955,7251
+20250825,Monday,Moor Park,441,461
+20250825,Monday,Moorgate,9523,10613
+20250825,Monday,Morden,8029,7853
+20250825,Monday,Mornington Crescent,1851,1593
+20250825,Monday,Mudchute,1259,1187
+20250825,Monday,Neasden,2226,2139
+20250825,Monday,New Cross,2077,2156
+20250825,Monday,New Cross Gate,4076,3959
+20250825,Monday,Newbury Park,2890,2681
+20250825,Monday,Nine Elms,3008,3119
+20250825,Monday,North Acton,4100,4158
+20250825,Monday,North Ealing,410,423
+20250825,Monday,North Greenwich,23609,24128
+20250825,Monday,North Harrow,1290,1311
+20250825,Monday,North Wembley,1491,1393
+20250825,Monday,Northfields,2019,2107
+20250825,Monday,Northolt,4177,3775
+20250825,Monday,Northwick Park,2286,2204
+20250825,Monday,Northwood,1721,1662
+20250825,Monday,Northwood Hills,1123,1093
+20250825,Monday,Norwood Junction,4133,3575
+20250825,Monday,Notting Hill Gate,13414,29962
+20250825,Monday,Oakwood,2146,2210
+20250825,Monday,Old Street,9865,9422
+20250825,Monday,Osterley,1760,1734
+20250825,Monday,Oval,4053,10403
+20250825,Monday,Oxford Circus,42096,47364
+20250825,Monday,Paddington,60743,46663
+20250825,Monday,Paddington EL,45873,36101
+20250825,Monday,Park Royal,1480,1592
+20250825,Monday,Parsons Green,3482,3865
+20250825,Monday,Peckham Rye,4842,5071
+20250825,Monday,Penge West,655,546
+20250825,Monday,Perivale,1556,1507
+20250825,Monday,Piccadilly Circus,26777,25420
+20250825,Monday,Pimlico,5076,5250
+20250825,Monday,Pinner,1975,1938
+20250825,Monday,Plaistow,4612,4573
+20250825,Monday,Pontoon Dock DLR,2257,2190
+20250825,Monday,Poplar,691,625
+20250825,Monday,Preston Road,2257,2227
+20250825,Monday,Prince Regent,834,675
+20250825,Monday,Pudding Mill Lane,2448,2136
+20250825,Monday,Putney Bridge,3876,4522
+20250825,Monday,Queens Park,7760,5786
+20250825,Monday,Queens Rd Peckham,2918,2859
+20250825,Monday,Queensbury,2543,2522
+20250825,Monday,Queensway,7560,10323
+20250825,Monday,Ravenscourt Park,1876,2013
+20250825,Monday,Rayners Lane,3479,3374
+20250825,Monday,Reading,1869,1051
+20250825,Monday,Rectory Road,1212,1145
+20250825,Monday,Redbridge,2108,1944
+20250825,Monday,Regents Park,1830,2266
+20250825,Monday,Richmond,16308,16112
+20250825,Monday,Rickmansworth,1499,1478
+20250825,Monday,Roding Valley,90,94
+20250825,Monday,Romford,9323,9765
+20250825,Monday,Rotherhithe,1783,1588
+20250825,Monday,Royal Albert,1274,1097
+20250825,Monday,Royal Oak,239,2125
+20250825,Monday,Royal Victoria,1991,1635
+20250825,Monday,Ruislip,1451,1562
+20250825,Monday,Ruislip Gardens,622,575
+20250825,Monday,Ruislip Manor,1141,1205
+20250825,Monday,Russell Square,7507,7237
+20250825,Monday,Seven Kings,4177,3797
+20250825,Monday,Seven Sisters,12816,12690
+20250825,Monday,Shadwell DLR,3481,3319
+20250825,Monday,Shadwell LO,3218,3256
+20250825,Monday,Shenfield,1540,1540
+20250825,Monday,Shepherds Bush,20961,14288
+20250825,Monday,Shepherds Bush LO,11379,10971
+20250825,Monday,Shepherds Bush Market,4600,4193
+20250825,Monday,Shoreditch High Street,5177,5840
+20250825,Monday,Silver Street,1871,1671
+20250825,Monday,Sloane Square,11119,11850
+20250825,Monday,Slough,2342,2124
+20250825,Monday,Snaresbrook,1442,1421
+20250825,Monday,South Acton,805,703
+20250825,Monday,South Ealing,1952,1961
+20250825,Monday,South Hampstead,382,397
+20250825,Monday,South Harrow,2009,2017
+20250825,Monday,South Kensington,26132,27714
+20250825,Monday,South Kenton,703,667
+20250825,Monday,South Quay,2238,1941
+20250825,Monday,South Ruislip,1159,1207
+20250825,Monday,South Tottenham,1580,1637
+20250825,Monday,South Wimbledon,3039,2926
+20250825,Monday,South Woodford,3493,3607
+20250825,Monday,Southall,8502,8129
+20250825,Monday,Southbury,1078,1175
+20250825,Monday,Southfields,4312,4156
+20250825,Monday,Southgate,3515,3730
+20250825,Monday,Southwark,5715,5650
+20250825,Monday,St James Street,1551,1539
+20250825,Monday,St James's Park,7547,8715
+20250825,Monday,St Johns Wood,4862,5424
+20250825,Monday,St Pauls,5482,5238
+20250825,Monday,Stamford Brook,1919,1860
+20250825,Monday,Stamford Hill,620,516
+20250825,Monday,Stanmore,2904,3018
+20250825,Monday,Star Lane DLR,803,632
+20250825,Monday,Stepney Green,4308,4379
+20250825,Monday,Stockwell,7707,7343
+20250825,Monday,Stoke Newington,1391,1307
+20250825,Monday,Stonebridge Park,2791,2385
+20250825,Monday,Stratford,60675,61049
+20250825,Monday,Stratford High Street,382,432
+20250825,Monday,Stratford International,2898,2769
+20250825,Monday,Sudbury Hill,1459,1477
+20250825,Monday,Sudbury Town,1522,1395
+20250825,Monday,Surrey Quays,4335,4400
+20250825,Monday,Swiss Cottage,4426,4621
+20250825,Monday,Sydenham SR,2963,3066
+20250825,Monday,Taplow,207,170
+20250825,Monday,Temple,2997,2642
+20250825,Monday,Theobalds Grove,648,551
+20250825,Monday,Theydon Bois,713,737
+20250825,Monday,Tooting Bec,5384,5734
+20250825,Monday,Tooting Broadway,10001,10531
+20250825,Monday,Tottenham Court Road,57246,57178
+20250825,Monday,Tottenham Hale,15509,13894
+20250825,Monday,Totteridge & Whetstone,1828,1878
+20250825,Monday,Tower Gateway,2139,1815
+20250825,Monday,Tower Hill,19971,20166
+20250825,Monday,Tufnell Park,2595,2695
+20250825,Monday,Turkey Street,950,834
+20250825,Monday,Turnham Green,4316,4484
+20250825,Monday,Turnpike Lane,7599,7852
+20250825,Monday,Twyford,236,180
+20250825,Monday,Upminster,2848,2921
+20250825,Monday,Upminster Bridge,384,390
+20250825,Monday,Upney,2211,1994
+20250825,Monday,Upper Holloway,1294,1197
+20250825,Monday,Upton Park,10409,9856
+20250825,Monday,Uxbridge,4173,4196
+20250825,Monday,Vauxhall,21921,20970
+20250825,Monday,Victoria,61536,60619
+20250825,Monday,W Silvertown,1959,1714
+20250825,Monday,Walthamstow Central,11975,12450
+20250825,Monday,Walthamstow Queens Road,1103,1121
+20250825,Monday,Wandsworth Road,533,494
+20250825,Monday,Wanstead,1795,1866
+20250825,Monday,Wanstead Park,1404,1409
+20250825,Monday,Wapping,2142,2185
+20250825,Monday,Warren Street,7533,7687
+20250825,Monday,Warwick Avenue,4285,3784
+20250825,Monday,Waterloo,54146,52649
+20250825,Monday,Watford High Street,1571,1474
+20250825,Monday,Watford Junction,4254,3639
+20250825,Monday,Watford Met,1621,1601
+20250825,Monday,Wembley Central,5752,6196
+20250825,Monday,Wembley Park,15239,15404
+20250825,Monday,West Acton,829,849
+20250825,Monday,West Brompton,3948,3715
+20250825,Monday,West Croydon,3412,3185
+20250825,Monday,West Drayton,3805,3434
+20250825,Monday,West Ealing,2564,2633
+20250825,Monday,West Finchley,1117,1046
+20250825,Monday,West Ham,5317,4818
+20250825,Monday,West Hampstead,6767,6614
+20250825,Monday,West Hampstead LO,5278,4756
+20250825,Monday,West Harrow,933,864
+20250825,Monday,West India Quay,1125,958
+20250825,Monday,West Kensington,3392,3329
+20250825,Monday,West Ruislip,1050,1058
+20250825,Monday,Westbourne Park,849,4901
+20250825,Monday,Westferry,2871,2573
+20250825,Monday,Westminster,20493,21417
+20250825,Monday,White City,8541,7340
+20250825,Monday,White Hart Lane,1643,1422
+20250825,Monday,Whitechapel,17213,17772
+20250825,Monday,Willesden Green,5230,5358
+20250825,Monday,Willesden Junction,5111,4625
+20250825,Monday,Wimbledon,14352,14527
+20250825,Monday,Wimbledon Park,1950,2114
+20250825,Monday,Wood Green,7952,7768
+20250825,Monday,Wood Lane,5416,5074
+20250825,Monday,Wood Street,1857,1850
+20250825,Monday,Woodford,3644,3531
+20250825,Monday,Woodgrange Park,1023,868
+20250825,Monday,Woodside Park,2248,2052
+20250825,Monday,Woolwich Arsenal DLR,4743,5098
+20250825,Monday,Woolwich Arsenal NR,1363,1043
+20250825,Monday,Woolwich Elizabeth Line,15249,14924
+20250826,Tuesday,Abbey Road DLR,931,863
+20250826,Tuesday,Abbey Wood,18325,17618
+20250826,Tuesday,Acton Central,2082,1989
+20250826,Tuesday,Acton Main Line,4115,4040
+20250826,Tuesday,Acton Town,6344,6704
+20250826,Tuesday,Aldgate,11627,12592
+20250826,Tuesday,Aldgate East,16078,16024
+20250826,Tuesday,All Saints,1229,1157
+20250826,Tuesday,Alperton,3937,4099
+20250826,Tuesday,Amersham,3004,2849
+20250826,Tuesday,Anerley,1239,1117
+20250826,Tuesday,Angel,13537,14171
+20250826,Tuesday,Archway,9245,9007
+20250826,Tuesday,Arnos Grove,4359,4083
+20250826,Tuesday,Arsenal,3020,2741
+20250826,Tuesday,Baker Street,33613,33972
+20250826,Tuesday,Balham,13042,13086
+20250826,Tuesday,Bank,47140,50682
+20250826,Tuesday,Barbican,7527,7683
+20250826,Tuesday,Barking,22619,21967
+20250826,Tuesday,Barking Riverside,1543,1423
+20250826,Tuesday,Barkingside,1576,1703
+20250826,Tuesday,Barons Court,7468,7593
+20250826,Tuesday,Battersea Power Station,12694,12357
+20250826,Tuesday,Bayswater,5989,5048
+20250826,Tuesday,Beckton,1691,1572
+20250826,Tuesday,Beckton Park,484,396
+20250826,Tuesday,Becontree,4192,3981
+20250826,Tuesday,Belsize Park,6657,6919
+20250826,Tuesday,Bermondsey,9202,8981
+20250826,Tuesday,Bethnal Green,12420,12005
+20250826,Tuesday,Bethnal Green NR,2132,2386
+20250826,Tuesday,Blackfriars,17108,16110
+20250826,Tuesday,Blackhorse Road,12629,11853
+20250826,Tuesday,Blackwall,1358,1187
+20250826,Tuesday,Bond Street,58029,58367
+20250826,Tuesday,Borough,5030,5213
+20250826,Tuesday,Boston Manor,1977,1893
+20250826,Tuesday,Bounds Green,5496,5400
+20250826,Tuesday,Bow Church,1804,1670
+20250826,Tuesday,Bow Road,5394,5231
+20250826,Tuesday,Brent Cross,2567,2539
+20250826,Tuesday,Brentwood,4326,4142
+20250826,Tuesday,Brixton,20868,23401
+20250826,Tuesday,Brockley,4407,4417
+20250826,Tuesday,Bromley-by-Bow,5309,5148
+20250826,Tuesday,Brondesbury,3375,3092
+20250826,Tuesday,Brondesbury Park,1246,1245
+20250826,Tuesday,Bruce Grove,1864,1708
+20250826,Tuesday,Buckhurst Hill,2872,2786
+20250826,Tuesday,Burnham Bucks,1094,1076
+20250826,Tuesday,Burnt Oak,4374,4354
+20250826,Tuesday,Bush Hill Park,1819,1639
+20250826,Tuesday,Bushey,1828,1304
+20250826,Tuesday,Caledonian Road,5248,5066
+20250826,Tuesday,Caledonian Road & Barnsbury,1984,1989
+20250826,Tuesday,Cambridge Heath,1238,1207
+20250826,Tuesday,Camden Road,5612,6010
+20250826,Tuesday,Camden Town,27893,29544
+20250826,Tuesday,Canada Water,13642,13446
+20250826,Tuesday,Canary Wharf,45099,48525
+20250826,Tuesday,Canary Wharf DLR,9600,9475
+20250826,Tuesday,Canary Wharf Elizabeth Line,26656,27007
+20250826,Tuesday,Canning Town,16347,16262
+20250826,Tuesday,Cannon Street,7092,6467
+20250826,Tuesday,Canonbury,3302,3217
+20250826,Tuesday,Canons Park,3242,3200
+20250826,Tuesday,Carpenders Park,1610,1631
+20250826,Tuesday,Chadwell Heath,6780,6625
+20250826,Tuesday,Chalfont & Latimer,1559,1569
+20250826,Tuesday,Chalk Farm,6193,5033
+20250826,Tuesday,Chancery Lane,11020,12117
+20250826,Tuesday,Charing Cross,20250,19882
+20250826,Tuesday,Chesham,1531,1294
+20250826,Tuesday,Cheshunt,2918,2923
+20250826,Tuesday,Chigwell,441,403
+20250826,Tuesday,Chingford,3194,3224
+20250826,Tuesday,Chiswick Park,2972,3284
+20250826,Tuesday,Chorleywood,1185,1142
+20250826,Tuesday,Clapham Common,9064,10306
+20250826,Tuesday,Clapham High Street,1845,1784
+20250826,Tuesday,Clapham Junction,24470,24962
+20250826,Tuesday,Clapham North,5904,6654
+20250826,Tuesday,Clapham South,8296,8492
+20250826,Tuesday,Clapton,2783,2584
+20250826,Tuesday,Cockfosters,2156,2220
+20250826,Tuesday,Colindale,7914,7618
+20250826,Tuesday,Colliers Wood,7894,7454
+20250826,Tuesday,Covent Garden,13520,18918
+20250826,Tuesday,Crossharbour,2907,2665
+20250826,Tuesday,Crouch Hill,1035,1064
+20250826,Tuesday,Croxley,1345,1376
+20250826,Tuesday,Crystal Palace,3455,3543
+20250826,Tuesday,Custom House DLR,3310,2072
+20250826,Tuesday,Custom House Elizabeth Line,11485,12336
+20250826,Tuesday,Cyprus,860,778
+20250826,Tuesday,Dagenham East,4109,3883
+20250826,Tuesday,Dagenham Heathway,7297,7097
+20250826,Tuesday,Dalston Junction,6485,6386
+20250826,Tuesday,Dalston Kingsland,6523,6570
+20250826,Tuesday,Debden,2863,2708
+20250826,Tuesday,Denmark Hill,7730,7925
+20250826,Tuesday,Deptford Bridge,2263,1964
+20250826,Tuesday,Devons Road,2125,1881
+20250826,Tuesday,Dollis Hill,4477,3879
+20250826,Tuesday,Ealing Broadway,21264,22520
+20250826,Tuesday,Ealing Common,2487,2497
+20250826,Tuesday,Earls Court,21751,21629
+20250826,Tuesday,East Acton,4543,4626
+20250826,Tuesday,East Finchley,7117,7019
+20250826,Tuesday,East Ham,15768,15554
+20250826,Tuesday,East India,3185,3018
+20250826,Tuesday,East Putney,7920,7944
+20250826,Tuesday,Eastcote,3248,3367
+20250826,Tuesday,Edgware,6280,6218
+20250826,Tuesday,Edgware Road B,5077,5178
+20250826,Tuesday,Edgware Road C&H,8741,8814
+20250826,Tuesday,Edmonton Green,4699,4584
+20250826,Tuesday,Elephant & Castle,15504,15402
+20250826,Tuesday,Elm Park,4041,3850
+20250826,Tuesday,Elverson Road,1136,885
+20250826,Tuesday,Embankment,25757,24632
+20250826,Tuesday,Emerson Park,398,285
+20250826,Tuesday,Enfield Town,3389,3246
+20250826,Tuesday,Epping,4635,4577
+20250826,Tuesday,Euston,47133,44661
+20250826,Tuesday,Euston NR,12449,14825
+20250826,Tuesday,Euston Square,18222,17112
+20250826,Tuesday,Fairlop,1304,1271
+20250826,Tuesday,Farringdon,64722,63536
+20250826,Tuesday,Finchley Central,6099,6180
+20250826,Tuesday,Finchley Road,10272,10093
+20250826,Tuesday,Finchley Road & Frognal,2328,2342
+20250826,Tuesday,Finsbury Park,23739,23348
+20250826,Tuesday,Forest Gate,8558,8567
+20250826,Tuesday,Forest Hill,5538,5279
+20250826,Tuesday,Fulham Broadway,8986,9375
+20250826,Tuesday,Gallions Reach,1805,1574
+20250826,Tuesday,Gants Hill,6667,6298
+20250826,Tuesday,Gidea Park,4642,4385
+20250826,Tuesday,Gloucester Road,15328,14890
+20250826,Tuesday,Golders Green,7921,8097
+20250826,Tuesday,Goldhawk Road,2511,2402
+20250826,Tuesday,Goodge Street,6248,7025
+20250826,Tuesday,Goodmayes,6330,6230
+20250826,Tuesday,Gospel Oak,3388,3221
+20250826,Tuesday,Grange Hill,582,559
+20250826,Tuesday,Great Portland Street,9171,9156
+20250826,Tuesday,Green Park,37864,41244
+20250826,Tuesday,Greenford,4471,4537
+20250826,Tuesday,Greenwich,8024,7851
+20250826,Tuesday,Gunnersbury,6942,6378
+20250826,Tuesday,Hackney Central,6809,6739
+20250826,Tuesday,Hackney Downs,3104,3066
+20250826,Tuesday,Hackney Wick,4796,4904
+20250826,Tuesday,Haggerston,3778,3707
+20250826,Tuesday,Hainault,4252,4078
+20250826,Tuesday,Hammersmith C&H,14141,13535
+20250826,Tuesday,Hammersmith D&P,28887,28880
+20250826,Tuesday,Hampstead,4493,5317
+20250826,Tuesday,Hampstead Heath,4724,4795
+20250826,Tuesday,Hanger Lane,3675,3561
+20250826,Tuesday,Hanwell,2770,2368
+20250826,Tuesday,Harlesden,3718,3680
+20250826,Tuesday,Harold Wood,5656,5481
+20250826,Tuesday,Harringay Green Lanes,1894,1891
+20250826,Tuesday,Harrow & Wealdstone,6352,5906
+20250826,Tuesday,Harrow-on-the-Hill,11802,12725
+20250826,Tuesday,Hatch End,933,952
+20250826,Tuesday,Hatton Cross,4444,4981
+20250826,Tuesday,Hayes & Harlington,11600,11721
+20250826,Tuesday,Headstone Lane,646,579
+20250826,Tuesday,Heathrow T2&3 TfL Rail/HEx,11173,8899
+20250826,Tuesday,Heathrow T4 TfL Rail/HEx,2330,2070
+20250826,Tuesday,Heathrow T5 TfL Rail/HEx,6984,5631
+20250826,Tuesday,Heathrow Terminal 4,2738,2559
+20250826,Tuesday,Heathrow Terminal 5,8051,5419
+20250826,Tuesday,Heathrow Terminals 2&3,10544,7688
+20250826,Tuesday,Hendon Central,6334,5981
+20250826,Tuesday,Heron Quays,4630,4477
+20250826,Tuesday,High Barnet,4808,4765
+20250826,Tuesday,High Street Kensington,13791,13213
+20250826,Tuesday,Highams Park,4161,4070
+20250826,Tuesday,Highbury & Islington,16557,17523
+20250826,Tuesday,Highgate,5793,5781
+20250826,Tuesday,Hillingdon,2328,2167
+20250826,Tuesday,Holborn,23763,25156
+20250826,Tuesday,Holland Park,3927,3786
+20250826,Tuesday,Holloway Road,5449,5551
+20250826,Tuesday,Homerton,6029,5782
+20250826,Tuesday,Honor Oak Park,3127,3146
+20250826,Tuesday,Hornchurch,2613,2586
+20250826,Tuesday,Hounslow Central,5527,5382
+20250826,Tuesday,Hounslow East,4144,4607
+20250826,Tuesday,Hounslow West,4235,4410
+20250826,Tuesday,Hoxton,4572,4660
+20250826,Tuesday,Hyde Park Corner,4811,4593
+20250826,Tuesday,Ickenham,1179,1208
+20250826,Tuesday,Ilford,14814,15342
+20250826,Tuesday,Imperial Wharf,3449,3505
+20250826,Tuesday,Island Gardens,2482,1900
+20250826,Tuesday,Iver,354,320
+20250826,Tuesday,Kennington,6069,5938
+20250826,Tuesday,Kensal Green,2485,2571
+20250826,Tuesday,Kensal Rise,3218,3116
+20250826,Tuesday,Kensington Olympia,2827,2770
+20250826,Tuesday,Kentish Town,9049,8969
+20250826,Tuesday,Kentish Town West,2149,2202
+20250826,Tuesday,Kenton,2370,2513
+20250826,Tuesday,Kew Gardens,5931,5851
+20250826,Tuesday,Kilburn,6691,6752
+20250826,Tuesday,Kilburn High Road,1365,1382
+20250826,Tuesday,Kilburn Park,3599,3493
+20250826,Tuesday,King George V,1613,1416
+20250826,Tuesday,Kings Cross St Pancras,108333,101381
+20250826,Tuesday,Kingsbury,4848,4903
+20250826,Tuesday,Knightsbridge,19738,18316
+20250826,Tuesday,Ladbroke Grove,7128,7200
+20250826,Tuesday,Lambeth North,3726,3376
+20250826,Tuesday,Lancaster Gate,3903,3425
+20250826,Tuesday,Langdon Park,2531,2201
+20250826,Tuesday,Langley Berks,766,795
+20250826,Tuesday,Latimer Road,2811,2635
+20250826,Tuesday,Leicester Square,38765,36100
+20250826,Tuesday,Lewisham DLR,6490,5515
+20250826,Tuesday,Leyton,11154,10975
+20250826,Tuesday,Leyton Midland Road,1960,2039
+20250826,Tuesday,Leytonstone,9448,9684
+20250826,Tuesday,Leytonstone High Road,1472,1420
+20250826,Tuesday,Limehouse DLR,7056,6375
+20250826,Tuesday,Liverpool St NR,33465,31101
+20250826,Tuesday,Liverpool Street,87573,88599
+20250826,Tuesday,London Bridge,81478,77139
+20250826,Tuesday,London City Airport,4287,3130
+20250826,Tuesday,London Fields,2282,2419
+20250826,Tuesday,Loughton,4001,4029
+20250826,Tuesday,Maida Vale,3679,3497
+20250826,Tuesday,Maidenhead,2146,2096
+20250826,Tuesday,Manor House,7270,7505
+20250826,Tuesday,Manor Park,5706,5504
+20250826,Tuesday,Mansion House,6710,7206
+20250826,Tuesday,Marble Arch,11976,11484
+20250826,Tuesday,Maryland,5788,5424
+20250826,Tuesday,Marylebone,11929,12424
+20250826,Tuesday,Mile End,11484,11582
+20250826,Tuesday,Mill Hill East,1811,1856
+20250826,Tuesday,Monument,15312,13932
+20250826,Tuesday,Moor Park,943,995
+20250826,Tuesday,Moorgate,39727,43414
+20250826,Tuesday,Morden,12258,11832
+20250826,Tuesday,Mornington Crescent,3959,3386
+20250826,Tuesday,Mudchute,1733,1497
+20250826,Tuesday,Neasden,3865,3708
+20250826,Tuesday,New Cross,3548,3609
+20250826,Tuesday,New Cross Gate,4598,4818
+20250826,Tuesday,Newbury Park,4614,4091
+20250826,Tuesday,Nine Elms,5682,5278
+20250826,Tuesday,North Acton,7030,6985
+20250826,Tuesday,North Ealing,637,686
+20250826,Tuesday,North Greenwich,24999,25574
+20250826,Tuesday,North Harrow,2162,1976
+20250826,Tuesday,North Wembley,2090,1851
+20250826,Tuesday,Northfields,3149,3237
+20250826,Tuesday,Northolt,5788,5459
+20250826,Tuesday,Northwick Park,4444,4357
+20250826,Tuesday,Northwood,2892,2843
+20250826,Tuesday,Northwood Hills,2022,1949
+20250826,Tuesday,Norwood Junction,5743,5477
+20250826,Tuesday,Notting Hill Gate,14455,16168
+20250826,Tuesday,Oakwood,3032,3069
+20250826,Tuesday,Old Street,21271,21003
+20250826,Tuesday,Osterley,2681,2684
+20250826,Tuesday,Oval,7280,6749
+20250826,Tuesday,Oxford Circus,62156,72728
+20250826,Tuesday,Paddington,45627,43229
+20250826,Tuesday,Paddington EL,35428,33272
+20250826,Tuesday,Park Royal,2277,2518
+20250826,Tuesday,Parsons Green,7012,6992
+20250826,Tuesday,Peckham Rye,7608,7803
+20250826,Tuesday,Penge West,757,778
+20250826,Tuesday,Perivale,2131,2148
+20250826,Tuesday,Piccadilly Circus,36253,33720
+20250826,Tuesday,Pimlico,7641,7188
+20250826,Tuesday,Pinner,3432,3304
+20250826,Tuesday,Plaistow,6466,6354
+20250826,Tuesday,Pontoon Dock DLR,3069,2845
+20250826,Tuesday,Poplar,1165,1094
+20250826,Tuesday,Preston Road,3906,3504
+20250826,Tuesday,Prince Regent,1088,1065
+20250826,Tuesday,Pudding Mill Lane,1324,1305
+20250826,Tuesday,Putney Bridge,5896,6684
+20250826,Tuesday,Queens Park,6670,6746
+20250826,Tuesday,Queens Rd Peckham,3786,3655
+20250826,Tuesday,Queensbury,3971,3958
+20250826,Tuesday,Queensway,7879,8185
+20250826,Tuesday,Ravenscourt Park,3054,3047
+20250826,Tuesday,Rayners Lane,5090,5033
+20250826,Tuesday,Reading,1442,1477
+20250826,Tuesday,Rectory Road,1740,1669
+20250826,Tuesday,Redbridge,3086,2814
+20250826,Tuesday,Regents Park,3177,3669
+20250826,Tuesday,Richmond,16267,16015
+20250826,Tuesday,Rickmansworth,2611,2534
+20250826,Tuesday,Roding Valley,215,224
+20250826,Tuesday,Romford,14416,15163
+20250826,Tuesday,Rotherhithe,1896,1719
+20250826,Tuesday,Royal Albert,1760,1632
+20250826,Tuesday,Royal Oak,2403,2434
+20250826,Tuesday,Royal Victoria,2343,1928
+20250826,Tuesday,Ruislip,2364,2428
+20250826,Tuesday,Ruislip Gardens,1186,1082
+20250826,Tuesday,Ruislip Manor,1986,2048
+20250826,Tuesday,Russell Square,10982,11051
+20250826,Tuesday,Seven Kings,5952,5528
+20250826,Tuesday,Seven Sisters,16138,16123
+20250826,Tuesday,Shadwell DLR,5391,5176
+20250826,Tuesday,Shadwell LO,4429,4284
+20250826,Tuesday,Shenfield,3526,3521
+20250826,Tuesday,Shepherds Bush,17704,16588
+20250826,Tuesday,Shepherds Bush LO,10002,10338
+20250826,Tuesday,Shepherds Bush Market,4549,4449
+20250826,Tuesday,Shoreditch High Street,8110,8584
+20250826,Tuesday,Silver Street,2901,2739
+20250826,Tuesday,Sloane Square,17361,17644
+20250826,Tuesday,Slough,3052,2972
+20250826,Tuesday,Snaresbrook,2339,2458
+20250826,Tuesday,South Acton,1030,1049
+20250826,Tuesday,South Ealing,2838,2915
+20250826,Tuesday,South Hampstead,676,639
+20250826,Tuesday,South Harrow,2884,2806
+20250826,Tuesday,South Kensington,36819,37762
+20250826,Tuesday,South Kenton,884,840
+20250826,Tuesday,South Quay,4214,4134
+20250826,Tuesday,South Ruislip,2191,2160
+20250826,Tuesday,South Tottenham,1996,2097
+20250826,Tuesday,South Wimbledon,5174,4642
+20250826,Tuesday,South Woodford,5539,5794
+20250826,Tuesday,Southall,11430,10859
+20250826,Tuesday,Southbury,1391,1583
+20250826,Tuesday,Southfields,6993,6599
+20250826,Tuesday,Southgate,5174,5499
+20250826,Tuesday,Southwark,13205,13667
+20250826,Tuesday,St James Street,2391,2536
+20250826,Tuesday,St James's Park,15180,14695
+20250826,Tuesday,St Johns Wood,8760,9184
+20250826,Tuesday,St Pauls,12844,13066
+20250826,Tuesday,Stamford Brook,3032,3005
+20250826,Tuesday,Stamford Hill,991,871
+20250826,Tuesday,Stanmore,5890,5792
+20250826,Tuesday,Star Lane DLR,1289,1277
+20250826,Tuesday,Stepney Green,6178,6046
+20250826,Tuesday,Stockwell,11218,9447
+20250826,Tuesday,Stoke Newington,1933,1724
+20250826,Tuesday,Stonebridge Park,3803,3360
+20250826,Tuesday,Stratford,72252,73243
+20250826,Tuesday,Stratford High Street,667,742
+20250826,Tuesday,Stratford International,3281,2788
+20250826,Tuesday,Sudbury Hill,2233,2298
+20250826,Tuesday,Sudbury Town,2369,2096
+20250826,Tuesday,Surrey Quays,6129,5874
+20250826,Tuesday,Swiss Cottage,6517,6347
+20250826,Tuesday,Sydenham SR,4432,4633
+20250826,Tuesday,Taplow,321,309
+20250826,Tuesday,Temple,8354,7878
+20250826,Tuesday,Theobalds Grove,1099,1025
+20250826,Tuesday,Theydon Bois,1086,1115
+20250826,Tuesday,Tooting Bec,8728,8351
+20250826,Tuesday,Tooting Broadway,16398,16345
+20250826,Tuesday,Tottenham Court Road,82750,81980
+20250826,Tuesday,Tottenham Hale,18421,17014
+20250826,Tuesday,Totteridge & Whetstone,3001,2850
+20250826,Tuesday,Tower Gateway,2862,2752
+20250826,Tuesday,Tower Hill,25392,27581
+20250826,Tuesday,Tufnell Park,4027,3904
+20250826,Tuesday,Turkey Street,1336,1202
+20250826,Tuesday,Turnham Green,6385,6659
+20250826,Tuesday,Turnpike Lane,10326,10701
+20250826,Tuesday,Twyford,611,525
+20250826,Tuesday,Upminster,5908,6050
+20250826,Tuesday,Upminster Bridge,1169,1137
+20250826,Tuesday,Upney,3460,3179
+20250826,Tuesday,Upper Holloway,1799,1788
+20250826,Tuesday,Upton Park,13325,12799
+20250826,Tuesday,Uxbridge,7636,7587
+20250826,Tuesday,Vauxhall,21142,22191
+20250826,Tuesday,Victoria,87117,90098
+20250826,Tuesday,W Silvertown,2397,2214
+20250826,Tuesday,Walthamstow Central,17399,17307
+20250826,Tuesday,Walthamstow Queens Road,1277,1310
+20250826,Tuesday,Wandsworth Road,853,788
+20250826,Tuesday,Wanstead,2705,2610
+20250826,Tuesday,Wanstead Park,1867,1886
+20250826,Tuesday,Wapping,2760,2566
+20250826,Tuesday,Warren Street,18720,19633
+20250826,Tuesday,Warwick Avenue,3946,4112
+20250826,Tuesday,Waterloo,92106,90909
+20250826,Tuesday,Watford High Street,1990,1771
+20250826,Tuesday,Watford Junction,7082,6671
+20250826,Tuesday,Watford Met,2604,2534
+20250826,Tuesday,Wembley Central,11369,11559
+20250826,Tuesday,Wembley Park,49668,63426
+20250826,Tuesday,West Acton,1385,1359
+20250826,Tuesday,West Brompton,5833,5909
+20250826,Tuesday,West Croydon,5699,5270
+20250826,Tuesday,West Drayton,5068,4935
+20250826,Tuesday,West Ealing,4098,3649
+20250826,Tuesday,West Finchley,1844,1710
+20250826,Tuesday,West Ham,8016,7587
+20250826,Tuesday,West Hampstead,11339,10152
+20250826,Tuesday,West Hampstead LO,6110,6520
+20250826,Tuesday,West Harrow,1434,1330
+20250826,Tuesday,West India Quay,1175,1162
+20250826,Tuesday,West Kensington,4801,4467
+20250826,Tuesday,West Ruislip,1829,1775
+20250826,Tuesday,Westbourne Park,5357,5027
+20250826,Tuesday,Westferry,3825,3400
+20250826,Tuesday,Westminster,28740,30506
+20250826,Tuesday,White City,11614,11300
+20250826,Tuesday,White Hart Lane,2312,2158
+20250826,Tuesday,Whitechapel,26341,25873
+20250826,Tuesday,Willesden Green,7714,7670
+20250826,Tuesday,Willesden Junction,6449,6531
+20250826,Tuesday,Wimbledon,22029,21829
+20250826,Tuesday,Wimbledon Park,2661,2711
+20250826,Tuesday,Wood Green,11115,10926
+20250826,Tuesday,Wood Lane,6711,7445
+20250826,Tuesday,Wood Street,2758,2779
+20250826,Tuesday,Woodford,6315,6202
+20250826,Tuesday,Woodgrange Park,1275,1141
+20250826,Tuesday,Woodside Park,3524,2985
+20250826,Tuesday,Woolwich Arsenal DLR,6026,6429
+20250826,Tuesday,Woolwich Arsenal NR,1671,1566
+20250826,Tuesday,Woolwich Elizabeth Line,19441,19406
+20250827,Wednesday,Abbey Road DLR,989,906
+20250827,Wednesday,Abbey Wood,19120,18397
+20250827,Wednesday,Acton Central,2096,2144
+20250827,Wednesday,Acton Main Line,4456,4400
+20250827,Wednesday,Acton Town,6647,6866
+20250827,Wednesday,Aldgate,13174,14439
+20250827,Wednesday,Aldgate East,16517,15605
+20250827,Wednesday,All Saints,1323,1243
+20250827,Wednesday,Alperton,3494,4230
+20250827,Wednesday,Amersham,2971,2939
+20250827,Wednesday,Anerley,1287,1155
+20250827,Wednesday,Angel,15015,15738
+20250827,Wednesday,Archway,9736,9313
+20250827,Wednesday,Arnos Grove,4450,4196
+20250827,Wednesday,Arsenal,3122,2966
+20250827,Wednesday,Baker Street,34506,34646
+20250827,Wednesday,Balham,13896,13934
+20250827,Wednesday,Bank,52784,55611
+20250827,Wednesday,Barbican,8095,8070
+20250827,Wednesday,Barking,22478,21921
+20250827,Wednesday,Barking Riverside,1710,1432
+20250827,Wednesday,Barkingside,0,1
+20250827,Wednesday,Barons Court,8022,7996
+20250827,Wednesday,Battersea Power Station,13914,13174
+20250827,Wednesday,Bayswater,5856,5233
+20250827,Wednesday,Beckton,1710,1595
+20250827,Wednesday,Beckton Park,471,368
+20250827,Wednesday,Becontree,4157,3932
+20250827,Wednesday,Belsize Park,7225,7081
+20250827,Wednesday,Bermondsey,9547,9328
+20250827,Wednesday,Bethnal Green,13252,12749
+20250827,Wednesday,Bethnal Green NR,2321,2458
+20250827,Wednesday,Blackfriars,18371,17925
+20250827,Wednesday,Blackhorse Road,13506,12618
+20250827,Wednesday,Blackwall,1362,1276
+20250827,Wednesday,Bond Street,60121,59123
+20250827,Wednesday,Borough,5545,5904
+20250827,Wednesday,Boston Manor,1988,1961
+20250827,Wednesday,Bounds Green,5532,5424
+20250827,Wednesday,Bow Church,2009,1700
+20250827,Wednesday,Bow Road,5641,5472
+20250827,Wednesday,Brent Cross,2514,2425
+20250827,Wednesday,Brentwood,4627,4399
+20250827,Wednesday,Brixton,26919,26245
+20250827,Wednesday,Brockley,4582,4622
+20250827,Wednesday,Bromley-by-Bow,5431,5259
+20250827,Wednesday,Brondesbury,3707,3566
+20250827,Wednesday,Brondesbury Park,1233,1297
+20250827,Wednesday,Bruce Grove,1907,1753
+20250827,Wednesday,Buckhurst Hill,3323,3175
+20250827,Wednesday,Burnham Bucks,1160,1114
+20250827,Wednesday,Burnt Oak,4407,3881
+20250827,Wednesday,Bush Hill Park,1940,1729
+20250827,Wednesday,Bushey,1770,1762
+20250827,Wednesday,Caledonian Road,5444,5277
+20250827,Wednesday,Caledonian Road & Barnsbury,1990,2038
+20250827,Wednesday,Cambridge Heath,1335,1411
+20250827,Wednesday,Camden Road,5843,6108
+20250827,Wednesday,Camden Town,28115,29700
+20250827,Wednesday,Canada Water,13962,13894
+20250827,Wednesday,Canary Wharf,44711,44849
+20250827,Wednesday,Canary Wharf DLR,10236,11026
+20250827,Wednesday,Canary Wharf Elizabeth Line,29633,30561
+20250827,Wednesday,Canning Town,16593,16284
+20250827,Wednesday,Cannon Street,7801,6987
+20250827,Wednesday,Canonbury,3539,3356
+20250827,Wednesday,Canons Park,3258,3410
+20250827,Wednesday,Carpenders Park,1766,1774
+20250827,Wednesday,Chadwell Heath,7153,6821
+20250827,Wednesday,Chalfont & Latimer,1740,1688
+20250827,Wednesday,Chalk Farm,6179,5159
+20250827,Wednesday,Chancery Lane,12220,13033
+20250827,Wednesday,Charing Cross,22727,22002
+20250827,Wednesday,Chesham,1533,1382
+20250827,Wednesday,Cheshunt,2933,2961
+20250827,Wednesday,Chigwell,1,0
+20250827,Wednesday,Chingford,3289,3310
+20250827,Wednesday,Chiswick Park,2522,2808
+20250827,Wednesday,Chorleywood,1640,1146
+20250827,Wednesday,Clapham Common,9801,10980
+20250827,Wednesday,Clapham High Street,1891,1788
+20250827,Wednesday,Clapham Junction,25956,26406
+20250827,Wednesday,Clapham North,6307,7157
+20250827,Wednesday,Clapham South,9128,9195
+20250827,Wednesday,Clapton,2944,2742
+20250827,Wednesday,Cockfosters,2110,2218
+20250827,Wednesday,Colindale,8230,7355
+20250827,Wednesday,Colliers Wood,8119,7634
+20250827,Wednesday,Covent Garden,15991,20121
+20250827,Wednesday,Crossharbour,3023,2761
+20250827,Wednesday,Crouch Hill,1080,1100
+20250827,Wednesday,Croxley,1470,1462
+20250827,Wednesday,Crystal Palace,3655,3866
+20250827,Wednesday,Custom House DLR,3728,2413
+20250827,Wednesday,Custom House Elizabeth Line,13262,13554
+20250827,Wednesday,Cyprus,811,765
+20250827,Wednesday,Dagenham East,4280,3889
+20250827,Wednesday,Dagenham Heathway,7261,7160
+20250827,Wednesday,Dalston Junction,6770,6981
+20250827,Wednesday,Dalston Kingsland,7067,7090
+20250827,Wednesday,Debden,2892,2737
+20250827,Wednesday,Denmark Hill,8182,8159
+20250827,Wednesday,Deptford Bridge,2396,2133
+20250827,Wednesday,Devons Road,2219,1938
+20250827,Wednesday,Dollis Hill,4755,4064
+20250827,Wednesday,Ealing Broadway,22855,24335
+20250827,Wednesday,Ealing Common,2301,2505
+20250827,Wednesday,Earls Court,22774,22532
+20250827,Wednesday,East Acton,4457,4560
+20250827,Wednesday,East Finchley,7544,7540
+20250827,Wednesday,East Ham,16159,15991
+20250827,Wednesday,East India,3352,3062
+20250827,Wednesday,East Putney,8647,8359
+20250827,Wednesday,Eastcote,3368,3331
+20250827,Wednesday,Edgware,6865,5795
+20250827,Wednesday,Edgware Road B,5278,5483
+20250827,Wednesday,Edgware Road C&H,9029,8766
+20250827,Wednesday,Edmonton Green,4878,4708
+20250827,Wednesday,Elephant & Castle,16706,16436
+20250827,Wednesday,Elm Park,4352,4142
+20250827,Wednesday,Elverson Road,1148,915
+20250827,Wednesday,Embankment,28340,28170
+20250827,Wednesday,Emerson Park,464,278
+20250827,Wednesday,Enfield Town,3519,3350
+20250827,Wednesday,Epping,4680,4495
+20250827,Wednesday,Euston,46476,47163
+20250827,Wednesday,Euston NR,14986,14847
+20250827,Wednesday,Euston Square,17836,17379
+20250827,Wednesday,Farringdon,71188,70261
+20250827,Wednesday,Finchley Central,6342,6688
+20250827,Wednesday,Finchley Road,10964,10452
+20250827,Wednesday,Finchley Road & Frognal,2546,2711
+20250827,Wednesday,Finsbury Park,26187,24813
+20250827,Wednesday,Forest Gate,8949,8731
+20250827,Wednesday,Forest Hill,5895,5595
+20250827,Wednesday,Fulham Broadway,9634,9910
+20250827,Wednesday,Gallions Reach,1891,1640
+20250827,Wednesday,Gants Hill,8325,7794
+20250827,Wednesday,Gidea Park,4790,4526
+20250827,Wednesday,Gloucester Road,15707,14851
+20250827,Wednesday,Golders Green,8364,9312
+20250827,Wednesday,Goldhawk Road,2475,2468
+20250827,Wednesday,Goodge Street,6581,7007
+20250827,Wednesday,Goodmayes,6604,6524
+20250827,Wednesday,Gospel Oak,3289,3025
+20250827,Wednesday,Grange Hill,1,1
+20250827,Wednesday,Great Portland Street,9311,9067
+20250827,Wednesday,Green Park,40706,49144
+20250827,Wednesday,Greenford,4801,5045
+20250827,Wednesday,Greenwich,8075,7782
+20250827,Wednesday,Gunnersbury,7471,7213
+20250827,Wednesday,Hackney Central,7140,7060
+20250827,Wednesday,Hackney Downs,3283,3220
+20250827,Wednesday,Hackney Wick,5234,5317
+20250827,Wednesday,Haggerston,4025,4041
+20250827,Wednesday,Hainault,1,1
+20250827,Wednesday,Hammersmith C&H,14591,14094
+20250827,Wednesday,Hammersmith D&P,30543,29475
+20250827,Wednesday,Hampstead,4600,5624
+20250827,Wednesday,Hampstead Heath,4651,4620
+20250827,Wednesday,Hanger Lane,4967,4143
+20250827,Wednesday,Hanwell,2960,2274
+20250827,Wednesday,Harlesden,4261,4039
+20250827,Wednesday,Harold Wood,5972,5783
+20250827,Wednesday,Harringay Green Lanes,1817,1841
+20250827,Wednesday,Harrow & Wealdstone,6255,6151
+20250827,Wednesday,Harrow-on-the-Hill,12812,13246
+20250827,Wednesday,Hatch End,1017,987
+20250827,Wednesday,Hatton Cross,4494,4792
+20250827,Wednesday,Hayes & Harlington,12130,11889
+20250827,Wednesday,Headstone Lane,664,575
+20250827,Wednesday,Heathrow T2&3 TfL Rail/HEx,9901,8894
+20250827,Wednesday,Heathrow T4 TfL Rail/HEx,2419,2363
+20250827,Wednesday,Heathrow T5 TfL Rail/HEx,5989,5608
+20250827,Wednesday,Heathrow Terminal 4,2496,2400
+20250827,Wednesday,Heathrow Terminal 5,7466,5444
+20250827,Wednesday,Heathrow Terminals 2&3,9969,7536
+20250827,Wednesday,Hendon Central,6534,5588
+20250827,Wednesday,Heron Quays,4896,4851
+20250827,Wednesday,High Barnet,4998,4883
+20250827,Wednesday,High Street Kensington,14559,14102
+20250827,Wednesday,Highams Park,4339,4317
+20250827,Wednesday,Highbury & Islington,18361,18917
+20250827,Wednesday,Highgate,6020,5931
+20250827,Wednesday,Hillingdon,2367,2350
+20250827,Wednesday,Holborn,25287,26921
+20250827,Wednesday,Holland Park,3821,3715
+20250827,Wednesday,Holloway Road,5502,5534
+20250827,Wednesday,Homerton,6144,5996
+20250827,Wednesday,Honor Oak Park,3281,3261
+20250827,Wednesday,Hornchurch,2423,2456
+20250827,Wednesday,Hounslow Central,5754,6066
+20250827,Wednesday,Hounslow East,4181,4520
+20250827,Wednesday,Hounslow West,4299,4390
+20250827,Wednesday,Hoxton,4711,4854
+20250827,Wednesday,Hyde Park Corner,4995,4572
+20250827,Wednesday,Ickenham,1340,1418
+20250827,Wednesday,Ilford,16833,17180
+20250827,Wednesday,Imperial Wharf,3724,3465
+20250827,Wednesday,Island Gardens,2550,1921
+20250827,Wednesday,Iver,347,295
+20250827,Wednesday,Kennington,6389,6357
+20250827,Wednesday,Kensal Green,2750,2638
+20250827,Wednesday,Kensal Rise,3225,3413
+20250827,Wednesday,Kensington Olympia,2891,2599
+20250827,Wednesday,Kentish Town,8167,7962
+20250827,Wednesday,Kentish Town West,2259,2284
+20250827,Wednesday,Kenton,2512,2614
+20250827,Wednesday,Kew Gardens,5722,5469
+20250827,Wednesday,Kilburn,6940,7150
+20250827,Wednesday,Kilburn High Road,1355,1382
+20250827,Wednesday,Kilburn Park,3854,3927
+20250827,Wednesday,King George V,1539,1374
+20250827,Wednesday,Kings Cross St Pancras,110215,108023
+20250827,Wednesday,Kingsbury,5004,5156
+20250827,Wednesday,Knightsbridge,21369,19883
+20250827,Wednesday,Ladbroke Grove,7518,7260
+20250827,Wednesday,Lambeth North,4175,3791
+20250827,Wednesday,Lancaster Gate,3820,3438
+20250827,Wednesday,Langdon Park,2672,2304
+20250827,Wednesday,Langley Berks,774,744
+20250827,Wednesday,Latimer Road,2825,3200
+20250827,Wednesday,Leicester Square,40814,37931
+20250827,Wednesday,Lewisham DLR,6264,5517
+20250827,Wednesday,Leyton,11248,11294
+20250827,Wednesday,Leyton Midland Road,2121,2104
+20250827,Wednesday,Leytonstone,9675,9846
+20250827,Wednesday,Leytonstone High Road,1545,1526
+20250827,Wednesday,Limehouse DLR,8419,7643
+20250827,Wednesday,Liverpool St NR,34013,31056
+20250827,Wednesday,Liverpool Street,93642,95706
+20250827,Wednesday,London Bridge,78861,75048
+20250827,Wednesday,London City Airport,3878,3326
+20250827,Wednesday,London Fields,2352,2600
+20250827,Wednesday,Loughton,4033,4209
+20250827,Wednesday,Maida Vale,3857,3751
+20250827,Wednesday,Maidenhead,2320,2337
+20250827,Wednesday,Manor House,7608,7770
+20250827,Wednesday,Manor Park,5957,5741
+20250827,Wednesday,Mansion House,7391,7701
+20250827,Wednesday,Marble Arch,11723,11466
+20250827,Wednesday,Maryland,5969,5540
+20250827,Wednesday,Marylebone,14400,14149
+20250827,Wednesday,Mile End,12097,12129
+20250827,Wednesday,Mill Hill East,1779,1885
+20250827,Wednesday,Monument,16951,16381
+20250827,Wednesday,Moor Park,1118,1118
+20250827,Wednesday,Moorgate,43721,48210
+20250827,Wednesday,Morden,12931,12592
+20250827,Wednesday,Mornington Crescent,3637,3254
+20250827,Wednesday,Mudchute,1710,1548
+20250827,Wednesday,Neasden,4224,3463
+20250827,Wednesday,New Cross,3708,3563
+20250827,Wednesday,New Cross Gate,4885,5096
+20250827,Wednesday,Newbury Park,6828,6631
+20250827,Wednesday,Nine Elms,5277,4997
+20250827,Wednesday,North Acton,7074,7176
+20250827,Wednesday,North Ealing,698,901
+20250827,Wednesday,North Greenwich,25235,26045
+20250827,Wednesday,North Harrow,2184,2041
+20250827,Wednesday,North Wembley,2182,1917
+20250827,Wednesday,Northfields,3282,3264
+20250827,Wednesday,Northolt,6311,5707
+20250827,Wednesday,Northwick Park,4533,4440
+20250827,Wednesday,Northwood,2990,3005
+20250827,Wednesday,Northwood Hills,2009,1928
+20250827,Wednesday,Norwood Junction,6080,5738
+20250827,Wednesday,Notting Hill Gate,15571,17455
+20250827,Wednesday,Oakwood,3035,3133
+20250827,Wednesday,Old Street,23128,22575
+20250827,Wednesday,Osterley,2829,2834
+20250827,Wednesday,Oval,7019,6728
+20250827,Wednesday,Oxford Circus,74064,85180
+20250827,Wednesday,Paddington,46664,46260
+20250827,Wednesday,Paddington EL,36355,35113
+20250827,Wednesday,Park Royal,2337,2477
+20250827,Wednesday,Parsons Green,7630,7527
+20250827,Wednesday,Peckham Rye,8196,8311
+20250827,Wednesday,Penge West,736,723
+20250827,Wednesday,Perivale,2334,2316
+20250827,Wednesday,Piccadilly Circus,38341,36059
+20250827,Wednesday,Pimlico,10239,10282
+20250827,Wednesday,Pinner,3464,3435
+20250827,Wednesday,Plaistow,6563,6370
+20250827,Wednesday,Pontoon Dock DLR,3168,3019
+20250827,Wednesday,Poplar,1231,1146
+20250827,Wednesday,Preston Road,3973,3614
+20250827,Wednesday,Prince Regent,1249,1102
+20250827,Wednesday,Pudding Mill Lane,1447,1335
+20250827,Wednesday,Putney Bridge,6894,9815
+20250827,Wednesday,Queens Park,7210,6837
+20250827,Wednesday,Queens Rd Peckham,4049,3869
+20250827,Wednesday,Queensbury,3962,3929
+20250827,Wednesday,Queensway,7887,8176
+20250827,Wednesday,Ravenscourt Park,2970,2961
+20250827,Wednesday,Rayners Lane,5115,5108
+20250827,Wednesday,Reading,1416,1476
+20250827,Wednesday,Rectory Road,1973,1824
+20250827,Wednesday,Redbridge,3030,2766
+20250827,Wednesday,Regents Park,3419,3885
+20250827,Wednesday,Richmond,16975,16739
+20250827,Wednesday,Rickmansworth,2759,2685
+20250827,Wednesday,Romford,15403,16192
+20250827,Wednesday,Rotherhithe,2157,1964
+20250827,Wednesday,Royal Albert,1818,1635
+20250827,Wednesday,Royal Oak,2907,2851
+20250827,Wednesday,Royal Victoria,2276,1974
+20250827,Wednesday,Ruislip,2250,2302
+20250827,Wednesday,Ruislip Gardens,1259,1099
+20250827,Wednesday,Ruislip Manor,2042,2076
+20250827,Wednesday,Russell Square,11601,11338
+20250827,Wednesday,Seven Kings,6174,5638
+20250827,Wednesday,Seven Sisters,16806,16530
+20250827,Wednesday,Shadwell DLR,5597,5382
+20250827,Wednesday,Shadwell LO,4911,4905
+20250827,Wednesday,Shenfield,3627,3735
+20250827,Wednesday,Shepherds Bush,18176,17676
+20250827,Wednesday,Shepherds Bush LO,10281,10271
+20250827,Wednesday,Shepherds Bush Market,4408,4447
+20250827,Wednesday,Shoreditch High Street,8913,9702
+20250827,Wednesday,Silver Street,3095,2823
+20250827,Wednesday,Sloane Square,18756,18465
+20250827,Wednesday,Slough,3132,3039
+20250827,Wednesday,Snaresbrook,2508,2598
+20250827,Wednesday,South Acton,1155,1057
+20250827,Wednesday,South Ealing,3096,3185
+20250827,Wednesday,South Hampstead,742,715
+20250827,Wednesday,South Harrow,2551,3275
+20250827,Wednesday,South Kensington,40031,40050
+20250827,Wednesday,South Kenton,1011,964
+20250827,Wednesday,South Quay,4575,4460
+20250827,Wednesday,South Ruislip,2475,2302
+20250827,Wednesday,South Tottenham,1964,2145
+20250827,Wednesday,South Wimbledon,5470,4905
+20250827,Wednesday,South Woodford,5958,6178
+20250827,Wednesday,Southall,11247,10930
+20250827,Wednesday,Southbury,1452,1638
+20250827,Wednesday,Southfields,7507,6955
+20250827,Wednesday,Southgate,5257,5548
+20250827,Wednesday,Southwark,12640,12660
+20250827,Wednesday,St James Street,2366,2454
+20250827,Wednesday,St James's Park,16658,17003
+20250827,Wednesday,St Johns Wood,8797,9059
+20250827,Wednesday,St Pauls,13990,14132
+20250827,Wednesday,Stamford Brook,3222,3030
+20250827,Wednesday,Stamford Hill,1009,848
+20250827,Wednesday,Stanmore,5571,5674
+20250827,Wednesday,Star Lane DLR,1431,1293
+20250827,Wednesday,Stepney Green,6194,5925
+20250827,Wednesday,Stockwell,10685,9702
+20250827,Wednesday,Stoke Newington,2043,1830
+20250827,Wednesday,Stonebridge Park,4617,3723
+20250827,Wednesday,Stratford,74097,74877
+20250827,Wednesday,Stratford High Street,693,729
+20250827,Wednesday,Stratford International,3447,2848
+20250827,Wednesday,Sudbury Hill,2037,2437
+20250827,Wednesday,Sudbury Town,1998,2070
+20250827,Wednesday,Surrey Quays,6078,5746
+20250827,Wednesday,Swiss Cottage,6692,6501
+20250827,Wednesday,Sydenham SR,4752,4867
+20250827,Wednesday,Taplow,364,354
+20250827,Wednesday,Temple,8694,8357
+20250827,Wednesday,Theobalds Grove,1095,1037
+20250827,Wednesday,Theydon Bois,1123,1121
+20250827,Wednesday,Tooting Bec,9301,8937
+20250827,Wednesday,Tooting Broadway,17610,17288
+20250827,Wednesday,Tottenham Court Road,90912,89315
+20250827,Wednesday,Tottenham Hale,19864,19632
+20250827,Wednesday,Totteridge & Whetstone,3185,2970
+20250827,Wednesday,Tower Gateway,3505,3166
+20250827,Wednesday,Tower Hill,26286,28659
+20250827,Wednesday,Tufnell Park,4026,3850
+20250827,Wednesday,Turkey Street,1370,1197
+20250827,Wednesday,Turnham Green,7322,6981
+20250827,Wednesday,Turnpike Lane,10551,10757
+20250827,Wednesday,Twyford,749,564
+20250827,Wednesday,Upminster,6210,6455
+20250827,Wednesday,Upminster Bridge,1061,990
+20250827,Wednesday,Upney,3318,3033
+20250827,Wednesday,Upper Holloway,1877,1857
+20250827,Wednesday,Upton Park,12829,12306
+20250827,Wednesday,Uxbridge,7909,7637
+20250827,Wednesday,Vauxhall,29741,28122
+20250827,Wednesday,Victoria,91315,97233
+20250827,Wednesday,W Silvertown,2375,2198
+20250827,Wednesday,Walthamstow Central,18326,18203
+20250827,Wednesday,Walthamstow Queens Road,1268,1290
+20250827,Wednesday,Wandsworth Road,899,904
+20250827,Wednesday,Wanstead,2711,2721
+20250827,Wednesday,Wanstead Park,1950,1911
+20250827,Wednesday,Wapping,2911,2617
+20250827,Wednesday,Warren Street,20745,21615
+20250827,Wednesday,Warwick Avenue,4289,4420
+20250827,Wednesday,Waterloo,93932,99115
+20250827,Wednesday,Watford High Street,2087,1943
+20250827,Wednesday,Watford Junction,7189,6777
+20250827,Wednesday,Watford Met,2698,2641
+20250827,Wednesday,Wembley Central,9006,12286
+20250827,Wednesday,Wembley Park,54341,66010
+20250827,Wednesday,West Acton,1566,1394
+20250827,Wednesday,West Brompton,6489,6339
+20250827,Wednesday,West Croydon,5793,5254
+20250827,Wednesday,West Drayton,5225,4999
+20250827,Wednesday,West Ealing,4143,3388
+20250827,Wednesday,West Finchley,1942,1833
+20250827,Wednesday,West Ham,7728,7501
+20250827,Wednesday,West Hampstead,11084,10556
+20250827,Wednesday,West Hampstead LO,6210,6338
+20250827,Wednesday,West Harrow,1527,1406
+20250827,Wednesday,West India Quay,1291,1361
+20250827,Wednesday,West Kensington,5179,4903
+20250827,Wednesday,West Ruislip,2022,1882
+20250827,Wednesday,Westbourne Park,5471,5241
+20250827,Wednesday,Westferry,4041,3709
+20250827,Wednesday,Westminster,25106,20042
+20250827,Wednesday,White City,12494,12464
+20250827,Wednesday,White Hart Lane,2449,2251
+20250827,Wednesday,Whitechapel,27124,26918
+20250827,Wednesday,Willesden Green,7908,7718
+20250827,Wednesday,Willesden Junction,7161,6778
+20250827,Wednesday,Wimbledon,22902,22866
+20250827,Wednesday,Wimbledon Park,2854,2812
+20250827,Wednesday,Wood Green,11353,11253
+20250827,Wednesday,Wood Lane,7533,7921
+20250827,Wednesday,Wood Street,2946,2852
+20250827,Wednesday,Woodford,7188,7180
+20250827,Wednesday,Woodgrange Park,1245,1166
+20250827,Wednesday,Woodside Park,3676,3120
+20250827,Wednesday,Woolwich Arsenal DLR,6053,6323
+20250827,Wednesday,Woolwich Arsenal NR,1772,1622
+20250827,Wednesday,Woolwich Elizabeth Line,20590,20185
+20250828,Thursday,Abbey Road DLR,989,921
+20250828,Thursday,Abbey Wood,19136,18154
+20250828,Thursday,Acton Central,2102,2091
+20250828,Thursday,Acton Main Line,4438,4395
+20250828,Thursday,Acton Town,6792,6856
+20250828,Thursday,Aldgate,11971,14047
+20250828,Thursday,Aldgate East,17753,16868
+20250828,Thursday,All Saints,1257,1159
+20250828,Thursday,Alperton,3733,3896
+20250828,Thursday,Amersham,3221,3056
+20250828,Thursday,Anerley,1369,1198
+20250828,Thursday,Angel,16061,16687
+20250828,Thursday,Archway,10221,9877
+20250828,Thursday,Arnos Grove,4411,4363
+20250828,Thursday,Arsenal,3190,3099
+20250828,Thursday,Baker Street,34504,34584
+20250828,Thursday,Balham,15018,14716
+20250828,Thursday,Bank,55894,60173
+20250828,Thursday,Barbican,8778,8608
+20250828,Thursday,Barking,23471,22830
+20250828,Thursday,Barking Riverside,1759,1502
+20250828,Thursday,Barons Court,7888,7613
+20250828,Thursday,Battersea Power Station,13739,12938
+20250828,Thursday,Bayswater,5268,4450
+20250828,Thursday,Beckton,1686,1618
+20250828,Thursday,Beckton Park,503,388
+20250828,Thursday,Becontree,4216,4241
+20250828,Thursday,Belsize Park,7277,7338
+20250828,Thursday,Bermondsey,10191,10038
+20250828,Thursday,Bethnal Green,13687,12978
+20250828,Thursday,Bethnal Green NR,2266,2550
+20250828,Thursday,Blackfriars,22689,18399
+20250828,Thursday,Blackhorse Road,13752,12651
+20250828,Thursday,Blackwall,1466,1230
+20250828,Thursday,Bond Street,62804,64606
+20250828,Thursday,Borough,5565,5863
+20250828,Thursday,Boston Manor,2029,1833
+20250828,Thursday,Bounds Green,5979,5831
+20250828,Thursday,Bow Church,2069,1889
+20250828,Thursday,Bow Road,6157,6000
+20250828,Thursday,Brent Cross,2816,2808
+20250828,Thursday,Brentwood,4804,4561
+20250828,Thursday,Brixton,31229,30735
+20250828,Thursday,Brockley,4918,4915
+20250828,Thursday,Bromley-by-Bow,5443,5393
+20250828,Thursday,Brondesbury,3547,3340
+20250828,Thursday,Brondesbury Park,1257,1258
+20250828,Thursday,Bruce Grove,1994,1783
+20250828,Thursday,Buckhurst Hill,3365,3175
+20250828,Thursday,Burnham Bucks,1125,1137
+20250828,Thursday,Burnt Oak,4539,4545
+20250828,Thursday,Bush Hill Park,2016,1762
+20250828,Thursday,Bushey,2038,1785
+20250828,Thursday,Caledonian Road,5538,5397
+20250828,Thursday,Caledonian Road & Barnsbury,1956,2092
+20250828,Thursday,Cambridge Heath,1391,1404
+20250828,Thursday,Camden Road,5834,6299
+20250828,Thursday,Camden Town,29547,30936
+20250828,Thursday,Canada Water,14723,14671
+20250828,Thursday,Canary Wharf,50316,52410
+20250828,Thursday,Canary Wharf DLR,10053,10180
+20250828,Thursday,Canary Wharf Elizabeth Line,29446,29791
+20250828,Thursday,Canning Town,17418,16649
+20250828,Thursday,Cannon Street,8757,7631
+20250828,Thursday,Canonbury,3743,3535
+20250828,Thursday,Canons Park,3329,3237
+20250828,Thursday,Carpenders Park,1790,1762
+20250828,Thursday,Chadwell Heath,7342,6874
+20250828,Thursday,Chalfont & Latimer,1651,1628
+20250828,Thursday,Chalk Farm,6730,5479
+20250828,Thursday,Chancery Lane,12939,13861
+20250828,Thursday,Charing Cross,22734,22365
+20250828,Thursday,Chesham,1581,1408
+20250828,Thursday,Cheshunt,3088,3131
+20250828,Thursday,Chingford,3464,3467
+20250828,Thursday,Chiswick Park,3279,3455
+20250828,Thursday,Chorleywood,1314,1221
+20250828,Thursday,Clapham Common,10564,12311
+20250828,Thursday,Clapham High Street,2048,1967
+20250828,Thursday,Clapham Junction,27405,27079
+20250828,Thursday,Clapham North,6603,7483
+20250828,Thursday,Clapham South,9592,9325
+20250828,Thursday,Clapton,3148,2798
+20250828,Thursday,Cockfosters,2437,2600
+20250828,Thursday,Colindale,8516,8044
+20250828,Thursday,Colliers Wood,8650,8057
+20250828,Thursday,Covent Garden,19180,23004
+20250828,Thursday,Crossharbour,2246,2335
+20250828,Thursday,Crouch Hill,1155,1137
+20250828,Thursday,Croxley,1453,1458
+20250828,Thursday,Crystal Palace,3708,3875
+20250828,Thursday,Custom House DLR,3625,2467
+20250828,Thursday,Custom House Elizabeth Line,13115,13225
+20250828,Thursday,Cyprus,814,759
+20250828,Thursday,Dagenham East,4057,3846
+20250828,Thursday,Dagenham Heathway,7199,7376
+20250828,Thursday,Dalston Junction,7401,7422
+20250828,Thursday,Dalston Kingsland,7335,7221
+20250828,Thursday,Debden,2957,2866
+20250828,Thursday,Denmark Hill,8662,8408
+20250828,Thursday,Deptford Bridge,2437,2248
+20250828,Thursday,Devons Road,2240,1944
+20250828,Thursday,Dollis Hill,4526,4608
+20250828,Thursday,Ealing Broadway,22925,24142
+20250828,Thursday,Ealing Common,2692,2718
+20250828,Thursday,Earls Court,23335,23008
+20250828,Thursday,East Acton,4648,4615
+20250828,Thursday,East Finchley,8003,7799
+20250828,Thursday,East Ham,15762,15687
+20250828,Thursday,East India,3329,3089
+20250828,Thursday,East Putney,8678,8471
+20250828,Thursday,Eastcote,3485,3471
+20250828,Thursday,Edgware,6811,6887
+20250828,Thursday,Edgware Road B,5144,5173
+20250828,Thursday,Edgware Road C&H,8673,8441
+20250828,Thursday,Edmonton Green,4944,4701
+20250828,Thursday,Elephant & Castle,17723,16670
+20250828,Thursday,Elm Park,3855,3990
+20250828,Thursday,Elverson Road,1146,916
+20250828,Thursday,Embankment,30245,31004
+20250828,Thursday,Emerson Park,418,278
+20250828,Thursday,Enfield Town,3718,3545
+20250828,Thursday,Epping,4816,4699
+20250828,Thursday,Euston,47241,51241
+20250828,Thursday,Euston NR,14410,15751
+20250828,Thursday,Euston Square,16159,17706
+20250828,Thursday,Farringdon,74976,71727
+20250828,Thursday,Finchley Central,6604,6616
+20250828,Thursday,Finchley Road,10473,10135
+20250828,Thursday,Finchley Road & Frognal,2421,2498
+20250828,Thursday,Finsbury Park,27742,25713
+20250828,Thursday,Forest Gate,9120,8777
+20250828,Thursday,Forest Hill,6160,5844
+20250828,Thursday,Fulham Broadway,9879,9631
+20250828,Thursday,Gallions Reach,2003,1809
+20250828,Thursday,Gants Hill,8234,7968
+20250828,Thursday,Gidea Park,4929,4600
+20250828,Thursday,Gloucester Road,16372,15286
+20250828,Thursday,Golders Green,8435,8503
+20250828,Thursday,Goldhawk Road,2450,2377
+20250828,Thursday,Goodge Street,6903,7166
+20250828,Thursday,Goodmayes,6697,6589
+20250828,Thursday,Gospel Oak,3323,3115
+20250828,Thursday,Great Portland Street,9243,9297
+20250828,Thursday,Green Park,40300,46371
+20250828,Thursday,Greenford,4713,4580
+20250828,Thursday,Greenwich,8673,8217
+20250828,Thursday,Gunnersbury,7470,6923
+20250828,Thursday,Hackney Central,7363,7322
+20250828,Thursday,Hackney Downs,3601,3394
+20250828,Thursday,Hackney Wick,5772,5788
+20250828,Thursday,Haggerston,4322,4091
+20250828,Thursday,Hammersmith C&H,15260,14239
+20250828,Thursday,Hammersmith D&P,31248,31131
+20250828,Thursday,Hampstead,4987,5675
+20250828,Thursday,Hampstead Heath,4749,4563
+20250828,Thursday,Hanger Lane,3974,3545
+20250828,Thursday,Hanwell,3076,2616
+20250828,Thursday,Harlesden,3982,3839
+20250828,Thursday,Harold Wood,6042,5849
+20250828,Thursday,Harringay Green Lanes,1871,1870
+20250828,Thursday,Harrow & Wealdstone,6794,6269
+20250828,Thursday,Harrow-on-the-Hill,12403,13123
+20250828,Thursday,Hatch End,1024,1016
+20250828,Thursday,Hatton Cross,4303,4777
+20250828,Thursday,Hayes & Harlington,12286,11795
+20250828,Thursday,Headstone Lane,705,617
+20250828,Thursday,Heathrow T2&3 TfL Rail/HEx,11103,9472
+20250828,Thursday,Heathrow T4 TfL Rail/HEx,2510,2424
+20250828,Thursday,Heathrow T5 TfL Rail/HEx,6564,6852
+20250828,Thursday,Heathrow Terminal 4,2325,2267
+20250828,Thursday,Heathrow Terminal 5,6942,4791
+20250828,Thursday,Heathrow Terminals 2&3,10049,7432
+20250828,Thursday,Hendon Central,6812,6539
+20250828,Thursday,Heron Quays,4910,4749
+20250828,Thursday,High Barnet,5278,5326
+20250828,Thursday,High Street Kensington,14080,14327
+20250828,Thursday,Highams Park,4537,4296
+20250828,Thursday,Highbury & Islington,19119,19788
+20250828,Thursday,Highgate,6347,6403
+20250828,Thursday,Hillingdon,2186,2088
+20250828,Thursday,Holborn,27909,29611
+20250828,Thursday,Holland Park,4015,3765
+20250828,Thursday,Holloway Road,5652,5559
+20250828,Thursday,Homerton,6456,6116
+20250828,Thursday,Honor Oak Park,3397,3424
+20250828,Thursday,Hornchurch,2569,2732
+20250828,Thursday,Hounslow Central,5692,5320
+20250828,Thursday,Hounslow East,4330,4475
+20250828,Thursday,Hounslow West,4291,4149
+20250828,Thursday,Hoxton,4883,5037
+20250828,Thursday,Hyde Park Corner,4992,5018
+20250828,Thursday,Ickenham,1258,1296
+20250828,Thursday,Ilford,17359,17280
+20250828,Thursday,Imperial Wharf,3647,3544
+20250828,Thursday,Island Gardens,2808,2013
+20250828,Thursday,Iver,349,328
+20250828,Thursday,Kennington,6809,6587
+20250828,Thursday,Kensal Green,2691,2566
+20250828,Thursday,Kensal Rise,3394,3312
+20250828,Thursday,Kensington Olympia,2880,2649
+20250828,Thursday,Kentish Town,9027,8533
+20250828,Thursday,Kentish Town West,2347,2288
+20250828,Thursday,Kenton,2430,2318
+20250828,Thursday,Kew Gardens,6046,5884
+20250828,Thursday,Kilburn,7289,7284
+20250828,Thursday,Kilburn High Road,1364,1350
+20250828,Thursday,Kilburn Park,3877,3623
+20250828,Thursday,King George V,1577,1384
+20250828,Thursday,Kings Cross St Pancras,114390,117118
+20250828,Thursday,Kingsbury,4839,4811
+20250828,Thursday,Knightsbridge,21403,20013
+20250828,Thursday,Ladbroke Grove,8145,8074
+20250828,Thursday,Lambeth North,3973,3929
+20250828,Thursday,Lancaster Gate,4065,3523
+20250828,Thursday,Langdon Park,2713,2330
+20250828,Thursday,Langley Berks,799,831
+20250828,Thursday,Latimer Road,3008,2815
+20250828,Thursday,Leicester Square,44362,40766
+20250828,Thursday,Lewisham DLR,6463,5566
+20250828,Thursday,Leyton,11463,11432
+20250828,Thursday,Leyton Midland Road,2152,2080
+20250828,Thursday,Leytonstone,10174,10283
+20250828,Thursday,Leytonstone High Road,1628,1579
+20250828,Thursday,Limehouse DLR,7873,6564
+20250828,Thursday,Liverpool St NR,35020,33028
+20250828,Thursday,Liverpool Street,98622,100949
+20250828,Thursday,London Bridge,90924,87944
+20250828,Thursday,London City Airport,4044,3545
+20250828,Thursday,London Fields,2454,2522
+20250828,Thursday,Loughton,4221,4265
+20250828,Thursday,Maida Vale,3952,3735
+20250828,Thursday,Maidenhead,2335,2320
+20250828,Thursday,Manor House,7794,7840
+20250828,Thursday,Manor Park,6356,5683
+20250828,Thursday,Mansion House,8254,8592
+20250828,Thursday,Marble Arch,12602,11834
+20250828,Thursday,Maryland,6062,5657
+20250828,Thursday,Marylebone,12927,13896
+20250828,Thursday,Mile End,12306,12016
+20250828,Thursday,Mill Hill East,2010,2003
+20250828,Thursday,Monument,17870,16274
+20250828,Thursday,Moor Park,993,1068
+20250828,Thursday,Moorgate,45773,50668
+20250828,Thursday,Morden,13144,12901
+20250828,Thursday,Mornington Crescent,3749,3347
+20250828,Thursday,Mudchute,1852,1530
+20250828,Thursday,Neasden,3773,3537
+20250828,Thursday,New Cross,3889,3856
+20250828,Thursday,New Cross Gate,5163,5495
+20250828,Thursday,Newbury Park,7080,7025
+20250828,Thursday,Nine Elms,5353,5100
+20250828,Thursday,North Acton,7223,7071
+20250828,Thursday,North Ealing,719,683
+20250828,Thursday,North Greenwich,27756,28641
+20250828,Thursday,North Harrow,2396,2263
+20250828,Thursday,North Wembley,1941,1865
+20250828,Thursday,Northfields,3641,4305
+20250828,Thursday,Northolt,6075,5552
+20250828,Thursday,Northwick Park,4435,4387
+20250828,Thursday,Northwood,3058,2964
+20250828,Thursday,Northwood Hills,2101,1996
+20250828,Thursday,Norwood Junction,6268,5555
+20250828,Thursday,Notting Hill Gate,16519,17949
+20250828,Thursday,Oakwood,3140,3473
+20250828,Thursday,Old Street,25370,24839
+20250828,Thursday,Osterley,2850,2669
+20250828,Thursday,Oval,7214,7044
+20250828,Thursday,Oxford Circus,79762,89159
+20250828,Thursday,Paddington,45223,45533
+20250828,Thursday,Paddington EL,36650,37513
+20250828,Thursday,Park Royal,2442,2440
+20250828,Thursday,Parsons Green,7878,7625
+20250828,Thursday,Peckham Rye,8793,8763
+20250828,Thursday,Penge West,843,800
+20250828,Thursday,Perivale,2473,2357
+20250828,Thursday,Piccadilly Circus,39375,37607
+20250828,Thursday,Pimlico,10250,9847
+20250828,Thursday,Pinner,3573,3528
+20250828,Thursday,Plaistow,6578,6569
+20250828,Thursday,Pontoon Dock DLR,3248,3028
+20250828,Thursday,Poplar,1170,1104
+20250828,Thursday,Preston Road,3658,3614
+20250828,Thursday,Prince Regent,1224,1021
+20250828,Thursday,Pudding Mill Lane,3059,2813
+20250828,Thursday,Putney Bridge,6484,7301
+20250828,Thursday,Queens Park,6900,6629
+20250828,Thursday,Queens Rd Peckham,4291,4272
+20250828,Thursday,Queensbury,4169,4114
+20250828,Thursday,Queensway,7991,8130
+20250828,Thursday,Ravenscourt Park,3135,3138
+20250828,Thursday,Rayners Lane,5417,5194
+20250828,Thursday,Reading,1419,1491
+20250828,Thursday,Rectory Road,2016,1782
+20250828,Thursday,Redbridge,3203,2984
+20250828,Thursday,Regents Park,3304,3734
+20250828,Thursday,Richmond,17424,17862
+20250828,Thursday,Rickmansworth,2780,2716
+20250828,Thursday,Romford,16127,16322
+20250828,Thursday,Rotherhithe,2224,2005
+20250828,Thursday,Royal Albert,1710,1478
+20250828,Thursday,Royal Oak,2905,2739
+20250828,Thursday,Royal Victoria,2528,2034
+20250828,Thursday,Ruislip,2416,2424
+20250828,Thursday,Ruislip Gardens,1221,1110
+20250828,Thursday,Ruislip Manor,2090,2166
+20250828,Thursday,Russell Square,11205,11262
+20250828,Thursday,Seven Kings,6467,5934
+20250828,Thursday,Seven Sisters,17119,16809
+20250828,Thursday,Shadwell DLR,6138,5712
+20250828,Thursday,Shadwell LO,5234,5301
+20250828,Thursday,Shenfield,3678,3800
+20250828,Thursday,Shepherds Bush,18539,17803
+20250828,Thursday,Shepherds Bush LO,10499,10733
+20250828,Thursday,Shepherds Bush Market,4597,4634
+20250828,Thursday,Shoreditch High Street,9543,10334
+20250828,Thursday,Silver Street,3123,2773
+20250828,Thursday,Sloane Square,19559,19569
+20250828,Thursday,Slough,3220,3185
+20250828,Thursday,Snaresbrook,2652,2744
+20250828,Thursday,South Acton,1126,1049
+20250828,Thursday,South Ealing,3128,3132
+20250828,Thursday,South Hampstead,701,620
+20250828,Thursday,South Harrow,2806,2914
+20250828,Thursday,South Kensington,40806,40855
+20250828,Thursday,South Kenton,933,867
+20250828,Thursday,South Quay,4521,4209
+20250828,Thursday,South Ruislip,2320,2265
+20250828,Thursday,South Tottenham,1870,2088
+20250828,Thursday,South Wimbledon,5647,5292
+20250828,Thursday,South Woodford,6265,6432
+20250828,Thursday,Southall,11412,10939
+20250828,Thursday,Southbury,1491,1588
+20250828,Thursday,Southfields,7784,7254
+20250828,Thursday,Southgate,5606,6048
+20250828,Thursday,Southwark,16036,16368
+20250828,Thursday,St James Street,2449,2579
+20250828,Thursday,St James's Park,16022,16194
+20250828,Thursday,St Johns Wood,9311,9718
+20250828,Thursday,St Pauls,14988,15283
+20250828,Thursday,Stamford Brook,3296,3114
+20250828,Thursday,Stamford Hill,970,839
+20250828,Thursday,Stanmore,4879,4999
+20250828,Thursday,Star Lane DLR,1343,1255
+20250828,Thursday,Stepney Green,6296,6062
+20250828,Thursday,Stockwell,11228,9645
+20250828,Thursday,Stoke Newington,2035,1824
+20250828,Thursday,Stonebridge Park,3736,3397
+20250828,Thursday,Stratford,77506,78093
+20250828,Thursday,Stratford High Street,639,723
+20250828,Thursday,Stratford International,3405,2993
+20250828,Thursday,Sudbury Hill,2232,2239
+20250828,Thursday,Sudbury Town,2326,2090
+20250828,Thursday,Surrey Quays,6396,6024
+20250828,Thursday,Swiss Cottage,6859,6669
+20250828,Thursday,Sydenham SR,4707,4921
+20250828,Thursday,Taplow,381,333
+20250828,Thursday,Temple,9925,9436
+20250828,Thursday,Theobalds Grove,1143,1042
+20250828,Thursday,Theydon Bois,1138,1141
+20250828,Thursday,Tooting Bec,9792,9363
+20250828,Thursday,Tooting Broadway,18021,17996
+20250828,Thursday,Tottenham Court Road,96855,96138
+20250828,Thursday,Tottenham Hale,20181,20185
+20250828,Thursday,Totteridge & Whetstone,3174,3111
+20250828,Thursday,Tower Gateway,3227,3152
+20250828,Thursday,Tower Hill,27153,28451
+20250828,Thursday,Tufnell Park,4225,4047
+20250828,Thursday,Turkey Street,1373,1237
+20250828,Thursday,Turnham Green,7191,7359
+20250828,Thursday,Turnpike Lane,10988,11111
+20250828,Thursday,Twyford,634,550
+20250828,Thursday,Upminster,6551,6597
+20250828,Thursday,Upminster Bridge,945,930
+20250828,Thursday,Upney,3378,3141
+20250828,Thursday,Upper Holloway,1837,1927
+20250828,Thursday,Upton Park,14106,14037
+20250828,Thursday,Uxbridge,7695,7495
+20250828,Thursday,Vauxhall,31518,29557
+20250828,Thursday,Victoria,95809,106859
+20250828,Thursday,W Silvertown,2529,2303
+20250828,Thursday,Walthamstow Central,18802,18642
+20250828,Thursday,Walthamstow Queens Road,1350,1339
+20250828,Thursday,Wandsworth Road,929,863
+20250828,Thursday,Wanstead,2684,2804
+20250828,Thursday,Wanstead Park,1899,1968
+20250828,Thursday,Wapping,3278,3102
+20250828,Thursday,Warren Street,21148,22552
+20250828,Thursday,Warwick Avenue,4358,4351
+20250828,Thursday,Waterloo,93273,94639
+20250828,Thursday,Watford High Street,1917,1894
+20250828,Thursday,Watford Junction,7144,6692
+20250828,Thursday,Watford Met,2631,2524
+20250828,Thursday,Wembley Central,7076,7426
+20250828,Thursday,Wembley Park,22878,21081
+20250828,Thursday,West Acton,1402,1334
+20250828,Thursday,West Brompton,6731,6566
+20250828,Thursday,West Croydon,5856,5973
+20250828,Thursday,West Drayton,5198,5021
+20250828,Thursday,West Ealing,4365,3729
+20250828,Thursday,West Finchley,2046,1868
+20250828,Thursday,West Ham,8365,8046
+20250828,Thursday,West Hampstead,11683,10875
+20250828,Thursday,West Hampstead LO,6229,6376
+20250828,Thursday,West Harrow,1553,1476
+20250828,Thursday,West India Quay,1407,1221
+20250828,Thursday,West Kensington,5306,4782
+20250828,Thursday,West Ruislip,1987,1934
+20250828,Thursday,Westbourne Park,5687,5324
+20250828,Thursday,Westferry,4363,3814
+20250828,Thursday,Westminster,28581,30897
+20250828,Thursday,White City,12966,12873
+20250828,Thursday,White Hart Lane,2567,2392
+20250828,Thursday,Whitechapel,27060,26792
+20250828,Thursday,Willesden Green,8097,7896
+20250828,Thursday,Willesden Junction,6715,6391
+20250828,Thursday,Wimbledon,22738,22744
+20250828,Thursday,Wimbledon Park,2781,2773
+20250828,Thursday,Wood Green,12010,11983
+20250828,Thursday,Wood Lane,7701,8254
+20250828,Thursday,Wood Street,3057,2958
+20250828,Thursday,Woodford,7180,7095
+20250828,Thursday,Woodgrange Park,1330,1113
+20250828,Thursday,Woodside Park,3929,3410
+20250828,Thursday,Woolwich Arsenal DLR,6098,6723
+20250828,Thursday,Woolwich Arsenal NR,1800,1469
+20250828,Thursday,Woolwich Elizabeth Line,20897,20452
+20250829,Friday,Abbey Road DLR,670,752
+20250829,Friday,Abbey Wood,16706,15856
+20250829,Friday,Acton Central,2279,2142
+20250829,Friday,Acton Main Line,4212,3938
+20250829,Friday,Acton Town,6635,6777
+20250829,Friday,Aldgate,8433,10236
+20250829,Friday,Aldgate East,16107,15445
+20250829,Friday,All Saints,907,922
+20250829,Friday,Alperton,3536,3783
+20250829,Friday,Amersham,2427,2449
+20250829,Friday,Anerley,649,901
+20250829,Friday,Angel,15139,16008
+20250829,Friday,Archway,9578,9106
+20250829,Friday,Arnos Grove,4491,4346
+20250829,Friday,Arsenal,3034,2785
+20250829,Friday,Baker Street,29530,30594
+20250829,Friday,Balham,13852,13134
+20250829,Friday,Bank,33682,37168
+20250829,Friday,Barbican,6500,6732
+20250829,Friday,Barking,22061,21842
+20250829,Friday,Barking Riverside,1465,1204
+20250829,Friday,Barons Court,7143,7122
+20250829,Friday,Battersea Power Station,12797,12124
+20250829,Friday,Bayswater,4036,4483
+20250829,Friday,Beckton,997,1272
+20250829,Friday,Beckton Park,235,308
+20250829,Friday,Becontree,4127,3928
+20250829,Friday,Belsize Park,6739,6469
+20250829,Friday,Bermondsey,10150,10035
+20250829,Friday,Bethnal Green,14319,13388
+20250829,Friday,Bethnal Green NR,2117,2111
+20250829,Friday,Blackfriars,14201,13794
+20250829,Friday,Blackhorse Road,13290,11911
+20250829,Friday,Blackwall,755,848
+20250829,Friday,Bond Street,55740,58239
+20250829,Friday,Borough,4908,5127
+20250829,Friday,Boston Manor,2105,1971
+20250829,Friday,Bounds Green,4761,5226
+20250829,Friday,Bow Church,1353,1367
+20250829,Friday,Bow Road,5864,5438
+20250829,Friday,Brent Cross,2432,2367
+20250829,Friday,Brentwood,3672,3411
+20250829,Friday,Brixton,27654,26705
+20250829,Friday,Brockley,4793,4483
+20250829,Friday,Bromley-by-Bow,5276,5006
+20250829,Friday,Brondesbury,3476,3213
+20250829,Friday,Brondesbury Park,864,914
+20250829,Friday,Bruce Grove,1183,1361
+20250829,Friday,Buckhurst Hill,2237,2594
+20250829,Friday,Burnham Bucks,965,922
+20250829,Friday,Burnt Oak,4423,4370
+20250829,Friday,Bush Hill Park,849,1239
+20250829,Friday,Bushey,790,965
+20250829,Friday,Caledonian Road,5269,5028
+20250829,Friday,Caledonian Road & Barnsbury,1459,1455
+20250829,Friday,Cambridge Heath,885,818
+20250829,Friday,Camden Road,5546,5935
+20250829,Friday,Camden Town,28073,29650
+20250829,Friday,Canada Water,15214,15167
+20250829,Friday,Canary Wharf,32272,41515
+20250829,Friday,Canary Wharf DLR,6173,4667
+20250829,Friday,Canary Wharf Elizabeth Line,23058,23416
+20250829,Friday,Canning Town,17428,17627
+20250829,Friday,Cannon Street,5725,5114
+20250829,Friday,Canonbury,3753,3331
+20250829,Friday,Canons Park,2944,2814
+20250829,Friday,Carpenders Park,1639,1596
+20250829,Friday,Chadwell Heath,6645,6186
+20250829,Friday,Chalfont & Latimer,1110,1086
+20250829,Friday,Chalk Farm,6341,5004
+20250829,Friday,Chancery Lane,8901,10014
+20250829,Friday,Charing Cross,19777,19819
+20250829,Friday,Chesham,1243,1136
+20250829,Friday,Cheshunt,2313,2686
+20250829,Friday,Chingford,2769,2944
+20250829,Friday,Chiswick Park,3114,3175
+20250829,Friday,Chorleywood,509,755
+20250829,Friday,Clapham Common,10814,11390
+20250829,Friday,Clapham High Street,1454,1519
+20250829,Friday,Clapham Junction,25328,25440
+20250829,Friday,Clapham North,7229,7038
+20250829,Friday,Clapham South,8734,8152
+20250829,Friday,Clapton,1685,2028
+20250829,Friday,Cockfosters,2037,2035
+20250829,Friday,Colindale,4508,6164
+20250829,Friday,Colliers Wood,8099,7537
+20250829,Friday,Covent Garden,16180,21875
+20250829,Friday,Crossharbour,1827,1949
+20250829,Friday,Crouch Hill,799,786
+20250829,Friday,Croxley,1090,1060
+20250829,Friday,Crystal Palace,3251,3204
+20250829,Friday,Custom House DLR,2538,1329
+20250829,Friday,Custom House Elizabeth Line,12261,12847
+20250829,Friday,Cyprus,495,464
+20250829,Friday,Dagenham East,4107,3662
+20250829,Friday,Dagenham Heathway,7205,7057
+20250829,Friday,Dalston Junction,8070,8062
+20250829,Friday,Dalston Kingsland,7804,8103
+20250829,Friday,Debden,2715,2541
+20250829,Friday,Denmark Hill,7789,7529
+20250829,Friday,Deptford Bridge,1358,1619
+20250829,Friday,Devons Road,1348,1492
+20250829,Friday,Dollis Hill,4377,3953
+20250829,Friday,Ealing Broadway,21353,22562
+20250829,Friday,Ealing Common,2799,2716
+20250829,Friday,Earls Court,22774,22632
+20250829,Friday,East Acton,4699,4610
+20250829,Friday,East Finchley,7210,7070
+20250829,Friday,East Ham,15693,14981
+20250829,Friday,East India,1809,2013
+20250829,Friday,East Putney,8300,7775
+20250829,Friday,Eastcote,3132,3076
+20250829,Friday,Edgware,5819,5637
+20250829,Friday,Edgware Road B,4786,4881
+20250829,Friday,Edgware Road C&H,8391,8478
+20250829,Friday,Edmonton Green,4552,4431
+20250829,Friday,Elephant & Castle,17627,17208
+20250829,Friday,Elm Park,3672,3458
+20250829,Friday,Elverson Road,631,726
+20250829,Friday,Embankment,25351,24477
+20250829,Friday,Emerson Park,175,157
+20250829,Friday,Enfield Town,3037,2972
+20250829,Friday,Epping,4106,3927
+20250829,Friday,Euston,44327,47068
+20250829,Friday,Euston NR,10692,12998
+20250829,Friday,Euston Square,13578,14743
+20250829,Friday,Farringdon,51356,50003
+20250829,Friday,Finchley Central,4866,5389
+20250829,Friday,Finchley Road,9628,9252
+20250829,Friday,Finchley Road & Frognal,1762,1695
+20250829,Friday,Finsbury Park,25083,23499
+20250829,Friday,Forest Gate,8493,8004
+20250829,Friday,Forest Hill,5571,5006
+20250829,Friday,Fulham Broadway,9939,9622
+20250829,Friday,Gallions Reach,1005,1200
+20250829,Friday,Gants Hill,7554,7217
+20250829,Friday,Gidea Park,4116,3750
+20250829,Friday,Gloucester Road,16263,15176
+20250829,Friday,Golders Green,7729,7831
+20250829,Friday,Goldhawk Road,2911,2526
+20250829,Friday,Goodge Street,5507,6143
+20250829,Friday,Goodmayes,6195,5877
+20250829,Friday,Gospel Oak,3084,2830
+20250829,Friday,Great Portland Street,7513,7779
+20250829,Friday,Green Park,36892,43604
+20250829,Friday,Greenford,4197,4217
+20250829,Friday,Greenwich,4959,5289
+20250829,Friday,Gunnersbury,6491,5897
+20250829,Friday,Hackney Central,7767,7902
+20250829,Friday,Hackney Downs,3393,3356
+20250829,Friday,Hackney Wick,6744,7659
+20250829,Friday,Haggerston,4325,4046
+20250829,Friday,Hammersmith C&H,16367,15185
+20250829,Friday,Hammersmith D&P,30862,30731
+20250829,Friday,Hampstead,4620,5340
+20250829,Friday,Hampstead Heath,4482,4469
+20250829,Friday,Hanger Lane,3372,3181
+20250829,Friday,Hanwell,1353,1797
+20250829,Friday,Harlesden,4369,4334
+20250829,Friday,Harold Wood,5389,4913
+20250829,Friday,Harringay Green Lanes,1289,1404
+20250829,Friday,Harrow & Wealdstone,6439,5605
+20250829,Friday,Harrow-on-the-Hill,11496,12004
+20250829,Friday,Hatch End,948,961
+20250829,Friday,Hatton Cross,5146,5536
+20250829,Friday,Hayes & Harlington,11402,10937
+20250829,Friday,Headstone Lane,386,449
+20250829,Friday,Heathrow T2&3 TfL Rail/HEx,10969,9734
+20250829,Friday,Heathrow T4 TfL Rail/HEx,2299,2333
+20250829,Friday,Heathrow T5 TfL Rail/HEx,6113,6500
+20250829,Friday,Heathrow Terminal 4,2671,2487
+20250829,Friday,Heathrow Terminal 5,7943,5888
+20250829,Friday,Heathrow Terminals 2&3,10758,7789
+20250829,Friday,Hendon Central,6229,5749
+20250829,Friday,Heron Quays,2970,2125
+20250829,Friday,High Barnet,4413,4356
+20250829,Friday,High Street Kensington,14603,14083
+20250829,Friday,Highams Park,3702,3563
+20250829,Friday,Highbury & Islington,18484,18926
+20250829,Friday,Highgate,5705,5555
+20250829,Friday,Hillingdon,1856,1647
+20250829,Friday,Holborn,22584,24675
+20250829,Friday,Holland Park,3901,3564
+20250829,Friday,Holloway Road,5568,5241
+20250829,Friday,Homerton,6345,5693
+20250829,Friday,Honor Oak Park,3174,2939
+20250829,Friday,Hornchurch,2157,2328
+20250829,Friday,Hounslow Central,5937,5770
+20250829,Friday,Hounslow East,4271,4751
+20250829,Friday,Hounslow West,4734,4603
+20250829,Friday,Hoxton,4772,5076
+20250829,Friday,Hyde Park Corner,4725,4660
+20250829,Friday,Ickenham,1060,1087
+20250829,Friday,Ilford,15645,15519
+20250829,Friday,Imperial Wharf,3651,3617
+20250829,Friday,Island Gardens,1592,1482
+20250829,Friday,Iver,335,282
+20250829,Friday,Kennington,6972,6510
+20250829,Friday,Kensal Green,2876,2650
+20250829,Friday,Kensal Rise,2267,2538
+20250829,Friday,Kensington Olympia,2806,2781
+20250829,Friday,Kentish Town,7848,7598
+20250829,Friday,Kentish Town West,1682,1555
+20250829,Friday,Kenton,2315,2358
+20250829,Friday,Kew Gardens,5891,5515
+20250829,Friday,Kilburn,6665,6677
+20250829,Friday,Kilburn High Road,1367,1253
+20250829,Friday,Kilburn Park,3369,3213
+20250829,Friday,King George V,983,1154
+20250829,Friday,Kings Cross St Pancras,102180,104378
+20250829,Friday,Kingsbury,4568,4852
+20250829,Friday,Knightsbridge,21415,20521
+20250829,Friday,Ladbroke Grove,8931,8417
+20250829,Friday,Lambeth North,4066,3610
+20250829,Friday,Lancaster Gate,4423,3837
+20250829,Friday,Langdon Park,1502,1755
+20250829,Friday,Langley Berks,779,746
+20250829,Friday,Latimer Road,2830,2738
+20250829,Friday,Leicester Square,45126,41862
+20250829,Friday,Lewisham DLR,3367,3794
+20250829,Friday,Leyton,11337,11007
+20250829,Friday,Leyton Midland Road,2122,2040
+20250829,Friday,Leytonstone,9569,9429
+20250829,Friday,Leytonstone High Road,1576,1536
+20250829,Friday,Limehouse DLR,3715,4721
+20250829,Friday,Liverpool St NR,26547,23341
+20250829,Friday,Liverpool Street,76823,79543
+20250829,Friday,London Bridge,77796,73465
+20250829,Friday,London City Airport,2561,1705
+20250829,Friday,London Fields,1304,1798
+20250829,Friday,Loughton,3484,3621
+20250829,Friday,Maida Vale,3604,3475
+20250829,Friday,Maidenhead,1595,1663
+20250829,Friday,Manor House,7617,7430
+20250829,Friday,Manor Park,5858,5276
+20250829,Friday,Mansion House,5097,5849
+20250829,Friday,Marble Arch,13143,12497
+20250829,Friday,Maryland,5947,5216
+20250829,Friday,Marylebone,10760,11512
+20250829,Friday,Mile End,12020,11537
+20250829,Friday,Mill Hill East,850,1295
+20250829,Friday,Monument,12178,11851
+20250829,Friday,Moor Park,935,937
+20250829,Friday,Moorgate,28799,33315
+20250829,Friday,Morden,12105,11938
+20250829,Friday,Mornington Crescent,3806,3532
+20250829,Friday,Mudchute,807,1001
+20250829,Friday,Neasden,3671,3443
+20250829,Friday,New Cross,3512,3431
+20250829,Friday,New Cross Gate,5349,5762
+20250829,Friday,Newbury Park,6609,6595
+20250829,Friday,Nine Elms,5259,4831
+20250829,Friday,North Acton,6291,6623
+20250829,Friday,North Ealing,638,632
+20250829,Friday,North Greenwich,26368,27628
+20250829,Friday,North Harrow,2071,1954
+20250829,Friday,North Wembley,1899,1802
+20250829,Friday,Northfields,3325,3373
+20250829,Friday,Northolt,5725,5335
+20250829,Friday,Northwick Park,3980,3820
+20250829,Friday,Northwood,2757,2662
+20250829,Friday,Northwood Hills,1870,1815
+20250829,Friday,Norwood Junction,5832,5217
+20250829,Friday,Notting Hill Gate,17792,19399
+20250829,Friday,Oakwood,3017,3136
+20250829,Friday,Old Street,19254,19918
+20250829,Friday,Osterley,2561,2517
+20250829,Friday,Oval,7030,6659
+20250829,Friday,Oxford Circus,69605,79823
+20250829,Friday,Paddington,41574,42496
+20250829,Friday,Paddington EL,29897,29944
+20250829,Friday,Park Royal,2186,2311
+20250829,Friday,Parsons Green,7242,7111
+20250829,Friday,Peckham Rye,8469,8879
+20250829,Friday,Penge West,470,584
+20250829,Friday,Perivale,2280,2197
+20250829,Friday,Piccadilly Circus,37263,37045
+20250829,Friday,Pimlico,8833,8410
+20250829,Friday,Pinner,3082,3112
+20250829,Friday,Plaistow,6806,6167
+20250829,Friday,Pontoon Dock DLR,1719,2185
+20250829,Friday,Poplar,722,623
+20250829,Friday,Preston Road,3271,3274
+20250829,Friday,Prince Regent,659,799
+20250829,Friday,Pudding Mill Lane,2342,2098
+20250829,Friday,Putney Bridge,6318,6625
+20250829,Friday,Queens Park,6573,6140
+20250829,Friday,Queens Rd Peckham,4152,3819
+20250829,Friday,Queensbury,3766,3765
+20250829,Friday,Queensway,9498,9184
+20250829,Friday,Ravenscourt Park,3051,3110
+20250829,Friday,Rayners Lane,4907,4685
+20250829,Friday,Reading,1235,1423
+20250829,Friday,Rectory Road,918,1211
+20250829,Friday,Redbridge,2919,2588
+20250829,Friday,Regents Park,3041,3434
+20250829,Friday,Richmond,16149,16755
+20250829,Friday,Rickmansworth,2303,2166
+20250829,Friday,Romford,14651,15242
+20250829,Friday,Rotherhithe,2305,2030
+20250829,Friday,Royal Albert,879,1101
+20250829,Friday,Royal Oak,3068,3080
+20250829,Friday,Royal Victoria,1430,1444
+20250829,Friday,Ruislip,2080,2080
+20250829,Friday,Ruislip Gardens,1136,950
+20250829,Friday,Ruislip Manor,1844,1920
+20250829,Friday,Russell Square,10737,11169
+20250829,Friday,Seven Kings,6002,5275
+20250829,Friday,Seven Sisters,17738,17215
+20250829,Friday,Shadwell DLR,3797,3973
+20250829,Friday,Shadwell LO,4095,5581
+20250829,Friday,Shenfield,2846,3013
+20250829,Friday,Shepherds Bush,20262,19056
+20250829,Friday,Shepherds Bush LO,11480,11155
+20250829,Friday,Shepherds Bush Market,5633,5728
+20250829,Friday,Shoreditch High Street,8405,9994
+20250829,Friday,Silver Street,1841,1973
+20250829,Friday,Sloane Square,19115,19465
+20250829,Friday,Slough,2688,2680
+20250829,Friday,Snaresbrook,2349,2386
+20250829,Friday,South Acton,678,698
+20250829,Friday,South Ealing,3230,3143
+20250829,Friday,South Hampstead,493,402
+20250829,Friday,South Harrow,2766,2737
+20250829,Friday,South Kensington,43180,45188
+20250829,Friday,South Kenton,542,717
+20250829,Friday,South Quay,2505,2301
+20250829,Friday,South Ruislip,2126,2124
+20250829,Friday,South Tottenham,1886,2044
+20250829,Friday,South Wimbledon,4924,4596
+20250829,Friday,South Woodford,4917,5845
+20250829,Friday,Southall,10912,10237
+20250829,Friday,Southbury,1402,1526
+20250829,Friday,Southfields,6841,6039
+20250829,Friday,Southgate,5179,5222
+20250829,Friday,Southwark,11571,12245
+20250829,Friday,St James Street,2145,2184
+20250829,Friday,St James's Park,12679,13562
+20250829,Friday,St Johns Wood,8788,9034
+20250829,Friday,St Pauls,11457,12149
+20250829,Friday,Stamford Brook,3167,2946
+20250829,Friday,Stamford Hill,579,587
+20250829,Friday,Stanmore,4267,4373
+20250829,Friday,Star Lane DLR,980,880
+20250829,Friday,Stepney Green,6257,5768
+20250829,Friday,Stockwell,10861,9640
+20250829,Friday,Stoke Newington,1148,1312
+20250829,Friday,Stonebridge Park,4230,3869
+20250829,Friday,Stratford,72569,77956
+20250829,Friday,Stratford High Street,461,490
+20250829,Friday,Stratford International,2059,2202
+20250829,Friday,Sudbury Hill,2170,2052
+20250829,Friday,Sudbury Town,2252,2076
+20250829,Friday,Surrey Quays,6480,5673
+20250829,Friday,Swiss Cottage,6891,6695
+20250829,Friday,Sydenham SR,4266,4319
+20250829,Friday,Taplow,263,257
+20250829,Friday,Temple,7143,7514
+20250829,Friday,Theobalds Grove,1057,930
+20250829,Friday,Theydon Bois,680,959
+20250829,Friday,Tooting Bec,8881,8030
+20250829,Friday,Tooting Broadway,17424,17058
+20250829,Friday,Tottenham Court Road,87166,89254
+20250829,Friday,Tottenham Hale,19261,18381
+20250829,Friday,Totteridge & Whetstone,2731,2541
+20250829,Friday,Tower Gateway,2083,1281
+20250829,Friday,Tower Hill,24172,25653
+20250829,Friday,Tufnell Park,4283,3740
+20250829,Friday,Turkey Street,1247,1108
+20250829,Friday,Turnham Green,6923,7163
+20250829,Friday,Turnpike Lane,10900,10853
+20250829,Friday,Twyford,153,250
+20250829,Friday,Upminster,5183,5459
+20250829,Friday,Upminster Bridge,807,776
+20250829,Friday,Upney,3254,2963
+20250829,Friday,Upper Holloway,1454,1286
+20250829,Friday,Upton Park,12995,12432
+20250829,Friday,Uxbridge,6819,6755
+20250829,Friday,Vauxhall,28600,25836
+20250829,Friday,Victoria,83414,82441
+20250829,Friday,W Silvertown,1352,1945
+20250829,Friday,Walthamstow Central,11042,18202
+20250829,Friday,Walthamstow Queens Road,969,965
+20250829,Friday,Wandsworth Road,583,580
+20250829,Friday,Wanstead,2421,2357
+20250829,Friday,Wanstead Park,1871,1945
+20250829,Friday,Wapping,3173,2963
+20250829,Friday,Warren Street,16753,18067
+20250829,Friday,Warwick Avenue,4161,4223
+20250829,Friday,Waterloo,73790,78058
+20250829,Friday,Watford High Street,1936,1965
+20250829,Friday,Watford Junction,5713,5230
+20250829,Friday,Watford Met,2285,2174
+20250829,Friday,Wembley Central,7965,8143
+20250829,Friday,Wembley Park,20015,19785
+20250829,Friday,West Acton,1411,1348
+20250829,Friday,West Brompton,6892,6428
+20250829,Friday,West Croydon,5577,5097
+20250829,Friday,West Drayton,4803,4542
+20250829,Friday,West Ealing,3914,3345
+20250829,Friday,West Finchley,1685,1624
+20250829,Friday,West Ham,5611,6852
+20250829,Friday,West Hampstead,10160,9450
+20250829,Friday,West Hampstead LO,6054,5984
+20250829,Friday,West Harrow,1199,1096
+20250829,Friday,West India Quay,998,781
+20250829,Friday,West Kensington,5198,5012
+20250829,Friday,West Ruislip,1562,1608
+20250829,Friday,Westbourne Park,6146,6123
+20250829,Friday,Westferry,2151,2477
+20250829,Friday,Westminster,24836,26623
+20250829,Friday,White City,10504,10574
+20250829,Friday,White Hart Lane,2613,2345
+20250829,Friday,Whitechapel,25265,25247
+20250829,Friday,Willesden Green,7890,7574
+20250829,Friday,Willesden Junction,7588,7048
+20250829,Friday,Wimbledon,20840,21126
+20250829,Friday,Wimbledon Park,2619,2482
+20250829,Friday,Wood Green,12012,11358
+20250829,Friday,Wood Lane,7816,8572
+20250829,Friday,Wood Street,2669,2484
+20250829,Friday,Woodford,6749,6543
+20250829,Friday,Woodgrange Park,1308,1087
+20250829,Friday,Woodside Park,3279,2447
+20250829,Friday,Woolwich Arsenal DLR,6154,6508
+20250829,Friday,Woolwich Arsenal NR,1618,1491
+20250829,Friday,Woolwich Elizabeth Line,19719,18629
+20250830,Saturday,Abbey Wood,14928,13224
+20250830,Saturday,Acton Central,2005,1949
+20250830,Saturday,Acton Main Line,2951,2544
+20250830,Saturday,Acton Town,5436,5503
+20250830,Saturday,Aldgate,6790,8655
+20250830,Saturday,Aldgate East,12377,11586
+20250830,Saturday,All Saints,1414,1206
+20250830,Saturday,Alperton,2972,3128
+20250830,Saturday,Amersham,2124,1968
+20250830,Saturday,Anerley,1099,896
+20250830,Saturday,Angel,15029,16507
+20250830,Saturday,Archway,8517,7692
+20250830,Saturday,Arnos Grove,3913,3811
+20250830,Saturday,Arsenal,2894,2847
+20250830,Saturday,Baker Street,26819,27998
+20250830,Saturday,Balham,13232,12883
+20250830,Saturday,Bank,12873,14585
+20250830,Saturday,Barbican,4293,4355
+20250830,Saturday,Barking,19254,18648
+20250830,Saturday,Barking Riverside,1217,1056
+20250830,Saturday,Barons Court,5457,5425
+20250830,Saturday,Battersea Power Station,14775,14004
+20250830,Saturday,Bayswater,6002,5209
+20250830,Saturday,Becontree,3212,3080
+20250830,Saturday,Belsize Park,4852,4941
+20250830,Saturday,Bermondsey,10010,10066
+20250830,Saturday,Bethnal Green,13288,12969
+20250830,Saturday,Bethnal Green NR,2401,2352
+20250830,Saturday,Blackfriars,10332,9661
+20250830,Saturday,Blackhorse Road,12574,11367
+20250830,Saturday,Blackwall,12,8
+20250830,Saturday,Bond Street,49519,51416
+20250830,Saturday,Borough,4017,4220
+20250830,Saturday,Boston Manor,1785,1826
+20250830,Saturday,Bounds Green,4980,4752
+20250830,Saturday,Bow Church,1721,1724
+20250830,Saturday,Bow Road,5131,4782
+20250830,Saturday,Brent Cross,1973,1990
+20250830,Saturday,Brentwood,3062,2951
+20250830,Saturday,Brixton,28882,29499
+20250830,Saturday,Brockley,4312,4100
+20250830,Saturday,Bromley-by-Bow,4364,4211
+20250830,Saturday,Brondesbury,3269,2851
+20250830,Saturday,Brondesbury Park,1314,1163
+20250830,Saturday,Bruce Grove,1835,1550
+20250830,Saturday,Buckhurst Hill,2407,2340
+20250830,Saturday,Burnham Bucks,810,698
+20250830,Saturday,Burnt Oak,3635,3568
+20250830,Saturday,Bush Hill Park,1929,1364
+20250830,Saturday,Bushey,1298,945
+20250830,Saturday,Caledonian Road,4324,4226
+20250830,Saturday,Caledonian Road & Barnsbury,1806,1823
+20250830,Saturday,Cambridge Heath,1416,1406
+20250830,Saturday,Camden Road,5627,5890
+20250830,Saturday,Camden Town,31918,33916
+20250830,Saturday,Canada Water,16129,16230
+20250830,Saturday,Canary Wharf,33524,33445
+20250830,Saturday,Canary Wharf DLR,6705,7363
+20250830,Saturday,Canary Wharf Elizabeth Line,18840,19546
+20250830,Saturday,Canning Town,24849,24877
+20250830,Saturday,Cannon Street,3093,2746
+20250830,Saturday,Canonbury,3678,3608
+20250830,Saturday,Canons Park,3110,3027
+20250830,Saturday,Carpenders Park,1461,1425
+20250830,Saturday,Chadwell Heath,5674,5240
+20250830,Saturday,Chalfont & Latimer,1293,1274
+20250830,Saturday,Chalk Farm,7231,5897
+20250830,Saturday,Chancery Lane,3682,3769
+20250830,Saturday,Charing Cross,20407,19595
+20250830,Saturday,Chesham,1225,1135
+20250830,Saturday,Cheshunt,3300,2755
+20250830,Saturday,Chingford,2657,2544
+20250830,Saturday,Chiswick Park,2141,2177
+20250830,Saturday,Chorleywood,804,757
+20250830,Saturday,Clapham Common,11370,11915
+20250830,Saturday,Clapham High Street,2130,2192
+20250830,Saturday,Clapham Junction,24020,23872
+20250830,Saturday,Clapham North,7282,7521
+20250830,Saturday,Clapham South,7615,7375
+20250830,Saturday,Clapton,2603,2270
+20250830,Saturday,Cockfosters,2202,2283
+20250830,Saturday,Colindale,6596,6242
+20250830,Saturday,Colliers Wood,7241,6766
+20250830,Saturday,Covent Garden,21067,26583
+20250830,Saturday,Crossharbour,2503,2244
+20250830,Saturday,Crouch Hill,1294,1172
+20250830,Saturday,Croxley,883,896
+20250830,Saturday,Crystal Palace,3048,3020
+20250830,Saturday,Custom House DLR,240,54
+20250830,Saturday,Custom House Elizabeth Line,14253,14218
+20250830,Saturday,Dagenham East,2985,2684
+20250830,Saturday,Dagenham Heathway,5762,5582
+20250830,Saturday,Dalston Junction,7921,8367
+20250830,Saturday,Dalston Kingsland,7927,8060
+20250830,Saturday,Debden,1999,1849
+20250830,Saturday,Denmark Hill,4540,4470
+20250830,Saturday,Deptford Bridge,2174,1838
+20250830,Saturday,Devons Road,1987,1694
+20250830,Saturday,Dollis Hill,3799,3429
+20250830,Saturday,Ealing Broadway,19863,21323
+20250830,Saturday,Ealing Common,3401,3361
+20250830,Saturday,Earls Court,21956,21065
+20250830,Saturday,East Acton,3345,3225
+20250830,Saturday,East Finchley,6089,5849
+20250830,Saturday,East Ham,14116,13278
+20250830,Saturday,East India,120,20
+20250830,Saturday,East Putney,7749,6887
+20250830,Saturday,Eastcote,2719,2699
+20250830,Saturday,Edgware,5160,5134
+20250830,Saturday,Edgware Road B,4528,4741
+20250830,Saturday,Edgware Road C&H,7246,7534
+20250830,Saturday,Edmonton Green,4374,3731
+20250830,Saturday,Elephant & Castle,16959,16742
+20250830,Saturday,Elm Park,2810,2743
+20250830,Saturday,Elverson Road,977,736
+20250830,Saturday,Embankment,23704,23773
+20250830,Saturday,Emerson Park,259,166
+20250830,Saturday,Enfield Town,3778,3129
+20250830,Saturday,Epping,4345,4196
+20250830,Saturday,Euston,47269,45723
+20250830,Saturday,Euston NR,8995,11497
+20250830,Saturday,Euston Square,11143,10578
+20250830,Saturday,Farringdon,34132,33982
+20250830,Saturday,Finchley Central,5135,4890
+20250830,Saturday,Finchley Road,8824,8726
+20250830,Saturday,Finchley Road & Frognal,2135,2100
+20250830,Saturday,Finsbury Park,25925,23659
+20250830,Saturday,Forest Gate,7364,6894
+20250830,Saturday,Forest Hill,5014,4463
+20250830,Saturday,Fulham Broadway,20695,22361
+20250830,Saturday,Gants Hill,6303,5948
+20250830,Saturday,Gidea Park,3317,3173
+20250830,Saturday,Gloucester Road,13296,12292
+20250830,Saturday,Golders Green,6432,6512
+20250830,Saturday,Goldhawk Road,2113,1972
+20250830,Saturday,Goodge Street,3333,3735
+20250830,Saturday,Goodmayes,4959,4565
+20250830,Saturday,Gospel Oak,3148,3051
+20250830,Saturday,Great Portland Street,4752,4529
+20250830,Saturday,Green Park,29473,35405
+20250830,Saturday,Greenford,3509,3489
+20250830,Saturday,Greenwich,8508,8102
+20250830,Saturday,Gunnersbury,4513,3954
+20250830,Saturday,Hackney Central,7993,8276
+20250830,Saturday,Hackney Downs,3393,3533
+20250830,Saturday,Hackney Wick,8695,10137
+20250830,Saturday,Haggerston,4002,4111
+20250830,Saturday,Hainault,1,2
+20250830,Saturday,Hammersmith C&H,11625,11107
+20250830,Saturday,Hammersmith D&P,26922,26492
+20250830,Saturday,Hampstead,4801,5536
+20250830,Saturday,Hampstead Heath,4199,4286
+20250830,Saturday,Hanger Lane,2855,2749
+20250830,Saturday,Hanwell,2035,1568
+20250830,Saturday,Harlesden,2589,2520
+20250830,Saturday,Harold Wood,4071,3652
+20250830,Saturday,Harringay Green Lanes,1916,1915
+20250830,Saturday,Harrow & Wealdstone,5050,4509
+20250830,Saturday,Harrow-on-the-Hill,9844,10290
+20250830,Saturday,Hatch End,844,859
+20250830,Saturday,Hatton Cross,4077,4566
+20250830,Saturday,Hayes & Harlington,9907,9548
+20250830,Saturday,Headstone Lane,545,421
+20250830,Saturday,Heathrow T2&3 TfL Rail/HEx,9226,8285
+20250830,Saturday,Heathrow T4 TfL Rail/HEx,1883,1581
+20250830,Saturday,Heathrow T5 TfL Rail/HEx,4856,4448
+20250830,Saturday,Heathrow Terminal 4,2992,2896
+20250830,Saturday,Heathrow Terminal 5,7371,5768
+20250830,Saturday,Heathrow Terminals 2&3,10766,8397
+20250830,Saturday,Hendon Central,5152,4679
+20250830,Saturday,Heron Quays,3291,3302
+20250830,Saturday,High Barnet,3993,3907
+20250830,Saturday,High Street Kensington,13535,13265
+20250830,Saturday,Highams Park,3214,2946
+20250830,Saturday,Highbury & Islington,19049,19975
+20250830,Saturday,Highgate,5006,5163
+20250830,Saturday,Hillingdon,2081,1971
+20250830,Saturday,Holborn,17487,18515
+20250830,Saturday,Holland Park,3040,2754
+20250830,Saturday,Holloway Road,5073,4906
+20250830,Saturday,Homerton,5609,5169
+20250830,Saturday,Honor Oak Park,2902,2727
+20250830,Saturday,Hornchurch,1550,1714
+20250830,Saturday,Hounslow Central,4642,4493
+20250830,Saturday,Hounslow East,3836,3971
+20250830,Saturday,Hounslow West,4088,4140
+20250830,Saturday,Hoxton,4520,4832
+20250830,Saturday,Hyde Park Corner,4454,4361
+20250830,Saturday,Ickenham,1095,1113
+20250830,Saturday,Ilford,14481,14013
+20250830,Saturday,Imperial Wharf,3068,3002
+20250830,Saturday,Island Gardens,2932,2139
+20250830,Saturday,Iver,243,205
+20250830,Saturday,Kennington,6856,7085
+20250830,Saturday,Kensal Green,2152,2074
+20250830,Saturday,Kensal Rise,3197,3002
+20250830,Saturday,Kensington Olympia,2384,2242
+20250830,Saturday,Kentish Town,6842,6709
+20250830,Saturday,Kentish Town West,2250,2221
+20250830,Saturday,Kenton,1961,1987
+20250830,Saturday,Kew Gardens,5966,5857
+20250830,Saturday,Kilburn,6210,6080
+20250830,Saturday,Kilburn High Road,1154,1117
+20250830,Saturday,Kilburn Park,3162,2920
+20250830,Saturday,King George V,20,1
+20250830,Saturday,Kings Cross St Pancras,109393,105627
+20250830,Saturday,Kingsbury,4140,4180
+20250830,Saturday,Knightsbridge,21406,18757
+20250830,Saturday,Ladbroke Grove,9946,8881
+20250830,Saturday,Lambeth North,3020,3217
+20250830,Saturday,Lancaster Gate,4048,4053
+20250830,Saturday,Langdon Park,2346,1880
+20250830,Saturday,Langley Berks,641,637
+20250830,Saturday,Latimer Road,2058,1958
+20250830,Saturday,Leicester Square,52105,48601
+20250830,Saturday,Lewisham DLR,4702,3888
+20250830,Saturday,Leyton,12844,12726
+20250830,Saturday,Leyton Midland Road,2158,1981
+20250830,Saturday,Leytonstone,8286,8414
+20250830,Saturday,Leytonstone High Road,1505,1403
+20250830,Saturday,Limehouse DLR,5301,4446
+20250830,Saturday,Liverpool St NR,29647,30691
+20250830,Saturday,Liverpool Street,73016,73363
+20250830,Saturday,London Bridge,79013,75108
+20250830,Saturday,London Fields,2403,2558
+20250830,Saturday,Loughton,3404,3624
+20250830,Saturday,Maida Vale,3103,2828
+20250830,Saturday,Maidenhead,1642,1539
+20250830,Saturday,Manor House,7626,7333
+20250830,Saturday,Manor Park,5010,4634
+20250830,Saturday,Mansion House,3014,3304
+20250830,Saturday,Marble Arch,11812,11032
+20250830,Saturday,Maryland,5264,4477
+20250830,Saturday,Marylebone,11590,11439
+20250830,Saturday,Mile End,11369,11178
+20250830,Saturday,Mill Hill East,1248,1275
+20250830,Saturday,Monument,9733,9238
+20250830,Saturday,Moor Park,686,773
+20250830,Saturday,Moorgate,14998,17406
+20250830,Saturday,Morden,10775,10988
+20250830,Saturday,Mornington Crescent,3366,2883
+20250830,Saturday,Mudchute,1474,1319
+20250830,Saturday,Neasden,3126,2743
+20250830,Saturday,New Cross,3638,3610
+20250830,Saturday,New Cross Gate,5372,5788
+20250830,Saturday,Newbury Park,5255,5350
+20250830,Saturday,Nine Elms,4043,4082
+20250830,Saturday,North Acton,4804,5124
+20250830,Saturday,North Ealing,592,568
+20250830,Saturday,North Greenwich,31366,33251
+20250830,Saturday,North Harrow,1643,1471
+20250830,Saturday,North Wembley,1589,1500
+20250830,Saturday,Northfields,2935,2984
+20250830,Saturday,Northolt,4874,4400
+20250830,Saturday,Northwick Park,2823,2785
+20250830,Saturday,Northwood,2203,2151
+20250830,Saturday,Northwood Hills,1481,1307
+20250830,Saturday,Norwood Junction,4909,4298
+20250830,Saturday,Notting Hill Gate,18553,22570
+20250830,Saturday,Oakwood,2754,3108
+20250830,Saturday,Old Street,15775,16410
+20250830,Saturday,Osterley,2283,2279
+20250830,Saturday,Oval,12840,11962
+20250830,Saturday,Oxford Circus,67419,77323
+20250830,Saturday,Paddington,44037,43341
+20250830,Saturday,Paddington EL,28259,27455
+20250830,Saturday,Park Royal,1778,2043
+20250830,Saturday,Parsons Green,7024,6231
+20250830,Saturday,Peckham Rye,8702,9079
+20250830,Saturday,Penge West,911,802
+20250830,Saturday,Perivale,1911,1848
+20250830,Saturday,Piccadilly Circus,41501,39777
+20250830,Saturday,Pimlico,7112,8011
+20250830,Saturday,Pinner,2804,2720
+20250830,Saturday,Plaistow,5785,5370
+20250830,Saturday,Pontoon Dock DLR,117,6
+20250830,Saturday,Poplar,520,525
+20250830,Saturday,Preston Road,3027,2694
+20250830,Saturday,Prince Regent,0,2
+20250830,Saturday,Pudding Mill Lane,3450,2913
+20250830,Saturday,Putney Bridge,5633,6100
+20250830,Saturday,Queens Park,5756,5561
+20250830,Saturday,Queens Rd Peckham,3821,3517
+20250830,Saturday,Queensbury,3305,3179
+20250830,Saturday,Queensway,8157,8889
+20250830,Saturday,Ravenscourt Park,2593,2380
+20250830,Saturday,Rayners Lane,4217,4168
+20250830,Saturday,Reading,1548,1628
+20250830,Saturday,Rectory Road,1580,1327
+20250830,Saturday,Redbridge,2620,2406
+20250830,Saturday,Regents Park,1712,2216
+20250830,Saturday,Richmond,17049,17292
+20250830,Saturday,Rickmansworth,2158,2097
+20250830,Saturday,Romford,12619,12972
+20250830,Saturday,Rotherhithe,1996,1806
+20250830,Saturday,Royal Albert,7,0
+20250830,Saturday,Royal Oak,2484,2562
+20250830,Saturday,Royal Victoria,150,45
+20250830,Saturday,Ruislip,1649,1991
+20250830,Saturday,Ruislip Gardens,1137,981
+20250830,Saturday,Ruislip Manor,1933,2304
+20250830,Saturday,Russell Square,8456,8601
+20250830,Saturday,Seven Kings,5093,4490
+20250830,Saturday,Seven Sisters,20081,24167
+20250830,Saturday,Shadwell DLR,4089,4075
+20250830,Saturday,Shadwell LO,5099,5023
+20250830,Saturday,Shenfield,2929,2924
+20250830,Saturday,Shepherds Bush,18648,18649
+20250830,Saturday,Shepherds Bush LO,10854,10996
+20250830,Saturday,Shepherds Bush Market,5437,5375
+20250830,Saturday,Shoreditch High Street,8730,10161
+20250830,Saturday,Silver Street,2338,2358
+20250830,Saturday,Sloane Square,18022,18312
+20250830,Saturday,Slough,2489,2447
+20250830,Saturday,Snaresbrook,1989,2070
+20250830,Saturday,South Acton,803,641
+20250830,Saturday,South Ealing,2708,2732
+20250830,Saturday,South Hampstead,615,463
+20250830,Saturday,South Harrow,2400,2459
+20250830,Saturday,South Kensington,33763,35368
+20250830,Saturday,South Kenton,706,652
+20250830,Saturday,South Quay,2761,2488
+20250830,Saturday,South Ruislip,2033,2044
+20250830,Saturday,South Tottenham,2448,2280
+20250830,Saturday,South Wimbledon,4289,4218
+20250830,Saturday,South Woodford,5070,5275
+20250830,Saturday,Southall,9208,8266
+20250830,Saturday,Southbury,1268,1441
+20250830,Saturday,Southfields,6413,5827
+20250830,Saturday,Southgate,4273,4622
+20250830,Saturday,Southwark,8274,8645
+20250830,Saturday,St James Street,2307,2245
+20250830,Saturday,St James's Park,8615,9328
+20250830,Saturday,St Johns Wood,6860,7191
+20250830,Saturday,St Pauls,7724,7407
+20250830,Saturday,Stamford Brook,2674,2449
+20250830,Saturday,Stamford Hill,845,604
+20250830,Saturday,Stanmore,5415,5376
+20250830,Saturday,Star Lane DLR,24,4
+20250830,Saturday,Stepney Green,4847,4606
+20250830,Saturday,Stockwell,10449,9194
+20250830,Saturday,Stoke Newington,2164,1752
+20250830,Saturday,Stonebridge Park,2875,2560
+20250830,Saturday,Stratford,82430,84742
+20250830,Saturday,Stratford International,37,0
+20250830,Saturday,Sudbury Hill,1650,1641
+20250830,Saturday,Sudbury Town,1954,1657
+20250830,Saturday,Surrey Quays,6933,6335
+20250830,Saturday,Swiss Cottage,5451,5007
+20250830,Saturday,Sydenham SR,3891,3728
+20250830,Saturday,Taplow,270,228
+20250830,Saturday,Temple,5419,5523
+20250830,Saturday,Theobalds Grove,1300,1141
+20250830,Saturday,Theydon Bois,915,900
+20250830,Saturday,Tooting Bec,8016,7576
+20250830,Saturday,Tooting Broadway,15163,14855
+20250830,Saturday,Tottenham Court Road,88573,87598
+20250830,Saturday,Tottenham Hale,21759,20582
+20250830,Saturday,Totteridge & Whetstone,2295,2281
+20250830,Saturday,Tower Gateway,1252,927
+20250830,Saturday,Tower Hill,21944,23352
+20250830,Saturday,Tufnell Park,3603,3367
+20250830,Saturday,Turkey Street,1328,1136
+20250830,Saturday,Turnham Green,6092,6228
+20250830,Saturday,Turnpike Lane,9729,10004
+20250830,Saturday,Twyford,421,288
+20250830,Saturday,Upminster,4454,4549
+20250830,Saturday,Upminster Bridge,610,596
+20250830,Saturday,Upney,2625,2355
+20250830,Saturday,Upper Holloway,1592,1709
+20250830,Saturday,Upton Park,11446,11089
+20250830,Saturday,Uxbridge,6154,6061
+20250830,Saturday,Vauxhall,29079,26272
+20250830,Saturday,Victoria,71679,72750
+20250830,Saturday,W Silvertown,170,4
+20250830,Saturday,Walthamstow Central,16493,15962
+20250830,Saturday,Walthamstow Queens Road,1337,1451
+20250830,Saturday,Wandsworth Road,784,751
+20250830,Saturday,Wanstead,2312,2175
+20250830,Saturday,Wanstead Park,1754,1760
+20250830,Saturday,Wapping,3630,3557
+20250830,Saturday,Warren Street,9346,10126
+20250830,Saturday,Warwick Avenue,3865,3887
+20250830,Saturday,Waterloo,75608,77891
+20250830,Saturday,Watford High Street,2570,2383
+20250830,Saturday,Watford Junction,5493,4743
+20250830,Saturday,Watford Met,2037,2015
+20250830,Saturday,Wembley Central,7968,10264
+20250830,Saturday,Wembley Park,53104,62761
+20250830,Saturday,West Acton,1171,1158
+20250830,Saturday,West Brompton,7266,6226
+20250830,Saturday,West Croydon,4519,4250
+20250830,Saturday,West Drayton,4265,3601
+20250830,Saturday,West Ealing,3028,2460
+20250830,Saturday,West Finchley,1382,1289
+20250830,Saturday,West Ham,6706,6281
+20250830,Saturday,West Hampstead,9090,8535
+20250830,Saturday,West Hampstead LO,5744,5874
+20250830,Saturday,West Harrow,1118,953
+20250830,Saturday,West India Quay,1396,1332
+20250830,Saturday,West Kensington,4950,4178
+20250830,Saturday,West Ruislip,1823,1635
+20250830,Saturday,Westbourne Park,4998,4635
+20250830,Saturday,Westferry,3220,2618
+20250830,Saturday,Westminster,22179,24265
+20250830,Saturday,White City,11002,11237
+20250830,Saturday,White Hart Lane,9661,11360
+20250830,Saturday,Whitechapel,20067,20579
+20250830,Saturday,Willesden Green,6572,6514
+20250830,Saturday,Willesden Junction,5278,4812
+20250830,Saturday,Wimbledon,20346,19918
+20250830,Saturday,Wimbledon Park,2551,2416
+20250830,Saturday,Wood Green,10450,10392
+20250830,Saturday,Wood Lane,6929,7491
+20250830,Saturday,Wood Street,2501,2368
+20250830,Saturday,Woodford,5629,5772
+20250830,Saturday,Woodgrange Park,1187,951
+20250830,Saturday,Woodside Park,2926,2479
+20250830,Saturday,Woolwich Arsenal DLR,0,4
+20250830,Saturday,Woolwich Arsenal NR,2134,1954
+20250830,Saturday,Woolwich Elizabeth Line,18967,17799
