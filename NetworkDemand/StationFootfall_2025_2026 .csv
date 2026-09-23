@@ -264767,7 +264767,7 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20260910,Thursday,Peckham Rye,8980,9257
 20260910,Thursday,Penge West,881,763
 20260910,Thursday,Perivale,2697,2642
-20260910,Thursday,Piccadilly Circus,36693,32358
+20260910,Thursday,Piccadilly Circus,36693,34683
 20260910,Thursday,Pimlico,12418,12159
 20260910,Thursday,Pinner,3759,3864
 20260910,Thursday,Plaistow,7752,7283
@@ -265357,9 +265357,9 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20260912,Saturday,Abbey Wood,16247,14563
 20260912,Saturday,Acton Central,2241,2247
 20260912,Saturday,Acton Main Line,3499,2969
-20260912,Saturday,Acton Town,6199,6857
+20260912,Saturday,Acton Town,6199,6858
 20260912,Saturday,Aldgate,6389,8726
-20260912,Saturday,Aldgate East,7029,5508
+20260912,Saturday,Aldgate East,7029,5557
 20260912,Saturday,All Saints,1223,1141
 20260912,Saturday,Alperton,3087,3228
 20260912,Saturday,Amersham,3424,3247
@@ -265368,9 +265368,9 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20260912,Saturday,Archway,9037,8304
 20260912,Saturday,Arnos Grove,4174,3851
 20260912,Saturday,Arsenal,2938,2891
-20260912,Saturday,Baker Street,27039,27015
-20260912,Saturday,Balham,14049,14070
-20260912,Saturday,Bank,26823,25763
+20260912,Saturday,Baker Street,27041,27016
+20260912,Saturday,Balham,14050,14071
+20260912,Saturday,Bank,27104,25765
 20260912,Saturday,Barbican,3347,3214
 20260912,Saturday,Barking,19837,19274
 20260912,Saturday,Barking Riverside,2144,1920
@@ -265382,21 +265382,21 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20260912,Saturday,Beckton Park,406,344
 20260912,Saturday,Becontree,3461,3127
 20260912,Saturday,Belsize Park,5379,5510
-20260912,Saturday,Bermondsey,10471,9903
-20260912,Saturday,Bethnal Green,15192,14824
+20260912,Saturday,Bermondsey,10471,9904
+20260912,Saturday,Bethnal Green,15194,14824
 20260912,Saturday,Bethnal Green NR,2380,2595
 20260912,Saturday,Blackfriars,0,67
 20260912,Saturday,Blackhorse Road,12886,11904
 20260912,Saturday,Blackwall,1245,974
-20260912,Saturday,Bond Street,62615,67559
+20260912,Saturday,Bond Street,62618,67563
 20260912,Saturday,Borough,4369,4583
 20260912,Saturday,Boston Manor,1670,1500
 20260912,Saturday,Bounds Green,5158,4670
 20260912,Saturday,Bow Church,2044,1847
 20260912,Saturday,Bow Road,3573,3684
 20260912,Saturday,Brent Cross,2120,2017
-20260912,Saturday,Brentwood,3393,3345
-20260912,Saturday,Brixton,30326,30820
+20260912,Saturday,Brentwood,3433,3369
+20260912,Saturday,Brixton,30329,30820
 20260912,Saturday,Brockley,4149,4216
 20260912,Saturday,Bromley-by-Bow,4148,4099
 20260912,Saturday,Brondesbury,3617,3324
@@ -265411,35 +265411,35 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20260912,Saturday,Caledonian Road & Barnsbury,2201,2319
 20260912,Saturday,Cambridge Heath,1299,1397
 20260912,Saturday,Camden Road,6064,6327
-20260912,Saturday,Camden Town,30042,30649
-20260912,Saturday,Canada Water,15310,15351
-20260912,Saturday,Canary Wharf,35644,37750
+20260912,Saturday,Camden Town,30050,30649
+20260912,Saturday,Canada Water,15312,15351
+20260912,Saturday,Canary Wharf,35690,37752
 20260912,Saturday,Canary Wharf DLR,7472,7864
 20260912,Saturday,Canary Wharf Elizabeth Line,21668,21653
-20260912,Saturday,Canning Town,18866,18908
+20260912,Saturday,Canning Town,18869,18913
 20260912,Saturday,Canonbury,3949,3997
 20260912,Saturday,Canons Park,3079,3054
 20260912,Saturday,Chadwell Heath,6388,5873
 20260912,Saturday,Chalfont & Latimer,1614,1538
-20260912,Saturday,Chalk Farm,7411,6014
-20260912,Saturday,Chancery Lane,5101,5213
-20260912,Saturday,Charing Cross,23132,20896
-20260912,Saturday,Chesham,1098,1003
+20260912,Saturday,Chalk Farm,7413,6014
+20260912,Saturday,Chancery Lane,5102,5213
+20260912,Saturday,Charing Cross,23138,20896
+20260912,Saturday,Chesham,1098,1004
 20260912,Saturday,Cheshunt,3368,2746
 20260912,Saturday,Chigwell,313,321
 20260912,Saturday,Chingford,2942,2827
 20260912,Saturday,Chiswick Park,0,1
 20260912,Saturday,Chorleywood,967,902
-20260912,Saturday,Clapham Common,12239,12866
+20260912,Saturday,Clapham Common,12241,12868
 20260912,Saturday,Clapham High Street,2184,2266
 20260912,Saturday,Clapham Junction,31015,30475
 20260912,Saturday,Clapham North,7269,7616
 20260912,Saturday,Clapham South,8227,8047
 20260912,Saturday,Clapton,2689,2364
-20260912,Saturday,Cockfosters,2206,2127
+20260912,Saturday,Cockfosters,2206,2128
 20260912,Saturday,Colindale,7787,7589
 20260912,Saturday,Colliers Wood,8074,7664
-20260912,Saturday,Covent Garden,17528,21868
+20260912,Saturday,Covent Garden,17529,21869
 20260912,Saturday,Crossharbour,2673,2428
 20260912,Saturday,Crouch Hill,1299,1415
 20260912,Saturday,Croxley,785,801
@@ -265465,26 +265465,26 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20260912,Saturday,East Ham,13782,12344
 20260912,Saturday,East India,2556,2104
 20260912,Saturday,Eastcote,2714,2641
-20260912,Saturday,Edgware,5256,5414
+20260912,Saturday,Edgware,5256,5415
 20260912,Saturday,Edgware Road B,4062,4569
 20260912,Saturday,Edgware Road C&H,5196,5392
 20260912,Saturday,Edmonton Green,4424,3911
 20260912,Saturday,Elephant & Castle,14819,15022
 20260912,Saturday,Elm Park,3118,2912
 20260912,Saturday,Elverson Road,1015,771
-20260912,Saturday,Embankment,11898,10801
+20260912,Saturday,Embankment,11903,10801
 20260912,Saturday,Emerson Park,287,198
 20260912,Saturday,Enfield Town,3890,3502
 20260912,Saturday,Epping,4090,3966
-20260912,Saturday,Euston,48181,47324
+20260912,Saturday,Euston,48181,47329
 20260912,Saturday,Euston NR,8280,10802
 20260912,Saturday,Euston Square,8814,7596
 20260912,Saturday,Fairlop,1301,1316
-20260912,Saturday,Farringdon,35351,32084
+20260912,Saturday,Farringdon,35375,32084
 20260912,Saturday,Finchley Central,5392,5199
 20260912,Saturday,Finchley Road,9333,8697
 20260912,Saturday,Finchley Road & Frognal,2760,2784
-20260912,Saturday,Finsbury Park,28988,27237
+20260912,Saturday,Finsbury Park,28991,27240
 20260912,Saturday,Forest Gate,8321,7876
 20260912,Saturday,Forest Hill,5385,4764
 20260912,Saturday,Fulham Broadway,1,8
@@ -265499,7 +265499,7 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20260912,Saturday,Gospel Oak,3894,3715
 20260912,Saturday,Grange Hill,411,369
 20260912,Saturday,Great Portland Street,4439,3790
-20260912,Saturday,Green Park,37330,45653
+20260912,Saturday,Green Park,37333,45654
 20260912,Saturday,Greenford,3814,3594
 20260912,Saturday,Greenwich,4924,4534
 20260912,Saturday,Gunnersbury,2942,2939
@@ -265509,8 +265509,8 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20260912,Saturday,Haggerston,4325,4333
 20260912,Saturday,Hainault,3287,3218
 20260912,Saturday,Hammersmith C&H,13883,14443
-20260912,Saturday,Hammersmith D&P,28774,28038
-20260912,Saturday,Hampstead,5470,6153
+20260912,Saturday,Hammersmith D&P,28776,28038
+20260912,Saturday,Hampstead,5470,6154
 20260912,Saturday,Hampstead Heath,4789,4934
 20260912,Saturday,Hanger Lane,3221,3094
 20260912,Saturday,Hanwell,2125,1588
@@ -265519,25 +265519,25 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20260912,Saturday,Harringay Green Lanes,2104,2092
 20260912,Saturday,Harrow & Wealdstone,6057,4844
 20260912,Saturday,Harrow-on-the-Hill,10492,11909
-20260912,Saturday,Hatton Cross,4482,4798
+20260912,Saturday,Hatton Cross,4482,4799
 20260912,Saturday,Hayes & Harlington,10430,10442
 20260912,Saturday,Heathrow T2&3 TfL Rail/HEx,11006,9941
 20260912,Saturday,Heathrow T4 TfL Rail/HEx,3329,2731
 20260912,Saturday,Heathrow T5 TfL Rail/HEx,4725,5383
 20260912,Saturday,Heathrow Terminal 4,2718,2459
-20260912,Saturday,Heathrow Terminal 5,5908,4941
-20260912,Saturday,Heathrow Terminals 2&3,9823,8696
+20260912,Saturday,Heathrow Terminal 5,5910,4947
+20260912,Saturday,Heathrow Terminals 2&3,9825,8698
 20260912,Saturday,Hendon Central,5391,4855
 20260912,Saturday,Heron Quays,4004,4240
 20260912,Saturday,High Barnet,4309,4279
 20260912,Saturday,High Street Kensington,1,0
 20260912,Saturday,Highams Park,3409,3134
-20260912,Saturday,Highbury & Islington,21649,22833
+20260912,Saturday,Highbury & Islington,21649,22836
 20260912,Saturday,Highgate,5785,6077
 20260912,Saturday,Hillingdon,3328,3023
-20260912,Saturday,Holborn,21380,22672
-20260912,Saturday,Holland Park,4687,4300
-20260912,Saturday,Holloway Road,5309,5056
+20260912,Saturday,Holborn,21385,22674
+20260912,Saturday,Holland Park,4688,4302
+20260912,Saturday,Holloway Road,5310,5056
 20260912,Saturday,Homerton,5733,5380
 20260912,Saturday,Honor Oak Park,3410,3110
 20260912,Saturday,Hornchurch,1836,1674
@@ -265545,43 +265545,43 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20260912,Saturday,Hounslow East,4335,4402
 20260912,Saturday,Hounslow West,3968,3834
 20260912,Saturday,Hoxton,4740,5284
-20260912,Saturday,Hyde Park Corner,5438,6115
+20260912,Saturday,Hyde Park Corner,5439,6115
 20260912,Saturday,Ickenham,1428,1390
 20260912,Saturday,Ilford,15473,14868
 20260912,Saturday,Imperial Wharf,4935,5873
 20260912,Saturday,Island Gardens,2487,1811
 20260912,Saturday,Iver,264,267
-20260912,Saturday,Kennington,7237,7235
+20260912,Saturday,Kennington,7238,7235
 20260912,Saturday,Kensal Green,1828,1393
 20260912,Saturday,Kensal Rise,3798,3607
 20260912,Saturday,Kensington Olympia,3376,3293
-20260912,Saturday,Kentish Town,9298,8960
+20260912,Saturday,Kentish Town,9301,8960
 20260912,Saturday,Kentish Town West,2677,2462
 20260912,Saturday,Kenton,1373,1230
-20260912,Saturday,Kew Gardens,4322,3792
-20260912,Saturday,Kilburn,7171,7000
+20260912,Saturday,Kew Gardens,4322,3807
+20260912,Saturday,Kilburn,7174,7000
 20260912,Saturday,Kilburn High Road,286,348
 20260912,Saturday,Kilburn Park,3571,3044
 20260912,Saturday,King George V,1290,1093
-20260912,Saturday,Kings Cross St Pancras,106602,108416
+20260912,Saturday,Kings Cross St Pancras,106612,108426
 20260912,Saturday,Kingsbury,4689,4808
-20260912,Saturday,Knightsbridge,21507,19581
+20260912,Saturday,Knightsbridge,21507,19585
 20260912,Saturday,Ladbroke Grove,10518,9659
 20260912,Saturday,Lambeth North,2730,2599
-20260912,Saturday,Lancaster Gate,6206,7147
+20260912,Saturday,Lancaster Gate,6208,7148
 20260912,Saturday,Langdon Park,2529,2047
 20260912,Saturday,Langley Berks,748,676
 20260912,Saturday,Latimer Road,1904,1735
-20260912,Saturday,Leicester Square,55101,49742
+20260912,Saturday,Leicester Square,55110,49745
 20260912,Saturday,Lewisham DLR,4888,4322
-20260912,Saturday,Leyton,13644,13220
+20260912,Saturday,Leyton,13644,13221
 20260912,Saturday,Leyton Midland Road,2385,2295
 20260912,Saturday,Leytonstone,8925,8928
 20260912,Saturday,Leytonstone High Road,1690,1571
 20260912,Saturday,Limehouse DLR,6670,5897
 20260912,Saturday,Liverpool St NR,29966,27596
-20260912,Saturday,Liverpool Street,71709,72851
-20260912,Saturday,London Bridge,92286,88106
+20260912,Saturday,Liverpool Street,71713,72851
+20260912,Saturday,London Bridge,92291,88117
 20260912,Saturday,London City Airport,1208,929
 20260912,Saturday,London Fields,2373,2839
 20260912,Saturday,Loughton,3457,3608
@@ -265592,14 +265592,14 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20260912,Saturday,Mansion House,0,6
 20260912,Saturday,Marble Arch,1,1
 20260912,Saturday,Maryland,5563,4959
-20260912,Saturday,Marylebone,5122,5840
-20260912,Saturday,Mile End,13983,13186
+20260912,Saturday,Marylebone,5175,5840
+20260912,Saturday,Mile End,13999,13187
 20260912,Saturday,Mill Hill East,1479,1452
 20260912,Saturday,Monument,33,23
 20260912,Saturday,Moor Park,837,880
 20260912,Saturday,Moorgate,14014,18241
-20260912,Saturday,Morden,12028,12129
-20260912,Saturday,Mornington Crescent,2951,2525
+20260912,Saturday,Morden,12030,12133
+20260912,Saturday,Mornington Crescent,2952,2526
 20260912,Saturday,Mudchute,1874,1595
 20260912,Saturday,Neasden,3228,3070
 20260912,Saturday,New Cross,3166,3069
@@ -265617,19 +265617,19 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20260912,Saturday,Northwood,2913,2701
 20260912,Saturday,Northwood Hills,1808,1752
 20260912,Saturday,Norwood Junction,8727,8143
-20260912,Saturday,Notting Hill Gate,20572,24415
+20260912,Saturday,Notting Hill Gate,20572,24417
 20260912,Saturday,Oakwood,2849,3047
-20260912,Saturday,Old Street,16556,17919
+20260912,Saturday,Old Street,16557,18010
 20260912,Saturday,Osterley,2073,1979
-20260912,Saturday,Oval,6800,6771
-20260912,Saturday,Oxford Circus,70092,80312
-20260912,Saturday,Paddington,32001,35005
+20260912,Saturday,Oval,6800,6772
+20260912,Saturday,Oxford Circus,70093,80312
+20260912,Saturday,Paddington,32001,35025
 20260912,Saturday,Paddington EL,32913,33363
 20260912,Saturday,Park Royal,1545,1581
 20260912,Saturday,Peckham Rye,9296,9989
 20260912,Saturday,Penge West,1125,883
 20260912,Saturday,Perivale,2332,2317
-20260912,Saturday,Piccadilly Circus,31045,28861
+20260912,Saturday,Piccadilly Circus,31055,28861
 20260912,Saturday,Pimlico,8369,8223
 20260912,Saturday,Pinner,3057,2992
 20260912,Saturday,Plaistow,5094,5187
@@ -265642,7 +265642,7 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20260912,Saturday,Queens Park,4996,6077
 20260912,Saturday,Queens Rd Peckham,4068,3592
 20260912,Saturday,Queensbury,4305,4112
-20260912,Saturday,Queensway,12228,12337
+20260912,Saturday,Queensway,12228,12338
 20260912,Saturday,Ravenscourt Park,3,3
 20260912,Saturday,Rayners Lane,4603,4393
 20260912,Saturday,Reading,1689,1816
@@ -265662,7 +265662,7 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20260912,Saturday,Ruislip Manor,1995,1856
 20260912,Saturday,Russell Square,8302,8798
 20260912,Saturday,Seven Kings,5301,4665
-20260912,Saturday,Seven Sisters,24340,25790
+20260912,Saturday,Seven Sisters,24420,25791
 20260912,Saturday,Shadwell DLR,5531,5450
 20260912,Saturday,Shadwell LO,5705,6000
 20260912,Saturday,Shenfield,2986,2955
@@ -265683,25 +265683,25 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20260912,Saturday,South Quay,3129,2797
 20260912,Saturday,South Ruislip,2029,2042
 20260912,Saturday,South Tottenham,2208,2345
-20260912,Saturday,South Wimbledon,5200,5574
+20260912,Saturday,South Wimbledon,5200,5575
 20260912,Saturday,South Woodford,5273,5391
 20260912,Saturday,Southall,9422,8675
 20260912,Saturday,Southbury,1297,1457
-20260912,Saturday,Southgate,4568,4564
-20260912,Saturday,Southwark,8902,9483
+20260912,Saturday,Southgate,4568,4565
+20260912,Saturday,Southwark,8902,9484
 20260912,Saturday,St James Street,2275,2145
 20260912,Saturday,St James's Park,13,10
 20260912,Saturday,St Johns Wood,7833,8214
 20260912,Saturday,St Pauls,11402,10417
 20260912,Saturday,Stamford Brook,3,4
 20260912,Saturday,Stamford Hill,863,626
-20260912,Saturday,Stanmore,5794,5755
+20260912,Saturday,Stanmore,5794,5757
 20260912,Saturday,Star Lane DLR,1045,932
 20260912,Saturday,Stepney Green,4001,3711
-20260912,Saturday,Stockwell,10759,9926
+20260912,Saturday,Stockwell,10761,9926
 20260912,Saturday,Stoke Newington,2149,1787
-20260912,Saturday,Stonebridge Park,2492,2264
-20260912,Saturday,Stratford,79902,81027
+20260912,Saturday,Stonebridge Park,2492,2266
+20260912,Saturday,Stratford,79903,81027
 20260912,Saturday,Stratford High Street,568,589
 20260912,Saturday,Stratford International,3481,3125
 20260912,Saturday,Sudbury Hill,1648,1493
@@ -265714,25 +265714,25 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20260912,Saturday,Theobalds Grove,1393,919
 20260912,Saturday,Theydon Bois,1040,985
 20260912,Saturday,Tooting Bec,8502,8083
-20260912,Saturday,Tooting Broadway,16763,16498
-20260912,Saturday,Tottenham Court Road,99381,100067
-20260912,Saturday,Tottenham Hale,20405,17764
+20260912,Saturday,Tooting Broadway,16764,16499
+20260912,Saturday,Tottenham Court Road,99386,100068
+20260912,Saturday,Tottenham Hale,20405,17768
 20260912,Saturday,Totteridge & Whetstone,2626,2524
 20260912,Saturday,Tower Gateway,3516,3113
 20260912,Saturday,Tower Hill,151,313
 20260912,Saturday,Tufnell Park,4328,3982
 20260912,Saturday,Turkey Street,1337,1400
 20260912,Saturday,Turnham Green,403,996
-20260912,Saturday,Turnpike Lane,9184,9184
+20260912,Saturday,Turnpike Lane,9185,9184
 20260912,Saturday,Twyford,509,480
 20260912,Saturday,Upminster,4698,4832
 20260912,Saturday,Upminster Bridge,605,540
 20260912,Saturday,Upney,2479,2149
 20260912,Saturday,Upper Holloway,1806,1737
 20260912,Saturday,Upton Park,11826,11215
-20260912,Saturday,Uxbridge,8200,7593
-20260912,Saturday,Vauxhall,38945,34549
-20260912,Saturday,Victoria,67728,66490
+20260912,Saturday,Uxbridge,8200,7594
+20260912,Saturday,Vauxhall,38948,34555
+20260912,Saturday,Victoria,67805,66644
 20260912,Saturday,W Silvertown,3477,4189
 20260912,Saturday,Walthamstow Central,18608,18609
 20260912,Saturday,Walthamstow Queens Road,1534,1498
@@ -265740,20 +265740,20 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20260912,Saturday,Wanstead,2541,2599
 20260912,Saturday,Wanstead Park,2143,2075
 20260912,Saturday,Wapping,3763,3545
-20260912,Saturday,Warren Street,11008,11844
+20260912,Saturday,Warren Street,11009,11844
 20260912,Saturday,Warwick Avenue,3172,3398
-20260912,Saturday,Waterloo,87791,87840
+20260912,Saturday,Waterloo,87794,87843
 20260912,Saturday,Watford Junction,6351,5631
 20260912,Saturday,Watford Met,2160,2130
 20260912,Saturday,Wembley Central,5568,5365
-20260912,Saturday,Wembley Park,50644,56595
+20260912,Saturday,Wembley Park,50645,56598
 20260912,Saturday,West Acton,1520,1552
 20260912,Saturday,West Brompton,6103,5953
 20260912,Saturday,West Croydon,4851,4443
 20260912,Saturday,West Drayton,4193,3455
 20260912,Saturday,West Ealing,3554,2949
 20260912,Saturday,West Finchley,1583,1510
-20260912,Saturday,West Ham,5930,6066
+20260912,Saturday,West Ham,5930,6067
 20260912,Saturday,West Hampstead,10970,10188
 20260912,Saturday,West Hampstead LO,7720,7527
 20260912,Saturday,West Harrow,1267,1023
@@ -265762,14 +265762,14 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20260912,Saturday,West Ruislip,1978,1891
 20260912,Saturday,Westbourne Park,5279,4910
 20260912,Saturday,Westferry,3767,3206
-20260912,Saturday,Westminster,22302,24209
-20260912,Saturday,White City,9152,9237
+20260912,Saturday,Westminster,22303,24231
+20260912,Saturday,White City,9154,9242
 20260912,Saturday,White Hart Lane,8704,11012
 20260912,Saturday,Whitechapel,22422,23178
-20260912,Saturday,Willesden Green,7259,7066
+20260912,Saturday,Willesden Green,7259,7067
 20260912,Saturday,Willesden Junction,5186,5324
 20260912,Saturday,Wimbledon,17214,16585
-20260912,Saturday,Wood Green,10737,10410
+20260912,Saturday,Wood Green,10741,10411
 20260912,Saturday,Wood Lane,6110,6547
 20260912,Saturday,Wood Street,2704,2358
 20260912,Saturday,Woodford,6013,5677
@@ -265778,3 +265778,3013 @@ TravelDate,DayOfWeek,Station,EntryTapCount,ExitTapCount
 20260912,Saturday,Woolwich Arsenal DLR,5337,5908
 20260912,Saturday,Woolwich Arsenal NR,1758,1501
 20260912,Saturday,Woolwich Elizabeth Line,18234,17346
+20260913,Sunday,Abbey Road DLR,608,568
+20260913,Sunday,Abbey Wood,10645,9879
+20260913,Sunday,Acton Central,0,9
+20260913,Sunday,Acton Main Line,2262,2171
+20260913,Sunday,Acton Town,4606,5193
+20260913,Sunday,Aldgate,6892,8667
+20260913,Sunday,Aldgate East,6994,4961
+20260913,Sunday,All Saints,803,766
+20260913,Sunday,Alperton,2008,2163
+20260913,Sunday,Amersham,1686,1640
+20260913,Sunday,Anerley,661,671
+20260913,Sunday,Angel,10722,10980
+20260913,Sunday,Archway,6623,6526
+20260913,Sunday,Arnos Grove,2871,2733
+20260913,Sunday,Arsenal,5556,6381
+20260913,Sunday,Baker Street,16949,17151
+20260913,Sunday,Balham,9111,9250
+20260913,Sunday,Bank,16699,15885
+20260913,Sunday,Barbican,2896,2848
+20260913,Sunday,Barking,13415,13088
+20260913,Sunday,Barking Riverside,0,3
+20260913,Sunday,Barkingside,902,927
+20260913,Sunday,Barons Court,4079,2278
+20260913,Sunday,Battersea Power Station,16332,15197
+20260913,Sunday,Bayswater,1,2
+20260913,Sunday,Beckton,980,906
+20260913,Sunday,Beckton Park,243,224
+20260913,Sunday,Becontree,2226,2171
+20260913,Sunday,Belsize Park,4053,4249
+20260913,Sunday,Bermondsey,6780,6801
+20260913,Sunday,Bethnal Green,10497,10202
+20260913,Sunday,Bethnal Green NR,1414,1660
+20260913,Sunday,Blackhorse Road,8078,8045
+20260913,Sunday,Blackwall,939,830
+20260913,Sunday,Bond Street,38219,40045
+20260913,Sunday,Borough,2930,3143
+20260913,Sunday,Boston Manor,1112,1153
+20260913,Sunday,Bounds Green,3496,3576
+20260913,Sunday,Bow Church,1454,1361
+20260913,Sunday,Bow Road,2748,2883
+20260913,Sunday,Brent Cross,1534,1493
+20260913,Sunday,Brentwood,1809,1759
+20260913,Sunday,Brixton,19735,20903
+20260913,Sunday,Brockley,3400,3583
+20260913,Sunday,Bromley-by-Bow,3311,3246
+20260913,Sunday,Brondesbury,1668,1680
+20260913,Sunday,Brondesbury Park,832,830
+20260913,Sunday,Bruce Grove,1260,1107
+20260913,Sunday,Buckhurst Hill,1162,1232
+20260913,Sunday,Burnham Bucks,518,492
+20260913,Sunday,Burnt Oak,2625,2567
+20260913,Sunday,Bush Hill Park,897,797
+20260913,Sunday,Bushey,697,692
+20260913,Sunday,Caledonian Road,3539,3559
+20260913,Sunday,Caledonian Road & Barnsbury,1163,1284
+20260913,Sunday,Cambridge Heath,884,979
+20260913,Sunday,Camden Road,3350,3837
+20260913,Sunday,Camden Town,19379,19606
+20260913,Sunday,Canada Water,9790,9997
+20260913,Sunday,Canary Wharf,27194,28033
+20260913,Sunday,Canary Wharf DLR,6126,6198
+20260913,Sunday,Canary Wharf Elizabeth Line,14080,15190
+20260913,Sunday,Canning Town,14345,14189
+20260913,Sunday,Canonbury,2546,2836
+20260913,Sunday,Canons Park,1629,1682
+20260913,Sunday,Carpenders Park,694,676
+20260913,Sunday,Chadwell Heath,4043,3955
+20260913,Sunday,Chalfont & Latimer,774,758
+20260913,Sunday,Chalk Farm,4461,3754
+20260913,Sunday,Chancery Lane,2831,2956
+20260913,Sunday,Charing Cross,15262,13839
+20260913,Sunday,Chesham,612,557
+20260913,Sunday,Cheshunt,1378,1491
+20260913,Sunday,Chigwell,143,163
+20260913,Sunday,Chingford,1674,1729
+20260913,Sunday,Chiswick Park,0,3
+20260913,Sunday,Chorleywood,482,425
+20260913,Sunday,Clapham Common,7019,7762
+20260913,Sunday,Clapham High Street,1455,1705
+20260913,Sunday,Clapham Junction,19154,19968
+20260913,Sunday,Clapham North,4573,4567
+20260913,Sunday,Clapham South,4881,5462
+20260913,Sunday,Clapton,1720,1728
+20260913,Sunday,Cockfosters,1728,1806
+20260913,Sunday,Colindale,5811,5740
+20260913,Sunday,Colliers Wood,5408,5426
+20260913,Sunday,Covent Garden,11561,13496
+20260913,Sunday,Crossharbour,1947,1821
+20260913,Sunday,Crouch Hill,0,1
+20260913,Sunday,Croxley,344,404
+20260913,Sunday,Crystal Palace,2288,2385
+20260913,Sunday,Custom House DLR,2450,1970
+20260913,Sunday,Custom House Elizabeth Line,11022,10397
+20260913,Sunday,Cutty Sark,7846,6318
+20260913,Sunday,Cyprus,398,349
+20260913,Sunday,Dagenham East,2241,1950
+20260913,Sunday,Dagenham Heathway,3936,3834
+20260913,Sunday,Dalston Junction,5359,5569
+20260913,Sunday,Dalston Kingsland,4621,4954
+20260913,Sunday,Debden,1016,1043
+20260913,Sunday,Denmark Hill,2993,3187
+20260913,Sunday,Deptford Bridge,1623,1530
+20260913,Sunday,Devons Road,1832,1730
+20260913,Sunday,Dollis Hill,2746,2492
+20260913,Sunday,Ealing Broadway,13451,14253
+20260913,Sunday,Ealing Common,1478,1531
+20260913,Sunday,Earls Court,17465,17528
+20260913,Sunday,East Acton,2622,2622
+20260913,Sunday,East Finchley,4093,4349
+20260913,Sunday,East Ham,11472,10931
+20260913,Sunday,East India,1870,1737
+20260913,Sunday,Eastcote,1520,1527
+20260913,Sunday,Edgware,3566,3532
+20260913,Sunday,Edgware Road B,3471,3819
+20260913,Sunday,Edgware Road C&H,3842,3461
+20260913,Sunday,Edmonton Green,2476,2563
+20260913,Sunday,Elephant & Castle,10473,11696
+20260913,Sunday,Elm Park,1779,1857
+20260913,Sunday,Elverson Road,860,724
+20260913,Sunday,Embankment,6494,6048
+20260913,Sunday,Emerson Park,116,78
+20260913,Sunday,Enfield Town,1611,1536
+20260913,Sunday,Epping,2203,2176
+20260913,Sunday,Euston,37003,36526
+20260913,Sunday,Euston NR,7155,7753
+20260913,Sunday,Euston Square,7737,7661
+20260913,Sunday,Fairlop,666,728
+20260913,Sunday,Farringdon,20463,18185
+20260913,Sunday,Finchley Central,3724,3666
+20260913,Sunday,Finchley Road,6739,6654
+20260913,Sunday,Finchley Road & Frognal,1131,1121
+20260913,Sunday,Finsbury Park,20053,19358
+20260913,Sunday,Forest Gate,5903,5837
+20260913,Sunday,Forest Hill,3433,3469
+20260913,Sunday,Gallions Reach,1161,1071
+20260913,Sunday,Gants Hill,4026,3813
+20260913,Sunday,Gidea Park,2110,2129
+20260913,Sunday,Gloucester Road,8422,7150
+20260913,Sunday,Golders Green,5635,5606
+20260913,Sunday,Goldhawk Road,1915,2046
+20260913,Sunday,Goodge Street,2352,2501
+20260913,Sunday,Goodmayes,3593,3638
+20260913,Sunday,Gospel Oak,1945,1752
+20260913,Sunday,Grange Hill,210,200
+20260913,Sunday,Great Portland Street,3153,2888
+20260913,Sunday,Green Park,22903,27926
+20260913,Sunday,Greenford,2347,2367
+20260913,Sunday,Greenwich,3102,3038
+20260913,Sunday,Gunnersbury,2,29
+20260913,Sunday,Hackney Central,5087,5208
+20260913,Sunday,Hackney Downs,1856,1970
+20260913,Sunday,Hackney Wick,4702,4953
+20260913,Sunday,Haggerston,2939,3086
+20260913,Sunday,Hainault,2082,2002
+20260913,Sunday,Hammersmith C&H,10464,10796
+20260913,Sunday,Hammersmith D&P,19770,19993
+20260913,Sunday,Hampstead,4210,4892
+20260913,Sunday,Hampstead Heath,2690,2679
+20260913,Sunday,Hanger Lane,2051,2038
+20260913,Sunday,Hanwell,1292,1117
+20260913,Sunday,Harlesden,1606,1581
+20260913,Sunday,Harold Wood,2389,2277
+20260913,Sunday,Harrow & Wealdstone,3387,3209
+20260913,Sunday,Harrow-on-the-Hill,7193,7640
+20260913,Sunday,Hatch End,417,418
+20260913,Sunday,Hatton Cross,3501,3377
+20260913,Sunday,Hayes & Harlington,6973,7235
+20260913,Sunday,Headstone Lane,331,296
+20260913,Sunday,Heathrow T2&3 TfL Rail/HEx,11865,9875
+20260913,Sunday,Heathrow T4 TfL Rail/HEx,3490,2605
+20260913,Sunday,Heathrow T5 TfL Rail/HEx,6267,4822
+20260913,Sunday,Heathrow Terminal 4,2491,2362
+20260913,Sunday,Heathrow Terminal 5,6040,5782
+20260913,Sunday,Heathrow Terminals 2&3,8893,8726
+20260913,Sunday,Hendon Central,4155,3796
+20260913,Sunday,Heron Quays,4098,4213
+20260913,Sunday,High Barnet,2554,2606
+20260913,Sunday,Highams Park,1967,2008
+20260913,Sunday,Highbury & Islington,18221,19063
+20260913,Sunday,Highgate,3974,4444
+20260913,Sunday,Hillingdon,1266,1286
+20260913,Sunday,Holborn,13141,13302
+20260913,Sunday,Holland Park,2682,2637
+20260913,Sunday,Holloway Road,3710,4853
+20260913,Sunday,Homerton,3489,3624
+20260913,Sunday,Honor Oak Park,2232,2340
+20260913,Sunday,Hornchurch,916,944
+20260913,Sunday,Hounslow Central,2807,2842
+20260913,Sunday,Hounslow East,2934,2825
+20260913,Sunday,Hounslow West,2865,2546
+20260913,Sunday,Hoxton,3850,4576
+20260913,Sunday,Hyde Park Corner,3795,4371
+20260913,Sunday,Ickenham,597,645
+20260913,Sunday,Ilford,10841,10963
+20260913,Sunday,Imperial Wharf,1884,1947
+20260913,Sunday,Island Gardens,2025,1556
+20260913,Sunday,Iver,152,148
+20260913,Sunday,Kennington,4678,4868
+20260913,Sunday,Kensal Green,1523,1619
+20260913,Sunday,Kensal Rise,1694,1656
+20260913,Sunday,Kensington Olympia,2533,2490
+20260913,Sunday,Kentish Town,4787,4717
+20260913,Sunday,Kentish Town West,1307,1152
+20260913,Sunday,Kenton,1255,1208
+20260913,Sunday,Kew Gardens,0,8
+20260913,Sunday,Kilburn,5267,5131
+20260913,Sunday,Kilburn High Road,792,749
+20260913,Sunday,Kilburn Park,2285,2217
+20260913,Sunday,King George V,883,783
+20260913,Sunday,Kings Cross St Pancras,99241,94115
+20260913,Sunday,Kingsbury,2799,2839
+20260913,Sunday,Knightsbridge,13833,12802
+20260913,Sunday,Ladbroke Grove,7027,5950
+20260913,Sunday,Lambeth North,2632,2496
+20260913,Sunday,Lancaster Gate,3856,4280
+20260913,Sunday,Langdon Park,1801,1659
+20260913,Sunday,Langley Berks,424,452
+20260913,Sunday,Latimer Road,1667,1617
+20260913,Sunday,Leicester Square,31875,28379
+20260913,Sunday,Lewisham DLR,4283,3654
+20260913,Sunday,Leyton,7699,7644
+20260913,Sunday,Leytonstone,6094,6156
+20260913,Sunday,Limehouse DLR,4052,3992
+20260913,Sunday,Liverpool St NR,16433,14293
+20260913,Sunday,Liverpool Street,43699,45109
+20260913,Sunday,London Bridge,64551,62379
+20260913,Sunday,London City Airport,2874,2154
+20260913,Sunday,London Fields,1399,1599
+20260913,Sunday,Loughton,1899,1968
+20260913,Sunday,Maida Vale,2405,2380
+20260913,Sunday,Maidenhead,1297,1303
+20260913,Sunday,Manor House,5288,5441
+20260913,Sunday,Manor Park,4668,4422
+20260913,Sunday,Maryland,3919,3815
+20260913,Sunday,Marylebone,3537,3729
+20260913,Sunday,Mile End,9943,9890
+20260913,Sunday,Mill Hill East,975,1079
+20260913,Sunday,Monument,1,0
+20260913,Sunday,Moor Park,403,444
+20260913,Sunday,Moorgate,9232,11248
+20260913,Sunday,Morden,8594,8687
+20260913,Sunday,Mornington Crescent,2439,1855
+20260913,Sunday,Mudchute,1325,1195
+20260913,Sunday,Neasden,2049,2036
+20260913,Sunday,New Cross,1926,2240
+20260913,Sunday,New Cross Gate,3987,4366
+20260913,Sunday,Newbury Park,2727,2537
+20260913,Sunday,Nine Elms,3893,3876
+20260913,Sunday,North Acton,4218,4354
+20260913,Sunday,North Ealing,461,500
+20260913,Sunday,North Greenwich,30815,33631
+20260913,Sunday,North Harrow,1043,1012
+20260913,Sunday,North Wembley,975,968
+20260913,Sunday,Northfields,2182,3528
+20260913,Sunday,Northolt,3518,3285
+20260913,Sunday,Northwick Park,2362,2284
+20260913,Sunday,Northwood,1424,1438
+20260913,Sunday,Northwood Hills,916,991
+20260913,Sunday,Norwood Junction,3079,2935
+20260913,Sunday,Notting Hill Gate,12180,13076
+20260913,Sunday,Oakwood,2044,2202
+20260913,Sunday,Old Street,11567,11365
+20260913,Sunday,Osterley,1302,1196
+20260913,Sunday,Oval,4615,4802
+20260913,Sunday,Oxford Circus,44431,47865
+20260913,Sunday,Paddington,31175,28866
+20260913,Sunday,Paddington EL,22582,21760
+20260913,Sunday,Park Royal,1044,1093
+20260913,Sunday,Parsons Green,1,93
+20260913,Sunday,Peckham Rye,5294,5297
+20260913,Sunday,Penge West,558,541
+20260913,Sunday,Perivale,1288,1307
+20260913,Sunday,Piccadilly Circus,22527,21399
+20260913,Sunday,Pimlico,6618,6723
+20260913,Sunday,Pinner,1594,1574
+20260913,Sunday,Plaistow,3825,3882
+20260913,Sunday,Pontoon Dock DLR,2090,2034
+20260913,Sunday,Poplar,728,787
+20260913,Sunday,Preston Road,1815,1920
+20260913,Sunday,Prince Regent,2296,2289
+20260913,Sunday,Pudding Mill Lane,961,930
+20260913,Sunday,Queens Park,4389,4382
+20260913,Sunday,Queens Rd Peckham,2175,2251
+20260913,Sunday,Queensbury,2384,2350
+20260913,Sunday,Queensway,8789,8316
+20260913,Sunday,Ravenscourt Park,4,3
+20260913,Sunday,Rayners Lane,2704,2715
+20260913,Sunday,Reading,1090,1074
+20260913,Sunday,Rectory Road,1132,1183
+20260913,Sunday,Redbridge,1778,1618
+20260913,Sunday,Regents Park,1054,1381
+20260913,Sunday,Richmond,10462,9063
+20260913,Sunday,Rickmansworth,1139,1107
+20260913,Sunday,Roding Valley,106,120
+20260913,Sunday,Romford,7853,8548
+20260913,Sunday,Rotherhithe,1661,1641
+20260913,Sunday,Royal Albert,811,760
+20260913,Sunday,Royal Oak,2345,2319
+20260913,Sunday,Royal Victoria,1585,1278
+20260913,Sunday,Ruislip,1069,1084
+20260913,Sunday,Ruislip Gardens,530,551
+20260913,Sunday,Ruislip Manor,926,983
+20260913,Sunday,Russell Square,6966,6653
+20260913,Sunday,Seven Kings,3557,3237
+20260913,Sunday,Seven Sisters,12023,11767
+20260913,Sunday,Shadwell DLR,4080,3779
+20260913,Sunday,Shadwell LO,4046,4075
+20260913,Sunday,Shenfield,1479,1566
+20260913,Sunday,Shepherds Bush,14534,13881
+20260913,Sunday,Shepherds Bush LO,7225,7641
+20260913,Sunday,Shepherds Bush Market,3123,3195
+20260913,Sunday,Shoreditch High Street,6811,7065
+20260913,Sunday,Silver Street,1623,1562
+20260913,Sunday,Slough,1964,1909
+20260913,Sunday,Snaresbrook,1565,1692
+20260913,Sunday,South Ealing,1781,2206
+20260913,Sunday,South Hampstead,434,381
+20260913,Sunday,South Harrow,1553,1569
+20260913,Sunday,South Kensington,20642,22322
+20260913,Sunday,South Kenton,479,459
+20260913,Sunday,South Quay,2343,2171
+20260913,Sunday,South Ruislip,1157,1174
+20260913,Sunday,South Wimbledon,3712,3747
+20260913,Sunday,South Woodford,3112,3367
+20260913,Sunday,Southall,6237,6210
+20260913,Sunday,Southbury,870,950
+20260913,Sunday,Southfields,0,1
+20260913,Sunday,Southgate,2952,3209
+20260913,Sunday,Southwark,6953,7263
+20260913,Sunday,St James Street,1519,1557
+20260913,Sunday,St Johns Wood,4897,5196
+20260913,Sunday,St Pauls,7866,6835
+20260913,Sunday,Stamford Brook,0,1
+20260913,Sunday,Stamford Hill,564,547
+20260913,Sunday,Stanmore,2927,2970
+20260913,Sunday,Star Lane DLR,847,750
+20260913,Sunday,Stepney Green,3283,3144
+20260913,Sunday,Stockwell,7015,6655
+20260913,Sunday,Stoke Newington,1254,1211
+20260913,Sunday,Stonebridge Park,1828,1833
+20260913,Sunday,Stratford,53687,53558
+20260913,Sunday,Stratford High Street,466,503
+20260913,Sunday,Stratford International,2429,2298
+20260913,Sunday,Sudbury Hill,1064,1035
+20260913,Sunday,Sudbury Town,1184,1048
+20260913,Sunday,Surrey Quays,4512,4341
+20260913,Sunday,Swiss Cottage,4059,4204
+20260913,Sunday,Sydenham SR,2597,2775
+20260913,Sunday,Taplow,227,216
+20260913,Sunday,Temple,4,5
+20260913,Sunday,Theobalds Grove,526,528
+20260913,Sunday,Theydon Bois,510,526
+20260913,Sunday,Tooting Bec,5721,5959
+20260913,Sunday,Tooting Broadway,10535,10713
+20260913,Sunday,Tottenham Court Road,57370,57219
+20260913,Sunday,Tottenham Hale,15291,14852
+20260913,Sunday,Totteridge & Whetstone,1625,1892
+20260913,Sunday,Tower Gateway,2746,2310
+20260913,Sunday,Tower Hill,1736,2654
+20260913,Sunday,Tufnell Park,2965,3020
+20260913,Sunday,Turkey Street,820,745
+20260913,Sunday,Turnham Green,207,373
+20260913,Sunday,Turnpike Lane,6511,6913
+20260913,Sunday,Twyford,363,277
+20260913,Sunday,Upminster,2791,2947
+20260913,Sunday,Upminster Bridge,379,346
+20260913,Sunday,Upney,1657,1588
+20260913,Sunday,Upton Park,8653,8451
+20260913,Sunday,Uxbridge,3784,3803
+20260913,Sunday,Vauxhall,25313,25527
+20260913,Sunday,Victoria,51179,52887
+20260913,Sunday,W Silvertown,2628,2533
+20260913,Sunday,Walthamstow Central,12688,13365
+20260913,Sunday,Walthamstow Queens Road,8,0
+20260913,Sunday,Wandsworth Road,548,507
+20260913,Sunday,Wanstead,1929,1819
+20260913,Sunday,Wanstead Park,3,3
+20260913,Sunday,Wapping,2506,2522
+20260913,Sunday,Warren Street,7205,7424
+20260913,Sunday,Warwick Avenue,2476,2738
+20260913,Sunday,Waterloo,55769,56183
+20260913,Sunday,Watford High Street,924,954
+20260913,Sunday,Watford Junction,3565,3280
+20260913,Sunday,Watford Met,1111,1112
+20260913,Sunday,Wembley Central,4452,4417
+20260913,Sunday,Wembley Park,16357,15257
+20260913,Sunday,West Acton,982,1011
+20260913,Sunday,West Brompton,2412,2403
+20260913,Sunday,West Croydon,3208,2917
+20260913,Sunday,West Drayton,2694,2471
+20260913,Sunday,West Ealing,1982,1984
+20260913,Sunday,West Finchley,1016,979
+20260913,Sunday,West Ham,4422,4278
+20260913,Sunday,West Hampstead,7026,6864
+20260913,Sunday,West Hampstead LO,3430,3210
+20260913,Sunday,West Harrow,780,792
+20260913,Sunday,West India Quay,991,871
+20260913,Sunday,West Kensington,25,21
+20260913,Sunday,West Ruislip,906,873
+20260913,Sunday,Westbourne Park,3808,3613
+20260913,Sunday,Westferry,2987,2673
+20260913,Sunday,Westminster,14380,13803
+20260913,Sunday,White City,5800,5738
+20260913,Sunday,White Hart Lane,1534,1415
+20260913,Sunday,Whitechapel,15699,16123
+20260913,Sunday,Willesden Green,4910,4953
+20260913,Sunday,Willesden Junction,3498,3590
+20260913,Sunday,Wimbledon,9116,8540
+20260913,Sunday,Wood Green,7241,6967
+20260913,Sunday,Wood Lane,4364,4924
+20260913,Sunday,Wood Street,1653,1685
+20260913,Sunday,Woodford,3629,3577
+20260913,Sunday,Woodgrange Park,1,1
+20260913,Sunday,Woodside Park,2021,1793
+20260913,Sunday,Woolwich Arsenal DLR,3986,4702
+20260913,Sunday,Woolwich Arsenal NR,843,720
+20260913,Sunday,Woolwich Elizabeth Line,13141,12780
+20260914,Monday,Abbey Road DLR,945,930
+20260914,Monday,Abbey Wood,18844,17797
+20260914,Monday,Acton Central,2102,2136
+20260914,Monday,Acton Main Line,4361,4586
+20260914,Monday,Acton Town,6506,6735
+20260914,Monday,Aldgate,9628,11830
+20260914,Monday,Aldgate East,14074,13072
+20260914,Monday,All Saints,1428,1336
+20260914,Monday,Alperton,3205,3476
+20260914,Monday,Amersham,3256,3219
+20260914,Monday,Anerley,1294,1031
+20260914,Monday,Angel,13642,14404
+20260914,Monday,Archway,9980,9728
+20260914,Monday,Arnos Grove,4416,3863
+20260914,Monday,Arsenal,2985,2708
+20260914,Monday,Baker Street,32529,31909
+20260914,Monday,Balham,13759,13673
+20260914,Monday,Bank,51813,56569
+20260914,Monday,Barbican,7937,8120
+20260914,Monday,Barking,23702,23638
+20260914,Monday,Barking Riverside,1627,1584
+20260914,Monday,Barkingside,1854,1911
+20260914,Monday,Barons Court,5027,2817
+20260914,Monday,Battersea Power Station,10451,10169
+20260914,Monday,Bayswater,5151,4570
+20260914,Monday,Beckton,1846,1694
+20260914,Monday,Beckton Park,614,521
+20260914,Monday,Becontree,4971,4689
+20260914,Monday,Belsize Park,7671,7810
+20260914,Monday,Bermondsey,10052,9851
+20260914,Monday,Bethnal Green,12613,11955
+20260914,Monday,Bethnal Green NR,2288,2549
+20260914,Monday,Blackfriars,17011,15946
+20260914,Monday,Blackhorse Road,12763,11885
+20260914,Monday,Blackwall,1383,1166
+20260914,Monday,Bond Street,56776,58139
+20260914,Monday,Borough,6016,5525
+20260914,Monday,Boston Manor,1784,1705
+20260914,Monday,Bounds Green,5637,5162
+20260914,Monday,Bow Church,2317,2086
+20260914,Monday,Bow Road,5678,5478
+20260914,Monday,Brent Cross,2706,2658
+20260914,Monday,Brentwood,4829,4626
+20260914,Monday,Brixton,24145,24050
+20260914,Monday,Brockley,4574,4710
+20260914,Monday,Bromley-by-Bow,5870,5860
+20260914,Monday,Brondesbury,3375,3200
+20260914,Monday,Brondesbury Park,1599,1610
+20260914,Monday,Bruce Grove,2060,1862
+20260914,Monday,Buckhurst Hill,2713,2782
+20260914,Monday,Burnham Bucks,1161,1123
+20260914,Monday,Burnt Oak,4510,4428
+20260914,Monday,Bush Hill Park,1947,1737
+20260914,Monday,Bushey,2027,1763
+20260914,Monday,Caledonian Road,5037,4929
+20260914,Monday,Caledonian Road & Barnsbury,2080,2191
+20260914,Monday,Cambridge Heath,1220,1310
+20260914,Monday,Camden Road,5062,5231
+20260914,Monday,Camden Town,17930,19381
+20260914,Monday,Canada Water,11416,11374
+20260914,Monday,Canary Wharf,49194,51140
+20260914,Monday,Canary Wharf DLR,9932,9621
+20260914,Monday,Canary Wharf Elizabeth Line,27679,27999
+20260914,Monday,Canning Town,16423,16399
+20260914,Monday,Cannon Street,7341,6738
+20260914,Monday,Canonbury,3822,3719
+20260914,Monday,Canons Park,3435,3381
+20260914,Monday,Carpenders Park,2092,2103
+20260914,Monday,Chadwell Heath,7562,7292
+20260914,Monday,Chalfont & Latimer,1903,1873
+20260914,Monday,Chalk Farm,6030,5121
+20260914,Monday,Chancery Lane,12241,13296
+20260914,Monday,Charing Cross,18690,17915
+20260914,Monday,Chesham,1623,1492
+20260914,Monday,Cheshunt,2988,3028
+20260914,Monday,Chigwell,577,519
+20260914,Monday,Chingford,3235,3208
+20260914,Monday,Chiswick Park,2622,3021
+20260914,Monday,Chorleywood,1393,1277
+20260914,Monday,Clapham Common,8971,10227
+20260914,Monday,Clapham High Street,1900,1958
+20260914,Monday,Clapham Junction,26695,26778
+20260914,Monday,Clapham North,5490,6096
+20260914,Monday,Clapham South,8674,8947
+20260914,Monday,Clapton,2634,2539
+20260914,Monday,Cockfosters,1890,1757
+20260914,Monday,Colindale,9489,9263
+20260914,Monday,Colliers Wood,7897,7652
+20260914,Monday,Covent Garden,10571,11694
+20260914,Monday,Crossharbour,3107,2861
+20260914,Monday,Crouch Hill,1078,1113
+20260914,Monday,Croxley,1423,1443
+20260914,Monday,Crystal Palace,3601,3853
+20260914,Monday,Custom House DLR,3649,2621
+20260914,Monday,Custom House Elizabeth Line,14958,14288
+20260914,Monday,Cutty Sark,5967,5104
+20260914,Monday,Cyprus,1161,1089
+20260914,Monday,Dagenham East,4976,4653
+20260914,Monday,Dagenham Heathway,7714,7737
+20260914,Monday,Dalston Junction,6372,6600
+20260914,Monday,Dalston Kingsland,6498,6542
+20260914,Monday,Debden,3114,3089
+20260914,Monday,Denmark Hill,8645,8744
+20260914,Monday,Deptford Bridge,2176,2016
+20260914,Monday,Devons Road,2469,2204
+20260914,Monday,Dollis Hill,5170,4615
+20260914,Monday,Ealing Broadway,22281,23717
+20260914,Monday,Ealing Common,2419,2434
+20260914,Monday,Earls Court,21982,22433
+20260914,Monday,East Acton,4711,4784
+20260914,Monday,East Finchley,8135,8118
+20260914,Monday,East Ham,17828,17506
+20260914,Monday,East India,3647,3329
+20260914,Monday,East Putney,7655,7727
+20260914,Monday,Eastcote,3287,3311
+20260914,Monday,Edgware,6569,6477
+20260914,Monday,Edgware Road B,4770,5303
+20260914,Monday,Edgware Road C&H,9217,8659
+20260914,Monday,Edmonton Green,5385,5322
+20260914,Monday,Elephant & Castle,15167,15535
+20260914,Monday,Elm Park,4421,4368
+20260914,Monday,Elverson Road,1059,827
+20260914,Monday,Embankment,22102,20488
+20260914,Monday,Emerson Park,455,330
+20260914,Monday,Enfield Town,4470,3878
+20260914,Monday,Epping,4334,4193
+20260914,Monday,Euston,43610,42460
+20260914,Monday,Euston NR,14893,15631
+20260914,Monday,Euston Square,15446,15499
+20260914,Monday,Fairlop,1402,1251
+20260914,Monday,Farringdon,64107,60764
+20260914,Monday,Finchley Central,6568,6582
+20260914,Monday,Finchley Road,11089,10808
+20260914,Monday,Finchley Road & Frognal,2778,2662
+20260914,Monday,Finsbury Park,25965,24862
+20260914,Monday,Forest Gate,9329,9251
+20260914,Monday,Forest Hill,5781,5555
+20260914,Monday,Fulham Broadway,8636,9384
+20260914,Monday,Gallions Reach,1874,1701
+20260914,Monday,Gants Hill,7164,6857
+20260914,Monday,Gidea Park,4777,4588
+20260914,Monday,Gloucester Road,15703,15092
+20260914,Monday,Golders Green,8534,8529
+20260914,Monday,Goldhawk Road,2763,2728
+20260914,Monday,Goodge Street,6266,6927
+20260914,Monday,Goodmayes,6823,6777
+20260914,Monday,Gospel Oak,3843,3550
+20260914,Monday,Grange Hill,716,697
+20260914,Monday,Great Portland Street,8593,8789
+20260914,Monday,Green Park,38157,44794
+20260914,Monday,Greenford,4712,4755
+20260914,Monday,Greenwich,4896,4587
+20260914,Monday,Gunnersbury,5701,5369
+20260914,Monday,Hackney Central,6743,6861
+20260914,Monday,Hackney Downs,3277,3344
+20260914,Monday,Hackney Wick,4622,4738
+20260914,Monday,Haggerston,4090,4044
+20260914,Monday,Hainault,4705,4602
+20260914,Monday,Hammersmith C&H,14525,14135
+20260914,Monday,Hammersmith D&P,29557,30243
+20260914,Monday,Hampstead,5241,6156
+20260914,Monday,Hampstead Heath,5091,5032
+20260914,Monday,Hanger Lane,3640,3558
+20260914,Monday,Hanwell,2946,2661
+20260914,Monday,Harlesden,4034,3951
+20260914,Monday,Harold Wood,6142,5844
+20260914,Monday,Harringay Green Lanes,1842,1800
+20260914,Monday,Harrow & Wealdstone,7303,6905
+20260914,Monday,Harrow-on-the-Hill,12602,13199
+20260914,Monday,Hatch End,1120,1147
+20260914,Monday,Hatton Cross,4412,4627
+20260914,Monday,Hayes & Harlington,12113,12392
+20260914,Monday,Headstone Lane,978,881
+20260914,Monday,Heathrow T2&3 TfL Rail/HEx,12456,11129
+20260914,Monday,Heathrow T4 TfL Rail/HEx,3631,3162
+20260914,Monday,Heathrow T5 TfL Rail/HEx,6853,5859
+20260914,Monday,Heathrow Terminal 4,2493,2049
+20260914,Monday,Heathrow Terminal 5,6551,4483
+20260914,Monday,Heathrow Terminals 2&3,9506,7472
+20260914,Monday,Hendon Central,7635,7287
+20260914,Monday,Heron Quays,5216,5267
+20260914,Monday,High Barnet,5303,5154
+20260914,Monday,High Street Kensington,13331,12577
+20260914,Monday,Highams Park,4321,4298
+20260914,Monday,Highbury & Islington,19040,19983
+20260914,Monday,Highgate,6275,6573
+20260914,Monday,Hillingdon,2063,1960
+20260914,Monday,Holborn,23376,25357
+20260914,Monday,Holland Park,4274,4280
+20260914,Monday,Holloway Road,4917,4751
+20260914,Monday,Homerton,6121,6055
+20260914,Monday,Honor Oak Park,3295,3334
+20260914,Monday,Hornchurch,2815,2820
+20260914,Monday,Hounslow Central,4352,4308
+20260914,Monday,Hounslow East,4465,4720
+20260914,Monday,Hounslow West,3743,3774
+20260914,Monday,Hoxton,4649,5020
+20260914,Monday,Hyde Park Corner,3889,4103
+20260914,Monday,Ickenham,1296,1382
+20260914,Monday,Ilford,16561,17282
+20260914,Monday,Imperial Wharf,4343,4477
+20260914,Monday,Island Gardens,2336,1977
+20260914,Monday,Iver,285,258
+20260914,Monday,Kennington,6136,5932
+20260914,Monday,Kensal Green,2800,2787
+20260914,Monday,Kensal Rise,3480,3589
+20260914,Monday,Kensington Olympia,4444,4648
+20260914,Monday,Kentish Town,8406,8489
+20260914,Monday,Kentish Town West,2290,2303
+20260914,Monday,Kenton,2656,2580
+20260914,Monday,Kew Gardens,5067,4829
+20260914,Monday,Kilburn,7263,7159
+20260914,Monday,Kilburn High Road,1230,1237
+20260914,Monday,Kilburn Park,3516,3420
+20260914,Monday,King George V,1592,1424
+20260914,Monday,Kings Cross St Pancras,98752,94696
+20260914,Monday,Kingsbury,5461,5372
+20260914,Monday,Knightsbridge,15018,14576
+20260914,Monday,Ladbroke Grove,7525,7394
+20260914,Monday,Lambeth North,3601,3397
+20260914,Monday,Lancaster Gate,3426,3371
+20260914,Monday,Langdon Park,2794,2507
+20260914,Monday,Langley Berks,854,847
+20260914,Monday,Latimer Road,3110,3068
+20260914,Monday,Leicester Square,28837,26216
+20260914,Monday,Lewisham DLR,6386,5731
+20260914,Monday,Leyton,11515,11360
+20260914,Monday,Leyton Midland Road,2102,2201
+20260914,Monday,Leytonstone,10043,9990
+20260914,Monday,Leytonstone High Road,1541,1613
+20260914,Monday,Limehouse DLR,7519,6773
+20260914,Monday,Liverpool St NR,35150,32181
+20260914,Monday,Liverpool Street,82804,84366
+20260914,Monday,London Bridge,72086,67738
+20260914,Monday,London City Airport,4599,3410
+20260914,Monday,London Fields,2172,2393
+20260914,Monday,Loughton,3921,4046
+20260914,Monday,Maida Vale,3865,3764
+20260914,Monday,Maidenhead,2142,2265
+20260914,Monday,Manor House,7013,7036
+20260914,Monday,Manor Park,6568,6329
+20260914,Monday,Mansion House,6526,6973
+20260914,Monday,Marble Arch,9948,10109
+20260914,Monday,Maryland,6487,6190
+20260914,Monday,Marylebone,11912,12834
+20260914,Monday,Mile End,15388,15197
+20260914,Monday,Mill Hill East,2074,2079
+20260914,Monday,Monument,13125,11215
+20260914,Monday,Moor Park,1486,1529
+20260914,Monday,Moorgate,42459,45383
+20260914,Monday,Morden,12380,12316
+20260914,Monday,Mornington Crescent,3203,2788
+20260914,Monday,Mudchute,1848,1565
+20260914,Monday,Neasden,3903,3602
+20260914,Monday,New Cross,3622,3680
+20260914,Monday,New Cross Gate,4877,5416
+20260914,Monday,Newbury Park,4875,4429
+20260914,Monday,Nine Elms,5129,4944
+20260914,Monday,North Acton,7160,7240
+20260914,Monday,North Ealing,809,750
+20260914,Monday,North Greenwich,22075,22959
+20260914,Monday,North Harrow,2299,2314
+20260914,Monday,North Wembley,2163,2074
+20260914,Monday,Northfields,3338,3320
+20260914,Monday,Northolt,5862,5480
+20260914,Monday,Northwick Park,4686,4778
+20260914,Monday,Northwood,3509,3536
+20260914,Monday,Northwood Hills,2296,2214
+20260914,Monday,Norwood Junction,5983,5507
+20260914,Monday,Notting Hill Gate,15327,16663
+20260914,Monday,Oakwood,3184,2959
+20260914,Monday,Old Street,19955,19966
+20260914,Monday,Osterley,2216,2190
+20260914,Monday,Oval,6679,6597
+20260914,Monday,Oxford Circus,62112,70854
+20260914,Monday,Paddington,38034,38734
+20260914,Monday,Paddington EL,32744,32481
+20260914,Monday,Park Royal,1738,1842
+20260914,Monday,Parsons Green,7784,7875
+20260914,Monday,Peckham Rye,6968,7114
+20260914,Monday,Penge West,802,714
+20260914,Monday,Perivale,2402,2450
+20260914,Monday,Piccadilly Circus,26358,25554
+20260914,Monday,Pimlico,10849,10863
+20260914,Monday,Pinner,3539,3607
+20260914,Monday,Plaistow,7325,7099
+20260914,Monday,Pontoon Dock DLR,3009,2883
+20260914,Monday,Poplar,1416,1402
+20260914,Monday,Preston Road,3597,3639
+20260914,Monday,Prince Regent,2145,2191
+20260914,Monday,Pudding Mill Lane,1719,1617
+20260914,Monday,Putney Bridge,5474,6396
+20260914,Monday,Queens Park,6780,6527
+20260914,Monday,Queens Rd Peckham,3839,3868
+20260914,Monday,Queensbury,4210,4165
+20260914,Monday,Queensway,7004,7517
+20260914,Monday,Ravenscourt Park,3833,3873
+20260914,Monday,Rayners Lane,4921,4886
+20260914,Monday,Reading,1191,1151
+20260914,Monday,Rectory Road,1893,1827
+20260914,Monday,Redbridge,3017,2768
+20260914,Monday,Regents Park,2819,3384
+20260914,Monday,Richmond,15457,15099
+20260914,Monday,Rickmansworth,3219,3054
+20260914,Monday,Roding Valley,292,258
+20260914,Monday,Romford,15401,16446
+20260914,Monday,Rotherhithe,2105,1970
+20260914,Monday,Royal Albert,1329,1260
+20260914,Monday,Royal Oak,3173,3263
+20260914,Monday,Royal Victoria,1897,1603
+20260914,Monday,Ruislip,2113,2039
+20260914,Monday,Ruislip Gardens,1189,1076
+20260914,Monday,Ruislip Manor,2161,2269
+20260914,Monday,Russell Square,9171,9330
+20260914,Monday,Seven Kings,6205,5718
+20260914,Monday,Seven Sisters,17008,16797
+20260914,Monday,Shadwell DLR,6304,5825
+20260914,Monday,Shadwell LO,4893,5032
+20260914,Monday,Shenfield,3723,3746
+20260914,Monday,Shepherds Bush,16835,15971
+20260914,Monday,Shepherds Bush LO,9919,10205
+20260914,Monday,Shepherds Bush Market,4502,4416
+20260914,Monday,Shoreditch High Street,7759,8157
+20260914,Monday,Silver Street,3760,3505
+20260914,Monday,Sloane Square,18656,18456
+20260914,Monday,Slough,2949,3038
+20260914,Monday,Snaresbrook,2998,2881
+20260914,Monday,South Acton,1044,987
+20260914,Monday,South Ealing,2840,2721
+20260914,Monday,South Hampstead,909,799
+20260914,Monday,South Harrow,2598,2558
+20260914,Monday,South Kensington,31503,33772
+20260914,Monday,South Kenton,1064,968
+20260914,Monday,South Quay,4530,4277
+20260914,Monday,South Ruislip,2216,2152
+20260914,Monday,South Tottenham,2063,2068
+20260914,Monday,South Wimbledon,5339,5292
+20260914,Monday,South Woodford,5876,6056
+20260914,Monday,Southall,10661,10380
+20260914,Monday,Southbury,1663,1809
+20260914,Monday,Southfields,7287,6926
+20260914,Monday,Southgate,5246,5084
+20260914,Monday,Southwark,11512,12287
+20260914,Monday,St James Street,2371,2339
+20260914,Monday,St James's Park,14991,15323
+20260914,Monday,St Johns Wood,10533,10536
+20260914,Monday,St Pauls,13087,14161
+20260914,Monday,Stamford Brook,2889,2946
+20260914,Monday,Stamford Hill,1037,1079
+20260914,Monday,Stanmore,4585,4662
+20260914,Monday,Star Lane DLR,1439,1361
+20260914,Monday,Stepney Green,7301,7196
+20260914,Monday,Stockwell,10232,9020
+20260914,Monday,Stoke Newington,2076,1900
+20260914,Monday,Stonebridge Park,3859,3747
+20260914,Monday,Stratford,70581,72237
+20260914,Monday,Stratford High Street,930,997
+20260914,Monday,Stratford International,3503,3005
+20260914,Monday,Sudbury Hill,2202,2201
+20260914,Monday,Sudbury Town,2024,1783
+20260914,Monday,Surrey Quays,6024,5691
+20260914,Monday,Swiss Cottage,7964,7970
+20260914,Monday,Sydenham SR,4742,4906
+20260914,Monday,Taplow,309,290
+20260914,Monday,Temple,9109,9035
+20260914,Monday,Theobalds Grove,1184,1133
+20260914,Monday,Theydon Bois,1033,1040
+20260914,Monday,Tooting Bec,8929,8719
+20260914,Monday,Tooting Broadway,16409,16418
+20260914,Monday,Tottenham Court Road,76002,75052
+20260914,Monday,Tottenham Hale,21124,19476
+20260914,Monday,Totteridge & Whetstone,3337,3208
+20260914,Monday,Tower Gateway,3350,3146
+20260914,Monday,Tower Hill,20557,20691
+20260914,Monday,Tufnell Park,4118,4006
+20260914,Monday,Turkey Street,1667,1614
+20260914,Monday,Turnham Green,6344,6540
+20260914,Monday,Turnpike Lane,9629,9869
+20260914,Monday,Twyford,236,259
+20260914,Monday,Upminster,6150,6590
+20260914,Monday,Upminster Bridge,1505,1555
+20260914,Monday,Upney,3665,3323
+20260914,Monday,Upper Holloway,2030,1931
+20260914,Monday,Upton Park,13305,13128
+20260914,Monday,Uxbridge,8013,7745
+20260914,Monday,Vauxhall,31128,28797
+20260914,Monday,Victoria,76711,80763
+20260914,Monday,W Silvertown,2901,2694
+20260914,Monday,Walthamstow Central,18529,18839
+20260914,Monday,Walthamstow Queens Road,1394,1396
+20260914,Monday,Wandsworth Road,885,885
+20260914,Monday,Wanstead,2661,2824
+20260914,Monday,Wanstead Park,1984,2144
+20260914,Monday,Wapping,2919,2780
+20260914,Monday,Warren Street,20044,21361
+20260914,Monday,Warwick Avenue,4288,4291
+20260914,Monday,Waterloo,84558,84245
+20260914,Monday,Watford High Street,2198,2162
+20260914,Monday,Watford Junction,6952,6668
+20260914,Monday,Watford Met,2955,2951
+20260914,Monday,Wembley Central,7064,7675
+20260914,Monday,Wembley Park,20350,20368
+20260914,Monday,West Acton,1583,1533
+20260914,Monday,West Brompton,6120,6341
+20260914,Monday,West Croydon,6131,5593
+20260914,Monday,West Drayton,4964,4980
+20260914,Monday,West Ealing,4155,3990
+20260914,Monday,West Finchley,2091,1979
+20260914,Monday,West Ham,7861,7503
+20260914,Monday,West Hampstead,11227,10680
+20260914,Monday,West Hampstead LO,6768,6393
+20260914,Monday,West Harrow,1477,1415
+20260914,Monday,West India Quay,1087,1104
+20260914,Monday,West Kensington,5952,6736
+20260914,Monday,West Ruislip,1806,1809
+20260914,Monday,Westbourne Park,5804,5451
+20260914,Monday,Westferry,3963,3499
+20260914,Monday,Westminster,26848,28475
+20260914,Monday,White City,12011,11793
+20260914,Monday,White Hart Lane,3097,3006
+20260914,Monday,Whitechapel,28028,27809
+20260914,Monday,Willesden Green,7620,7744
+20260914,Monday,Willesden Junction,6520,6449
+20260914,Monday,Wimbledon,22462,22658
+20260914,Monday,Wimbledon Park,2561,2570
+20260914,Monday,Wood Green,11288,10563
+20260914,Monday,Wood Lane,7128,7853
+20260914,Monday,Wood Street,3106,3136
+20260914,Monday,Woodford,6893,6730
+20260914,Monday,Woodgrange Park,1398,1261
+20260914,Monday,Woodside Park,3853,3362
+20260914,Monday,Woolwich Arsenal DLR,6057,6433
+20260914,Monday,Woolwich Arsenal NR,1846,1687
+20260914,Monday,Woolwich Elizabeth Line,19769,19865
+20260915,Tuesday,Abbey Road DLR,1058,1026
+20260915,Tuesday,Abbey Wood,21166,20187
+20260915,Tuesday,Acton Central,2355,2270
+20260915,Tuesday,Acton Main Line,5040,5146
+20260915,Tuesday,Acton Town,7167,7563
+20260915,Tuesday,Aldgate,11775,14052
+20260915,Tuesday,Aldgate East,17216,16293
+20260915,Tuesday,All Saints,1566,1451
+20260915,Tuesday,Alperton,3373,3322
+20260915,Tuesday,Amersham,3846,3715
+20260915,Tuesday,Anerley,1373,1141
+20260915,Tuesday,Angel,16731,17664
+20260915,Tuesday,Archway,10831,10513
+20260915,Tuesday,Arnos Grove,4922,4646
+20260915,Tuesday,Arsenal,3319,3096
+20260915,Tuesday,Baker Street,37684,38334
+20260915,Tuesday,Balham,16005,15797
+20260915,Tuesday,Bank,68799,72018
+20260915,Tuesday,Barbican,9121,9426
+20260915,Tuesday,Barking,25126,24813
+20260915,Tuesday,Barking Riverside,2251,1953
+20260915,Tuesday,Barkingside,2107,2137
+20260915,Tuesday,Barons Court,5729,2971
+20260915,Tuesday,Battersea Power Station,12521,11996
+20260915,Tuesday,Bayswater,5883,5146
+20260915,Tuesday,Beckton,1978,1823
+20260915,Tuesday,Beckton Park,641,562
+20260915,Tuesday,Becontree,5006,4985
+20260915,Tuesday,Belsize Park,8266,8396
+20260915,Tuesday,Bermondsey,11164,11181
+20260915,Tuesday,Bethnal Green,14298,13722
+20260915,Tuesday,Bethnal Green NR,2550,2899
+20260915,Tuesday,Blackfriars,20832,19829
+20260915,Tuesday,Blackhorse Road,14253,13274
+20260915,Tuesday,Blackwall,1547,1421
+20260915,Tuesday,Bond Street,65030,66866
+20260915,Tuesday,Borough,6455,6402
+20260915,Tuesday,Boston Manor,1881,1877
+20260915,Tuesday,Bounds Green,6603,5835
+20260915,Tuesday,Bow Church,2644,2305
+20260915,Tuesday,Bow Road,6467,6421
+20260915,Tuesday,Brent Cross,3057,2899
+20260915,Tuesday,Brentwood,5564,5387
+20260915,Tuesday,Brixton,27363,26847
+20260915,Tuesday,Brockley,5149,5179
+20260915,Tuesday,Bromley-by-Bow,6256,6118
+20260915,Tuesday,Brondesbury,3550,3382
+20260915,Tuesday,Brondesbury Park,1750,1724
+20260915,Tuesday,Bruce Grove,2271,2007
+20260915,Tuesday,Buckhurst Hill,3147,3233
+20260915,Tuesday,Burnham Bucks,1381,1373
+20260915,Tuesday,Burnt Oak,4824,4666
+20260915,Tuesday,Bush Hill Park,2274,2015
+20260915,Tuesday,Bushey,2499,2028
+20260915,Tuesday,Caledonian Road,5721,5455
+20260915,Tuesday,Caledonian Road & Barnsbury,2350,2434
+20260915,Tuesday,Cambridge Heath,1420,1559
+20260915,Tuesday,Camden Road,5807,6172
+20260915,Tuesday,Camden Town,19669,20416
+20260915,Tuesday,Canada Water,12620,12871
+20260915,Tuesday,Canary Wharf,58064,59944
+20260915,Tuesday,Canary Wharf DLR,11287,11892
+20260915,Tuesday,Canary Wharf Elizabeth Line,33715,33510
+20260915,Tuesday,Canning Town,17845,18051
+20260915,Tuesday,Cannon Street,9573,8553
+20260915,Tuesday,Canonbury,4464,4294
+20260915,Tuesday,Canons Park,3947,3779
+20260915,Tuesday,Carpenders Park,1072,1757
+20260915,Tuesday,Chadwell Heath,8391,7912
+20260915,Tuesday,Chalfont & Latimer,2282,2317
+20260915,Tuesday,Chalk Farm,6674,5691
+20260915,Tuesday,Chancery Lane,15488,16405
+20260915,Tuesday,Charing Cross,22358,21293
+20260915,Tuesday,Chesham,1890,1759
+20260915,Tuesday,Cheshunt,3421,3387
+20260915,Tuesday,Chigwell,696,607
+20260915,Tuesday,Chingford,3769,3747
+20260915,Tuesday,Chiswick Park,3304,3711
+20260915,Tuesday,Chorleywood,1700,1557
+20260915,Tuesday,Clapham Common,10389,12196
+20260915,Tuesday,Clapham High Street,2110,1994
+20260915,Tuesday,Clapham Junction,29590,29539
+20260915,Tuesday,Clapham North,6159,7241
+20260915,Tuesday,Clapham South,11057,10298
+20260915,Tuesday,Clapton,3093,2885
+20260915,Tuesday,Cockfosters,1967,1739
+20260915,Tuesday,Colindale,10593,10235
+20260915,Tuesday,Colliers Wood,8603,8281
+20260915,Tuesday,Covent Garden,12005,12838
+20260915,Tuesday,Crossharbour,3432,3078
+20260915,Tuesday,Crouch Hill,1265,1241
+20260915,Tuesday,Croxley,1673,1762
+20260915,Tuesday,Crystal Palace,4057,4273
+20260915,Tuesday,Custom House DLR,3811,2415
+20260915,Tuesday,Custom House Elizabeth Line,14146,14019
+20260915,Tuesday,Cutty Sark,6058,5407
+20260915,Tuesday,Cyprus,1186,1130
+20260915,Tuesday,Dagenham East,4914,4714
+20260915,Tuesday,Dagenham Heathway,8314,8251
+20260915,Tuesday,Dalston Junction,7438,7646
+20260915,Tuesday,Dalston Kingsland,6704,6954
+20260915,Tuesday,Debden,3561,3507
+20260915,Tuesday,Denmark Hill,9547,9739
+20260915,Tuesday,Deptford Bridge,2426,2195
+20260915,Tuesday,Devons Road,2650,2336
+20260915,Tuesday,Dollis Hill,5660,5110
+20260915,Tuesday,Ealing Broadway,25297,26900
+20260915,Tuesday,Ealing Common,2607,2768
+20260915,Tuesday,Earls Court,23853,24288
+20260915,Tuesday,East Acton,5235,5320
+20260915,Tuesday,East Finchley,9059,8926
+20260915,Tuesday,East Ham,17486,16994
+20260915,Tuesday,East India,3927,3663
+20260915,Tuesday,East Putney,9907,9179
+20260915,Tuesday,Eastcote,3708,3800
+20260915,Tuesday,Edgware,6957,6976
+20260915,Tuesday,Edgware Road B,5414,5549
+20260915,Tuesday,Edgware Road C&H,10218,9960
+20260915,Tuesday,Edmonton Green,5762,5693
+20260915,Tuesday,Elephant & Castle,16293,17186
+20260915,Tuesday,Elm Park,4900,5090
+20260915,Tuesday,Elverson Road,1189,958
+20260915,Tuesday,Embankment,26741,25652
+20260915,Tuesday,Emerson Park,599,365
+20260915,Tuesday,Enfield Town,4614,4209
+20260915,Tuesday,Epping,5112,4961
+20260915,Tuesday,Euston,48532,50123
+20260915,Tuesday,Euston NR,16690,16508
+20260915,Tuesday,Euston Square,18531,18630
+20260915,Tuesday,Fairlop,1565,1482
+20260915,Tuesday,Farringdon,82253,78288
+20260915,Tuesday,Finchley Central,7195,7395
+20260915,Tuesday,Finchley Road,12031,11879
+20260915,Tuesday,Finchley Road & Frognal,3039,3063
+20260915,Tuesday,Finsbury Park,29056,27968
+20260915,Tuesday,Forest Gate,9959,9850
+20260915,Tuesday,Forest Hill,6482,6117
+20260915,Tuesday,Fulham Broadway,9640,10182
+20260915,Tuesday,Gallions Reach,2192,1934
+20260915,Tuesday,Gants Hill,7831,7470
+20260915,Tuesday,Gidea Park,5845,5438
+20260915,Tuesday,Gloucester Road,17550,16933
+20260915,Tuesday,Golders Green,9471,9519
+20260915,Tuesday,Goldhawk Road,2952,3003
+20260915,Tuesday,Goodge Street,7449,8335
+20260915,Tuesday,Goodmayes,7311,7236
+20260915,Tuesday,Gospel Oak,4103,4059
+20260915,Tuesday,Grange Hill,773,742
+20260915,Tuesday,Great Portland Street,10623,11144
+20260915,Tuesday,Green Park,43235,47922
+20260915,Tuesday,Greenford,5131,5139
+20260915,Tuesday,Greenwich,5513,5256
+20260915,Tuesday,Gunnersbury,7254,6782
+20260915,Tuesday,Hackney Central,7713,7510
+20260915,Tuesday,Hackney Downs,3742,3732
+20260915,Tuesday,Hackney Wick,6220,6850
+20260915,Tuesday,Haggerston,4631,4758
+20260915,Tuesday,Hainault,5179,4979
+20260915,Tuesday,Hammersmith C&H,17499,17040
+20260915,Tuesday,Hammersmith D&P,34731,35696
+20260915,Tuesday,Hampstead,5655,6631
+20260915,Tuesday,Hampstead Heath,5233,5100
+20260915,Tuesday,Hanger Lane,4326,4094
+20260915,Tuesday,Hanwell,3381,3025
+20260915,Tuesday,Harlesden,3286,3832
+20260915,Tuesday,Harold Wood,6971,6630
+20260915,Tuesday,Harringay Green Lanes,2097,2109
+20260915,Tuesday,Harrow & Wealdstone,7631,7108
+20260915,Tuesday,Harrow-on-the-Hill,14149,14570
+20260915,Tuesday,Hatch End,602,1052
+20260915,Tuesday,Hatton Cross,4392,4757
+20260915,Tuesday,Hayes & Harlington,13752,13589
+20260915,Tuesday,Headstone Lane,578,665
+20260915,Tuesday,Heathrow T2&3 TfL Rail/HEx,11975,10671
+20260915,Tuesday,Heathrow T4 TfL Rail/HEx,3719,3033
+20260915,Tuesday,Heathrow T5 TfL Rail/HEx,6164,6016
+20260915,Tuesday,Heathrow Terminal 4,2158,1816
+20260915,Tuesday,Heathrow Terminal 5,5585,3975
+20260915,Tuesday,Heathrow Terminals 2&3,8602,6423
+20260915,Tuesday,Hendon Central,8179,7652
+20260915,Tuesday,Heron Quays,5711,5684
+20260915,Tuesday,High Barnet,6043,5871
+20260915,Tuesday,High Street Kensington,14953,14316
+20260915,Tuesday,Highams Park,5016,4949
+20260915,Tuesday,Highbury & Islington,22320,23544
+20260915,Tuesday,Highgate,7191,7530
+20260915,Tuesday,Hillingdon,2401,2218
+20260915,Tuesday,Holborn,28160,30893
+20260915,Tuesday,Holland Park,4878,4730
+20260915,Tuesday,Holloway Road,5342,5204
+20260915,Tuesday,Homerton,6708,6342
+20260915,Tuesday,Honor Oak Park,3819,3808
+20260915,Tuesday,Hornchurch,3213,3261
+20260915,Tuesday,Hounslow Central,4524,4607
+20260915,Tuesday,Hounslow East,4510,4784
+20260915,Tuesday,Hounslow West,3959,3853
+20260915,Tuesday,Hoxton,5994,6244
+20260915,Tuesday,Hyde Park Corner,4209,4511
+20260915,Tuesday,Ickenham,1490,1525
+20260915,Tuesday,Ilford,17256,17671
+20260915,Tuesday,Imperial Wharf,4582,4603
+20260915,Tuesday,Island Gardens,2669,2125
+20260915,Tuesday,Iver,383,358
+20260915,Tuesday,Kennington,6960,6783
+20260915,Tuesday,Kensal Green,2217,2906
+20260915,Tuesday,Kensal Rise,4062,3882
+20260915,Tuesday,Kensington Olympia,4616,4974
+20260915,Tuesday,Kentish Town,9927,9720
+20260915,Tuesday,Kentish Town West,2499,2583
+20260915,Tuesday,Kenton,1809,2072
+20260915,Tuesday,Kew Gardens,6413,6315
+20260915,Tuesday,Kilburn,8062,8002
+20260915,Tuesday,Kilburn High Road,795,852
+20260915,Tuesday,Kilburn Park,4206,3777
+20260915,Tuesday,King George V,1705,1463
+20260915,Tuesday,Kings Cross St Pancras,108454,106622
+20260915,Tuesday,Kingsbury,5874,5832
+20260915,Tuesday,Knightsbridge,15501,15195
+20260915,Tuesday,Ladbroke Grove,8696,8536
+20260915,Tuesday,Lambeth North,3983,3697
+20260915,Tuesday,Lancaster Gate,4155,3995
+20260915,Tuesday,Langdon Park,3021,2741
+20260915,Tuesday,Langley Berks,1027,1004
+20260915,Tuesday,Latimer Road,3525,3456
+20260915,Tuesday,Leicester Square,33073,30048
+20260915,Tuesday,Lewisham DLR,7124,6347
+20260915,Tuesday,Leyton,13087,12879
+20260915,Tuesday,Leyton Midland Road,2505,2529
+20260915,Tuesday,Leytonstone,11045,11331
+20260915,Tuesday,Leytonstone High Road,1860,1840
+20260915,Tuesday,Limehouse DLR,8443,7428
+20260915,Tuesday,Liverpool St NR,42371,38404
+20260915,Tuesday,Liverpool Street,104267,106485
+20260915,Tuesday,London Bridge,91116,86486
+20260915,Tuesday,London City Airport,4510,3536
+20260915,Tuesday,London Fields,2607,2853
+20260915,Tuesday,Loughton,4479,4507
+20260915,Tuesday,Maida Vale,4361,4083
+20260915,Tuesday,Maidenhead,3129,3091
+20260915,Tuesday,Manor House,7582,7659
+20260915,Tuesday,Manor Park,7009,6583
+20260915,Tuesday,Mansion House,8754,9495
+20260915,Tuesday,Marble Arch,11847,11998
+20260915,Tuesday,Maryland,6948,6736
+20260915,Tuesday,Marylebone,12536,13481
+20260915,Tuesday,Mile End,16904,16779
+20260915,Tuesday,Mill Hill East,2407,2370
+20260915,Tuesday,Monument,16848,14316
+20260915,Tuesday,Moor Park,1773,1670
+20260915,Tuesday,Moorgate,53822,58119
+20260915,Tuesday,Morden,14084,13293
+20260915,Tuesday,Mornington Crescent,4481,3989
+20260915,Tuesday,Mudchute,2014,1754
+20260915,Tuesday,Neasden,4299,3900
+20260915,Tuesday,New Cross,4058,3965
+20260915,Tuesday,New Cross Gate,5473,5677
+20260915,Tuesday,Newbury Park,5269,4896
+20260915,Tuesday,Nine Elms,6278,6076
+20260915,Tuesday,North Acton,8143,8160
+20260915,Tuesday,North Ealing,820,741
+20260915,Tuesday,North Greenwich,36766,39766
+20260915,Tuesday,North Harrow,2758,2675
+20260915,Tuesday,North Wembley,1508,1866
+20260915,Tuesday,Northfields,3615,3519
+20260915,Tuesday,Northolt,6475,6008
+20260915,Tuesday,Northwick Park,5706,5314
+20260915,Tuesday,Northwood,4096,3960
+20260915,Tuesday,Northwood Hills,2673,2618
+20260915,Tuesday,Norwood Junction,7104,6653
+20260915,Tuesday,Notting Hill Gate,17060,18763
+20260915,Tuesday,Oakwood,3402,3339
+20260915,Tuesday,Old Street,25635,25212
+20260915,Tuesday,Osterley,2278,2267
+20260915,Tuesday,Oval,9227,9214
+20260915,Tuesday,Oxford Circus,74393,82119
+20260915,Tuesday,Paddington,46308,46519
+20260915,Tuesday,Paddington EL,43595,41451
+20260915,Tuesday,Park Royal,1966,2020
+20260915,Tuesday,Parsons Green,8861,9181
+20260915,Tuesday,Peckham Rye,8015,8469
+20260915,Tuesday,Penge West,870,786
+20260915,Tuesday,Perivale,2595,2564
+20260915,Tuesday,Piccadilly Circus,30451,28437
+20260915,Tuesday,Pimlico,12313,12250
+20260915,Tuesday,Pinner,4265,4108
+20260915,Tuesday,Plaistow,7567,7168
+20260915,Tuesday,Pontoon Dock DLR,3247,3136
+20260915,Tuesday,Poplar,1598,1618
+20260915,Tuesday,Preston Road,4237,4216
+20260915,Tuesday,Prince Regent,1188,1112
+20260915,Tuesday,Pudding Mill Lane,3165,3465
+20260915,Tuesday,Putney Bridge,6103,7110
+20260915,Tuesday,Queens Park,7811,7866
+20260915,Tuesday,Queens Rd Peckham,4550,4372
+20260915,Tuesday,Queensbury,4644,4622
+20260915,Tuesday,Queensway,7702,8394
+20260915,Tuesday,Ravenscourt Park,4142,4159
+20260915,Tuesday,Rayners Lane,5385,5229
+20260915,Tuesday,Reading,2084,2234
+20260915,Tuesday,Rectory Road,2190,2047
+20260915,Tuesday,Redbridge,3317,3116
+20260915,Tuesday,Regents Park,3217,3652
+20260915,Tuesday,Richmond,17865,17498
+20260915,Tuesday,Rickmansworth,3581,3500
+20260915,Tuesday,Roding Valley,317,301
+20260915,Tuesday,Romford,17287,17998
+20260915,Tuesday,Rotherhithe,2478,2301
+20260915,Tuesday,Royal Albert,1549,1446
+20260915,Tuesday,Royal Oak,3543,3622
+20260915,Tuesday,Royal Victoria,2054,1711
+20260915,Tuesday,Ruislip,2327,2401
+20260915,Tuesday,Ruislip Gardens,1450,1310
+20260915,Tuesday,Ruislip Manor,2519,2476
+20260915,Tuesday,Russell Square,9667,9758
+20260915,Tuesday,Seven Kings,6720,6147
+20260915,Tuesday,Seven Sisters,18024,17647
+20260915,Tuesday,Shadwell DLR,6766,6329
+20260915,Tuesday,Shadwell LO,5604,5627
+20260915,Tuesday,Shenfield,4701,4734
+20260915,Tuesday,Shepherds Bush,18878,17804
+20260915,Tuesday,Shepherds Bush LO,10578,11112
+20260915,Tuesday,Shepherds Bush Market,4947,4865
+20260915,Tuesday,Shoreditch High Street,10172,10670
+20260915,Tuesday,Silver Street,3938,3555
+20260915,Tuesday,Sloane Square,21278,21494
+20260915,Tuesday,Slough,3544,3471
+20260915,Tuesday,Snaresbrook,3298,3217
+20260915,Tuesday,South Acton,1187,1067
+20260915,Tuesday,South Ealing,2987,2796
+20260915,Tuesday,South Hampstead,654,556
+20260915,Tuesday,South Harrow,2732,2651
+20260915,Tuesday,South Kensington,34617,36541
+20260915,Tuesday,South Kenton,725,929
+20260915,Tuesday,South Quay,5217,4986
+20260915,Tuesday,South Ruislip,2528,2450
+20260915,Tuesday,South Tottenham,2314,2461
+20260915,Tuesday,South Wimbledon,5964,5949
+20260915,Tuesday,South Woodford,6828,7089
+20260915,Tuesday,Southall,11591,11234
+20260915,Tuesday,Southbury,1796,1913
+20260915,Tuesday,Southfields,8329,8002
+20260915,Tuesday,Southgate,5407,5773
+20260915,Tuesday,Southwark,14118,15015
+20260915,Tuesday,St James Street,2802,2859
+20260915,Tuesday,St James's Park,17936,17798
+20260915,Tuesday,St Johns Wood,11417,11256
+20260915,Tuesday,St Pauls,16832,17423
+20260915,Tuesday,Stamford Brook,3386,3250
+20260915,Tuesday,Stamford Hill,1231,1139
+20260915,Tuesday,Stanmore,5333,5359
+20260915,Tuesday,Star Lane DLR,1708,1583
+20260915,Tuesday,Stepney Green,7763,7681
+20260915,Tuesday,Stockwell,11790,10033
+20260915,Tuesday,Stoke Newington,2397,2147
+20260915,Tuesday,Stonebridge Park,2858,3452
+20260915,Tuesday,Stratford,90232,94385
+20260915,Tuesday,Stratford High Street,1219,1318
+20260915,Tuesday,Stratford International,4061,3364
+20260915,Tuesday,Sudbury Hill,2316,2271
+20260915,Tuesday,Sudbury Town,2262,1862
+20260915,Tuesday,Surrey Quays,6617,6151
+20260915,Tuesday,Swiss Cottage,8711,8517
+20260915,Tuesday,Sydenham SR,5289,5379
+20260915,Tuesday,Taplow,437,388
+20260915,Tuesday,Temple,11613,11517
+20260915,Tuesday,Theobalds Grove,1278,1249
+20260915,Tuesday,Theydon Bois,1296,1295
+20260915,Tuesday,Tooting Bec,10350,10133
+20260915,Tuesday,Tooting Broadway,18641,18398
+20260915,Tuesday,Tottenham Court Road,92143,92303
+20260915,Tuesday,Tottenham Hale,22258,20880
+20260915,Tuesday,Totteridge & Whetstone,3892,3702
+20260915,Tuesday,Tower Gateway,3321,3125
+20260915,Tuesday,Tower Hill,23711,23874
+20260915,Tuesday,Tufnell Park,4731,4530
+20260915,Tuesday,Turkey Street,1918,1805
+20260915,Tuesday,Turnham Green,7214,7612
+20260915,Tuesday,Turnpike Lane,10344,10497
+20260915,Tuesday,Twyford,905,732
+20260915,Tuesday,Upminster,7731,7918
+20260915,Tuesday,Upminster Bridge,1743,1778
+20260915,Tuesday,Upney,3800,3569
+20260915,Tuesday,Upper Holloway,2300,2198
+20260915,Tuesday,Upton Park,14624,14480
+20260915,Tuesday,Uxbridge,8571,8300
+20260915,Tuesday,Vauxhall,36665,34023
+20260915,Tuesday,Victoria,87199,91508
+20260915,Tuesday,W Silvertown,3293,2995
+20260915,Tuesday,Walthamstow Central,20568,20452
+20260915,Tuesday,Walthamstow Queens Road,1626,1685
+20260915,Tuesday,Wandsworth Road,1000,943
+20260915,Tuesday,Wanstead,3120,3317
+20260915,Tuesday,Wanstead Park,2263,2281
+20260915,Tuesday,Wapping,3363,3218
+20260915,Tuesday,Warren Street,23223,25257
+20260915,Tuesday,Warwick Avenue,4583,4413
+20260915,Tuesday,Waterloo,102434,104460
+20260915,Tuesday,Watford High Street,1785,1388
+20260915,Tuesday,Watford Junction,7802,7443
+20260915,Tuesday,Watford Met,3449,3487
+20260915,Tuesday,Wembley Central,5412,6946
+20260915,Tuesday,Wembley Park,25188,23944
+20260915,Tuesday,West Acton,2023,1909
+20260915,Tuesday,West Brompton,6947,7127
+20260915,Tuesday,West Croydon,6326,5827
+20260915,Tuesday,West Drayton,6037,5831
+20260915,Tuesday,West Ealing,4825,4360
+20260915,Tuesday,West Finchley,2358,2227
+20260915,Tuesday,West Ham,8907,8399
+20260915,Tuesday,West Hampstead,13076,12159
+20260915,Tuesday,West Hampstead LO,7546,7643
+20260915,Tuesday,West Harrow,1564,1545
+20260915,Tuesday,West India Quay,1258,1259
+20260915,Tuesday,West Kensington,6666,7760
+20260915,Tuesday,West Ruislip,2139,2146
+20260915,Tuesday,Westbourne Park,6540,6090
+20260915,Tuesday,Westferry,4293,3795
+20260915,Tuesday,Westminster,29772,32233
+20260915,Tuesday,White City,13991,13924
+20260915,Tuesday,White Hart Lane,3329,3208
+20260915,Tuesday,Whitechapel,29922,29165
+20260915,Tuesday,Willesden Green,8631,8385
+20260915,Tuesday,Willesden Junction,7266,7038
+20260915,Tuesday,Wimbledon,25831,25520
+20260915,Tuesday,Wimbledon Park,2835,2827
+20260915,Tuesday,Wood Green,12246,11363
+20260915,Tuesday,Wood Lane,8412,9260
+20260915,Tuesday,Wood Street,3649,3568
+20260915,Tuesday,Woodford,8097,7666
+20260915,Tuesday,Woodgrange Park,1577,1334
+20260915,Tuesday,Woodside Park,4373,3797
+20260915,Tuesday,Woolwich Arsenal DLR,6698,7034
+20260915,Tuesday,Woolwich Arsenal NR,1934,1748
+20260915,Tuesday,Woolwich Elizabeth Line,21542,21945
+20260916,Wednesday,Abbey Road DLR,1082,1031
+20260916,Wednesday,Abbey Wood,21198,19890
+20260916,Wednesday,Acton Central,2317,2171
+20260916,Wednesday,Acton Main Line,5109,5084
+20260916,Wednesday,Acton Town,7242,7415
+20260916,Wednesday,Aldgate,11618,12766
+20260916,Wednesday,Aldgate East,17307,17040
+20260916,Wednesday,All Saints,1500,1365
+20260916,Wednesday,Alperton,3501,3828
+20260916,Wednesday,Amersham,3822,3749
+20260916,Wednesday,Anerley,1355,1045
+20260916,Wednesday,Angel,18767,20176
+20260916,Wednesday,Archway,11068,10999
+20260916,Wednesday,Arnos Grove,5071,4608
+20260916,Wednesday,Arsenal,3519,3370
+20260916,Wednesday,Baker Street,38126,38339
+20260916,Wednesday,Balham,16297,16050
+20260916,Wednesday,Bank,68505,72139
+20260916,Wednesday,Barbican,9278,9268
+20260916,Wednesday,Barking,25502,24590
+20260916,Wednesday,Barking Riverside,1269,1539
+20260916,Wednesday,Barkingside,1984,2077
+20260916,Wednesday,Barons Court,5645,2900
+20260916,Wednesday,Battersea Power Station,13363,12526
+20260916,Wednesday,Bayswater,6210,5524
+20260916,Wednesday,Beckton,2022,1780
+20260916,Wednesday,Beckton Park,666,554
+20260916,Wednesday,Becontree,5007,4937
+20260916,Wednesday,Belsize Park,8205,8143
+20260916,Wednesday,Bermondsey,11069,11020
+20260916,Wednesday,Bethnal Green,14967,14185
+20260916,Wednesday,Bethnal Green NR,2713,3161
+20260916,Wednesday,Blackfriars,20765,20041
+20260916,Wednesday,Blackhorse Road,13292,13218
+20260916,Wednesday,Blackwall,1470,1342
+20260916,Wednesday,Bond Street,68104,70810
+20260916,Wednesday,Borough,6556,6555
+20260916,Wednesday,Boston Manor,2092,2142
+20260916,Wednesday,Bounds Green,6554,6135
+20260916,Wednesday,Bow Church,2367,2195
+20260916,Wednesday,Bow Road,6242,6157
+20260916,Wednesday,Brent Cross,2924,2892
+20260916,Wednesday,Brentwood,5390,5130
+20260916,Wednesday,Brixton,26631,26648
+20260916,Wednesday,Brockley,5297,5087
+20260916,Wednesday,Bromley-by-Bow,6409,6291
+20260916,Wednesday,Brondesbury,3618,3387
+20260916,Wednesday,Brondesbury Park,1783,1787
+20260916,Wednesday,Bruce Grove,2225,2090
+20260916,Wednesday,Buckhurst Hill,3170,3132
+20260916,Wednesday,Burnham Bucks,1412,1421
+20260916,Wednesday,Burnt Oak,4912,4779
+20260916,Wednesday,Bush Hill Park,2221,2066
+20260916,Wednesday,Bushey,2421,2074
+20260916,Wednesday,Caledonian Road,6260,6091
+20260916,Wednesday,Caledonian Road & Barnsbury,2307,2517
+20260916,Wednesday,Cambridge Heath,1577,1727
+20260916,Wednesday,Camden Road,5828,6430
+20260916,Wednesday,Camden Town,21286,22095
+20260916,Wednesday,Canada Water,13087,12933
+20260916,Wednesday,Canary Wharf,57004,59074
+20260916,Wednesday,Canary Wharf DLR,11279,11625
+20260916,Wednesday,Canary Wharf Elizabeth Line,34091,34054
+20260916,Wednesday,Canning Town,18002,17965
+20260916,Wednesday,Cannon Street,9802,8640
+20260916,Wednesday,Canonbury,4366,4303
+20260916,Wednesday,Canons Park,3615,3627
+20260916,Wednesday,Carpenders Park,2141,2226
+20260916,Wednesday,Chadwell Heath,8042,7712
+20260916,Wednesday,Chalfont & Latimer,2205,2225
+20260916,Wednesday,Chalk Farm,8258,7342
+20260916,Wednesday,Chancery Lane,15256,16882
+20260916,Wednesday,Charing Cross,23218,22187
+20260916,Wednesday,Chesham,1801,1607
+20260916,Wednesday,Cheshunt,3377,3405
+20260916,Wednesday,Chigwell,619,510
+20260916,Wednesday,Chingford,3790,3777
+20260916,Wednesday,Chiswick Park,3327,3452
+20260916,Wednesday,Chorleywood,1680,1504
+20260916,Wednesday,Clapham Common,10802,12340
+20260916,Wednesday,Clapham High Street,2096,2084
+20260916,Wednesday,Clapham Junction,30303,29213
+20260916,Wednesday,Clapham North,6555,7433
+20260916,Wednesday,Clapham South,10088,10210
+20260916,Wednesday,Clapton,3129,2929
+20260916,Wednesday,Cockfosters,2157,2186
+20260916,Wednesday,Colindale,10420,9990
+20260916,Wednesday,Colliers Wood,8717,8280
+20260916,Wednesday,Covent Garden,13583,15702
+20260916,Wednesday,Crossharbour,3349,3000
+20260916,Wednesday,Crouch Hill,1139,1019
+20260916,Wednesday,Croxley,1642,1712
+20260916,Wednesday,Crystal Palace,4026,4407
+20260916,Wednesday,Custom House DLR,4582,3545
+20260916,Wednesday,Custom House Elizabeth Line,18004,17441
+20260916,Wednesday,Cutty Sark,6036,5350
+20260916,Wednesday,Cyprus,1360,1248
+20260916,Wednesday,Dagenham East,4691,4387
+20260916,Wednesday,Dagenham Heathway,8019,8066
+20260916,Wednesday,Dalston Junction,7485,7565
+20260916,Wednesday,Dalston Kingsland,7297,7252
+20260916,Wednesday,Debden,3360,3231
+20260916,Wednesday,Denmark Hill,9608,9677
+20260916,Wednesday,Deptford Bridge,2474,2199
+20260916,Wednesday,Devons Road,2605,2265
+20260916,Wednesday,Dollis Hill,3985,1797
+20260916,Wednesday,Ealing Broadway,25150,26393
+20260916,Wednesday,Ealing Common,2719,2889
+20260916,Wednesday,Earls Court,25259,25078
+20260916,Wednesday,East Acton,5145,5086
+20260916,Wednesday,East Finchley,9138,9074
+20260916,Wednesday,East Ham,17334,17077
+20260916,Wednesday,East India,4058,3699
+20260916,Wednesday,East Putney,9322,9099
+20260916,Wednesday,Eastcote,3816,3787
+20260916,Wednesday,Edgware,7035,7051
+20260916,Wednesday,Edgware Road B,5356,5821
+20260916,Wednesday,Edgware Road C&H,10532,10052
+20260916,Wednesday,Edmonton Green,5851,5772
+20260916,Wednesday,Elephant & Castle,16987,16959
+20260916,Wednesday,Elm Park,5090,4974
+20260916,Wednesday,Elverson Road,1196,950
+20260916,Wednesday,Embankment,27266,26750
+20260916,Wednesday,Emerson Park,512,364
+20260916,Wednesday,Enfield Town,4180,3905
+20260916,Wednesday,Epping,4700,4575
+20260916,Wednesday,Euston,50783,52391
+20260916,Wednesday,Euston NR,17211,18383
+20260916,Wednesday,Euston Square,18770,19257
+20260916,Wednesday,Fairlop,1485,1399
+20260916,Wednesday,Farringdon,83319,76895
+20260916,Wednesday,Finchley Central,7324,7328
+20260916,Wednesday,Finchley Road,11754,11589
+20260916,Wednesday,Finchley Road & Frognal,3028,3021
+20260916,Wednesday,Finsbury Park,28769,27234
+20260916,Wednesday,Forest Gate,10505,10120
+20260916,Wednesday,Forest Hill,6669,6291
+20260916,Wednesday,Fulham Broadway,9979,10352
+20260916,Wednesday,Gallions Reach,2150,1955
+20260916,Wednesday,Gants Hill,7767,7291
+20260916,Wednesday,Gidea Park,5492,5135
+20260916,Wednesday,Gloucester Road,17712,17082
+20260916,Wednesday,Golders Green,9590,9612
+20260916,Wednesday,Goldhawk Road,3111,3106
+20260916,Wednesday,Goodge Street,7770,8554
+20260916,Wednesday,Goodmayes,7435,7246
+20260916,Wednesday,Gospel Oak,4090,3788
+20260916,Wednesday,Grange Hill,742,716
+20260916,Wednesday,Great Portland Street,10485,10704
+20260916,Wednesday,Green Park,44675,50481
+20260916,Wednesday,Greenford,5204,5151
+20260916,Wednesday,Greenwich,5532,5217
+20260916,Wednesday,Gunnersbury,7012,6928
+20260916,Wednesday,Hackney Central,8208,8285
+20260916,Wednesday,Hackney Downs,3754,3869
+20260916,Wednesday,Hackney Wick,5421,5372
+20260916,Wednesday,Haggerston,4853,4929
+20260916,Wednesday,Hainault,5078,4784
+20260916,Wednesday,Hammersmith C&H,17097,16953
+20260916,Wednesday,Hammersmith D&P,36191,36654
+20260916,Wednesday,Hampstead,5864,6859
+20260916,Wednesday,Hampstead Heath,5157,5045
+20260916,Wednesday,Hanger Lane,4109,3857
+20260916,Wednesday,Hanwell,3462,3083
+20260916,Wednesday,Harlesden,4162,4162
+20260916,Wednesday,Harold Wood,6739,6434
+20260916,Wednesday,Harringay Green Lanes,1879,1649
+20260916,Wednesday,Harrow & Wealdstone,7776,7189
+20260916,Wednesday,Harrow-on-the-Hill,13551,14580
+20260916,Wednesday,Hatch End,1252,1266
+20260916,Wednesday,Hatton Cross,4808,5021
+20260916,Wednesday,Hayes & Harlington,13554,13378
+20260916,Wednesday,Headstone Lane,891,857
+20260916,Wednesday,Heathrow T2&3 TfL Rail/HEx,11361,10526
+20260916,Wednesday,Heathrow T4 TfL Rail/HEx,3557,3050
+20260916,Wednesday,Heathrow T5 TfL Rail/HEx,6035,6300
+20260916,Wednesday,Heathrow Terminal 4,2767,2226
+20260916,Wednesday,Heathrow Terminal 5,6206,4852
+20260916,Wednesday,Heathrow Terminals 2&3,10497,7522
+20260916,Wednesday,Hendon Central,8113,7766
+20260916,Wednesday,Heron Quays,5721,5708
+20260916,Wednesday,High Barnet,6090,5867
+20260916,Wednesday,High Street Kensington,15060,15090
+20260916,Wednesday,Highams Park,5053,4931
+20260916,Wednesday,Highbury & Islington,22456,23503
+20260916,Wednesday,Highgate,7275,7467
+20260916,Wednesday,Hillingdon,2293,2205
+20260916,Wednesday,Holborn,29066,31657
+20260916,Wednesday,Holland Park,4999,4863
+20260916,Wednesday,Holloway Road,5739,5715
+20260916,Wednesday,Homerton,6803,6558
+20260916,Wednesday,Honor Oak Park,3811,3713
+20260916,Wednesday,Hornchurch,3094,3053
+20260916,Wednesday,Hounslow Central,4592,4801
+20260916,Wednesday,Hounslow East,4881,5078
+20260916,Wednesday,Hounslow West,4154,4330
+20260916,Wednesday,Hoxton,5590,5941
+20260916,Wednesday,Hyde Park Corner,4773,5172
+20260916,Wednesday,Ickenham,1409,1480
+20260916,Wednesday,Ilford,17417,18139
+20260916,Wednesday,Imperial Wharf,4688,4707
+20260916,Wednesday,Island Gardens,2589,2052
+20260916,Wednesday,Iver,373,376
+20260916,Wednesday,Kennington,7223,6808
+20260916,Wednesday,Kensal Green,3081,3146
+20260916,Wednesday,Kensal Rise,3992,3952
+20260916,Wednesday,Kensington Olympia,3883,4196
+20260916,Wednesday,Kentish Town,10030,10063
+20260916,Wednesday,Kentish Town West,2816,2977
+20260916,Wednesday,Kenton,2698,2634
+20260916,Wednesday,Kew Gardens,6072,5978
+20260916,Wednesday,Kilburn,7823,7823
+20260916,Wednesday,Kilburn High Road,1277,1271
+20260916,Wednesday,Kilburn Park,3994,3811
+20260916,Wednesday,King George V,1724,1484
+20260916,Wednesday,Kings Cross St Pancras,112279,112140
+20260916,Wednesday,Kingsbury,5801,5697
+20260916,Wednesday,Knightsbridge,16819,16378
+20260916,Wednesday,Ladbroke Grove,8502,8137
+20260916,Wednesday,Lambeth North,4067,3719
+20260916,Wednesday,Lancaster Gate,4231,4056
+20260916,Wednesday,Langdon Park,2956,2674
+20260916,Wednesday,Langley Berks,996,1050
+20260916,Wednesday,Latimer Road,3643,3489
+20260916,Wednesday,Leicester Square,36143,32603
+20260916,Wednesday,Lewisham DLR,6855,6113
+20260916,Wednesday,Leyton,13276,12907
+20260916,Wednesday,Leyton Midland Road,1570,2193
+20260916,Wednesday,Leytonstone,11575,11226
+20260916,Wednesday,Leytonstone High Road,1135,1653
+20260916,Wednesday,Limehouse DLR,8055,6880
+20260916,Wednesday,Liverpool St NR,44441,41359
+20260916,Wednesday,Liverpool Street,109831,109033
+20260916,Wednesday,London Bridge,89781,86417
+20260916,Wednesday,London City Airport,4430,3922
+20260916,Wednesday,London Fields,2654,2962
+20260916,Wednesday,Loughton,4528,4586
+20260916,Wednesday,Maida Vale,4527,4299
+20260916,Wednesday,Maidenhead,3028,3011
+20260916,Wednesday,Manor House,8400,8263
+20260916,Wednesday,Manor Park,7398,6832
+20260916,Wednesday,Mansion House,8594,9107
+20260916,Wednesday,Marble Arch,12233,12224
+20260916,Wednesday,Maryland,7090,6762
+20260916,Wednesday,Marylebone,13313,14229
+20260916,Wednesday,Mile End,16666,16293
+20260916,Wednesday,Mill Hill East,2422,2457
+20260916,Wednesday,Monument,16950,14379
+20260916,Wednesday,Moor Park,1628,1602
+20260916,Wednesday,Moorgate,53888,59050
+20260916,Wednesday,Morden,14055,13358
+20260916,Wednesday,Mornington Crescent,4229,3935
+20260916,Wednesday,Mudchute,2044,1729
+20260916,Wednesday,Neasden,4581,4902
+20260916,Wednesday,New Cross,4166,4189
+20260916,Wednesday,New Cross Gate,5529,5819
+20260916,Wednesday,Newbury Park,5317,4877
+20260916,Wednesday,Nine Elms,6143,6047
+20260916,Wednesday,North Acton,7881,7798
+20260916,Wednesday,North Ealing,912,928
+20260916,Wednesday,North Greenwich,23725,24522
+20260916,Wednesday,North Harrow,2596,2541
+20260916,Wednesday,North Wembley,2295,2115
+20260916,Wednesday,Northfields,3933,3826
+20260916,Wednesday,Northolt,6508,6054
+20260916,Wednesday,Northwick Park,4882,4830
+20260916,Wednesday,Northwood,3910,4014
+20260916,Wednesday,Northwood Hills,2509,2482
+20260916,Wednesday,Norwood Junction,7112,6644
+20260916,Wednesday,Notting Hill Gate,17514,19016
+20260916,Wednesday,Oakwood,3674,3622
+20260916,Wednesday,Old Street,26154,25619
+20260916,Wednesday,Osterley,2464,2457
+20260916,Wednesday,Oval,9436,9429
+20260916,Wednesday,Oxford Circus,73128,81363
+20260916,Wednesday,Paddington,46880,47830
+20260916,Wednesday,Paddington EL,43152,41801
+20260916,Wednesday,Park Royal,1995,2133
+20260916,Wednesday,Parsons Green,9197,9145
+20260916,Wednesday,Peckham Rye,8925,9136
+20260916,Wednesday,Penge West,805,689
+20260916,Wednesday,Perivale,2624,2663
+20260916,Wednesday,Piccadilly Circus,34280,32943
+20260916,Wednesday,Pimlico,11562,11563
+20260916,Wednesday,Pinner,4158,4084
+20260916,Wednesday,Plaistow,7995,7695
+20260916,Wednesday,Pontoon Dock DLR,3343,3139
+20260916,Wednesday,Poplar,1487,1511
+20260916,Wednesday,Preston Road,3860,3793
+20260916,Wednesday,Prince Regent,1010,1003
+20260916,Wednesday,Pudding Mill Lane,1973,1847
+20260916,Wednesday,Putney Bridge,6553,7447
+20260916,Wednesday,Queens Park,7822,7523
+20260916,Wednesday,Queens Rd Peckham,4399,4419
+20260916,Wednesday,Queensbury,4734,4559
+20260916,Wednesday,Queensway,8061,8588
+20260916,Wednesday,Ravenscourt Park,4347,4269
+20260916,Wednesday,Rayners Lane,5400,5283
+20260916,Wednesday,Reading,1794,1874
+20260916,Wednesday,Rectory Road,2308,2153
+20260916,Wednesday,Redbridge,3355,3020
+20260916,Wednesday,Regents Park,3181,3806
+20260916,Wednesday,Richmond,17993,17867
+20260916,Wednesday,Rickmansworth,3586,3529
+20260916,Wednesday,Roding Valley,300,282
+20260916,Wednesday,Romford,16923,17879
+20260916,Wednesday,Rotherhithe,2356,2165
+20260916,Wednesday,Royal Albert,1427,1412
+20260916,Wednesday,Royal Oak,3567,3648
+20260916,Wednesday,Royal Victoria,2102,1721
+20260916,Wednesday,Ruislip,2411,2391
+20260916,Wednesday,Ruislip Gardens,1375,1202
+20260916,Wednesday,Ruislip Manor,2498,2509
+20260916,Wednesday,Russell Square,10838,11183
+20260916,Wednesday,Seven Kings,6795,6312
+20260916,Wednesday,Seven Sisters,18073,18404
+20260916,Wednesday,Shadwell DLR,6820,6504
+20260916,Wednesday,Shadwell LO,5730,5621
+20260916,Wednesday,Shenfield,4322,4420
+20260916,Wednesday,Shepherds Bush,19087,17940
+20260916,Wednesday,Shepherds Bush LO,10472,11029
+20260916,Wednesday,Shepherds Bush Market,5234,5014
+20260916,Wednesday,Shoreditch High Street,10082,10824
+20260916,Wednesday,Silver Street,3831,3485
+20260916,Wednesday,Sloane Square,21610,21468
+20260916,Wednesday,Slough,3507,3476
+20260916,Wednesday,Snaresbrook,3238,3019
+20260916,Wednesday,South Acton,1177,1051
+20260916,Wednesday,South Ealing,3146,3090
+20260916,Wednesday,South Hampstead,914,809
+20260916,Wednesday,South Harrow,3016,2981
+20260916,Wednesday,South Kensington,35647,36973
+20260916,Wednesday,South Kenton,1095,1080
+20260916,Wednesday,South Quay,5295,4999
+20260916,Wednesday,South Ruislip,2431,2325
+20260916,Wednesday,South Tottenham,2231,2128
+20260916,Wednesday,South Wimbledon,6124,5805
+20260916,Wednesday,South Woodford,6704,6797
+20260916,Wednesday,Southall,11923,11455
+20260916,Wednesday,Southbury,1866,1978
+20260916,Wednesday,Southfields,8233,7792
+20260916,Wednesday,Southgate,5743,6306
+20260916,Wednesday,Southwark,13641,14946
+20260916,Wednesday,St James Street,3182,3055
+20260916,Wednesday,St James's Park,18315,18595
+20260916,Wednesday,St Johns Wood,11114,10988
+20260916,Wednesday,St Pauls,16307,17346
+20260916,Wednesday,Stamford Brook,3851,3629
+20260916,Wednesday,Stamford Hill,1230,1212
+20260916,Wednesday,Stanmore,5169,5162
+20260916,Wednesday,Star Lane DLR,1531,1466
+20260916,Wednesday,Stepney Green,7801,7897
+20260916,Wednesday,Stockwell,12067,10347
+20260916,Wednesday,Stoke Newington,2507,2299
+20260916,Wednesday,Stonebridge Park,4073,4023
+20260916,Wednesday,Stratford,77936,79724
+20260916,Wednesday,Stratford High Street,900,958
+20260916,Wednesday,Stratford International,3810,3392
+20260916,Wednesday,Sudbury Hill,2431,2426
+20260916,Wednesday,Sudbury Town,2281,2082
+20260916,Wednesday,Surrey Quays,6800,6411
+20260916,Wednesday,Swiss Cottage,8887,8816
+20260916,Wednesday,Sydenham SR,5389,5405
+20260916,Wednesday,Taplow,471,426
+20260916,Wednesday,Temple,11541,11484
+20260916,Wednesday,Theobalds Grove,1328,1288
+20260916,Wednesday,Theydon Bois,1161,1130
+20260916,Wednesday,Tooting Bec,10519,10232
+20260916,Wednesday,Tooting Broadway,18721,18430
+20260916,Wednesday,Tottenham Court Road,96584,96587
+20260916,Wednesday,Tottenham Hale,19574,18912
+20260916,Wednesday,Totteridge & Whetstone,3732,3618
+20260916,Wednesday,Tower Gateway,3339,3193
+20260916,Wednesday,Tower Hill,23626,23791
+20260916,Wednesday,Tufnell Park,5076,4829
+20260916,Wednesday,Turkey Street,1849,1755
+20260916,Wednesday,Turnham Green,7491,7679
+20260916,Wednesday,Turnpike Lane,11020,11102
+20260916,Wednesday,Twyford,850,700
+20260916,Wednesday,Upminster,7146,7485
+20260916,Wednesday,Upminster Bridge,1678,1660
+20260916,Wednesday,Upney,3912,3453
+20260916,Wednesday,Upper Holloway,2116,1525
+20260916,Wednesday,Upton Park,14163,14018
+20260916,Wednesday,Uxbridge,8057,8133
+20260916,Wednesday,Vauxhall,34063,31887
+20260916,Wednesday,Victoria,88287,92075
+20260916,Wednesday,W Silvertown,3182,2934
+20260916,Wednesday,Walthamstow Central,21061,20396
+20260916,Wednesday,Walthamstow Queens Road,837,1075
+20260916,Wednesday,Wandsworth Road,988,874
+20260916,Wednesday,Wanstead,3008,3339
+20260916,Wednesday,Wanstead Park,1494,1700
+20260916,Wednesday,Wapping,3156,3052
+20260916,Wednesday,Warren Street,22622,23749
+20260916,Wednesday,Warwick Avenue,4813,4603
+20260916,Wednesday,Waterloo,102059,103804
+20260916,Wednesday,Watford High Street,2261,2151
+20260916,Wednesday,Watford Junction,8305,7926
+20260916,Wednesday,Watford Met,3167,3059
+20260916,Wednesday,Wembley Central,6979,7712
+20260916,Wednesday,Wembley Park,23178,22792
+20260916,Wednesday,West Acton,1724,1592
+20260916,Wednesday,West Brompton,6907,7018
+20260916,Wednesday,West Croydon,6423,6250
+20260916,Wednesday,West Drayton,6008,5809
+20260916,Wednesday,West Ealing,4812,4252
+20260916,Wednesday,West Finchley,2350,2221
+20260916,Wednesday,West Ham,8816,7987
+20260916,Wednesday,West Hampstead,12278,11571
+20260916,Wednesday,West Hampstead LO,7148,7053
+20260916,Wednesday,West Harrow,1592,1439
+20260916,Wednesday,West India Quay,1269,1231
+20260916,Wednesday,West Kensington,6988,7844
+20260916,Wednesday,West Ruislip,2245,2684
+20260916,Wednesday,Westbourne Park,6579,6147
+20260916,Wednesday,Westferry,4142,3788
+20260916,Wednesday,Westminster,28454,30066
+20260916,Wednesday,White City,13626,13800
+20260916,Wednesday,White Hart Lane,3260,3054
+20260916,Wednesday,Whitechapel,30336,29887
+20260916,Wednesday,Willesden Green,9183,10370
+20260916,Wednesday,Willesden Junction,7163,6875
+20260916,Wednesday,Wimbledon,25551,25427
+20260916,Wednesday,Wimbledon Park,2867,2928
+20260916,Wednesday,Wood Green,12228,12042
+20260916,Wednesday,Wood Lane,8583,9044
+20260916,Wednesday,Wood Street,3758,3715
+20260916,Wednesday,Woodford,7788,7493
+20260916,Wednesday,Woodgrange Park,959,1070
+20260916,Wednesday,Woodside Park,4354,3872
+20260916,Wednesday,Woolwich Arsenal DLR,5850,6510
+20260916,Wednesday,Woolwich Arsenal NR,1914,1842
+20260916,Wednesday,Woolwich Elizabeth Line,21995,21936
+20260917,Thursday,Abbey Road DLR,1062,994
+20260917,Thursday,Abbey Wood,20948,19708
+20260917,Thursday,Acton Central,2423,2363
+20260917,Thursday,Acton Main Line,5280,5153
+20260917,Thursday,Acton Town,7395,7493
+20260917,Thursday,Aldgate,12149,15259
+20260917,Thursday,Aldgate East,18498,17976
+20260917,Thursday,All Saints,1527,1425
+20260917,Thursday,Alperton,3408,3630
+20260917,Thursday,Amersham,4071,4057
+20260917,Thursday,Anerley,1415,1219
+20260917,Thursday,Angel,19811,20371
+20260917,Thursday,Archway,11284,10738
+20260917,Thursday,Arnos Grove,4863,4556
+20260917,Thursday,Arsenal,3676,3377
+20260917,Thursday,Baker Street,38388,38737
+20260917,Thursday,Balham,16780,16402
+20260917,Thursday,Bank,72659,79563
+20260917,Thursday,Barbican,9693,9852
+20260917,Thursday,Barking,25006,24913
+20260917,Thursday,Barking Riverside,2143,1849
+20260917,Thursday,Barkingside,1933,2309
+20260917,Thursday,Barons Court,5796,2925
+20260917,Thursday,Battersea Power Station,13739,12740
+20260917,Thursday,Bayswater,6725,5724
+20260917,Thursday,Beckton,1869,1776
+20260917,Thursday,Beckton Park,649,569
+20260917,Thursday,Becontree,5112,4769
+20260917,Thursday,Belsize Park,8807,8734
+20260917,Thursday,Bermondsey,11036,10554
+20260917,Thursday,Bethnal Green,15373,13957
+20260917,Thursday,Bethnal Green NR,2573,3023
+20260917,Thursday,Blackfriars,22701,21932
+20260917,Thursday,Blackhorse Road,14704,13807
+20260917,Thursday,Blackwall,1596,1387
+20260917,Thursday,Bond Street,67047,69426
+20260917,Thursday,Borough,6879,7019
+20260917,Thursday,Boston Manor,2263,2240
+20260917,Thursday,Bounds Green,6488,6246
+20260917,Thursday,Bow Church,2621,2331
+20260917,Thursday,Bow Road,6852,6463
+20260917,Thursday,Brent Cross,3089,2985
+20260917,Thursday,Brentwood,5490,5251
+20260917,Thursday,Brixton,31416,32057
+20260917,Thursday,Brockley,5499,5302
+20260917,Thursday,Bromley-by-Bow,6424,6216
+20260917,Thursday,Brondesbury,3653,3474
+20260917,Thursday,Brondesbury Park,1734,1739
+20260917,Thursday,Bruce Grove,2370,1999
+20260917,Thursday,Buckhurst Hill,3240,3026
+20260917,Thursday,Burnham Bucks,1453,1426
+20260917,Thursday,Burnt Oak,4942,4836
+20260917,Thursday,Bush Hill Park,2274,1919
+20260917,Thursday,Bushey,2232,1785
+20260917,Thursday,Caledonian Road,6070,5698
+20260917,Thursday,Caledonian Road & Barnsbury,2345,2476
+20260917,Thursday,Cambridge Heath,1599,1766
+20260917,Thursday,Camden Road,5698,6173
+20260917,Thursday,Camden Town,21543,22619
+20260917,Thursday,Canada Water,13142,12642
+20260917,Thursday,Canary Wharf,52165,56225
+20260917,Thursday,Canary Wharf DLR,12377,12436
+20260917,Thursday,Canary Wharf Elizabeth Line,37878,36418
+20260917,Thursday,Canning Town,18010,17600
+20260917,Thursday,Cannon Street,10597,9570
+20260917,Thursday,Canonbury,4456,4315
+20260917,Thursday,Canons Park,3660,3676
+20260917,Thursday,Carpenders Park,2105,2151
+20260917,Thursday,Chadwell Heath,8168,7829
+20260917,Thursday,Chalfont & Latimer,2454,2400
+20260917,Thursday,Chalk Farm,7460,6217
+20260917,Thursday,Chancery Lane,14983,17785
+20260917,Thursday,Charing Cross,24662,23965
+20260917,Thursday,Chesham,2009,1803
+20260917,Thursday,Cheshunt,3352,3445
+20260917,Thursday,Chigwell,652,530
+20260917,Thursday,Chingford,3749,3906
+20260917,Thursday,Chiswick Park,3495,3605
+20260917,Thursday,Chorleywood,1714,1524
+20260917,Thursday,Clapham Common,11491,13037
+20260917,Thursday,Clapham High Street,2198,1954
+20260917,Thursday,Clapham Junction,31608,30789
+20260917,Thursday,Clapham North,6939,7922
+20260917,Thursday,Clapham South,10773,10478
+20260917,Thursday,Clapton,3431,3033
+20260917,Thursday,Cockfosters,2055,2063
+20260917,Thursday,Colindale,10572,10277
+20260917,Thursday,Colliers Wood,8881,8295
+20260917,Thursday,Covent Garden,14252,16417
+20260917,Thursday,Crossharbour,3402,2943
+20260917,Thursday,Crouch Hill,1281,1374
+20260917,Thursday,Croxley,1710,1701
+20260917,Thursday,Crystal Palace,4139,4232
+20260917,Thursday,Custom House DLR,4381,3158
+20260917,Thursday,Custom House Elizabeth Line,18155,17310
+20260917,Thursday,Cutty Sark,6083,5583
+20260917,Thursday,Cyprus,1274,1138
+20260917,Thursday,Dagenham East,5666,4715
+20260917,Thursday,Dagenham Heathway,8675,8112
+20260917,Thursday,Dalston Junction,8020,8089
+20260917,Thursday,Dalston Kingsland,7382,7268
+20260917,Thursday,Debden,3303,3129
+20260917,Thursday,Denmark Hill,9851,9801
+20260917,Thursday,Deptford Bridge,2562,2301
+20260917,Thursday,Devons Road,2666,2211
+20260917,Thursday,Dollis Hill,5600,4733
+20260917,Thursday,Ealing Broadway,25148,26277
+20260917,Thursday,Ealing Common,2840,2872
+20260917,Thursday,Earls Court,26225,26325
+20260917,Thursday,East Acton,5231,5166
+20260917,Thursday,East Finchley,9355,9170
+20260917,Thursday,East Ham,17368,16639
+20260917,Thursday,East India,4133,3727
+20260917,Thursday,East Putney,9840,9333
+20260917,Thursday,Eastcote,3807,3761
+20260917,Thursday,Edgware,7339,7361
+20260917,Thursday,Edgware Road B,5688,6090
+20260917,Thursday,Edgware Road C&H,10864,10485
+20260917,Thursday,Edmonton Green,5817,5620
+20260917,Thursday,Elephant & Castle,18718,18498
+20260917,Thursday,Elm Park,5837,5228
+20260917,Thursday,Elverson Road,1192,941
+20260917,Thursday,Embankment,29355,29362
+20260917,Thursday,Emerson Park,518,329
+20260917,Thursday,Enfield Town,4292,4039
+20260917,Thursday,Epping,4890,4488
+20260917,Thursday,Euston,51611,54168
+20260917,Thursday,Euston NR,14973,16397
+20260917,Thursday,Euston Square,18635,19812
+20260917,Thursday,Fairlop,1546,1442
+20260917,Thursday,Farringdon,90065,83556
+20260917,Thursday,Finchley Central,7498,7438
+20260917,Thursday,Finchley Road,12212,11677
+20260917,Thursday,Finchley Road & Frognal,2928,2987
+20260917,Thursday,Finsbury Park,30504,28980
+20260917,Thursday,Forest Gate,10154,10047
+20260917,Thursday,Forest Hill,6781,6400
+20260917,Thursday,Fulham Broadway,10689,10836
+20260917,Thursday,Gallions Reach,2152,1866
+20260917,Thursday,Gants Hill,7636,6884
+20260917,Thursday,Gidea Park,5578,5199
+20260917,Thursday,Gloucester Road,18696,17584
+20260917,Thursday,Golders Green,9869,9869
+20260917,Thursday,Goldhawk Road,3235,3099
+20260917,Thursday,Goodge Street,7774,9165
+20260917,Thursday,Goodmayes,7389,7174
+20260917,Thursday,Gospel Oak,3910,3781
+20260917,Thursday,Grange Hill,758,661
+20260917,Thursday,Great Portland Street,11126,11662
+20260917,Thursday,Green Park,44824,51443
+20260917,Thursday,Greenford,5082,5069
+20260917,Thursday,Greenwich,5793,5199
+20260917,Thursday,Gunnersbury,7124,6787
+20260917,Thursday,Hackney Central,8082,7862
+20260917,Thursday,Hackney Downs,4059,3835
+20260917,Thursday,Hackney Wick,5933,5901
+20260917,Thursday,Haggerston,5130,5062
+20260917,Thursday,Hainault,5002,4777
+20260917,Thursday,Hammersmith C&H,17018,17225
+20260917,Thursday,Hammersmith D&P,36619,36849
+20260917,Thursday,Hampstead,5942,7022
+20260917,Thursday,Hampstead Heath,5151,4992
+20260917,Thursday,Hanger Lane,3830,3706
+20260917,Thursday,Hanwell,3559,2969
+20260917,Thursday,Harlesden,4735,4458
+20260917,Thursday,Harold Wood,6667,6363
+20260917,Thursday,Harringay Green Lanes,2038,2114
+20260917,Thursday,Harrow & Wealdstone,7270,6823
+20260917,Thursday,Harrow-on-the-Hill,13530,14368
+20260917,Thursday,Hatch End,1273,1301
+20260917,Thursday,Hatton Cross,5015,5091
+20260917,Thursday,Hayes & Harlington,13466,13215
+20260917,Thursday,Headstone Lane,951,809
+20260917,Thursday,Heathrow T2&3 TfL Rail/HEx,11831,11471
+20260917,Thursday,Heathrow T4 TfL Rail/HEx,3361,3144
+20260917,Thursday,Heathrow T5 TfL Rail/HEx,6089,6839
+20260917,Thursday,Heathrow Terminal 4,2557,2214
+20260917,Thursday,Heathrow Terminal 5,6495,5403
+20260917,Thursday,Heathrow Terminals 2&3,10871,7589
+20260917,Thursday,Hendon Central,7882,7300
+20260917,Thursday,Heron Quays,5991,5627
+20260917,Thursday,High Barnet,6077,6041
+20260917,Thursday,High Street Kensington,15852,15353
+20260917,Thursday,Highams Park,5076,5061
+20260917,Thursday,Highbury & Islington,23630,24696
+20260917,Thursday,Highgate,7656,7708
+20260917,Thursday,Hillingdon,2400,2322
+20260917,Thursday,Holborn,29941,34497
+20260917,Thursday,Holland Park,5000,4564
+20260917,Thursday,Holloway Road,5950,5828
+20260917,Thursday,Homerton,7086,6527
+20260917,Thursday,Honor Oak Park,3977,3788
+20260917,Thursday,Hornchurch,3130,3026
+20260917,Thursday,Hounslow Central,4800,4855
+20260917,Thursday,Hounslow East,4974,5202
+20260917,Thursday,Hounslow West,4042,4139
+20260917,Thursday,Hoxton,6022,6397
+20260917,Thursday,Hyde Park Corner,5061,5066
+20260917,Thursday,Ickenham,1469,1612
+20260917,Thursday,Ilford,17158,18385
+20260917,Thursday,Imperial Wharf,4347,4393
+20260917,Thursday,Island Gardens,2554,1991
+20260917,Thursday,Iver,400,334
+20260917,Thursday,Kennington,7702,7103
+20260917,Thursday,Kensal Green,3463,3305
+20260917,Thursday,Kensal Rise,4009,3838
+20260917,Thursday,Kensington Olympia,4119,4679
+20260917,Thursday,Kentish Town,10123,9815
+20260917,Thursday,Kentish Town West,2594,2617
+20260917,Thursday,Kenton,2726,2741
+20260917,Thursday,Kew Gardens,5645,5362
+20260917,Thursday,Kilburn,7970,7525
+20260917,Thursday,Kilburn High Road,1325,1298
+20260917,Thursday,Kilburn Park,4286,3992
+20260917,Thursday,King George V,1740,1448
+20260917,Thursday,Kings Cross St Pancras,119561,120516
+20260917,Thursday,Kingsbury,5603,5412
+20260917,Thursday,Knightsbridge,17834,17374
+20260917,Thursday,Ladbroke Grove,8741,8458
+20260917,Thursday,Lambeth North,4344,4165
+20260917,Thursday,Lancaster Gate,4230,4123
+20260917,Thursday,Langdon Park,3091,2651
+20260917,Thursday,Langley Berks,1101,1061
+20260917,Thursday,Latimer Road,3634,3542
+20260917,Thursday,Leicester Square,38284,35062
+20260917,Thursday,Lewisham DLR,7019,6033
+20260917,Thursday,Leyton,12831,11927
+20260917,Thursday,Leyton Midland Road,2540,2590
+20260917,Thursday,Leytonstone,11238,11311
+20260917,Thursday,Leytonstone High Road,1789,1794
+20260917,Thursday,Limehouse DLR,8112,6874
+20260917,Thursday,Liverpool St NR,43919,40298
+20260917,Thursday,Liverpool Street,114244,114406
+20260917,Thursday,London Bridge,93167,88601
+20260917,Thursday,London City Airport,4260,4082
+20260917,Thursday,London Fields,2945,2997
+20260917,Thursday,Loughton,4381,4512
+20260917,Thursday,Maida Vale,4789,4355
+20260917,Thursday,Maidenhead,3144,3197
+20260917,Thursday,Manor House,8568,8468
+20260917,Thursday,Manor Park,7017,6640
+20260917,Thursday,Mansion House,9792,10432
+20260917,Thursday,Marble Arch,12115,13259
+20260917,Thursday,Maryland,7096,6716
+20260917,Thursday,Marylebone,14006,15641
+20260917,Thursday,Mile End,18392,17874
+20260917,Thursday,Mill Hill East,2470,2326
+20260917,Thursday,Monument,20504,16852
+20260917,Thursday,Moor Park,1644,1600
+20260917,Thursday,Moorgate,56036,62841
+20260917,Thursday,Morden,14036,13529
+20260917,Thursday,Mornington Crescent,4179,3955
+20260917,Thursday,Mudchute,2040,1731
+20260917,Thursday,Neasden,4227,3717
+20260917,Thursday,New Cross,4391,4281
+20260917,Thursday,New Cross Gate,5746,6112
+20260917,Thursday,Newbury Park,5123,4531
+20260917,Thursday,Nine Elms,6523,6036
+20260917,Thursday,North Acton,7898,8021
+20260917,Thursday,North Ealing,931,892
+20260917,Thursday,North Greenwich,23547,24602
+20260917,Thursday,North Harrow,2650,2540
+20260917,Thursday,North Wembley,2369,2219
+20260917,Thursday,Northfields,3907,3768
+20260917,Thursday,Northolt,6370,5710
+20260917,Thursday,Northwick Park,5025,4985
+20260917,Thursday,Northwood,3946,3962
+20260917,Thursday,Northwood Hills,2555,2505
+20260917,Thursday,Norwood Junction,8685,9333
+20260917,Thursday,Notting Hill Gate,18480,19924
+20260917,Thursday,Oakwood,3593,3652
+20260917,Thursday,Old Street,28296,28472
+20260917,Thursday,Osterley,2490,2511
+20260917,Thursday,Oval,9041,8783
+20260917,Thursday,Oxford Circus,80783,90439
+20260917,Thursday,Paddington,50996,52674
+20260917,Thursday,Paddington EL,44959,45853
+20260917,Thursday,Park Royal,2072,2165
+20260917,Thursday,Parsons Green,9526,9376
+20260917,Thursday,Peckham Rye,9168,9223
+20260917,Thursday,Penge West,977,824
+20260917,Thursday,Perivale,2712,2650
+20260917,Thursday,Piccadilly Circus,37152,36320
+20260917,Thursday,Pimlico,12736,12135
+20260917,Thursday,Pinner,4176,4292
+20260917,Thursday,Plaistow,8151,7525
+20260917,Thursday,Pontoon Dock DLR,3377,3088
+20260917,Thursday,Poplar,1627,1531
+20260917,Thursday,Preston Road,4103,4090
+20260917,Thursday,Prince Regent,979,905
+20260917,Thursday,Pudding Mill Lane,3479,3081
+20260917,Thursday,Putney Bridge,6948,7704
+20260917,Thursday,Queens Park,8392,7953
+20260917,Thursday,Queens Rd Peckham,4742,4537
+20260917,Thursday,Queensbury,4586,4379
+20260917,Thursday,Queensway,8035,8591
+20260917,Thursday,Ravenscourt Park,4677,4505
+20260917,Thursday,Rayners Lane,5341,5121
+20260917,Thursday,Reading,1942,2021
+20260917,Thursday,Rectory Road,2343,2051
+20260917,Thursday,Redbridge,3347,2899
+20260917,Thursday,Regents Park,3407,4257
+20260917,Thursday,Richmond,18438,18321
+20260917,Thursday,Rickmansworth,3722,3537
+20260917,Thursday,Roding Valley,329,254
+20260917,Thursday,Romford,16704,17611
+20260917,Thursday,Rotherhithe,2752,2407
+20260917,Thursday,Royal Albert,1476,1409
+20260917,Thursday,Royal Oak,3780,3649
+20260917,Thursday,Royal Victoria,2223,1796
+20260917,Thursday,Ruislip,2419,2503
+20260917,Thursday,Ruislip Gardens,1349,1192
+20260917,Thursday,Ruislip Manor,2513,2595
+20260917,Thursday,Russell Square,11549,11917
+20260917,Thursday,Seven Kings,6763,6209
+20260917,Thursday,Seven Sisters,18539,18230
+20260917,Thursday,Shadwell DLR,7236,6759
+20260917,Thursday,Shadwell LO,5978,6205
+20260917,Thursday,Shenfield,4531,4651
+20260917,Thursday,Shepherds Bush,18768,17125
+20260917,Thursday,Shepherds Bush LO,10484,11161
+20260917,Thursday,Shepherds Bush Market,5351,4878
+20260917,Thursday,Shoreditch High Street,10615,11734
+20260917,Thursday,Silver Street,3777,3336
+20260917,Thursday,Sloane Square,22705,23165
+20260917,Thursday,Slough,3635,3660
+20260917,Thursday,Snaresbrook,3081,2878
+20260917,Thursday,South Acton,1139,1098
+20260917,Thursday,South Ealing,3280,3189
+20260917,Thursday,South Hampstead,960,850
+20260917,Thursday,South Harrow,2892,2847
+20260917,Thursday,South Kensington,38076,40465
+20260917,Thursday,South Kenton,1080,1020
+20260917,Thursday,South Quay,5201,4846
+20260917,Thursday,South Ruislip,2330,2173
+20260917,Thursday,South Tottenham,2244,2436
+20260917,Thursday,South Wimbledon,6268,6093
+20260917,Thursday,South Woodford,6670,6294
+20260917,Thursday,Southall,11702,11085
+20260917,Thursday,Southbury,1784,1920
+20260917,Thursday,Southfields,8768,8146
+20260917,Thursday,Southgate,5615,6246
+20260917,Thursday,Southwark,12378,13664
+20260917,Thursday,St James Street,2917,2855
+20260917,Thursday,St James's Park,18273,19700
+20260917,Thursday,St Johns Wood,11347,11422
+20260917,Thursday,St Pauls,16306,17990
+20260917,Thursday,Stamford Brook,3745,3599
+20260917,Thursday,Stamford Hill,1308,1114
+20260917,Thursday,Stanmore,5216,5105
+20260917,Thursday,Star Lane DLR,1588,1521
+20260917,Thursday,Stepney Green,8475,8123
+20260917,Thursday,Stockwell,12606,10461
+20260917,Thursday,Stoke Newington,2606,2296
+20260917,Thursday,Stonebridge Park,4246,3993
+20260917,Thursday,Stratford,78117,79853
+20260917,Thursday,Stratford High Street,854,1015
+20260917,Thursday,Stratford International,3752,3343
+20260917,Thursday,Sudbury Hill,2441,2470
+20260917,Thursday,Sudbury Town,2178,2023
+20260917,Thursday,Surrey Quays,7102,6572
+20260917,Thursday,Swiss Cottage,8534,8213
+20260917,Thursday,Sydenham SR,5425,5449
+20260917,Thursday,Taplow,434,384
+20260917,Thursday,Temple,13177,13170
+20260917,Thursday,Theobalds Grove,1316,1217
+20260917,Thursday,Theydon Bois,1225,1139
+20260917,Thursday,Tooting Bec,11056,10342
+20260917,Thursday,Tooting Broadway,19320,19206
+20260917,Thursday,Tottenham Court Road,100744,102526
+20260917,Thursday,Tottenham Hale,22967,22771
+20260917,Thursday,Totteridge & Whetstone,3897,3667
+20260917,Thursday,Tower Gateway,3781,3461
+20260917,Thursday,Tower Hill,25614,25999
+20260917,Thursday,Tufnell Park,4967,4610
+20260917,Thursday,Turkey Street,1720,1638
+20260917,Thursday,Turnham Green,7880,8108
+20260917,Thursday,Turnpike Lane,10991,10966
+20260917,Thursday,Twyford,874,754
+20260917,Thursday,Upminster,9490,8440
+20260917,Thursday,Upminster Bridge,1774,1765
+20260917,Thursday,Upney,3798,3388
+20260917,Thursday,Upper Holloway,2294,2107
+20260917,Thursday,Upton Park,14439,13896
+20260917,Thursday,Uxbridge,8386,8199
+20260917,Thursday,Vauxhall,37858,35667
+20260917,Thursday,Victoria,95293,98537
+20260917,Thursday,W Silvertown,3274,2992
+20260917,Thursday,Walthamstow Central,21371,21330
+20260917,Thursday,Walthamstow Queens Road,1573,1673
+20260917,Thursday,Wandsworth Road,1024,862
+20260917,Thursday,Wanstead,3021,3362
+20260917,Thursday,Wanstead Park,2353,2388
+20260917,Thursday,Wapping,3250,2930
+20260917,Thursday,Warren Street,23422,24689
+20260917,Thursday,Warwick Avenue,5136,4776
+20260917,Thursday,Waterloo,111309,110474
+20260917,Thursday,Watford High Street,2267,2195
+20260917,Thursday,Watford Junction,7599,7113
+20260917,Thursday,Watford Met,3240,3174
+20260917,Thursday,Wembley Central,7157,7852
+20260917,Thursday,Wembley Park,25650,25649
+20260917,Thursday,West Acton,1678,1685
+20260917,Thursday,West Brompton,7001,7008
+20260917,Thursday,West Croydon,6312,5824
+20260917,Thursday,West Drayton,5815,5635
+20260917,Thursday,West Ealing,4879,4214
+20260917,Thursday,West Finchley,2469,2344
+20260917,Thursday,West Ham,7721,7206
+20260917,Thursday,West Hampstead,12138,11144
+20260917,Thursday,West Hampstead LO,7210,7042
+20260917,Thursday,West Harrow,1607,1484
+20260917,Thursday,West India Quay,1355,1314
+20260917,Thursday,West Kensington,7280,8140
+20260917,Thursday,West Ruislip,2063,1874
+20260917,Thursday,Westbourne Park,6770,6356
+20260917,Thursday,Westferry,4503,3912
+20260917,Thursday,Westminster,27231,29534
+20260917,Thursday,White City,12855,14224
+20260917,Thursday,White Hart Lane,3497,3361
+20260917,Thursday,Whitechapel,29623,29122
+20260917,Thursday,Willesden Green,8445,8116
+20260917,Thursday,Willesden Junction,7284,6992
+20260917,Thursday,Wimbledon,25154,25704
+20260917,Thursday,Wimbledon Park,3160,3346
+20260917,Thursday,Wood Green,13362,13454
+20260917,Thursday,Wood Lane,10158,9742
+20260917,Thursday,Wood Street,3804,3649
+20260917,Thursday,Woodford,7832,7270
+20260917,Thursday,Woodgrange Park,1593,1292
+20260917,Thursday,Woodside Park,4456,3891
+20260917,Thursday,Woolwich Arsenal DLR,6105,6674
+20260917,Thursday,Woolwich Arsenal NR,1993,1944
+20260917,Thursday,Woolwich Elizabeth Line,22924,22444
+20260918,Friday,Abbey Road DLR,1048,958
+20260918,Friday,Abbey Wood,19656,17699
+20260918,Friday,Acton Central,2313,2016
+20260918,Friday,Acton Main Line,4727,4478
+20260918,Friday,Acton Town,7093,7028
+20260918,Friday,Aldgate,8866,11731
+20260918,Friday,Aldgate East,16743,16193
+20260918,Friday,All Saints,1547,1406
+20260918,Friday,Alperton,3392,3595
+20260918,Friday,Amersham,3016,2909
+20260918,Friday,Anerley,1270,1071
+20260918,Friday,Angel,16863,18459
+20260918,Friday,Archway,10846,10267
+20260918,Friday,Arnos Grove,5079,4731
+20260918,Friday,Arsenal,3355,3119
+20260918,Friday,Baker Street,33745,34174
+20260918,Friday,Balham,15279,14652
+20260918,Friday,Bank,40635,43992
+20260918,Friday,Barbican,7499,7265
+20260918,Friday,Barking,24740,24137
+20260918,Friday,Barking Riverside,2000,1697
+20260918,Friday,Barkingside,1802,1811
+20260918,Friday,Battersea Power Station,12715,11610
+20260918,Friday,Bayswater,7215,6376
+20260918,Friday,Beckton,1861,1728
+20260918,Friday,Beckton Park,620,506
+20260918,Friday,Becontree,4861,4757
+20260918,Friday,Belsize Park,7785,7667
+20260918,Friday,Bermondsey,11725,11458
+20260918,Friday,Bethnal Green,15584,14727
+20260918,Friday,Bethnal Green NR,2498,2914
+20260918,Friday,Blackfriars,16418,15589
+20260918,Friday,Blackhorse Road,14115,12903
+20260918,Friday,Blackwall,1503,1215
+20260918,Friday,Bond Street,61939,64676
+20260918,Friday,Borough,5749,5880
+20260918,Friday,Boston Manor,2147,2001
+20260918,Friday,Bounds Green,6394,6070
+20260918,Friday,Bow Church,2581,2281
+20260918,Friday,Bow Road,6285,5852
+20260918,Friday,Brent Cross,2873,2799
+20260918,Friday,Brentwood,4301,4213
+20260918,Friday,Brixton,30580,31010
+20260918,Friday,Brockley,5374,4972
+20260918,Friday,Bromley-by-Bow,6131,5864
+20260918,Friday,Brondesbury,3694,3389
+20260918,Friday,Brondesbury Park,1631,1625
+20260918,Friday,Bruce Grove,2311,1990
+20260918,Friday,Buckhurst Hill,2731,2583
+20260918,Friday,Burnham Bucks,1204,1226
+20260918,Friday,Burnt Oak,4623,4609
+20260918,Friday,Bush Hill Park,2089,1736
+20260918,Friday,Bushey,1896,1640
+20260918,Friday,Caledonian Road,6017,5606
+20260918,Friday,Caledonian Road & Barnsbury,2230,2367
+20260918,Friday,Cambridge Heath,1520,1710
+20260918,Friday,Camden Road,5475,5993
+20260918,Friday,Camden Town,23901,25822
+20260918,Friday,Canada Water,13427,13162
+20260918,Friday,Canary Wharf,46126,47766
+20260918,Friday,Canary Wharf DLR,9541,10217
+20260918,Friday,Canary Wharf Elizabeth Line,27986,27482
+20260918,Friday,Canning Town,18252,18962
+20260918,Friday,Cannon Street,6479,5878
+20260918,Friday,Canonbury,4371,4255
+20260918,Friday,Canons Park,3418,3325
+20260918,Friday,Carpenders Park,1981,1966
+20260918,Friday,Chadwell Heath,7705,7360
+20260918,Friday,Chalfont & Latimer,1998,1922
+20260918,Friday,Chalk Farm,8388,7165
+20260918,Friday,Chancery Lane,10160,11088
+20260918,Friday,Charing Cross,22456,21650
+20260918,Friday,Chesham,1559,1450
+20260918,Friday,Cheshunt,2996,2993
+20260918,Friday,Chigwell,521,481
+20260918,Friday,Chingford,3307,3338
+20260918,Friday,Chiswick Park,2852,3077
+20260918,Friday,Chorleywood,1381,1287
+20260918,Friday,Clapham Common,11345,12342
+20260918,Friday,Clapham High Street,2390,1902
+20260918,Friday,Clapham Junction,29390,28861
+20260918,Friday,Clapham North,7388,7676
+20260918,Friday,Clapham South,9407,9027
+20260918,Friday,Clapton,3158,2771
+20260918,Friday,Cockfosters,2219,2227
+20260918,Friday,Colindale,10039,9601
+20260918,Friday,Colliers Wood,8358,7834
+20260918,Friday,Covent Garden,15236,17934
+20260918,Friday,Crossharbour,3247,2836
+20260918,Friday,Crouch Hill,1286,1367
+20260918,Friday,Croxley,1358,1397
+20260918,Friday,Crystal Palace,3703,3751
+20260918,Friday,Custom House DLR,3841,2604
+20260918,Friday,Custom House Elizabeth Line,14911,14142
+20260918,Friday,Cutty Sark,7152,6200
+20260918,Friday,Cyprus,1218,1080
+20260918,Friday,Dagenham East,4554,4224
+20260918,Friday,Dagenham Heathway,7924,7998
+20260918,Friday,Dalston Junction,8919,9313
+20260918,Friday,Dalston Kingsland,7673,7956
+20260918,Friday,Debden,2801,2757
+20260918,Friday,Denmark Hill,8590,8451
+20260918,Friday,Deptford Bridge,2316,2136
+20260918,Friday,Devons Road,2580,2284
+20260918,Friday,Dollis Hill,5342,4755
+20260918,Friday,Ealing Broadway,23550,24864
+20260918,Friday,Ealing Common,2783,2719
+20260918,Friday,Earls Court,26269,26708
+20260918,Friday,East Acton,4870,4811
+20260918,Friday,East Finchley,8224,8354
+20260918,Friday,East Ham,17388,16463
+20260918,Friday,East India,3692,3338
+20260918,Friday,East Putney,8543,8182
+20260918,Friday,Eastcote,3469,3406
+20260918,Friday,Edgware,6622,6794
+20260918,Friday,Edgware Road B,5375,5876
+20260918,Friday,Edgware Road C&H,9846,9527
+20260918,Friday,Edmonton Green,5700,5458
+20260918,Friday,Elephant & Castle,17328,17879
+20260918,Friday,Elm Park,4657,4462
+20260918,Friday,Elverson Road,1123,857
+20260918,Friday,Embankment,25178,24896
+20260918,Friday,Emerson Park,455,309
+20260918,Friday,Enfield Town,4170,3738
+20260918,Friday,Epping,4131,3884
+20260918,Friday,Euston,45854,49129
+20260918,Friday,Euston NR,13640,15555
+20260918,Friday,Euston Square,14633,15659
+20260918,Friday,Fairlop,1375,1267
+20260918,Friday,Farringdon,60635,57481
+20260918,Friday,Finchley Central,6869,6680
+20260918,Friday,Finchley Road,11805,10994
+20260918,Friday,Finchley Road & Frognal,2841,2792
+20260918,Friday,Finsbury Park,29578,27300
+20260918,Friday,Forest Gate,9977,9542
+20260918,Friday,Forest Hill,6193,5474
+20260918,Friday,Fulham Broadway,10540,10568
+20260918,Friday,Gallions Reach,1943,1673
+20260918,Friday,Gants Hill,7095,6650
+20260918,Friday,Gidea Park,4738,4312
+20260918,Friday,Gloucester Road,17994,16973
+20260918,Friday,Golders Green,9373,9510
+20260918,Friday,Goldhawk Road,3023,2776
+20260918,Friday,Goodge Street,5935,6921
+20260918,Friday,Goodmayes,7036,6784
+20260918,Friday,Gospel Oak,4028,3819
+20260918,Friday,Grange Hill,574,529
+20260918,Friday,Great Portland Street,8229,8414
+20260918,Friday,Green Park,41537,48637
+20260918,Friday,Greenford,4685,4418
+20260918,Friday,Greenwich,5317,4908
+20260918,Friday,Gunnersbury,6674,6797
+20260918,Friday,Hackney Central,9628,10257
+20260918,Friday,Hackney Downs,3882,3971
+20260918,Friday,Hackney Wick,5413,5439
+20260918,Friday,Haggerston,4878,5009
+20260918,Friday,Hainault,4634,4434
+20260918,Friday,Hammersmith C&H,14631,14166
+20260918,Friday,Hammersmith D&P,33097,32418
+20260918,Friday,Hampstead,5869,6818
+20260918,Friday,Hampstead Heath,4984,4999
+20260918,Friday,Hanger Lane,3538,3239
+20260918,Friday,Hanwell,2954,2527
+20260918,Friday,Harlesden,4280,4118
+20260918,Friday,Harold Wood,6059,5692
+20260918,Friday,Harringay Green Lanes,2105,2135
+20260918,Friday,Harrow & Wealdstone,7631,6833
+20260918,Friday,Harrow-on-the-Hill,12416,13248
+20260918,Friday,Hatch End,1258,1221
+20260918,Friday,Hatton Cross,4934,5075
+20260918,Friday,Hayes & Harlington,12457,12250
+20260918,Friday,Headstone Lane,920,801
+20260918,Friday,Heathrow T2&3 TfL Rail/HEx,12208,12378
+20260918,Friday,Heathrow T4 TfL Rail/HEx,3562,3207
+20260918,Friday,Heathrow T5 TfL Rail/HEx,6047,7500
+20260918,Friday,Heathrow Terminal 4,2774,2434
+20260918,Friday,Heathrow Terminal 5,6935,5883
+20260918,Friday,Heathrow Terminals 2&3,10982,8611
+20260918,Friday,Hendon Central,7660,7069
+20260918,Friday,Heron Quays,5069,5057
+20260918,Friday,High Barnet,5610,5361
+20260918,Friday,High Street Kensington,15078,14325
+20260918,Friday,Highams Park,4528,4353
+20260918,Friday,Highbury & Islington,23042,23942
+20260918,Friday,Highgate,6686,6740
+20260918,Friday,Hillingdon,2206,2004
+20260918,Friday,Holborn,24858,26612
+20260918,Friday,Holland Park,4445,4378
+20260918,Friday,Holloway Road,5741,5620
+20260918,Friday,Homerton,6745,6320
+20260918,Friday,Honor Oak Park,3625,3479
+20260918,Friday,Hornchurch,2663,2738
+20260918,Friday,Hounslow Central,4797,4737
+20260918,Friday,Hounslow East,4906,5216
+20260918,Friday,Hounslow West,4107,4046
+20260918,Friday,Hoxton,5581,5923
+20260918,Friday,Hyde Park Corner,5024,5055
+20260918,Friday,Ickenham,1373,1345
+20260918,Friday,Ilford,17168,17627
+20260918,Friday,Imperial Wharf,3919,3753
+20260918,Friday,Island Gardens,2545,1989
+20260918,Friday,Iver,312,259
+20260918,Friday,Kennington,7581,7342
+20260918,Friday,Kensal Green,3085,2816
+20260918,Friday,Kensal Rise,3913,3684
+20260918,Friday,Kensington Olympia,3381,3372
+20260918,Friday,Kentish Town,9832,9454
+20260918,Friday,Kentish Town West,2489,2631
+20260918,Friday,Kenton,2697,2631
+20260918,Friday,Kew Gardens,6016,5701
+20260918,Friday,Kilburn,7919,7731
+20260918,Friday,Kilburn High Road,1365,1292
+20260918,Friday,Kilburn Park,4057,3798
+20260918,Friday,King George V,1756,1530
+20260918,Friday,Kings Cross St Pancras,109363,114041
+20260918,Friday,Kingsbury,5320,5352
+20260918,Friday,Knightsbridge,18858,17886
+20260918,Friday,Ladbroke Grove,9921,9228
+20260918,Friday,Lambeth North,4025,3952
+20260918,Friday,Lancaster Gate,4514,4290
+20260918,Friday,Langdon Park,2972,2457
+20260918,Friday,Langley Berks,881,821
+20260918,Friday,Latimer Road,3212,2942
+20260918,Friday,Leicester Square,43887,39197
+20260918,Friday,Lewisham DLR,6101,5417
+20260918,Friday,Leyton,12236,11689
+20260918,Friday,Leyton Midland Road,2552,2560
+20260918,Friday,Leytonstone,10618,10669
+20260918,Friday,Leytonstone High Road,1820,1798
+20260918,Friday,Limehouse DLR,8906,7694
+20260918,Friday,Liverpool St NR,33242,30486
+20260918,Friday,Liverpool Street,86175,86147
+20260918,Friday,London Bridge,83887,78752
+20260918,Friday,London City Airport,4386,3865
+20260918,Friday,London Fields,2571,2902
+20260918,Friday,Loughton,3814,4004
+20260918,Friday,Maida Vale,4294,4229
+20260918,Friday,Maidenhead,2430,2369
+20260918,Friday,Manor House,8159,8155
+20260918,Friday,Manor Park,7129,6502
+20260918,Friday,Mansion House,6183,6262
+20260918,Friday,Marble Arch,12025,11886
+20260918,Friday,Maryland,6760,6177
+20260918,Friday,Marylebone,11242,12237
+20260918,Friday,Mile End,16775,15850
+20260918,Friday,Mill Hill East,2527,2609
+20260918,Friday,Monument,13262,11659
+20260918,Friday,Moor Park,1478,1445
+20260918,Friday,Moorgate,34669,38143
+20260918,Friday,Morden,13097,12747
+20260918,Friday,Mornington Crescent,3121,2638
+20260918,Friday,Mudchute,1968,1619
+20260918,Friday,Neasden,4103,3734
+20260918,Friday,New Cross,4046,3931
+20260918,Friday,New Cross Gate,5906,6565
+20260918,Friday,Newbury Park,4924,4413
+20260918,Friday,Nine Elms,5989,5631
+20260918,Friday,North Acton,7144,7430
+20260918,Friday,North Ealing,890,883
+20260918,Friday,North Greenwich,24119,25377
+20260918,Friday,North Harrow,2323,2222
+20260918,Friday,North Wembley,2254,2115
+20260918,Friday,Northfields,3685,3441
+20260918,Friday,Northolt,6050,5423
+20260918,Friday,Northwick Park,5276,5178
+20260918,Friday,Northwood,3570,3451
+20260918,Friday,Northwood Hills,2470,2347
+20260918,Friday,Norwood Junction,6639,5830
+20260918,Friday,Notting Hill Gate,19085,21235
+20260918,Friday,Oakwood,3425,3533
+20260918,Friday,Old Street,21790,22608
+20260918,Friday,Osterley,2391,2265
+20260918,Friday,Oval,8250,8160
+20260918,Friday,Oxford Circus,74405,82495
+20260918,Friday,Paddington,45076,47105
+20260918,Friday,Paddington EL,35749,36803
+20260918,Friday,Park Royal,2125,2286
+20260918,Friday,Parsons Green,8401,8523
+20260918,Friday,Peckham Rye,7094,9656
+20260918,Friday,Penge West,835,747
+20260918,Friday,Perivale,2484,2368
+20260918,Friday,Piccadilly Circus,37394,36231
+20260918,Friday,Pimlico,11193,10937
+20260918,Friday,Pinner,3609,3660
+20260918,Friday,Plaistow,7560,7278
+20260918,Friday,Pontoon Dock DLR,3075,2919
+20260918,Friday,Poplar,1340,1403
+20260918,Friday,Preston Road,3777,3723
+20260918,Friday,Prince Regent,1117,975
+20260918,Friday,Pudding Mill Lane,3341,2869
+20260918,Friday,Putney Bridge,6104,6762
+20260918,Friday,Queens Park,7518,7087
+20260918,Friday,Queens Rd Peckham,4349,4292
+20260918,Friday,Queensbury,4383,4240
+20260918,Friday,Queensway,8092,9061
+20260918,Friday,Ravenscourt Park,4153,4024
+20260918,Friday,Rayners Lane,5049,4947
+20260918,Friday,Reading,1547,1705
+20260918,Friday,Rectory Road,2140,1874
+20260918,Friday,Redbridge,3165,2780
+20260918,Friday,Regents Park,2897,3515
+20260918,Friday,Richmond,17673,17179
+20260918,Friday,Rickmansworth,3171,3039
+20260918,Friday,Roding Valley,264,233
+20260918,Friday,Romford,16410,17316
+20260918,Friday,Rotherhithe,2657,2433
+20260918,Friday,Royal Albert,1521,1262
+20260918,Friday,Royal Oak,3546,3491
+20260918,Friday,Royal Victoria,2302,1820
+20260918,Friday,Ruislip,2306,2316
+20260918,Friday,Ruislip Gardens,1311,1080
+20260918,Friday,Ruislip Manor,2369,2169
+20260918,Friday,Russell Square,11574,11704
+20260918,Friday,Seven Kings,6454,5896
+20260918,Friday,Seven Sisters,18863,18926
+20260918,Friday,Shadwell DLR,6792,6497
+20260918,Friday,Shadwell LO,5978,6016
+20260918,Friday,Shenfield,3524,3591
+20260918,Friday,Shepherds Bush,18280,17317
+20260918,Friday,Shepherds Bush LO,9124,9766
+20260918,Friday,Shepherds Bush Market,5430,5205
+20260918,Friday,Shoreditch High Street,9109,10357
+20260918,Friday,Silver Street,3670,3372
+20260918,Friday,Sloane Square,21343,21312
+20260918,Friday,Slough,2959,2948
+20260918,Friday,Snaresbrook,3030,2807
+20260918,Friday,South Acton,990,806
+20260918,Friday,South Ealing,3053,2926
+20260918,Friday,South Hampstead,953,838
+20260918,Friday,South Harrow,2862,2816
+20260918,Friday,South Kensington,38741,39919
+20260918,Friday,South Kenton,1082,994
+20260918,Friday,South Quay,4477,4015
+20260918,Friday,South Ruislip,1674,1930
+20260918,Friday,South Tottenham,2258,2434
+20260918,Friday,South Wimbledon,5773,5868
+20260918,Friday,South Woodford,6092,6227
+20260918,Friday,Southall,11347,10487
+20260918,Friday,Southbury,1756,1783
+20260918,Friday,Southfields,7565,6949
+20260918,Friday,Southgate,5668,5979
+20260918,Friday,Southwark,10502,11156
+20260918,Friday,St James Street,2669,2549
+20260918,Friday,St James's Park,14800,15987
+20260918,Friday,St Johns Wood,10593,10836
+20260918,Friday,St Pauls,12526,13085
+20260918,Friday,Stamford Brook,3398,3230
+20260918,Friday,Stamford Hill,1200,1038
+20260918,Friday,Stanmore,4817,4895
+20260918,Friday,Star Lane DLR,1530,1454
+20260918,Friday,Stepney Green,7525,7253
+20260918,Friday,Stockwell,11992,10568
+20260918,Friday,Stoke Newington,2411,2116
+20260918,Friday,Stonebridge Park,3940,3771
+20260918,Friday,Stratford,79025,81355
+20260918,Friday,Stratford High Street,828,926
+20260918,Friday,Stratford International,3680,3291
+20260918,Friday,Sudbury Hill,2296,2340
+20260918,Friday,Sudbury Town,2211,2021
+20260918,Friday,Surrey Quays,7030,6509
+20260918,Friday,Swiss Cottage,8354,8327
+20260918,Friday,Sydenham SR,5000,4930
+20260918,Friday,Taplow,306,309
+20260918,Friday,Temple,10063,10218
+20260918,Friday,Theobalds Grove,1153,1105
+20260918,Friday,Theydon Bois,1100,1044
+20260918,Friday,Tooting Bec,9646,9056
+20260918,Friday,Tooting Broadway,18558,18006
+20260918,Friday,Tottenham Court Road,92224,91389
+20260918,Friday,Tottenham Hale,23013,22219
+20260918,Friday,Totteridge & Whetstone,3417,3276
+20260918,Friday,Tower Gateway,3231,2863
+20260918,Friday,Tower Hill,24521,24975
+20260918,Friday,Tufnell Park,4744,4463
+20260918,Friday,Turkey Street,1788,1584
+20260918,Friday,Turnham Green,7406,7691
+20260918,Friday,Turnpike Lane,11008,11134
+20260918,Friday,Twyford,496,400
+20260918,Friday,Upminster,6299,6337
+20260918,Friday,Upminster Bridge,1458,1428
+20260918,Friday,Upney,3698,3344
+20260918,Friday,Upper Holloway,2217,2159
+20260918,Friday,Upton Park,14701,13749
+20260918,Friday,Uxbridge,7943,7819
+20260918,Friday,Vauxhall,33928,31911
+20260918,Friday,Victoria,85072,87684
+20260918,Friday,W Silvertown,3361,3427
+20260918,Friday,Walthamstow Central,20140,19948
+20260918,Friday,Walthamstow Queens Road,1631,1703
+20260918,Friday,Wandsworth Road,1058,840
+20260918,Friday,Wanstead,2686,2908
+20260918,Friday,Wanstead Park,2331,2311
+20260918,Friday,Wapping,3251,3171
+20260918,Friday,Warren Street,18785,20268
+20260918,Friday,Warwick Avenue,4591,4544
+20260918,Friday,Waterloo,86168,86449
+20260918,Friday,Watford High Street,2316,2277
+20260918,Friday,Watford Junction,6991,6597
+20260918,Friday,Watford Met,2892,2937
+20260918,Friday,Wembley Central,7166,7808
+20260918,Friday,Wembley Park,26911,27190
+20260918,Friday,West Acton,1717,1643
+20260918,Friday,West Brompton,7095,6859
+20260918,Friday,West Croydon,6242,5768
+20260918,Friday,West Drayton,5336,5180
+20260918,Friday,West Ealing,4161,3694
+20260918,Friday,West Finchley,2098,1944
+20260918,Friday,West Ham,8338,8097
+20260918,Friday,West Hampstead,11644,11089
+20260918,Friday,West Hampstead LO,6771,6588
+20260918,Friday,West Harrow,1454,1389
+20260918,Friday,West India Quay,1291,1311
+20260918,Friday,West Kensington,9695,8391
+20260918,Friday,West Ruislip,1772,1678
+20260918,Friday,Westbourne Park,6392,5858
+20260918,Friday,Westferry,4367,3647
+20260918,Friday,Westminster,27449,29843
+20260918,Friday,White City,10749,10932
+20260918,Friday,White Hart Lane,3385,3090
+20260918,Friday,Whitechapel,28343,27927
+20260918,Friday,Willesden Green,8468,8303
+20260918,Friday,Willesden Junction,6848,6463
+20260918,Friday,Wimbledon,23412,24362
+20260918,Friday,Wimbledon Park,2886,2784
+20260918,Friday,Wood Green,13744,13633
+20260918,Friday,Wood Lane,7449,7980
+20260918,Friday,Wood Street,3371,3239
+20260918,Friday,Woodford,7283,6776
+20260918,Friday,Woodgrange Park,1617,1322
+20260918,Friday,Woodside Park,3881,3252
+20260918,Friday,Woolwich Arsenal DLR,6216,6643
+20260918,Friday,Woolwich Arsenal NR,1953,1721
+20260918,Friday,Woolwich Elizabeth Line,21137,20549
+20260919,Saturday,Abbey Road DLR,824,694
+20260919,Saturday,Abbey Wood,16297,14557
+20260919,Saturday,Acton Central,2504,2354
+20260919,Saturday,Acton Main Line,4897,4214
+20260919,Saturday,Acton Town,4646,8871
+20260919,Saturday,Aldgate,6959,9235
+20260919,Saturday,Aldgate East,15372,14587
+20260919,Saturday,All Saints,2,4
+20260919,Saturday,Alperton,1523,1367
+20260919,Saturday,Amersham,2421,2032
+20260919,Saturday,Anerley,1204,883
+20260919,Saturday,Angel,18757,21001
+20260919,Saturday,Archway,9268,8553
+20260919,Saturday,Arnos Grove,4284,3981
+20260919,Saturday,Arsenal,7487,8117
+20260919,Saturday,Baker Street,30113,30430
+20260919,Saturday,Balham,15098,14164
+20260919,Saturday,Bank,20393,21425
+20260919,Saturday,Barbican,5260,4862
+20260919,Saturday,Barking,19444,18807
+20260919,Saturday,Barking Riverside,1398,1235
+20260919,Saturday,Barkingside,1244,1269
+20260919,Saturday,Battersea Power Station,17293,18357
+20260919,Saturday,Bayswater,6403,5682
+20260919,Saturday,Beckton,1265,1086
+20260919,Saturday,Beckton Park,396,332
+20260919,Saturday,Becontree,3744,3418
+20260919,Saturday,Belsize Park,5790,5684
+20260919,Saturday,Bermondsey,11342,11696
+20260919,Saturday,Bethnal Green,16183,15635
+20260919,Saturday,Bethnal Green NR,1620,1686
+20260919,Saturday,Blackfriars,12444,10387
+20260919,Saturday,Blackhorse Road,13524,12626
+20260919,Saturday,Blackwall,12,3
+20260919,Saturday,Bond Street,56398,59539
+20260919,Saturday,Borough,5076,5193
+20260919,Saturday,Boston Manor,641,569
+20260919,Saturday,Bounds Green,5546,5229
+20260919,Saturday,Bow Church,63,0
+20260919,Saturday,Bow Road,5649,5488
+20260919,Saturday,Brent Cross,2266,2258
+20260919,Saturday,Brentwood,3448,3318
+20260919,Saturday,Brixton,28674,28642
+20260919,Saturday,Brockley,5296,4811
+20260919,Saturday,Bromley-by-Bow,6057,5719
+20260919,Saturday,Brondesbury,3752,3208
+20260919,Saturday,Brondesbury Park,1442,1324
+20260919,Saturday,Bruce Grove,5,2
+20260919,Saturday,Buckhurst Hill,2272,2174
+20260919,Saturday,Burnham Bucks,933,890
+20260919,Saturday,Burnt Oak,3716,3565
+20260919,Saturday,Bush Hill Park,10,2
+20260919,Saturday,Bushey,1429,1063
+20260919,Saturday,Caledonian Road,5179,4665
+20260919,Saturday,Caledonian Road & Barnsbury,2137,2189
+20260919,Saturday,Camden Road,5651,6104
+20260919,Saturday,Camden Town,30818,32368
+20260919,Saturday,Canada Water,15334,15122
+20260919,Saturday,Canary Wharf,39441,40174
+20260919,Saturday,Canary Wharf DLR,189,56
+20260919,Saturday,Canary Wharf Elizabeth Line,24092,24337
+20260919,Saturday,Canning Town,21474,21804
+20260919,Saturday,Cannon Street,4158,3420
+20260919,Saturday,Canonbury,4119,3995
+20260919,Saturday,Canons Park,2732,2850
+20260919,Saturday,Carpenders Park,1432,1410
+20260919,Saturday,Chadwell Heath,5997,5431
+20260919,Saturday,Chalfont & Latimer,1236,1243
+20260919,Saturday,Chalk Farm,8395,6978
+20260919,Saturday,Chancery Lane,4644,4673
+20260919,Saturday,Charing Cross,23993,22953
+20260919,Saturday,Chesham,1125,1191
+20260919,Saturday,Cheshunt,3579,2976
+20260919,Saturday,Chigwell,313,276
+20260919,Saturday,Chingford,2939,2810
+20260919,Saturday,Chiswick Park,2,5
+20260919,Saturday,Chorleywood,891,905
+20260919,Saturday,Clapham Common,14078,15150
+20260919,Saturday,Clapham High Street,2289,1763
+20260919,Saturday,Clapham Junction,28409,28250
+20260919,Saturday,Clapham North,7868,8186
+20260919,Saturday,Clapham South,8509,8760
+20260919,Saturday,Clapton,3142,3044
+20260919,Saturday,Cockfosters,2660,2794
+20260919,Saturday,Colindale,8259,7813
+20260919,Saturday,Colliers Wood,7783,7376
+20260919,Saturday,Covent Garden,15668,18372
+20260919,Saturday,Crossharbour,2,3
+20260919,Saturday,Crouch Hill,1294,1424
+20260919,Saturday,Croxley,843,924
+20260919,Saturday,Crystal Palace,3742,3975
+20260919,Saturday,Custom House DLR,3244,2258
+20260919,Saturday,Custom House Elizabeth Line,14960,14923
+20260919,Saturday,Cyprus,498,400
+20260919,Saturday,Dagenham East,3199,2893
+20260919,Saturday,Dagenham Heathway,5676,5401
+20260919,Saturday,Dalston Junction,9481,9933
+20260919,Saturday,Dalston Kingsland,8551,9449
+20260919,Saturday,Debden,2088,1931
+20260919,Saturday,Denmark Hill,4380,4221
+20260919,Saturday,Deptford Bridge,32,2
+20260919,Saturday,Devons Road,34,0
+20260919,Saturday,Dollis Hill,4259,3667
+20260919,Saturday,Ealing Broadway,24835,26037
+20260919,Saturday,Ealing Common,858,910
+20260919,Saturday,Earls Court,22888,21641
+20260919,Saturday,East Acton,3826,3734
+20260919,Saturday,East Finchley,6873,6717
+20260919,Saturday,East Ham,14252,13547
+20260919,Saturday,East India,280,46
+20260919,Saturday,East Putney,7715,7212
+20260919,Saturday,Eastcote,2470,2340
+20260919,Saturday,Edgware,5625,5446
+20260919,Saturday,Edgware Road B,4479,4920
+20260919,Saturday,Edgware Road C&H,8144,7729
+20260919,Saturday,Edmonton Green,0,7
+20260919,Saturday,Elephant & Castle,17003,18032
+20260919,Saturday,Elm Park,3426,3323
+20260919,Saturday,Elverson Road,2,0
+20260919,Saturday,Embankment,28658,28128
+20260919,Saturday,Emerson Park,283,206
+20260919,Saturday,Enfield Town,0,28
+20260919,Saturday,Epping,4061,3921
+20260919,Saturday,Euston,47832,48012
+20260919,Saturday,Euston NR,11419,14282
+20260919,Saturday,Euston Square,11630,12283
+20260919,Saturday,Fairlop,1270,1284
+20260919,Saturday,Farringdon,32962,34432
+20260919,Saturday,Finchley Central,5602,5449
+20260919,Saturday,Finchley Road,9465,9106
+20260919,Saturday,Finchley Road & Frognal,2520,2530
+20260919,Saturday,Finsbury Park,30946,28334
+20260919,Saturday,Forest Gate,8588,8010
+20260919,Saturday,Forest Hill,5819,5103
+20260919,Saturday,Fulham Broadway,9544,9116
+20260919,Saturday,Gallions Reach,1628,1353
+20260919,Saturday,Gants Hill,5619,5266
+20260919,Saturday,Gidea Park,3579,3079
+20260919,Saturday,Gloucester Road,12939,10962
+20260919,Saturday,Golders Green,7472,7452
+20260919,Saturday,Goldhawk Road,3555,3451
+20260919,Saturday,Goodge Street,4168,4668
+20260919,Saturday,Goodmayes,5251,4989
+20260919,Saturday,Gospel Oak,3635,3475
+20260919,Saturday,Grange Hill,393,372
+20260919,Saturday,Great Portland Street,5798,5906
+20260919,Saturday,Green Park,34116,39019
+20260919,Saturday,Greenford,4087,4019
+20260919,Saturday,Greenwich,6022,4626
+20260919,Saturday,Gunnersbury,3336,3234
+20260919,Saturday,Hackney Central,9521,10051
+20260919,Saturday,Hackney Downs,3058,3450
+20260919,Saturday,Hackney Wick,9008,10082
+20260919,Saturday,Haggerston,4409,4581
+20260919,Saturday,Hainault,3440,3275
+20260919,Saturday,Hammersmith C&H,20300,17002
+20260919,Saturday,Hammersmith D&P,6,25
+20260919,Saturday,Hampstead,5735,6354
+20260919,Saturday,Hampstead Heath,4398,4620
+20260919,Saturday,Hanger Lane,3637,3713
+20260919,Saturday,Hanwell,2835,2315
+20260919,Saturday,Harlesden,3244,3142
+20260919,Saturday,Harold Wood,4716,4293
+20260919,Saturday,Harringay Green Lanes,2125,2184
+20260919,Saturday,Harrow & Wealdstone,5975,5245
+20260919,Saturday,Harrow-on-the-Hill,10384,11026
+20260919,Saturday,Hatch End,904,898
+20260919,Saturday,Hatton Cross,3302,3106
+20260919,Saturday,Hayes & Harlington,11803,11540
+20260919,Saturday,Headstone Lane,536,487
+20260919,Saturday,Heathrow T2&3 TfL Rail/HEx,15520,13946
+20260919,Saturday,Heathrow T4 TfL Rail/HEx,4742,4134
+20260919,Saturday,Heathrow T5 TfL Rail/HEx,7496,7021
+20260919,Saturday,Heathrow Terminal 4,1427,1092
+20260919,Saturday,Heathrow Terminal 5,3013,2336
+20260919,Saturday,Heathrow Terminals 2&3,4959,3862
+20260919,Saturday,Hendon Central,5920,5318
+20260919,Saturday,Heron Quays,81,16
+20260919,Saturday,High Barnet,4284,4087
+20260919,Saturday,High Street Kensington,14245,13077
+20260919,Saturday,Highams Park,3389,3197
+20260919,Saturday,Highbury & Islington,28308,28847
+20260919,Saturday,Highgate,6264,6471
+20260919,Saturday,Hillingdon,1955,1837
+20260919,Saturday,Holborn,19610,20574
+20260919,Saturday,Holland Park,4216,3878
+20260919,Saturday,Holloway Road,5096,6532
+20260919,Saturday,Homerton,5770,5206
+20260919,Saturday,Honor Oak Park,3697,3529
+20260919,Saturday,Hornchurch,1915,1947
+20260919,Saturday,Hounslow Central,2063,1825
+20260919,Saturday,Hounslow East,2320,1868
+20260919,Saturday,Hounslow West,2270,2056
+20260919,Saturday,Hoxton,5015,5664
+20260919,Saturday,Hyde Park Corner,12570,18951
+20260919,Saturday,Ickenham,1087,1027
+20260919,Saturday,Ilford,14529,14287
+20260919,Saturday,Imperial Wharf,2687,2687
+20260919,Saturday,Iver,311,257
+20260919,Saturday,Kennington,7104,7131
+20260919,Saturday,Kensal Green,2419,2216
+20260919,Saturday,Kensal Rise,3600,3180
+20260919,Saturday,Kensington Olympia,4359,5240
+20260919,Saturday,Kentish Town,8155,7815
+20260919,Saturday,Kentish Town West,2820,2729
+20260919,Saturday,Kenton,1902,1892
+20260919,Saturday,Kew Gardens,3574,3231
+20260919,Saturday,Kilburn,6819,6910
+20260919,Saturday,Kilburn High Road,1323,1131
+20260919,Saturday,Kilburn Park,3656,3396
+20260919,Saturday,King George V,1339,1096
+20260919,Saturday,Kings Cross St Pancras,116478,114706
+20260919,Saturday,Kingsbury,3844,3985
+20260919,Saturday,Ladbroke Grove,11323,9800
+20260919,Saturday,Lambeth North,4080,3775
+20260919,Saturday,Lancaster Gate,5862,5327
+20260919,Saturday,Langdon Park,3,2
+20260919,Saturday,Langley Berks,876,860
+20260919,Saturday,Latimer Road,2142,1930
+20260919,Saturday,Leicester Square,50250,44495
+20260919,Saturday,Leyton,13210,12955
+20260919,Saturday,Leyton Midland Road,2367,2172
+20260919,Saturday,Leytonstone,9060,9163
+20260919,Saturday,Leytonstone High Road,1598,1543
+20260919,Saturday,Limehouse DLR,15,6
+20260919,Saturday,Liverpool St NR,24434,23174
+20260919,Saturday,Liverpool Street,71472,73036
+20260919,Saturday,London Bridge,92548,85095
+20260919,Saturday,London City Airport,1329,1134
+20260919,Saturday,London Fields,3,0
+20260919,Saturday,Loughton,3661,3643
+20260919,Saturday,Maida Vale,3571,3343
+20260919,Saturday,Maidenhead,2005,2041
+20260919,Saturday,Manor House,7034,7013
+20260919,Saturday,Manor Park,6004,5327
+20260919,Saturday,Mansion House,3315,3265
+20260919,Saturday,Marble Arch,13179,13064
+20260919,Saturday,Maryland,5792,5092
+20260919,Saturday,Marylebone,11057,11426
+20260919,Saturday,Mile End,15581,15014
+20260919,Saturday,Mill Hill East,1448,1415
+20260919,Saturday,Monument,12285,12688
+20260919,Saturday,Moor Park,697,699
+20260919,Saturday,Moorgate,15262,19125
+20260919,Saturday,Morden,14006,13565
+20260919,Saturday,Mornington Crescent,3217,2729
+20260919,Saturday,Mudchute,1,2
+20260919,Saturday,Neasden,3049,2886
+20260919,Saturday,New Cross,5119,5124
+20260919,Saturday,New Cross Gate,6171,7151
+20260919,Saturday,Newbury Park,3819,3666
+20260919,Saturday,Nine Elms,5023,4652
+20260919,Saturday,North Acton,5739,6274
+20260919,Saturday,North Ealing,312,361
+20260919,Saturday,North Greenwich,27360,29407
+20260919,Saturday,North Harrow,1691,1651
+20260919,Saturday,North Wembley,1637,1546
+20260919,Saturday,Northfields,1071,857
+20260919,Saturday,Northolt,5353,4740
+20260919,Saturday,Northwick Park,3153,2843
+20260919,Saturday,Northwood,2593,2364
+20260919,Saturday,Northwood Hills,1708,1668
+20260919,Saturday,Norwood Junction,5607,4771
+20260919,Saturday,Notting Hill Gate,22405,27463
+20260919,Saturday,Oakwood,3989,4098
+20260919,Saturday,Old Street,17584,18467
+20260919,Saturday,Osterley,1058,876
+20260919,Saturday,Oval,6754,6715
+20260919,Saturday,Oxford Circus,76097,87842
+20260919,Saturday,Paddington,52393,52841
+20260919,Saturday,Paddington EL,36072,35399
+20260919,Saturday,Park Royal,907,980
+20260919,Saturday,Parsons Green,6355,6759
+20260919,Saturday,Peckham Rye,6783,8875
+20260919,Saturday,Penge West,1134,833
+20260919,Saturday,Perivale,2202,2059
+20260919,Saturday,Piccadilly Circus,36176,33291
+20260919,Saturday,Pimlico,8508,8555
+20260919,Saturday,Pinner,2702,2641
+20260919,Saturday,Plaistow,5935,5627
+20260919,Saturday,Pontoon Dock DLR,2875,2540
+20260919,Saturday,Poplar,0,1
+20260919,Saturday,Preston Road,2972,2829
+20260919,Saturday,Prince Regent,882,595
+20260919,Saturday,Pudding Mill Lane,10,0
+20260919,Saturday,Putney Bridge,5202,5615
+20260919,Saturday,Queens Park,6115,5665
+20260919,Saturday,Queens Rd Peckham,4197,3639
+20260919,Saturday,Queensbury,3267,3133
+20260919,Saturday,Queensway,8847,9527
+20260919,Saturday,Ravenscourt Park,3,3
+20260919,Saturday,Rayners Lane,3830,3635
+20260919,Saturday,Reading,1841,2074
+20260919,Saturday,Rectory Road,2,0
+20260919,Saturday,Redbridge,2724,2446
+20260919,Saturday,Regents Park,1834,2302
+20260919,Saturday,Richmond,17040,16681
+20260919,Saturday,Rickmansworth,2049,1962
+20260919,Saturday,Roding Valley,165,171
+20260919,Saturday,Romford,13490,14256
+20260919,Saturday,Rotherhithe,2426,2442
+20260919,Saturday,Royal Albert,1232,1194
+20260919,Saturday,Royal Oak,2990,2842
+20260919,Saturday,Royal Victoria,1728,1362
+20260919,Saturday,Ruislip,1769,1702
+20260919,Saturday,Ruislip Gardens,1129,1012
+20260919,Saturday,Ruislip Manor,1807,1702
+20260919,Saturday,Russell Square,8001,7364
+20260919,Saturday,Seven Kings,4975,4345
+20260919,Saturday,Seven Sisters,29989,31507
+20260919,Saturday,Shadwell LO,5615,5193
+20260919,Saturday,Shenfield,3264,3186
+20260919,Saturday,Shepherds Bush,23703,22888
+20260919,Saturday,Shepherds Bush LO,11091,11671
+20260919,Saturday,Shepherds Bush Market,5784,5343
+20260919,Saturday,Shoreditch High Street,9905,11341
+20260919,Saturday,Sloane Square,19712,19919
+20260919,Saturday,Slough,2937,2851
+20260919,Saturday,Snaresbrook,2396,2292
+20260919,Saturday,South Acton,1755,1399
+20260919,Saturday,South Ealing,1039,1033
+20260919,Saturday,South Hampstead,700,547
+20260919,Saturday,South Harrow,1547,1314
+20260919,Saturday,South Kensington,31864,33458
+20260919,Saturday,South Kenton,841,760
+20260919,Saturday,South Quay,382,12
+20260919,Saturday,South Ruislip,2240,2215
+20260919,Saturday,South Tottenham,2111,2196
+20260919,Saturday,South Wimbledon,8981,8612
+20260919,Saturday,South Woodford,5403,5462
+20260919,Saturday,Southall,11110,10314
+20260919,Saturday,Southbury,0,2
+20260919,Saturday,Southfields,6315,5708
+20260919,Saturday,Southgate,4644,5100
+20260919,Saturday,Southwark,7793,8264
+20260919,Saturday,St James Street,2380,2163
+20260919,Saturday,St James's Park,8633,9009
+20260919,Saturday,St Johns Wood,6445,6150
+20260919,Saturday,St Pauls,9251,8085
+20260919,Saturday,Stamford Brook,1,3
+20260919,Saturday,Stanmore,4779,4724
+20260919,Saturday,Star Lane DLR,1458,1626
+20260919,Saturday,Stepney Green,5820,5502
+20260919,Saturday,Stockwell,11111,10226
+20260919,Saturday,Stoke Newington,6,2
+20260919,Saturday,Stonebridge Park,3044,2915
+20260919,Saturday,Stratford,84679,85803
+20260919,Saturday,Stratford High Street,628,792
+20260919,Saturday,Stratford International,3779,3514
+20260919,Saturday,Sudbury Hill,998,900
+20260919,Saturday,Sudbury Town,1013,828
+20260919,Saturday,Surrey Quays,8033,7386
+20260919,Saturday,Swiss Cottage,5658,5610
+20260919,Saturday,Sydenham SR,4713,4606
+20260919,Saturday,Taplow,398,343
+20260919,Saturday,Temple,8061,8745
+20260919,Saturday,Theobalds Grove,0,1
+20260919,Saturday,Theydon Bois,1004,1025
+20260919,Saturday,Tooting Bec,9005,8688
+20260919,Saturday,Tooting Broadway,18139,17543
+20260919,Saturday,Tottenham Court Road,103618,104615
+20260919,Saturday,Tottenham Hale,28961,25047
+20260919,Saturday,Totteridge & Whetstone,2778,2655
+20260919,Saturday,Tower Hill,23831,23488
+20260919,Saturday,Tufnell Park,4519,4171
+20260919,Saturday,Turkey Street,0,1
+20260919,Saturday,Turnham Green,3,20
+20260919,Saturday,Turnpike Lane,10075,9703
+20260919,Saturday,Twyford,577,421
+20260919,Saturday,Upminster,5281,5539
+20260919,Saturday,Upminster Bridge,873,809
+20260919,Saturday,Upney,2598,2204
+20260919,Saturday,Upper Holloway,1733,1715
+20260919,Saturday,Upton Park,12317,11672
+20260919,Saturday,Uxbridge,5882,5671
+20260919,Saturday,Vauxhall,29235,28337
+20260919,Saturday,Victoria,76340,78275
+20260919,Saturday,W Silvertown,3160,3133
+20260919,Saturday,Walthamstow Central,18868,18548
+20260919,Saturday,Walthamstow Queens Road,1366,1477
+20260919,Saturday,Wandsworth Road,784,604
+20260919,Saturday,Wanstead,2628,2558
+20260919,Saturday,Wanstead Park,2114,2178
+20260919,Saturday,Wapping,3838,3723
+20260919,Saturday,Warren Street,11136,11621
+20260919,Saturday,Warwick Avenue,4115,4068
+20260919,Saturday,Waterloo,70422,72833
+20260919,Saturday,Watford High Street,1825,1833
+20260919,Saturday,Watford Junction,6186,5511
+20260919,Saturday,Watford Met,1664,1649
+20260919,Saturday,Wembley Central,7813,8402
+20260919,Saturday,Wembley Park,45837,47837
+20260919,Saturday,West Acton,1821,1775
+20260919,Saturday,West Brompton,7938,7579
+20260919,Saturday,West Croydon,4658,4262
+20260919,Saturday,West Drayton,4868,4377
+20260919,Saturday,West Ealing,4218,3428
+20260919,Saturday,West Finchley,1603,1460
+20260919,Saturday,West Ham,6382,6216
+20260919,Saturday,West Hampstead,10091,9978
+20260919,Saturday,West Hampstead LO,6980,6838
+20260919,Saturday,West Harrow,1224,1009
+20260919,Saturday,West India Quay,41,14
+20260919,Saturday,West Kensington,34,34
+20260919,Saturday,West Ruislip,1993,1904
+20260919,Saturday,Westbourne Park,5919,5397
+20260919,Saturday,Westferry,1,2
+20260919,Saturday,Westminster,24623,27251
+20260919,Saturday,White City,12406,13187
+20260919,Saturday,White Hart Lane,0,7
+20260919,Saturday,Whitechapel,22109,22191
+20260919,Saturday,Willesden Green,6915,6759
+20260919,Saturday,Willesden Junction,5329,5218
+20260919,Saturday,Wimbledon,19162,17040
+20260919,Saturday,Wimbledon Park,2768,2674
+20260919,Saturday,Wood Green,11909,11048
+20260919,Saturday,Wood Lane,8027,8983
+20260919,Saturday,Wood Street,2902,2671
+20260919,Saturday,Woodford,6082,5775
+20260919,Saturday,Woodgrange Park,1351,1089
+20260919,Saturday,Woodside Park,3104,2629
+20260919,Saturday,Woolwich Arsenal DLR,5058,5481
+20260919,Saturday,Woolwich Arsenal NR,1755,1443
+20260919,Saturday,Woolwich Elizabeth Line,19094,17902
